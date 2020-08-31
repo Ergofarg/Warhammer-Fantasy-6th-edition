@@ -22,6 +22,7 @@
         <characteristicType id="c0be-3abf-106b-e3c5" name="WSave"/>
         <characteristicType id="bff2-f7c9-ec7f-049b" name="MR"/>
         <characteristicType id="19aa-ae23-b940-6567" name="Type"/>
+        <characteristicType id="15a7-2c11-57a9-e43d" name="Unit Strength"/>
       </characteristicTypes>
     </profileType>
     <profileType id="7889-42d9-70a0-3ea9" name="Weapon">

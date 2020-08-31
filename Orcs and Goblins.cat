@@ -1432,7 +1432,7 @@
           <modifiers>
             <modifier type="decrement" field="7d28-2dad-b18a-6753" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="348d-0838-24ff-eab9" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="348d-0838-24ff-eab9" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3805,6 +3805,33 @@
         <categoryLink id="f92e-c8ab-7747-19ae" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="3a58-8faf-7ca3-23dc" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c4bf-17c2-eac0-2d3d" name="Herd" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd5-76b6-c6a3-03a1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5b29-29ee-d4e2-7506" name="Night Goblin" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1d-9717-702a-2f3c" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9cdd-4203-c4e0-9c31" name="Squig" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f66-9a74-cae1-2443" name="Squig Hoppers" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="17.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -3813,16 +3840,60 @@
       <categoryLinks>
         <categoryLink id="4a4a-b77c-e895-0f6c" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="29ae-542a-a624-a552" name="Orc Chariot" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4372-6596-3754-771c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0662-8289-4527-fea0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d9ba-291f-9159-2233" name="Orc Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+              <characteristics>
+                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+                <characteristic name="WS" typeId="f95b-da01-0578-3bdc">-</characteristic>
+                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+                <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+                <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+                <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
+                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1d6</characteristic>
+                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+                <characteristic name="Save" typeId="7d28-2dad-b18a-6753">4</characteristic>
+                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
+                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
+                <characteristic name="Type" typeId="19aa-ae23-b940-6567">Chariot</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cf98-a198-fd78-f1ff" name="2 Orc Crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+              <characteristics>
+                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+                <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+                <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+                <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+                <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+                <characteristic name="Save" typeId="7d28-2dad-b18a-6753">-</characteristic>
+                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
+                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
+                <characteristic name="Type" typeId="19aa-ae23-b940-6567">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="2bae-aac6-f80d-d3d2" name="Extra crew" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e1-7f9a-eda7-a047" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="25d5-1985-d3e5-412c" name="Goblin Wolf Chariot" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="5775-17b4-44ee-7f2c" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d77-ded1-ed42-4858" name="Goblin Rock Lobba" hidden="false" collective="false" import="true" type="unit">
@@ -4315,6 +4386,128 @@
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5943-b878-61dd-7620" name="Goblin Wolf Chariots" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9988-ba31-977d-d62e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a3f5-3ca1-9c01-8bcc" name="Goblin Wolf Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">-</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1d6</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+            <characteristic name="Save" typeId="7d28-2dad-b18a-6753">5</characteristic>
+            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
+            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
+            <characteristic name="Type" typeId="19aa-ae23-b940-6567">Chariot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9383-9081-16dc-032f" name="3 Goblin crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+            <characteristic name="Save" typeId="7d28-2dad-b18a-6753">-</characteristic>
+            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
+            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
+            <characteristic name="Type" typeId="19aa-ae23-b940-6567">crew</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bf6c-9ff2-ec8f-ac76" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5feb-bdfe-2887-0312" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="df29-1982-ca2a-4064" name="Goblin Wolf chariot" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd88-75b6-9913-a696" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d6-abe2-4e2d-7804" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a2a-3589-fa6f-b477" name="Extra Wolf" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac0-ec57-0856-b8e7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29af-1c46-2f16-b0c0" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ec-7584-c717-4ad7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e52c-9d3f-b2fd-e2f0" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="760d-9328-397c-d957" name="Goblin crew" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="328e-1231-8822-a8d1" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc33-e653-e132-afa0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8b96-a8c7-b4e4-6cf4" name="3 Goblin crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+                  <characteristics>
+                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+                    <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753">-</characteristic>
+                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
+                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
+                    <characteristic name="Type" typeId="19aa-ae23-b940-6567">crew</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="e534-a274-c7a3-1161" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e53-e6e5-928c-9b9e" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="896c-59c5-84ad-9d98" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="54.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
