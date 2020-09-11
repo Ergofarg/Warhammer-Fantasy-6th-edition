@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="f42c-be6f-8a5d-7199" name="Prince" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="89d7-fc0d-a25b-f7e1" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="7ed8-3d4b-f01d-df45" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ac98-b970-94fc-00c6" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c5-b170-1bd5-5f2f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="87fe-375f-472b-d6f6" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3e8d-0249-83a8-c6c2" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d18e-8ae5-24e3-1854" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c1bb-a800-0523-e0d1" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="230c-edcd-5d05-a507" name="Spear Infantry" hidden="false" collective="false" import="true" targetId="104f-5817-4bda-9382" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="80dd-5e91-d379-4f8d" name="Magic and Honors" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5809-ea97-52e0-0065" name="High Elf Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
+            <entryLink id="7415-ed45-b260-9849" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="776e-c590-48d5-4bce" type="selectionEntryGroup"/>
+            <entryLink id="4e76-ba95-faf1-04a9" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3532-01ee-3728-ecc6" type="selectionEntryGroup"/>
+            <entryLink id="4751-2c38-4fba-9afb" name="Talismans" hidden="false" collective="false" import="true" targetId="f948-c838-ba2d-07c5" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ce63-9600-e222-3aa2" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8546-6275-1fdf-13ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e201-6f6c-97b8-5f78" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5c96-b557-5b39-071d" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e958-f7f0-bbf6-3d9d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="45a3-3e65-6c49-5cc0" name="High Elf Honours" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="c2b3-7e06-8de5-7fe5" name="Pure of Heart" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab2-2fd4-6545-d240" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa43-e51c-afbd-9ab3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c041-8b35-00c1-1d1e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a0ec-cc1e-caab-71d3" name="Pure of Heart" hidden="false" targetId="aef2-97fe-962d-9f7a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="601e-5d78-93ec-311d" name="Lion Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95eb-c7b8-1851-d226" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c39b-3277-0755-d77d" name="Lion Guard" hidden="false" targetId="6cf8-5816-5044-6989" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b264-4a85-7357-7ef2" name="Loremaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9209-991a-1aae-69c1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8573-2090-aee3-58ed" name="Loremaster" hidden="false" targetId="be07-fa78-02c5-5add" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="41c6-2664-9d14-7d0d" name="Swordmaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b7-0d76-4e98-555b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="55cb-2e4e-9b06-4d3d" name="Swordmaster" hidden="false" targetId="4d9c-f48b-6872-4fc7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e64b-b89e-aac7-a712" name="Seer" hidden="true" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a8a-0914-ab55-0b88" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6a77-9ec1-42f5-1c64" name="Seer" hidden="false" targetId="8874-fbe7-fd69-3159" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78ad-9fae-d5bb-31a3" name="Channeler" hidden="true" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c4-d21e-3111-d6b5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cdd4-f095-a0f7-4168" name="Channeler" hidden="false" targetId="b4c4-1e31-731e-b59c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="776e-c590-48d5-4bce" name="Magic Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-b667-22b5-35d0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f1d0-3c9d-9245-65f2" name="Blade of Leaping Gold" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d715-aae0-a6a8-4d81" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7838-5d23-f28c-ee56" name="Blade of Leaping Gold" hidden="false" targetId="7ee1-3436-196e-4768" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a0d-5617-e963-deaa" name="Bow of the Seafarer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd9-baf3-7fd2-2d83" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7213-ec73-7332-04fc" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="73c2-ea52-4cf6-8055" name="Bow of the Seafarer" hidden="false" targetId="aa4d-baa2-f8c2-656f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="285d-eb0c-14b8-f0ad" name="Sword of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc8-f44e-337c-0760" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a2f-6827-87c3-94ee" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="63d3-285a-75db-ee0d" name="Sword of Hoeth" hidden="false" targetId="52b1-681b-272e-d958" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f911-dc6c-e6aa-a13c" name="Blade of Darting Steel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6538-7efb-ea8a-1f26" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="efbb-761a-2bce-4814" name="Blade of Darting Steel" hidden="false" targetId="dcf9-f188-ef52-887b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1b2c-7784-7b22-1177" name="Reaver Bow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f34b-d0d4-f3ad-c956" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="878a-408c-096c-010e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b3bb-7b04-91c1-1360" name="Reaver Bow" hidden="false" targetId="7c39-1c16-4810-c223" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3224-c061-aa97-4c13" name="Blade of Sea Gold" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dd7-0a58-9f8d-94e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee7-713c-a279-3ac6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6d5b-ea31-4a3b-44b7" name="Blade of Sea Gold" hidden="false" targetId="5da2-5c09-5972-55e8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d1a5-e353-9580-19e7" name="Foe Bane" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="372d-4e70-a894-a0f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2711-eebd-106d-99ec" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f018-d55c-ef1d-eee9" name="Foe Bane" hidden="false" targetId="63a3-faa9-c2db-1ec8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="09cf-1f8d-5359-7fb6" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="5781-43f7-d382-5e7a" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="20.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ca79-8f8a-d25d-f671" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="15.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="812c-60f6-fa1d-4e9e" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="25.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3532-01ee-3728-ecc6" name="Magic Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c9-f27d-759f-34ed" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="10a4-e9db-257c-42fc" name="Armour of Protection" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="268d-41fc-c512-a93c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b7b-0ac0-ef82-39a5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="813f-f141-4bfd-22ee" name="Armour of Protection" hidden="false" targetId="c8d0-ac63-6fd8-e23e" type="rule"/>
+            <infoLink id="688a-64f2-eec7-afad" name="Armour of Protection" hidden="false" targetId="c34e-6408-b346-36e8" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="65c4-c51a-084a-53e5" name="Golden Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a20-fb1c-8e46-26f7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4913-08fd-f760-60b6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d3df-32a8-5f02-1509" name="Golden Shield" hidden="false" targetId="9899-e260-3b64-f033" type="rule"/>
+            <infoLink id="44c6-a9e5-7e52-9ca0" name="Golden Shield" hidden="false" targetId="2b28-9660-463e-fc44" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f0d-c1e8-7d07-98c0" name="Armour of Heroes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa42-278e-1c4d-8627" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a1-ade3-49c3-77b5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="784b-7be6-b14e-1a27" name="Armour of Heroes" hidden="false" targetId="9a41-48e2-9045-50ed" type="rule"/>
+            <infoLink id="e26c-813e-2406-4b53" name="Armour of Heroes" hidden="false" targetId="fea3-7fd1-4a86-0f25" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3238-6a33-600d-a805" name="Armour of Stars" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7038-63c6-7a11-fffa" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ec-22ae-2382-5f1d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4ffb-d2a3-b67c-a709" name="Armour of Stars" hidden="false" targetId="66e0-172b-1c03-46c4" type="rule"/>
+            <infoLink id="caa2-4f75-06b5-780f" name="Armour of Stars" hidden="false" targetId="b327-6d79-1ea5-107f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6d0-5d10-2032-9c58" name="Shadow Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d9-43c8-6c6d-dbe4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8c-23b3-3d8f-5949" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c594-3332-d07c-a583" name="Shadow Armour" hidden="false" targetId="84cb-42f1-72f5-1831" type="rule"/>
+            <infoLink id="2054-c211-c6f7-0ccf" name="Shadow Armour" hidden="false" targetId="960a-603e-322d-54e0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9b48-cde9-01af-9c2c" name="Dragonscale Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4896-c9e4-fd79-6f82" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2284-e8ff-e7f8-5698" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="34d9-d104-cabc-727c" name="Dragonscale Shield" hidden="false" targetId="e444-4608-5df5-53be" type="rule"/>
+            <infoLink id="db71-924e-bffc-a020" name="Dragonscale Shield" hidden="false" targetId="db48-69a1-71a9-2515" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ebac-7317-f384-0e1f" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5b-1bc2-9b95-46b0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e3f-fd99-3f4c-22e7" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="f9a7-70c3-9a13-e2e3" name="Helm of Fortune" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="637f-1acf-0554-6287" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31be-aaac-b1cf-d4ea" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3727-d26e-b8ac-4e57" name="Helm of Fortune" hidden="false" targetId="4f0a-eeb4-63f4-7a43" type="rule"/>
+            <infoLink id="38ed-94e8-1802-9680" name="Helm of Fortune" hidden="false" targetId="a1f6-325b-4072-f160" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f948-c838-ba2d-07c5" name="Talismans" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d29-93da-1afa-a6b9" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b907-4cce-7a27-0cf4" name="Vambraces of Defence" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eacf-ef45-b708-c9de" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d3ec-5594-cde7-e511" name="Vambraces of Defence" hidden="false" targetId="1d38-8252-7db8-50fd" type="rule"/>
+            <infoLink id="1544-1488-57d3-ca5a" name="Vambraces of Defence" hidden="false" targetId="48c5-1c21-3535-1dca" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="46e3-233c-a770-eae0" name="Dragon Armour" hidden="false">
+      <description>Forged in the heart of a volcano, this fine armour is enchanted to ward off the effects of Dragon breach. The model is immune to all breath attacks, and any fire-band attack (including spells from the Lore of Fire). Dragon armour also counts as heavy armour, giving a 5+ armour save.</description>
+    </rule>
+    <rule id="a901-1bf3-12dd-9958" name="Lion Cloak" hidden="false">
+      <description>The white lion cloak that gives the White Lions of Chrace their name also gives them a +2 armour save versus missile fire. In close combat it is thrown Lock over the shoulder and offers no additional protection.</description>
+    </rule>
+    <rule id="ddae-46c3-2956-c391" name="Ithilmar Barding" hidden="false">
+      <description>Ithilmar is extremely light, but very resilient. Ranting made from ithilmar gives the same protection as heavy steel, but without slowing down the steed that wears it. Ithilmar barding adds +1 to the model&apos;s armour save like ordinary barding, however there is no reduction in the movement rate of the model.</description>
+    </rule>
+    <rule id="aef2-97fe-962d-9f7a" name="Pure of Heart" hidden="false">
+      <description>Mandatory
+Though the Golden Age of the High Ekes is a distant memory, then are still a few noble Elves those mere presence reminds those about them of the heroic past of their race. They embody all that is glorious about the Elves from before the tine of the Sundering and are a bittersweet reminder of former achievements.
+This Honour MUST be given to exactly one high Elf character. It costs no points.
+The character, and any unit he joins, is Immune to Panic. If the Pure of Heart character is killed, the High Elf player loses 100 Victory points from his total at the end of the battle. If the scenario does not use Victory points then the demise of the Pure of Heart character has no effect.
+</description>
+    </rule>
+    <rule id="6cf8-5816-5044-6989" name="Lion Guard" hidden="false">
+      <description>The hero is lauded amongst all Elvenkindl for his total devotion to the protection of Ulthuan and his unswerving loyalty to the Phoenix King.	
+The character comes equipped with a lion cloak. The
+character and any unit he leads is Stubborn. If you have a character with lion Guard, then White Lions become a Special Choice for your army (but remain 0-1).
+</description>
+    </rule>
+    <rule id="be07-fa78-02c5-5add" name="Loremaster" hidden="false">
+      <description>Sated by his training in the martial arts, this character has now embarked upon the path of the mage.
+The character is a Level 1 Wizard. Note that he may not cast spells if he is wearing armour (remember that barding for his steed will not affect his spell casting).
+</description>
+    </rule>
+    <rule id="4d9c-f48b-6872-4fc7" name="Swordmaster" hidden="false">
+      <description>Trained by the adepts at the tower of Hoeth, the lethal skills of this warrior are justly fabled.
+The character is equipped with a Great weapon and may not take a magic weapon. Instead of striking last in any turn he does not charge, the character will strike in initiative order, as explained on page 68 of the Warhammer rules. The character also has the killing blow special rule.
+</description>
+    </rule>
+    <rule id="8874-fbe7-fd69-3159" name="Seer" hidden="false">
+      <description>The loves of magic hold no surprises for this mage. Countless hours of painstaking study mean that no spell of worth has escaped his keen eye.
+Mage only. May choose his spells instead of rolling for them.
+</description>
+    </rule>
+    <rule id="b4c4-1e31-731e-b59c" name="Channeler" hidden="false">
+      <description>The mage acts as a conduit through which raw power  flows.
+Mage only. May cast with a maximum of + 1 more Power dice than normal. For example, a Level 3 Mage may use up to five Power dice in an attempt to cast a spell (instead of the usual four).
+</description>
+    </rule>
+    <rule id="7ee1-3436-196e-4768" name="Blade of Leaping Gold" hidden="false">
+      <description>A more finely balanced sword than this was never made.
+The blade confers +3 Attacks on the character wielding it.
+</description>
+    </rule>
+    <rule id="aa4d-baa2-f8c2-656f" name="Bow of the Seafarer" hidden="false">
+      <description>This longbow was made from a single piece of rare silverwood, and gifted to Ulanor of the Seaguard by Finubar himself. It is a mighty weapon, and many say it can event sink ships!
+Treat the Bow of the Seafarer as a normal longbow with the following exception. Resolve a hit from this like a single bolt from a Bolt Thrower (see page 124 of the Warhammer rulebook). Note that you may stand &amp; shoot with the Bow of the Seafarer.
+</description>
+    </rule>
+    <rule id="52b1-681b-272e-d958" name="Sword of Hoeth" hidden="false">
+      <description>Normally this fine blade lies wrapped in silk in the armoury of the White Tower, but in time of war is is given to a great hero to wield in the name of the Loremasters.
+All hits wound automatically. Armour saves are modified by the Strength of the bearer
+</description>
+    </rule>
+    <rule id="dcf9-f188-ef52-887b" name="Blade of Darting Steel" hidden="false">
+      <description>Bright blue steel can be enchanted to hold spells of great speed and deadly accuracy, and the Elves of Uluthan are masters of such magic.
+The wielder always strikes first, even if his opponent charged that turn. If both models have this ability, roll off to see who strikes first in each Close Combat phase. In addition, the wielder adds +1 to his rolls to hit.
+</description>
+    </rule>
+    <rule id="7c39-1c16-4810-c223" name="Reaver Bow" hidden="false">
+      <description>The origins of this beautifully crafted bow are lost in the mists of time, though some believe it to be the same one that was made for Arathion of Ellyrion a thousand years ago.
+Treat the Reaver Bow as a normal longbow with the following exceptions: the bearer may shoot three times in each of his Shooting phases and any hits are resolved at Strength 5.
+</description>
+    </rule>
+    <rule id="5da2-5c09-5972-55e8" name="Blade of Sea Gold" hidden="false">
+      <description>This gleaming blade is made from the finest sea gold, found in the dark depths of the sea and honed by crashing waves. It strikes with the unstoppable power of the sea itself.
+No armour saves may be taken against wounds caused by this weapon.
+</description>
+    </rule>
+    <rule id="63a3-faa9-c2db-1ec8" name="Foe Bane" hidden="false">
+      <description>This strange and twisted Made was taken from the body of a Chaos champion. Quite why he should have carried it is unknown, as is the name of the brave Elf that slew him.
+All hits on a target with 3 or more Wounds on its starting profile will always wound on a 2+. Armour saves are modified by the Strength of the bearer.
+</description>
+    </rule>
+    <rule id="c8d0-ac63-6fd8-e23e" name="Armour of Protection" hidden="false">
+      <description>This simple armour is adorned by a single Sarathai rune on the breastplate. The World Dragon itself is said to protect the wearer.
+Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the-wearer fails his armour save he may make a 4+ Ward save.
+</description>
+    </rule>
+    <rule id="9899-e260-3b64-f033" name="Golden Shield" hidden="false">
+      <description>A highly polished shield inlaid with swirling patterns in many types of gold.
+This shield confers a 6+ armour save which can be combined with other equipment normally. In addition, all attempts to hit the bearer in close combat suffer a penalty of -1.
+</description>
+    </rule>
+    <rule id="66e0-172b-1c03-46c4" name="Armour of Stars" hidden="false">
+      <description>Decorated with hundreds of glittering gems on a background of deepest blue lacquer, the Armour of Stars is a wonder to behold.
+May only be worn by a model on foot. Counts as light armour (armour save 6+) which can be combined with other equipment normally. If the wearer suffers an unsaved wound then one of the gems will burst into brilliant white light as he is instantly teleported 3D6&quot; in a random direction.
+Note that this means that he can only suffer 1 unsaved wound in a round of close combat as he will be teleported away before the second can strike him. However, if he was struck by a Killing Blow or a weapon that does multiple wounds per hit (such as a cannon ball) then he would still suffer the instant death or multiplied wounds as normal before teleporting away.
+If the model is teleported into another model or impassable terrain then simply carry on moving it along in the same direction until it is 1&quot; beyond. If the model teleports off the table then treat it as having pursued off.
+</description>
+    </rule>
+    <rule id="9a41-48e2-9045-50ed" name="Armour of Heroes" hidden="false">
+      <description>This finely wrought suit of armour is made in an unusual style, not seen since the time before the Sundering. A character wearing this armour seems to shine with an inner light. Surely he is one of the ancient gods of battle!
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In order to allocate close combat attacks against the wearer, an opponent must first pass a Leadership test. Test each Close Combat phase. If the test is failed, the enemy may attack another model in base contact instead. Models who are Immune to Psychology are immune to this effect also.
+</description>
+    </rule>
+    <rule id="84cb-42f1-72f5-1831" name="Shadow Armour" hidden="false">
+      <description>Forged by the bitter Shadow Warriors in their hidden camps, the shimmering Shadow Armour weighs almost nothing. It exists somewhere between the real world and that of magic, a fact which mages find quite alarming.
+Counts as heavy armour (armour save 5+) which can be combined with other equipment normally. In addition, if the wearer is an independent character on foot then he is treated as having the Scout special rule. He may choose to deploy either at the same time as the other characters, or as a Scout (including setting up with a unit of Shadow Warriors).</description>
+    </rule>
+    <rule id="4f0a-eeb4-63f4-7a43" name="Helm of Fortune" hidden="false">
+      <description>A helm of ithilmar and sea gold, bordered with tiny letters of intertwining runic script. These form a prayer to invoke Asuryan&apos;s protection upon the wearer.
+This helm confers a 6+ armour save which can be combined with other equipment normally. The wearer may re-roll failed armour saves.
+</description>
+    </rule>
+    <rule id="e444-4608-5df5-53be" name="Dragonscale Shield" hidden="false">
+      <description>Although battered and scarred, this shield is a treasured heirloom of the days when Dragons roamed the skies.
+This shield confers a 5+ armour save which can be combined with other equipment normally. Also gives the bearer a 6+ Ward save.
+</description>
+    </rule>
+    <rule id="1d38-8252-7db8-50fd" name="Vambraces of Defence" hidden="false">
+      <description>These golden bracers are fabled to have been found on the shores of distant Lustria and are inscribed with unusual glyphs.
+Gives the wearer a 4+ Ward save. In addition, the wearer may re-roll failed armour saves
+</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="3f9e-10ff-4016-0d94" name="Dragon Armour" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">5+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Immune to fire attacks, breath attacks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c34e-6408-b346-36e8" name="Armour of Protection" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">4+WS</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b28-9660-463e-fc44" name="Golden Shield" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">All hits suffer -1 to hit bearer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b327-6d79-1ea5-107f" name="Armour of Stars" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">After first wound suffered teleported away 3D6&quot;
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fea3-7fd1-4a86-0f25" name="Armour of Heroes" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">5+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Must pass Ld to hit bearer.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="960a-603e-322d-54e0" name="Shadow Armour" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">5+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Scout special rule when on own</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1f6-325b-4072-f160" name="Helm of Fortune" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">May reroll failed armour saves</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db48-69a1-71a9-2515" name="Dragonscale Shield" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">5+WS</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="48c5-1c21-3535-1dca" name="Vambraces of Defence" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+      <characteristics>
+        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">4+WS and reroll failed armour saves</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

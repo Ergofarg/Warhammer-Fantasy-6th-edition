@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
   </publications>
@@ -21,6 +21,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -322,6 +323,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -424,6 +426,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -455,6 +458,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -553,6 +557,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -776,6 +781,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1154,6 +1160,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1220,6 +1227,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1232,7 +1240,12 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4447-b01b-8d5c-c902" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry"/>
-        <entryLink id="f467-588b-d103-263a" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry"/>
+        <entryLink id="f467-588b-d103-263a" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="816c-152d-3864-ae5c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab14-1141-73cc-cc6a" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -1292,6 +1305,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1361,6 +1375,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1395,6 +1410,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1511,6 +1527,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1583,6 +1600,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1656,6 +1674,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1808,6 +1827,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1858,6 +1878,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1937,6 +1958,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">4+</characteristic>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">1</characteristic>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1970,6 +1992,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">4+</characteristic>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">1</characteristic>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2020,6 +2043,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2074,6 +2098,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2129,6 +2154,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2163,6 +2189,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3068,6 +3095,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="4fae-ecab-5fc6-9297" name="Dark Pegasus" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3085,6 +3113,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monster</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="d928-b122-2947-d618" name="Dark Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3102,6 +3131,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="5d6d-bbcf-b923-6859" name="Manticore" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3119,6 +3149,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monster</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="4165-0381-e2c9-d7c8" name="Black Dragon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3136,6 +3167,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="c4e9-1e4e-011c-1655" name="Cold one Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3153,6 +3185,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="76bc-b9f8-32d3-8669" name="Chariot Crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3170,6 +3203,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="7eb9-82d3-2022-e28c" name="Dark Elf basic" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3187,6 +3221,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="ac64-371e-2bbf-45bb" name="Sea Dragon Cloak" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -3210,6 +3245,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="57f2-89ed-a351-e3d4" name="Dark Elf champion BS" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3227,6 +3263,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="d52f-3c38-c729-8be1" name="Dark Elf elite" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3244,6 +3281,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="5aea-354a-c3c2-6d4f" name="Dark Elf elite champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3261,6 +3299,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
   </sharedProfiles>

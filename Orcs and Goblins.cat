@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -21,6 +21,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -136,6 +137,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -167,6 +169,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -337,17 +340,6 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="afb6-6ea5-217c-fbe5" name="Wyvern" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3662-6772-e4ba-0f1c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="254c-b3cb-cc35-88aa" name="Wyvern" hidden="false" targetId="753a-05df-5a25-0238" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="7ab2-ec11-847a-4321" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bb0-a782-817d-d6ea" type="max"/>
@@ -360,6 +352,13 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="6057-8e72-5263-632e" name="Wyvern" hidden="false" collective="false" import="true" targetId="b184-b03c-693b-53b1" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -383,6 +382,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -518,17 +518,6 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="266d-4beb-2233-5ceb" name="Wyvern" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="728e-f23f-1f2b-49dc" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3d01-69bf-deec-7be2" name="Wyvern" hidden="false" targetId="753a-05df-5a25-0238" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="cc40-66df-28de-386f" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b865-1a5e-b154-301a" type="max"/>
@@ -541,6 +530,13 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="3709-81b8-9663-0859" name="Wyvern" hidden="false" collective="false" import="true" targetId="b184-b03c-693b-53b1" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -564,6 +560,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -717,6 +714,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Wizard</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -832,6 +830,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Wizard</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -940,6 +939,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1106,6 +1106,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1236,6 +1237,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1353,6 +1355,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1450,6 +1453,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Character</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1658,6 +1662,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1834,6 +1839,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1992,6 +1998,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Wizard</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2107,6 +2114,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Wizard</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2203,6 +2211,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2373,6 +2382,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2518,6 +2528,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2635,6 +2646,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2862,7 +2874,7 @@
       <infoLinks>
         <infoLink id="9cc3-d7a3-ed22-c206" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
         <infoLink id="4d02-d56b-d9c5-88a6" name="Ignore Goblin Panic" hidden="false" targetId="f457-297e-425b-75d4" type="rule"/>
-        <infoLink id="18ef-5e74-3c13-9e8a" name="Animosity" hidden="false" targetId="23f9-c5d1-7c15-0c4c" type="rule"/>
+        <infoLink id="d057-4ea1-3996-2c99" name="Animosity" hidden="false" targetId="23f9-c5d1-7c15-0c4c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="293f-b57b-626c-deeb" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -3412,6 +3424,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3522,6 +3535,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3551,7 +3565,7 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="444b-f3ad-05cf-7ba2" name="Creat Axe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="444b-f3ad-05cf-7ba2" name="Great Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
                   <repeats>
@@ -3862,6 +3876,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567">Chariot</characteristic>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
             <profile id="cf98-a198-fd78-f1ff" name="2 Orc Crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3879,9 +3894,13 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567">-</characteristic>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2bae-aac6-f80d-d3d2" name="Extra crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3925,6 +3944,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4018,6 +4038,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monstorous Infantry</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4105,6 +4126,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567">Chariot</characteristic>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4133,6 +4155,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4162,6 +4185,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4217,6 +4241,7 @@
                 <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                 <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                 <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4323,6 +4348,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567">War Machine</characteristic>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4413,6 +4439,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">Chariot</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
         <profile id="9383-9081-16dc-032f" name="3 Goblin crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -4430,6 +4457,7 @@
             <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
             <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
             <characteristic name="Type" typeId="19aa-ae23-b940-6567">crew</characteristic>
+            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4459,6 +4487,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ec-7584-c717-4ad7" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e52c-9d3f-b2fd-e2f0" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="760d-9328-397c-d957" name="Goblin crew" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -4481,6 +4512,7 @@
                     <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
                     <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
                     <characteristic name="Type" typeId="19aa-ae23-b940-6567">crew</characteristic>
+                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4499,6 +4531,9 @@
                   <infoLinks>
                     <infoLink id="896c-59c5-84ad-9d98" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -4516,6 +4551,20 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="b184-b03c-693b-53b1" name="Wyvern" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="334e-910c-f826-0448" name="Wyvern" hidden="false" targetId="753a-05df-5a25-0238" type="profile"/>
+        <infoLink id="0257-85ae-c143-e0c6" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
+        <infoLink id="38c3-085a-d45f-a0f9" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="1723-66c9-d481-3fde" name="Scaly Skin 4+" hidden="false" targetId="c0e7-0bef-0769-a94c" type="rule"/>
+        <infoLink id="7228-a16e-0e2d-3a7e" name="Tail Attack" hidden="false" targetId="791e-557a-a5cc-d02b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
@@ -5190,6 +5239,12 @@ D6 Result
     <rule id="7269-569c-4948-9b04" name="Stone Troll" hidden="false">
       <description>These live in mountainous regions and eat Far too many rocks. As a result their bodies tend to be stony and rather solid. Stone Trolls are all but immune to the effects of magical spells and consequently have Magical Resistance (2). See page 114 of the Warhammer rulebook for details.</description>
     </rule>
+    <rule id="c0e7-0bef-0769-a94c" name="Scaly Skin 4+" hidden="false">
+      <description>Yough plates and scales give the creature a 4+ Armour Save</description>
+    </rule>
+    <rule id="791e-557a-a5cc-d02b" name="Tail Attack" hidden="false">
+      <description>After all close combats attacks have been resolved the thewyvern strikes with its tail. Even after death the tail still strikes. attacks are resolved at normal strength and are poisoned attack. Any wounds count toward CR.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="578c-5190-79c8-ea5c" name="Choppa" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -5214,6 +5269,7 @@ D6 Result
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="82b6-8aaa-c0a3-356b" name="Wolf" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5231,6 +5287,7 @@ D6 Result
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="753a-05df-5a25-0238" name="Wyvern" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5242,12 +5299,13 @@ D6 Result
         <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2+1tail</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
         <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monster</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="d1a3-d76e-33f6-fd2e" name="Battleaxe of the last Waaagh" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -5530,6 +5588,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="e908-7e16-23f2-eb52" name="Orc boss" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5547,6 +5606,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="25cf-7a47-8e60-e1d9" name="Orc Big Uns" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5564,6 +5624,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="6c5f-716b-8044-a797" name="Goblin" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5581,6 +5642,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="dbc8-1632-0c07-ca46" name="Goblin Boss" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5598,6 +5660,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="5a59-3330-2988-3b85" name="Snotling base" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -5615,6 +5678,7 @@ Models in unit get +1 Ld upto maximun of 9</characteristic>
         <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
         <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
         <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
   </sharedProfiles>

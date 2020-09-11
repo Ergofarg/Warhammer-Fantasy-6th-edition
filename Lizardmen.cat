@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="64c4-4576-b4b0-0b87" name="Slann mage Priest" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="497d-ea1e-10b3-3268" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="d81b-ac27-ce7e-3045" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="325.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="5943-700c-955c-d22d" name="Slan Mage Priest" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
+        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
+        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
+        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

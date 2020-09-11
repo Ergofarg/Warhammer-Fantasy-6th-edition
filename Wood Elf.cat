@@ -1,2 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
+  </publications>
+  <sharedRules>
+    <rule id="dd5f-f74d-a4a8-ba5b" name="Bodyguard" hidden="false">
+      <description>Eternal Guard are pledged to stand beside their lord even should the spectre of death come to claim them. When joined by a Wood Elf Highborn or Noble, a unit of Eternal Guard is Stubborn.</description>
+    </rule>
+    <rule id="9bff-2f3e-0a12-82fa" name="Eternal Guard Fighting Style" hidden="false">
+      <description>Different Eternal Guard kindreds employ different armament — some rely on Saearath (spear-staves) using the whirling blades to fend off enemy blows, others prefer more traditional spears and shields. Regardless of how Eternal Guard models are armed and armoured they have an Armour Save of 5+. They are considered to fight as if they were armed with two hand weapons in close combat if they are in base contact with an enemy. In addition, they may fight with an additional rank (as if armed with spears) to the front, although models doing so only get a single attack. Just like spears, the second rank cannot attack on the turn the unit charges.</description>
+    </rule>
+    <rule id="6f32-02d8-ff85-6ddb" name="Flying Cavalry" publicationId="5471-0e6f-161c-97bd" page="18" hidden="false">
+      <description>These units follow the rules for flyers as described in the main Warhammer rulebook with the following exceptions:
+•	Flying Cavalry are Unit Strength 2.
+•	They receive + l to their Armour Save for being mounted.
+•	They are affected by spells, etc, that would affect cavalry.
+</description>
+    </rule>
+    <rule id="7322-402a-5d78-360e" name="Forest Spirit" publicationId="5471-0e6f-161c-97bd" page="18" hidden="false">
+      <description>The following rules apply to all creatures with the Forest Spirit special rule.
+•	Non-Forest Spirits may not join a Forest Spirit unit and vice versa. Treeman Ancients may never join units.
+•	Forest Spirits have a 5+ Ward Save. However, this save cannot be used against magical attacks (spells, magic weapons etc).
+•	All attacks by Forest Spirits count as being magical. This includes any special or ranged attacks they may have.
+•	Forest Spirits are Immune to Psychology.
+</description>
+    </rule>
+    <rule id="ee3c-cd24-db81-c58a" name="Forest Stalkers" hidden="false">
+      <description>Clad in carefully woven raiments designed to help them vanish into the background, Waywatchers are almost impossible to spot. This means that the enemy suffers an additional -1 to hit modifier when shooting at them. In addition, Waywatchers are able to sneak up extremely close to their foes. Waywatchers are deployed at the same time as Scouts, and can be placed in one of two ways.
+Either place them exactly like Scouts, but with no minimum distance between them and the enemy, or place them in sight of the enemy (even in the open), but more than 12&quot; away from them.</description>
+    </rule>
+    <rule id="d1ac-ca23-6202-c8a8" name="Asrai Archery" hidden="false">
+      <description>The Elves of Athel Loren are the most accomplished and deadly archers in the whole of the Warhammer world, surpassing even the skill of their High Elven brethren. Wood Elf longbows (including magical longbows) do not suffer the -1 to hit penalty for moving and shooting.</description>
+    </rule>
+    <rule id="fcf3-acc8-01dd-b878" name="Forest Walkers" hidden="false">
+      <description>A lifetime spent in the confines of Athel Loren inevitably teaches how CO move through woodlands without hindrance. All models in the Wood Elf army (except flyers using their flying movement) may ignore movement penalties for moving through woods.</description>
+    </rule>
+    <rule id="de60-361a-88fe-281f" name="Woodland Ambush" hidden="false">
+      <description>Wood Elves invariably fight battles on the borders of woodland, where the Spellweavers can encourage the trees themselves to intervene. In Pitched Battles, just after the roll for table sides, but before any units have been deployed, the Wood Elf player can place an extra wood (no larger than 6&quot; in diameter) anywhere in his half of the table.</description>
+    </rule>
+    <rule id="1507-26eb-e50c-5c71" name="Glade Guard Longbows" hidden="false">
+      <description>The longbows carried by the Glade Guard are more powerful than those carried by other warriors in the Wood Elf army, such as Scouts or Waywatchers. Glade Guard longbows are Strength 4 at short range.</description>
+    </rule>
+    <rule id="770f-d153-7cb6-4e1f" name="Hit-and-Run" hidden="false">
+      <description>On any turn that Warhawk Riders charge, work out combat as normal. If the Warhawk Riders lose the combat or the combat is a draw, they do not take a Break test but automatically fall back (this is treated like fleeing, except that it does not cause panic in nearby units, and the Warhawk Riders automatically rally at the end of the fall back move). The enemy cannot pursue them. If the Warhawk Riders win the combat, before the enemy takes its Break test, the Warhawk Riders may elect to fall back.
+Regardless of whether the Warhawk Riders choose to fall back or not, the enemy must take a Break test as normal. if the Warhawk Riders elect to remain in combat then work out the results of the Break test and any pursuits as normal. This special ability may only be used on a turn that Warhawk Riders charge.</description>
+    </rule>
+    <rule id="589c-b3bd-d564-4e83" name="Impale" hidden="false">
+      <description>A Unicorn uses its horn much in the same manner as a knight uses a lance. When a unicorn charges into combat it receives +2 to its Strength.</description>
+    </rule>
+    <rule id="5f1d-e3af-0ba1-8179" name="Lethal Shot" hidden="false">
+      <description>All non-magical arrows shot by models with the Lethal Shot special rule have the Killing Blow ability at short range.</description>
+    </rule>
+    <rule id="41d3-52ce-39db-244c" name="Poison Breath" hidden="false">
+      <description>Armour is of little use against the soporific fumes exhaled by the Dragons of Athel Loren. Their Breath Weapon has a Strength of 2 and an Armour Save modifier of -3.</description>
+    </rule>
+    <rule id="f5ff-a94e-1810-5656" name="Shadow Dances of Loec" hidden="false">
+      <description>In each round of combat that they fight, Wardancers must choose one of the following Shadow Dances to perform. They cannot choose the same dance in two consecutive turns of the same combat engagement.
+Whirling Death — Each strike of a Wardancer&apos;s blade is made with uncanny precision, capable of severing a head or piercing a heart with one deceptively elegant stroke. While performing this dance, the Wardancers have the Killing Blow special rule.
+Storm of Blades — The Wardancers rain blow after blow upon their opponent, moving with such speed that the eye cannot follow each distinct cut and thrust. While they perform this dance, each model in the unit is granted + 1 Attack.
+The Shadows Coil — With agile grace the Wardancers evade the clumsy attacks of their enemies, becoming almost impossible to strike. While performing this dance, the Wardancers have a 4+ Ward Save.
+Woven Mist — The sinuous movements of this dance distract and confuse the enemy, allowing the Wardancers to strike before their foe can react. When performing this dance, each Wardancer reduces his or her total attacks by one but always strikes first in combat. If their opponent also has this ability, resolve attacks in Initiative order.
+</description>
+    </rule>
+    <rule id="42e7-34c6-310b-7c4f" name="Strangle-root Attack" hidden="false">
+      <description>Treemen can plunge their roots into the ground, only to have them erupt elsewhere, clutching and tearing at the foe. This is a specialised Shooting attack that may be used even if the Treeman marched. Pick one unit within 6&quot; —the target does not have to be in the Treeman&apos;s line of sight, but all other targeting restrictions apply. That unit takes an Artillery dice worth of Strength 4 hits (Strength 5 if the target is at least partially within a wood). On a misfire, nothing happens.</description>
+    </rule>
+    <rule id="22b0-0b35-9c5d-d737" name="Talismanic Tattoos" hidden="false">
+      <description>Some Wood Elf warriors are adorned with all manner of tattoos and warpaint that grant them the blessing of their gods. A model with Talismanic Tattoos gains a 6+ Ward Save, and has Magic Resistance (1).</description>
+    </rule>
+    <rule id="a85e-2e47-702f-fbe5" name="The Fury of Kurnous" hidden="false">
+      <description>In combat, the spirit of Kurnous imbues the Wild Riders with deadly vigour. On any round of combat in which the Wild Riders did not charge they gain + 1 Attack.</description>
+    </rule>
+    <rule id="1440-04c7-18ce-3c71" name="The Wild Hunt" hidden="false">
+      <description>The otherworldy braying warhorns of the Wild Hunt cause a tremor in the hearts of all who hear them. As long as they have a Musician, when a unit of Wild Riders charges it causes fear until the start of the next Wood Elf turn.</description>
+    </rule>
+    <rule id="f62c-9df0-8eee-09a7" name="Tree Singing" hidden="false">
+      <description>A Treeman may cast the spell Tree Singing (see page 79) in the same manner as a Bound Spell with a power level of 3. A Treeman Ancient may cast Tree Singing twice in each of his Magic phases.</description>
+    </rule>
+    <rule id="92e2-be44-6da3-dc20" name="Wardancer Weapons" hidden="false">
+      <description>Wardancers use a mix of weapons in their units, including pairs of swords, glaives and double-handed swords. To represent this, all Wardancers gain + I Attack. In addition, they add +1 Strength to all attacks they make in the first round of combat when charging.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="da94-2d91-8e3b-f505" name="Highborn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">6</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">7</characteristic>
+        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
+        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
+        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Character</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d86e-93b9-f140-7015" name="Noble" publicationId="5471-0e6f-161c-97bd" page="20" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">6</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">7</characteristic>
+        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
+        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
+        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Character</characteristic>
+        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d">1</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
