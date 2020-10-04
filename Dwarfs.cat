@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1ff7-8838-be61-6e56" name="Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="4e34-dc29-01f3-d9ef" name="Lord" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29a-9102-69a4-4f1c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4713-3ab2-62ea-d2ba" name="Dwarf Lord" hidden="false" targetId="e1c0-c508-7a93-bf91" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="32be-2d06-4c41-947d" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="eb5d-fab8-855b-331d" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b7cb-af0c-ca5f-2c45" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d2-2f46-cbc6-7584" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6bb4-8aa9-7a45-27aa" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e76f-e06c-708f-a3ad" name="Pistol" hidden="false" collective="false" import="true" targetId="44f9-f44d-d693-84f8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8f28-5ac5-b771-f2e1" name="Missile Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db13-5d82-8c4e-d3fa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1eda-3459-97e0-8489" name="Crossbow" hidden="false" collective="false" import="true" targetId="4c50-49fe-7ac2-4b3b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0df3-30fe-6ae3-8c32" name="Dwarf Handgun" hidden="false" collective="false" import="true" targetId="9b97-ecfd-1dae-dd26" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="21.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de32-92d9-e1b3-f477" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3113-ea56-d51c-db4a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0e63-1944-6b05-18d1" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ec14-d425-e0df-47fa" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cac8-6e3a-9f25-329b" name="Gromril Armour" hidden="false" collective="false" import="true" targetId="df2a-f063-5ca3-2381" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4c07-9be0-1804-7e04" name="Runes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="125.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ba-dc6a-1d9d-687d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4293-ae35-4a8b-1361" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="43b9-1aa2-9342-95d6" type="selectionEntryGroup"/>
+            <entryLink id="b33f-0b15-10c4-3819" name="Armour Runes" hidden="false" collective="false" import="true" targetId="9427-d5cc-7a03-09ac" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="33e2-5c03-0b81-0b8b" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85f-84fe-8a9f-4d79" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1f-2499-192f-cb48" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ae1d-5ae2-9e13-fda1" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8196-4bd8-c7ad-fb30" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="135.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="ea43-a0b7-193c-7837" name="Ancestral Grudge" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false">
+      <description>Dwarfs hold grudges for a long time. Possibly forever They have never forgiven the fall of their strongholds at the hands of the Orcish enemy. Dwarfs base all types of Ores, Goblins and SnotlIngs. including Night Goblins, Black Orcs, hobgoblins.. in fact all greenskins of any description!</description>
+    </rule>
+    <rule id="9538-687f-3457-3e77" name="Relentless" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false">
+      <description>A Dwarf on the march is as implacable as the turning of the years and just as impossible to halt. Dwarf units may march even if there are enemy within 8”.</description>
+    </rule>
+    <rule id="f134-5d8c-292e-70d0" name="Resolute" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false">
+      <description>Dwarfs fight with grim determination and are slow to abandon their position Dwarfs flee and pursue 2D6-1&quot; instead of the normal 2D6&quot;.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="6920-46fb-4b29-fe05" name="RUNE OF FIRE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddbe-aed4-5365-bde1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="70f4-8fc7-a704-e99a" name="RUNE OF FIRE" hidden="false" targetId="d5f9-f0c1-cd24-8af3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3dab-e859-450e-56ce" name="RUNE OF SPEED" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25aa-5a45-f197-2521" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4378-0f6e-f531-6c26" name="RUNE OF SPEED" hidden="false" targetId="a8b8-577b-14cf-14bb" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa6c-bbb9-e512-4d50" name="RUNE OF STRIKING" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3338-4aef-a71c-e054" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="04f9-4e67-98ae-f9b6" name="RUNE OF STRIKING" hidden="false" targetId="274b-4992-4623-851e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f392-a5f4-acd2-24f4" name="GRUDGE RUNE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79f4-f833-bb73-542c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ea0c-37da-8a3c-4c50" name="GRUDGE RUNE" hidden="false" targetId="fed9-7381-268c-42e5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6146-c74f-4560-a163" name="RUNE OF CLEAVING" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6f3-2baa-1ed3-214c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6820-13b1-e7c4-253b" name="RUNE OF CLEAVING" hidden="false" targetId="3bbf-84a0-a641-6c86" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="414f-36f4-7e3a-0b92" name="RUNE OF FURY" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc9-ccbf-f651-1ac2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="99a3-b408-8572-279f" name="RUNE OF FURY" hidden="false" targetId="4703-3421-14b3-22fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4b3-7a7a-4a7e-0b53" name="RUNE OF MIGHT" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e72-f877-6f4b-8b2a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="080a-d1c0-1952-10ff" name="RUNE OF MIGHT" hidden="false" targetId="f7bb-4496-2ad1-c74a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df2b-33f3-9f66-bec0" name="MASTER RUNE OF SWIFTNESS " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e524-ecd2-e5ab-72b6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd24-9cf0-bce7-d223" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0c08-650f-bbd4-c9d7" name="MASTER RUNE OF SWIFTNESS " hidden="false" targetId="acc9-11cc-bd04-3600" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec4d-c977-56e6-8ca2" name="MASTER RUNE OF BREAKING" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c2-a3ff-43c2-f2b5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd6f-f47a-fa6f-e71a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a6ca-b95f-9de3-d384" name="MASTER RUNE OF BREAKING" hidden="false" targetId="f01d-da32-9d87-f6e4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bc6-de40-b028-548d" name="MASTER RUNE OF FLIGHT" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fee4-3f66-5eb9-b810" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3091-7595-3bc6-243b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7fba-a421-1aeb-e8b8" name="MASTER RUNE OF FLIGHT" hidden="false" targetId="56a6-09d9-7435-66ce" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c144-57dc-2f8e-1244" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85da-11f3-3470-5cab" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c7-3eb3-022d-861c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2cde-0029-64d6-2bcc" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" targetId="959e-b7fd-cab5-f24b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6309-13b8-d589-77f5" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad3-a15f-1c9a-5b6d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada6-6724-8733-ce74" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3f79-f26a-615b-742f" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" targetId="5df1-6029-58e7-143b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1ef-caf1-bcfa-9b27" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f0-64ec-0ae1-a839" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b68-7bc9-e02c-1423" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="71d6-28aa-5f3a-db66" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" targetId="a839-4454-9f5d-5e00" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33f4-ea1d-0117-8580" name="RUNE OF STONE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e417-be9a-8064-99ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9fa3-0252-d93c-47d6" name="RUNE OF STONE" hidden="false" targetId="f069-276d-285f-ced7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3f2-fdff-a6b7-a387" name="MASTER RUNE OF STEEL" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c8-f102-b4cf-1868" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84d-856d-f544-177f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c827-3fb1-bda4-5664" name="MASTER RUNE OF STEEL" hidden="false" targetId="8278-a862-5982-c5c2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fe4-0fbd-7588-e098" name="MASTER RUNE OF ADAMANT " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb1-4fc9-b887-bf0c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a80-b4a1-4c34-9c84" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bd39-e6ca-5db5-5133" name="MASTER RUNE OF ADAMANT " hidden="false" targetId="2e14-d5d4-0a41-7499" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33d5-be99-5ec4-b2f3" name="MASTER RUNE OF GROMRIL " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-eafd-d8f4-ccd2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f0f-61f2-89cd-9b9f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ad10-338f-1b2c-3249" name="MASTER RUNE OF GROMRIL " hidden="false" targetId="fc72-1e7d-0526-ab5c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db55-f7b6-28a7-cab4" name="RUNE OF FORTITUDE" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3625-3aed-f1e9-5790" name="RUNE OF FORTITUDE" hidden="false" targetId="2a36-d579-196d-786a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ad6-f4c8-76d7-9cae" name="RUNE OF SHIELDING" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddcb-2201-51c7-d4a9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b50e-889d-8828-d1d2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="41ce-5f0a-1b47-368c" name="RUNE OF SHIELDING" hidden="false" targetId="1090-fcec-b750-c470" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a620-1d4c-1e15-696b" name="RUNE OF RESISTANCE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b61-f31f-0e85-a36c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e0-00ba-133e-58b2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b167-624d-3cf2-2b99" name="RUNE OF RESISTANCE" hidden="false" targetId="d0b0-823b-ab86-615b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e7b-f09c-1d79-ec82" name="RUNE OF IRON" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f343-cf45-f45f-6f7a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c49f-605d-47e0-091b" name="RUNE OF IRON" hidden="false" targetId="3369-c021-7f30-f897" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b97-ecfd-1dae-dd26" name="Dwarf Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="13d8-82c4-5671-2d62" name="Dwarf Handgun" hidden="false" targetId="cb09-60ad-c4e2-b011" type="rule"/>
+        <infoLink id="effa-0934-d057-5787" name="Dwarf Hangun" hidden="false" targetId="5b51-50be-fdb1-a4d7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df2a-f063-5ca3-2381" name="Gromril Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5a79-1dbf-357a-6133" name="Gromril Armour" hidden="false" targetId="5d7e-d656-1295-319f" type="rule"/>
+        <infoLink id="d6e7-1682-5103-3421" name="Gromril Armour" hidden="false" targetId="c160-d235-92a3-52e1" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a471-e4a2-e290-78c0" name="MASTER RUNE OF VALAYA " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8af-77a0-5566-d58c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f7-4a2e-f1d6-d186" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="21a5-97d5-89af-fc79" name="MASTER RUNE OF VALAYA " hidden="false" targetId="dd32-0148-6e92-cf57" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3dac-6eb0-fe12-81d9" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05f-5ade-685b-f8ec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-231c-af08-f47f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ce2a-2531-77b2-21a6" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" targetId="cca3-9e5b-985a-afe1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="681b-cd68-ec58-3ec0" name="MASTER RUNE OF TAUNTING " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdc-93cd-d236-f580" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b480-64ec-590b-a9c9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="071a-ac2b-4aa1-54d9" name="MASTER RUNE OF TAUNTING " hidden="false" targetId="70af-8090-dcac-699a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b793-0f9f-1750-815b" name="MASTER RUNE OF FEAR" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f3-f319-2aa2-1cae" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c75-b381-2b0e-2b41" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8095-b219-8a26-879d" name="MASTER RUNE OF FEAR" hidden="false" targetId="425d-2789-3b1e-5f01" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="230f-d0da-026c-3ff6" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9194-7d30-ec58-68c8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7fb-60d1-cbf7-88ba" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b8fe-a02c-772b-1d33" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" targetId="054a-ce6c-9420-1e52" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a5a-f4c6-6584-12e3" name="RUNE OF COURAGE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="579a-d737-fe27-54f2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65a-9d99-8b38-8026" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3307-9426-c843-d3dd" name="RUNE OF COURAGE" hidden="false" targetId="82a9-5bdb-8416-2a65" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12c4-cbbd-8ff5-d2b4" name="RUNE OF KADRIN" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a52-20bb-380d-11e2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a1-a8c1-fa83-c65c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bac6-cf37-3dc0-a261" name="RUNE OF KADRIN" hidden="false" targetId="e511-51a6-8f4b-62f8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a96-f4a6-fa2d-ed04" name="RUNE OF SLOWNESS" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="60b5-bcf5-9eaf-c7a2" name="RUNE OF SLOWNESS" hidden="false" targetId="527c-af4a-4966-9b6d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be32-0a32-929e-2cb9" name="RUNE OF BATTLE" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ae-5225-419c-06f8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf25-0b1c-f16a-b4e8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2e48-7f60-e1cd-3639" name="RUNE OF BATTLE" hidden="false" targetId="d68e-03e8-9500-9da7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6daa-f931-2857-fdea" name="RUNE OF SANCTUARY" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4f0e-40e3-1e90-de8b" name="RUNE OF SANCTUARY" hidden="false" targetId="d924-838e-0187-8046" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="43b9-1aa2-9342-95d6" name="Weapon Runes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c1-70d3-4447-916d" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d782-063d-a35e-321b" name="Master Runes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c906-7166-593b-1ef2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6280-b810-1b3d-c9e2" name="MASTER RUNE OF SWIFTNESS " hidden="false" collective="false" import="true" targetId="df2b-33f3-9f66-bec0" type="selectionEntry"/>
+            <entryLink id="34b3-22c4-dac4-e120" name="MASTER RUNE OF BREAKING" hidden="false" collective="false" import="true" targetId="ec4d-c977-56e6-8ca2" type="selectionEntry"/>
+            <entryLink id="999f-e730-4eb3-abbd" name="MASTER RUNE OF FLIGHT" hidden="false" collective="false" import="true" targetId="3bc6-de40-b028-548d" type="selectionEntry"/>
+            <entryLink id="211a-b73b-41f8-4042" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" collective="false" import="true" targetId="c144-57dc-2f8e-1244" type="selectionEntry"/>
+            <entryLink id="40b9-21ae-736a-8f5c" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" collective="false" import="true" targetId="6309-13b8-d589-77f5" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ccea-f178-34ed-107b" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" collective="false" import="true" targetId="f1ef-caf1-bcfa-9b27" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6674-4947-2637-8ed5" name="Minor Runes" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="eca4-0991-398d-2e09" name="RUNE OF FIRE" hidden="false" collective="false" import="true" targetId="6920-46fb-4b29-fe05" type="selectionEntry"/>
+            <entryLink id="fd84-cad9-5c77-26de" name="RUNE OF SPEED" hidden="false" collective="false" import="true" targetId="3dab-e859-450e-56ce" type="selectionEntry"/>
+            <entryLink id="0190-dbfc-d4b2-9f7f" name="RUNE OF STRIKING" hidden="false" collective="false" import="true" targetId="aa6c-bbb9-e512-4d50" type="selectionEntry"/>
+            <entryLink id="f530-2181-b5a7-ad58" name="GRUDGE RUNE" hidden="false" collective="false" import="true" targetId="f392-a5f4-acd2-24f4" type="selectionEntry"/>
+            <entryLink id="1b97-aff7-4a4a-ad77" name="RUNE OF CLEAVING" hidden="false" collective="false" import="true" targetId="6146-c74f-4560-a163" type="selectionEntry"/>
+            <entryLink id="d0cc-f65d-ba5e-d675" name="RUNE OF FURY" hidden="false" collective="false" import="true" targetId="414f-36f4-7e3a-0b92" type="selectionEntry"/>
+            <entryLink id="5df0-87a3-d889-e861" name="RUNE OF MIGHT" hidden="false" collective="false" import="true" targetId="f4b3-7a7a-4a7e-0b53" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9427-d5cc-7a03-09ac" name="Armour Runes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8db-c754-3a79-1d1c" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d9cd-401f-bfa4-3c52" name="Master Runes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc6-ac0a-da1d-68ef" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c8b1-65ed-b1fa-100a" name="MASTER RUNE OF ADAMANT " hidden="false" collective="false" import="true" targetId="3fe4-0fbd-7588-e098" type="selectionEntry"/>
+            <entryLink id="e21c-2345-e408-2b0f" name="MASTER RUNE OF STEEL" hidden="false" collective="false" import="true" targetId="f3f2-fdff-a6b7-a387" type="selectionEntry"/>
+            <entryLink id="bb32-4b05-9c7b-694f" name="MASTER RUNE OF GROMRIL " hidden="false" collective="false" import="true" targetId="33d5-be99-5ec4-b2f3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de39-8553-9451-3756" name="Minor Runes" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e15e-0d06-b086-9074" name="RUNE OF STONE" hidden="false" collective="false" import="true" targetId="33f4-ea1d-0117-8580" type="selectionEntry"/>
+            <entryLink id="ed5b-fa41-0977-2e41" name="RUNE OF FORTITUDE" hidden="false" collective="false" import="true" targetId="db55-f7b6-28a7-cab4" type="selectionEntry"/>
+            <entryLink id="3030-fb0b-2c9c-f1b4" name="RUNE OF SHIELDING" hidden="false" collective="false" import="true" targetId="5ad6-f4c8-76d7-9cae" type="selectionEntry"/>
+            <entryLink id="67f1-1ffa-fbc6-e480" name="RUNE OF RESISTANCE" hidden="false" collective="false" import="true" targetId="a620-1d4c-1e15-696b" type="selectionEntry"/>
+            <entryLink id="d4b9-ca7d-5247-8437" name="RUNE OF IRON" hidden="false" collective="false" import="true" targetId="7e7b-f09c-1d79-ec82" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="77b6-ae8b-7dac-ae7f" name="Banner Runes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ab-98df-1ca6-3905" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6db0-0148-c824-09b4" name="Major Runes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd06-ec3e-aabe-19d4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="84fc-9d1d-09c3-ea00" name="MASTER RUNE OF FEAR" hidden="false" collective="false" import="true" targetId="b793-0f9f-1750-815b" type="selectionEntry"/>
+            <entryLink id="f0ba-0b6f-43fd-de6b" name="MASTER RUNE OF TAUNTING " hidden="false" collective="false" import="true" targetId="681b-cd68-ec58-3ec0" type="selectionEntry"/>
+            <entryLink id="2cc0-9947-e770-1ea3" name="MASTER RUNE OF VALAYA " hidden="false" collective="false" import="true" targetId="a471-e4a2-e290-78c0" type="selectionEntry"/>
+            <entryLink id="f305-b685-35cc-4ebe" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" collective="false" import="true" targetId="3dac-6eb0-fe12-81d9" type="selectionEntry"/>
+            <entryLink id="87d4-35f3-6310-5cb4" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" collective="false" import="true" targetId="230f-d0da-026c-3ff6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0088-dd9a-ba2c-799e" name="Minor Rune" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="8a66-b910-a6f2-12be" name="RUNE OF SLOWNESS" hidden="false" targetId="527c-af4a-4966-9b6d" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="05c3-dc2a-09f7-7f98" name="RUNE OF COURAGE" hidden="false" collective="false" import="true" targetId="7a5a-f4c6-6584-12e3" type="selectionEntry"/>
+            <entryLink id="ad8e-2c33-96d5-d2af" name="RUNE OF KADRIN" hidden="false" collective="false" import="true" targetId="12c4-cbbd-8ff5-d2b4" type="selectionEntry"/>
+            <entryLink id="8287-fa1b-38af-fdd5" name="RUNE OF BATTLE" hidden="false" collective="false" import="true" targetId="be32-0a32-929e-2cb9" type="selectionEntry"/>
+            <entryLink id="f036-89b7-da5d-0937" name="RUNE OF SANCTUARY" hidden="false" collective="false" import="true" targetId="6daa-f931-2857-fdea" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="1a30-7656-8361-7fa3" name="Slayer Champions" hidden="false">
+      <description>Any Slayer regiment may have as many Giant Slayers as you wish - the normal limitation of having only one Champion per regiment does not apply to Slayers.</description>
+    </rule>
+    <rule id="24d7-9f19-36e0-ab01" name="Loner" publicationId="6265-1d51-76e2-4fe2" page="7" hidden="false">
+      <description>Daemon Slayers and Dragon Slayers may only fight alone or join a Slayers unit. Daemon and Dragon Slayers can never be the army&apos;s General.</description>
+    </rule>
+    <rule id="a55d-16f1-2e62-2725" name="Slayer" publicationId="6265-1d51-76e2-4fe2" page="7" hidden="false">
+      <description>All Slayers have an uncanny ability which makes them particularly effective against especially tough opponents. When rolling to wound, a Slayer&apos;s Strength, including any modifiers for weapons (eg, a Great Axe), is increased until it is equal to the Toughness of his opponent, up to a maximum of Strength 6. If the opponent&apos;s Toughness is lower than the Slayer&apos;s Strength, including any modifiers for weapons, the Slayer does not receive any Strength bonus. For example, a Slayer armed with a Great Axe (S5) is fighting a Dragon (T6): normally he needs a 5+ to wound, but because of the Slayer skill his Strength is increased to 6 and he therefore wounds on a 4+. Note that the armour save modifier is calculated at the modified Strength score, in this case it is -3 for a Strength 6 hit. If the Slayer were fighting a weedy Goblin (13). he would use his normal Strength of 5 and would therefore wound the Goblin on a 2+, with an armour save modifier of -2.</description>
+    </rule>
+    <rule id="a839-4454-9f5d-5e00" name="MASTER RUNE OF SNORRI SPANGELHELM " publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>Runesmith to the High King in Karaz-a-Karak
+during the time of Kallon. Snorri wrought the exquisite war panoply of the High Kings for several generations. He fought in many battles and was renowned for his magnificent gromril armour as well as this unique weapon rune.
+</description>
+    </rule>
+    <rule id="5df1-6029-58e7-143b" name="MASTER RUNE OF SKALF BLACKHAMMER" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>The legendary Runesmitb Skalf forged many
+great hammers, and some say even Sigmar&apos;s hammer was his work. Many of his hammers were later held by Dwarf Lords as heirlooms of their kingship.
+Any weapon bearing this rune will automatically wound if it hits. Roll to hit as normal. No roll to wound is required. Use the character&apos;s Strength for the save modifier.</description>
+    </rule>
+    <rule id="959e-b7fd-cab5-f24b" name="MASTER RUNE OF ALARIC THE MAD" hidden="false">
+      <description>No one knows exactly what happened to Alaric the Mad after he forged the famous Runefangs of the Elector Counts of the Empire, though some say he wrought rune weapons for the Khan Queens of Kislev.
+This rune cancels an opponent&apos;s armour saving throw. When wounded by this weapon. the target is not allowed an armour saving throw of any kind.
+</description>
+    </rule>
+    <rule id="56a6-09d9-7435-66ce" name="MASTER RUNE OF FLIGHT" hidden="false">
+      <description>The original inscription for this rune did not specify that the hammer return to the wielder&apos;s hand. and many Dwarfs found themselves knocked unconscious as their own weapons returned to them.
+This rune may only be inscribed onto a hammer. The hammer can be thrown at any model in sight and within 12&quot;, including models which cannot be singled out by normal shooting (like characters inside units). The target is automatically hit once as If the two models were in close combat, then the hammer flies back into the wielder&apos;s hand.
+</description>
+    </rule>
+    <rule id="f01d-da32-9d87-f6e4" name="MASTER RUNE OF BREAKING" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>First used during the War of Vengeance, this rune was inscribed upon King Gorrin&apos;s axe. which
+destroyed the High Elf General Ellitior&apos;s enchanted 
+blade. it has become a popularly used rune ever since.
+If the Dwarf character scores a hit against an enemy with a magic weapon, the enemy&apos;s magic weapon is destroyed Immediately. Multiple runes have no further effect.
+</description>
+    </rule>
+    <rule id="acc9-11cc-bd04-3600" name="MASTER RUNE OF SWIFTNESS " publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>First struck by Thurgrom the Hermit, the last 
+ Runesmith to work in the Elf cities of the Old World.
+A weapon engraved with this rune always strikes first. In situations where both sides are entitled to strike first’ the highest initiative value has priority over the lower value. If Initiatives are equal, both sides roll a D6 and the highest score strikes first.
+</description>
+    </rule>
+    <rule id="f7bb-4496-2ad1-c74a" name="RUNE OF MIGHT" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>Though short in stature, a Dwarf using a weapon inscribed with this rune is a powerful opponent Double Strength against any enemies with Toughness 5 or more. Multiple runes have no further effect</description>
+    </rule>
+    <rule id="4703-3421-14b3-22fe" name="RUNE OF FURY" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>The Dwarf wielding the weapon must concentrate upon an unavendged grudge, causing him to become enraged at the wrongs his race have endured.
+The wielder of this weapon adds +1 to his Attack characteristic.
+</description>
+    </rule>
+    <rule id="3bbf-84a0-a641-6c86" name="RUNE OF CLEAVING" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>Originally forged upon tbe axes of miners, enabling  them to break through the hardest rock.
+The wielder of this weapon adds + 1 to his Strength.
+</description>
+    </rule>
+    <rule id="fed9-7381-268c-42e5" name="GRUDGE RUNE" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>Often an enemy’ s misdeeds are so great that a Dwarf will have this rune put upon his weapon and will not rest until his foe pays for his wrongs with blood.
+Nominate one enemy character or monster at the beginning of the game. The wielder may re-roll misses in close combat when attacking this enemy model.Multiple runes of this type have no additional effect (a dice can only be re-rolled once).
+</description>
+    </rule>
+    <rule id="274b-4992-4623-851e" name="RUNE OF STRIKING" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>The properties of this rune enable the weapon&apos;s wielder to find an enemy&apos;s weak points with ease.
+The wielder of this weapon may add + 1 to his Weapon Skill.
+</description>
+    </rule>
+    <rule id="4ce1-81af-b3c6-3368" name="RUNE OF SPEED" hidden="false"/>
+    <rule id="a8b8-577b-14cf-14bb" name="RUNE OF SPEED" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>This rune enhances the Dwarfs awareness. The wielder of this weapon adds +1 to his Initiative</description>
+    </rule>
+    <rule id="d5f9-f0c1-cd24-8af3" name="RUNE OF FIRE" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
+      <description>A skilled Runesmith is able to inscribe this rune on the metal when it Is still white hot from the forge. Flaming attacks. This can cause extra damage on some targets (such as Treemen, Mummies, etc).</description>
+    </rule>
+    <rule id="8278-a862-5982-c5c2" name="MASTER RUNE OF STEEL" publicationId="6265-1d51-76e2-4fe2" page="21" hidden="false">
+      <description>Once this rune has been forged, it binds metals 
+together making them more resilient. Armour 
+with this rune never rusts through weathering or age.
+Your opponent must re-roll successful rolls to wound against the character.
+</description>
+    </rule>
+    <rule id="2e14-d5d4-0a41-7499" name="MASTER RUNE OF ADAMANT " publicationId="6265-1d51-76e2-4fe2" page="21" hidden="false">
+      <description>First forged on a shield as a gift for the flamboyant Dwarf Prince Gudii Twoboots, the shield was subsequently stolen by a lone bandit who stalked the Undgrim preying on small parties of travellers.
+This rune adds +1 to the Toughness of the character.
+</description>
+    </rule>
+    <rule id="fc72-1e7d-0526-ab5c" name="MASTER RUNE OF GROMRIL " hidden="false">
+      <description>A small amount of pure gromril is the most important element used when inscribing this
+rune. If the sample is even slightly flawed. the rune will not work.
+Confers a 1+ armour save that cannot be improved in any way.
+</description>
+    </rule>
+    <rule id="2a36-d579-196d-786a" name="RUNE OF FORTITUDE" hidden="false">
+      <description>It is rumoured amongst those Dwarfs who have
+worn this armour that it becomes sentient. Whilst no Runesmith has ever confirmed this rumour, they make no attempts to deny it either.
+This rune gives its bearer +1 Wound
+</description>
+    </rule>
+    <rule id="1090-fcec-b750-c470" name="RUNE OF SHIELDING" hidden="false">
+      <description>This rune was created during the War of Vengeance as a protection against the superior missile fire of the High Elves.
+The character has a 2+ Ward save against missile attacks only (including magic missiles). Multiple runes have no further effect.
+</description>
+    </rule>
+    <rule id="d0b0-823b-ab86-615b" name="RUNE OF RESISTANCE" hidden="false">
+      <description>First used on the armour of the Thane of Karak Azgal by Gorgi Storngbeard, this rune is thought to
+have been lost amongst the ruined stronghold. Fortunately the Runesmith survived to replicate it.
+This rune allows the character to re-roll any failed armour saving throws. As you&apos;re only ever allowed one re-roll multiples of this rune would have no effect
+</description>
+    </rule>
+    <rule id="3369-c021-7f30-f897" name="RUNE OF IRON" hidden="false">
+      <description>When Iron is saturated with magic it Is known as  lodestone. This rune focuses the magnetic properties of lodestone to create magical armour.
+This rune confers a 6+ ward save. Two of these runes confer a 5+ Ward save, but three cannot be taken, because only the Master Rune of Spite can bind such huge power.
+</description>
+    </rule>
+    <rule id="f069-276d-285f-ced7" name="RUNE OF STONE" publicationId="6265-1d51-76e2-4fe2" page="21" hidden="false">
+      <description>Dwarf tradition tells that the ancients were created from the rock of the first mountains, so the Rune of Stone is the first rune an apprentice learns.
+This rune adds +1 to the character&apos;s armour save. The Rune of Stone is an exception to the normal Rule of Pride which forbids the same combination of runes to be used on several items, so a single Rune of Stone may be inscribed onto any character&apos;s armour. The Rune of Stone is also an exception in that it cannot he used more than once on the same item, so it is not possible to give two or three Runes of Stone to the same character.
+</description>
+    </rule>
+    <rule id="cb09-60ad-c4e2-b011" name="Dwarf Handgun" hidden="false">
+      <description>Dwarf Handgun
+The handguns of Dwarf Thunderers, called dragon belchers by the more superstitious Goblin tribes, feature many improvements over the crude devices used by other races. These features include rifled barrels, finer powder grain and more reliable firing mechanisms.
+</description>
+    </rule>
+    <rule id="5d7e-d656-1295-319f" name="Gromril Armour" hidden="false">
+      <description>Armour made from the metal known us gromril is the toughest and most sturdy in the known world. Known variously as meteoric iron, silverstone and hammernought armour, Gromril armour is limited to wealthy Dwarfs and the elite Ironbreakers.
+Rules: Gromril armour gives a 4+ armour save.
+</description>
+    </rule>
+    <rule id="dd32-0148-6e92-cf57" name="MASTER RUNE OF VALAYA " hidden="false">
+      <description>This ancient rune is said to haw been invented at the dawn of time by Valaya the Ancestor Goddess
+This rune adds +2 to all attempts to dispel made by the Dwarf player. Any spell which remains in play is dispelled automatically at the start of the Magic phase, if the target it affects is within 12&quot; of the standard. For example, a Wall of Fire will be dispelled if It is within 12&quot; of the standard.
+</description>
+    </rule>
+    <rule id="cca3-9e5b-985a-afe1" name="MASTER RUNE OF STIROMNI REDBEARD" hidden="false">
+      <description>Stromni Redbeard made this rune in the days of
+Bael. Lord of Karak Azul. It was first carved onto the battle standard of Durgin, son of Grindol, son of Grimuir.
+The Battle Standard adds a further +1 to the combat result of all Dwarf units within 12&quot; of it.
+</description>
+    </rule>
+    <rule id="70af-8090-dcac-699a" name="MASTER RUNE OF TAUNTING " hidden="false">
+      <description>One use only
+This rune focuses the Dwarfs  ability to chant and gesticulate in such an offensive manner that they enrage the enemy beyond all self control.
+Nominate one enemy unit within 12” when it is time for the enemy to declare charges. The unit must be able to charge according to the normal rules. The enemy unit must either declare a charge against the unit with the banner, or must flee in the Compulsory Movement phase as if it had failed a panic test. This rune has no effect on units that are Immune to Psychology
+</description>
+    </rule>
+    <rule id="425d-2789-3b1e-5f01" name="MASTER RUNE OF FEAR" hidden="false">
+      <description>The clan that takes this banner to battle give the  illusion that they tower over the enemy. Dwarfs are a strong enough opponent in their own right but a unit of giant Dwarfs is enough to scare even the strongest enemy.
+The unit causes fear exactly as described in the psychology rules In the Warhammer rulebook. page 81. A unit which causes fear is not affected by fear itself
+</description>
+    </rule>
+    <rule id="054a-ce6c-9420-1e52" name="MASTER RUNE OF GROTH ONE-EYE" hidden="false">
+      <description>Groth One-Eye, famous for never backing down in an argument struck this rune in the time of Kurgan Ironbeard when the greenskins were driven from the west. The unit is stubborn</description>
+    </rule>
+    <rule id="82a9-5bdb-8416-2a65" name="RUNE OF COURAGE" hidden="false">
+      <description>Resonating with the power of duty and loyalty this rune further bolsters the resolve of Dwarfs near it.
+The unit is Immune to Psychology.
+</description>
+    </rule>
+    <rule id="e511-51a6-8f4b-62f8" name="RUNE OF KADRIN" hidden="false">
+      <description>It is said that any who have undergone the pilgrimage to the shrine of Grimnir at Karak
+Kadrin will forever be blessed with good fortune. This rune glows bright red at the centre of the shrine and has been forged onto banners to bless them with good fortune too.
+The unit re-rolls all rolls of 1 to hit when shooting and in close combat. Multiply runes have no further effect.
+</description>
+    </rule>
+    <rule id="527c-af4a-4966-9b6d" name="RUNE OF SLOWNESS" hidden="false">
+      <description>This rune creates an almost physical barrier from the intractable nature of the dwarfs around it.
+Any foes charging the unit subtract D6&quot; from their charge distance. If the unit falls to make contact then all the usual rules for a failed charge apply. If multiples of this rune are used, the charge reduction is not added up. Instead roll a D6 for each rune and choose the best score.
+</description>
+    </rule>
+    <rule id="d68e-03e8-9500-9da7" name="RUNE OF BATTLE" hidden="false">
+      <description>Each of the Dwarf strongholds once had a banner with the Rune of Battle upon it. Many of these banners are now lost, but those that still remain in Dwarf bands are held aloft with pride.
+The unit adds a further +1 to Its combat result score. A banner cannot have multiple Runes of Battle.
+</description>
+    </rule>
+    <rule id="d924-838e-0187-8046" name="RUNE OF SANCTUARY" hidden="false">
+      <description>This rune creates an area of anti-magic, using the defiance of the Dwarfs to deflect mystical attacks. Each rune adds one dice to any dispel attempt against enemy spells cast against the unit.</description>
+    </rule>
+    <rule id="11ae-054a-491a-11f1" name="MASTER RUNE OF DEFENCE " hidden="false">
+      <description>Developed as a defensive measure during the War of Vengeance against the firepower of the High Elves, this rune has saved the lives of many crew
+All incoming missiles (including magic missiles) hit the machine itself on a 1-5 and the crew only on a 6.
+</description>
+    </rule>
+    <rule id="e209-9a85-8a3b-7831" name="MASTER RUNE OF DISGUISE " hidden="false">
+      <description>This rune magically distorts space around (be machine, rendering it almost invisible.
+Until it moves or shoots, the machine cannot he seen, and cannot therefore be targeted with spells, shot at, or charged. Once the machine has moved/fired, or if an enemy unit moves to within 3&quot; of it, the machine is revealed and can be seen and attacked as normal for the rest of the battle.
+</description>
+    </rule>
+    <rule id="f49b-7a6e-701c-0b62" name="MASTER RUNE OF IMMOLATION" hidden="false">
+      <description>Devised to stop machines failing to the enemy, it is invoked only in desperate circumstances.
+The Dwarf player can cause the machine to explode at an,. time, If the machine explodes, place the large circular template on the machine The machine is destroyed and all models under the template suffer a Strength 4 hit (models partially covered are hit on the roll of a 4).
+</description>
+    </rule>
+    <rule id="c15f-5da5-1eeb-e34b" name="MASTER RUNE OF SKEWERING " hidden="false">
+      <description>One use only
+
+Elf mages helped create this before the War of the  Beard. Tbere&apos;s no mention of this in Dwarf records.
+This rune may only be inscribed on a Bolt Thrower. Once per game the Bolt Thrower hits on a 2+ with no modifiers. You must choose to use this rune before rolling to hit.
+</description>
+    </rule>
+    <rule id="46c8-fbe2-1bb1-b073" name="RUNE OF FORGING" hidden="false">
+      <description>When making a cannon, with each hammer blow an Engineer strikes, a Runesmith must recite a special litany. This can take weeks to complete.
+Can only he placed on a cannon. Allows Dwarf player to re-roll Artillery dice when he rolls a Misfire. If you roll a Misfire when rolling Artillery dice either to hit or to bounce, then you can roll again. You are hound by the second roll even if it&apos;s another Misfire. Multiples have no effect.
+</description>
+    </rule>
+    <rule id="3bb3-98cd-419f-58b9" name="RUNE OF RELOADING" hidden="false">
+      <description>After a cannon has proved its reliability, a Runesmith may deem it worthy of this rune.
+Cannon can shoot every turn, as long as there is at least one crewman left, even if the machine has rolled a 2-3 on the Misfire table in the previous turn. Multiples have no effect.
+</description>
+    </rule>
+    <rule id="59ed-b301-253e-40a7" name="RUNE OF ACCURACY" hidden="false">
+      <description>Once a missile inscribed with this rune is launched, the rune glows, invoking the winds of magic to blow the stone in the right direction.
+May only he put on a Stone Thrower. The Dwarf player may re-roll the Scatter dice if he wishes, enabling the machine to shoot more accurately. If you re-roll the dice, you must accept the result of the second roll. Multiples have no effect.
+</description>
+    </rule>
+    <rule id="12bb-52ba-88fc-52a8" name="RUNE OF FORTUNE" hidden="false">
+      <description>Discovered by Magnus Ilammerson, wbo broke Runesmith tradition by selling it to Engineers Guild.
+If a machine has the Rune of Fortune the player may re-roll a dice rolled on the machine&apos;s Misfire chart. For example. you can re-roll a result on the Cannon Misfire chart, or the Misfire chart for Stone Throwers. However, you must accept the result of the second dice roll. Multiples have no effect.
+</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="e1c0-c508-7a93-bf91" name="Dwarf Lord" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="933d-4855-0020-be09" name="Dwarf Thane" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1120-096a-0960-d7f9" name="Dwarf Warrior" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a66-5084-5867-eef7" name="Daemon Slayer " publicationId="6265-1d51-76e2-4fe2" page="7" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d9c-6831-f2bb-0bf7" name="Dragon Slayer " hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9928-6825-5bfa-3f4b" name="Giant Slayer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0628-767c-eddd-d17d" name="Troll Slayer" publicationId="6265-1d51-76e2-4fe2" page="7" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5b51-50be-fdb1-a4d7" name="Dwarf Hangun" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Armour piercing (so -2 save)
+Dwarf Hanguns get a +1 to hit at short range</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c160-d235-92a3-52e1" name="Gromril Armour" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
+      <characteristics>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">4+</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

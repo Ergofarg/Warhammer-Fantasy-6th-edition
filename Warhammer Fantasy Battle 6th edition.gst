@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-febf" name="Warhammer Fantasy Battle 6th edition" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-febf" name="Warhammer Fantasy Battle 6th edition" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -18,11 +18,6 @@
         <characteristicType id="dfff-363e-f72a-5a59" name="I"/>
         <characteristicType id="6b9f-c8fe-8998-27e3" name="A"/>
         <characteristicType id="2d45-18fe-9eb3-b113" name="Ld"/>
-        <characteristicType id="7d28-2dad-b18a-6753" name="Save"/>
-        <characteristicType id="c0be-3abf-106b-e3c5" name="WSave"/>
-        <characteristicType id="bff2-f7c9-ec7f-049b" name="MR"/>
-        <characteristicType id="19aa-ae23-b940-6567" name="Type"/>
-        <characteristicType id="15a7-2c11-57a9-e43d" name="Unit Strength"/>
       </characteristicTypes>
     </profileType>
     <profileType id="7889-42d9-70a0-3ea9" name="Weapon">
@@ -38,22 +33,22 @@
         <characteristicType id="42c3-68ab-cfa5-203e" name="Special rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5feb-de73-fa5c-452f" name="Talismans">
+    <profileType id="5feb-de73-fa5c-452f" name="Use magic items instead">
       <characteristicTypes>
         <characteristicType id="e5e2-c31b-6ae8-d4fe" name="Magic ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="328f-6716-77b4-7370" name="Enchanted">
+    <profileType id="328f-6716-77b4-7370" name="Use magic items instead">
       <characteristicTypes>
         <characteristicType id="9115-6a02-75f6-e3b4" name="Magic ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="a89b-d5a3-7805-c44e" name="Arcane">
+    <profileType id="a89b-d5a3-7805-c44e" name="Magic Items">
       <characteristicTypes>
         <characteristicType id="c7b5-c239-d6c1-0627" name="Magic stuff"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2b76-c982-4781-e2d3" name="Magical Standard">
+    <profileType id="2b76-c982-4781-e2d3" name="Use magic items instead">
       <characteristicTypes>
         <characteristicType id="8121-d7b8-a7c7-352c" name="Magic Stuff"/>
       </characteristicTypes>
@@ -333,7 +328,6 @@
     </selectionEntry>
     <selectionEntry id="055f-8e4e-f170-35d2" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c573-f3d1-c08c-8c27" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f1a-1be1-6660-d9a6" type="max"/>
       </constraints>
       <infoLinks>
@@ -423,6 +417,52 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3428-8f18-865a-44cd" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e7a8-64ce-c0d4-68d6" name="Short Bow" hidden="false" targetId="5e53-1e3a-3e8e-22b2" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="44f9-f44d-d693-84f8" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0c60-f0b1-4814-53c2" name="Pistol" hidden="false" targetId="e6ab-509a-9826-7080" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9efb-2b02-f245-62f5" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cddf-4c47-291f-1bab" name="Bow" hidden="false" targetId="ec76-323e-c09d-eae4" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4c50-49fe-7ac2-4b3b" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4f1e-39c2-0117-02e3" name="Crossbow" hidden="false" targetId="1979-9085-40d4-adee" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fe39-7a3b-c3ed-67f8" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0d37-a8b4-460f-3b3d" name="Handgun" hidden="false" targetId="4ce2-acff-b3af-72fd" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ca1c-a42a-c387-2cb2" name="Sling" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="65bd-c924-1ed5-7830" name="Sling" hidden="false" targetId="67a2-04c0-f8fb-7741" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bddd-26a2-7b14-c3fa" name="Throwing Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d01e-a5d1-b9be-69ec" name="Throwing Axe" hidden="false" targetId="c4c3-8f22-9db7-1a00" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6c61-37b0-5fa6-c20c" name="Throwing Star/ Knife" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d76f-ae3e-98ae-7a6d" name="Throwing Star/ Knife" hidden="false" targetId="9c9b-f589-846f-c1d8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2eb9-be12-caec-57e8" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fe8f-7914-842b-138e" name="Flail" hidden="false" targetId="10f8-e196-d180-044c" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f2fb-8b67-9f3b-a096" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="3d6b-9611-a257-ad03" name="Infantry" hidden="false"/>
@@ -562,6 +602,77 @@ Always Strikes Last</characteristic>
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">30&quot;</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">3</characteristic>
         <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236"/>
+      </characteristics>
+    </profile>
+    <profile id="5e53-1e3a-3e8e-22b2" name="Short Bow" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">16&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">3</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236"/>
+      </characteristics>
+    </profile>
+    <profile id="1979-9085-40d4-adee" name="Crossbow" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">30</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Mv or Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="67a2-04c0-f8fb-7741" name="Sling" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">18</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">3</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">x2 shots if within 9&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="771a-10ff-d596-2e8e" name="Javelin" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">as user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Thrown weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c9b-f589-846f-c1d8" name="Throwing Star/ Knife" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Thrown weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c4c3-8f22-9db7-1a00" name="Throwing Axe" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Thrown weapon, ST +1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ce2-acff-b3af-72fd" name="Handgun" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Armour piercing(ie -2 sv) Move or Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6ab-509a-9826-7080" name="Pistol" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Armour piercing, In cc S4, AP for first turn of combat only.
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10f8-e196-d180-044c" name="Flail" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">+2 Str on first turn of combat. Requires 2 hands</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="929d-16ed-c03a-8d1c" name="Morning Star" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">as user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">+1 S on first turn of combat</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
