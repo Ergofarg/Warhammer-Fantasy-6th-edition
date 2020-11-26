@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000"/>
   </publications>
@@ -750,6 +750,9 @@
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4895-f1e0-0331-cd37" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="2337-9a2c-63bf-c6e3" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
           <constraints>
@@ -1167,6 +1170,9 @@
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="230b-6d63-0c34-d0ba" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="3438-edce-77b5-de3f" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
           <constraints>
