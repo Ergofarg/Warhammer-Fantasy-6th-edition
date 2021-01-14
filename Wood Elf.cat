@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -93,11 +93,6 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">7</characteristic>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Character</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d">1</characteristic>
       </characteristics>
     </profile>
     <profile id="d86e-93b9-f140-7015" name="Noble" publicationId="5471-0e6f-161c-97bd" page="20" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -111,11 +106,6 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">7</characteristic>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">7</characteristic>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">0</characteristic>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Character</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

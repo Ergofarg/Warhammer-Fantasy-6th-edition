@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
   </publications>
@@ -17,11 +17,6 @@
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
             <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
             <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
-            <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-            <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -319,11 +314,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -422,11 +412,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -454,11 +439,6 @@
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
             <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
             <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-            <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-            <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -553,11 +533,6 @@
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
             <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
             <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-            <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-            <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -777,11 +752,6 @@
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
             <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
             <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-            <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-            <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -988,7 +958,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c17-1c96-d164-dce5" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4ebf-5917-42d2-5605" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="4ebf-5917-42d2-5605" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">S equals one higher than targets toughness, upto a maximum of 6 for &apos;to wound&apos; and saves.</characteristic>
                           </characteristics>
@@ -1003,7 +973,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3594-d9af-67d3-2b81" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="c9c2-7fe0-0606-dbfa" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="c9c2-7fe0-0606-dbfa" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">For every wound suffered, loose -1 on all others stats except Mv for rest of the battle.</characteristic>
                           </characteristics>
@@ -1018,7 +988,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c503-0f30-b975-1b2f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="0693-b1bb-d46c-6301" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="0693-b1bb-d46c-6301" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Poisoned attacks</characteristic>
                           </characteristics>
@@ -1040,7 +1010,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e241-218e-76d5-9e49" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="d8a8-8d5e-5fd3-8f36" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="d8a8-8d5e-5fd3-8f36" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save</characteristic>
                           </characteristics>
@@ -1055,7 +1025,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e955-70d5-7b15-8d8f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="7ee9-fbf2-adaa-1b9d" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="7ee9-fbf2-adaa-1b9d" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Has killing blow</characteristic>
                           </characteristics>
@@ -1070,7 +1040,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="051b-20a9-2ad6-a092" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5450-09c6-ad97-b0d8" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="5450-09c6-ad97-b0d8" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">+1 A , must pursue broken units
 </characteristic>
@@ -1086,7 +1056,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d28-a50d-a269-2e1b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f057-a7c7-b377-7193" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="f057-a7c7-b377-7193" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">One model in b2b contact loose 1 attack chosen by player. No effect on Immune to Pscology&apos;.
 </characteristic>
@@ -1102,7 +1072,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91c0-6b20-956b-0c3c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5db0-7b8b-c186-093e" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+                        <profile id="5db0-7b8b-c186-093e" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
                           <characteristics>
                             <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Charged target must pass Ld or be -1 WS (Mininmum 1) for rest of cc.</characteristic>
                           </characteristics>
@@ -1156,11 +1126,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1223,11 +1188,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1301,11 +1261,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1371,11 +1326,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1406,11 +1356,6 @@
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
             <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
             <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-            <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-            <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-            <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-            <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-            <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1523,11 +1468,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1596,11 +1536,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1670,11 +1605,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1823,11 +1753,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1874,11 +1799,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1954,11 +1874,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">4+</characteristic>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">1</characteristic>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1988,11 +1903,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">4+</characteristic>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">1</characteristic>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2039,11 +1949,6 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2094,11 +1999,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2150,11 +2050,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753">6+</characteristic>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2185,11 +2080,6 @@
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
-                    <characteristic name="Save" typeId="7d28-2dad-b18a-6753">-</characteristic>
-                    <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5">-</characteristic>
-                    <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b">-</characteristic>
-                    <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-                    <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2577,7 +2467,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a149-d32f-293b-ebc4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="edfa-3af7-9fb0-0f58" name="Black Amulet" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="edfa-3af7-9fb0-0f58" name="Black Amulet" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save, if passes attacker takes a wound no saves whatsoever, not even ward
 </characteristic>
@@ -2594,7 +2484,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d6-17c2-f9c6-6956" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dea9-bbff-3319-08fb" name="Deathmask" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="dea9-bbff-3319-08fb" name="Deathmask" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Cause Terror</characteristic>
               </characteristics>
@@ -2610,7 +2500,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad43-f98e-51e4-a126" type="max"/>
           </constraints>
           <profiles>
-            <profile id="63b7-38a2-6e37-93fc" name="Crown of Black Iron" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="63b7-38a2-6e37-93fc" name="Crown of Black Iron" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save, Immune to high and light magic (character only, not unit or mount)</characteristic>
               </characteristics>
@@ -2626,7 +2516,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f89-94be-c60d-529c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c3e0-87c9-5fba-7dd7" name="Seal of Ghrond" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="c3e0-87c9-5fba-7dd7" name="Seal of Ghrond" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Add 1 die to dispel pool</characteristic>
               </characteristics>
@@ -2642,7 +2532,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc0-beb4-9da4-d52d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d139-f02c-7013-3ea3" name="Ring of Hotek" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="d139-f02c-7013-3ea3" name="Ring of Hotek" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">ANY magic user within 6&quot; rolling any doubles is a miscast. double 6 is IF then roll for miscast.
 </characteristic>
@@ -2669,7 +2559,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce95-3b33-9ce8-47f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="229b-606d-7d0d-87c6" name="Rubicon of Dark dimensions" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
+            <profile id="229b-606d-7d0d-87c6" name="Rubicon of Dark dimensions" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell PL5
 One use only.
@@ -2687,7 +2577,7 @@ On foot only, any model in b-2b contact with bearer must roll equal to or under 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b607-ed14-29d6-7aa4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2d7f-b3c3-7433-67d6" name="Ring of Darkness" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
+            <profile id="2d7f-b3c3-7433-67d6" name="Ring of Darkness" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound spell PL4
 Attackers require 6 to hit regardless of WS and modifiers. Remains in play</characteristic>
@@ -2704,7 +2594,7 @@ Attackers require 6 to hit regardless of WS and modifiers. Remains in play</char
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f26-c8b0-464e-f168" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0677-6a86-b863-7b60" name="Crystal of Midnight" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
+            <profile id="0677-6a86-b863-7b60" name="Crystal of Midnight" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">One use only. Bound Spell PL4
 Choose a magic user anywhere on battlefield, must roll under ld on 3d6 or forgets one spell.</characteristic>
@@ -2718,6 +2608,24 @@ Choose a magic user anywhere on battlefield, must roll under ld on 3d6 or forget
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b150-2a07-20b9-49df" name="Arcane Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="bb40-3961-3617-75af" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="bb40-3961-3617-75af" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb40-3961-3617-75af" type="max"/>
       </constraints>
@@ -2728,7 +2636,7 @@ Choose a magic user anywhere on battlefield, must roll under ld on 3d6 or forget
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4370-153b-acab-0c49" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cdb2-9470-9b0f-93d1" name="Soulstone" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="cdb2-9470-9b0f-93d1" name="Soulstone" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Immune to effects of first miscast
 Spell still fails</characteristic>
@@ -2745,7 +2653,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bf7-14bc-ab82-511d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="085c-f02d-f441-b690" name="Black Staff" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="085c-f02d-f441-b690" name="Black Staff" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">No maximum number of PD to cast spell.</characteristic>
               </characteristics>
@@ -2761,7 +2669,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2186-ce49-bae3-ce91" type="max"/>
           </constraints>
           <profiles>
-            <profile id="485c-9f3f-8d6b-086d" name="Darkstar Cloak" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="485c-9f3f-8d6b-086d" name="Darkstar Cloak" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">+1 PD for the soceress in her own magic phase, only usuable by bearer
 </characteristic>
@@ -2778,7 +2686,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b619-ad52-5139-8dba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9398-42fc-9c96-e4d6" name="Tome of Furion" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="9398-42fc-9c96-e4d6" name="Tome of Furion" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Grants bearer one additional spell</characteristic>
               </characteristics>
@@ -2805,7 +2713,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f114-626f-d484-6cbb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5119-64b6-64c1-ed09" name="Banner of Nagarythe" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
+            <profile id="5119-64b6-64c1-ed09" name="Banner of Nagarythe" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">+1 CR for all units in 6&quot; and unit with banner is unbreakable</characteristic>
               </characteristics>
@@ -2821,7 +2729,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2340-8d48-d010-0f49" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0b23-aa01-e57c-cd8b" name="Hydra Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
+            <profile id="0b23-aa01-e57c-cd8b" name="Hydra Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">All models including mounts recieve +1 A in the first round of combat</characteristic>
               </characteristics>
@@ -2837,7 +2745,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe5-378b-2ecb-729a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1f70-1527-0cef-8edc" name="Dread Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
+            <profile id="1f70-1527-0cef-8edc" name="Dread Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Unit causes Fear</characteristic>
               </characteristics>
@@ -2853,7 +2761,7 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6a-e4d0-1a56-015e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bf6f-da46-79b2-733e" name="Banner of Murder" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
+            <profile id="bf6f-da46-79b2-733e" name="Banner of Murder" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Can charge +D6&quot;
 On a failed charge move normal amout</characteristic>
@@ -2870,7 +2778,7 @@ On a failed charge move normal amout</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a32-1e98-65dc-dfbb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="75ef-26cd-8b64-7d9e" name="Standard of Slaughter" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
+            <profile id="75ef-26cd-8b64-7d9e" name="Standard of Slaughter" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">One use only
 Unit gains D3CR on first turn charges.</characteristic>
@@ -2896,7 +2804,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ba-d693-c44b-fa9e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d15c-945d-6ed3-f31a" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="d15c-945d-6ed3-f31a" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">S equals one higher than targets toughness, upto a maximum of 6 for &apos;to wound&apos; and saves.</characteristic>
               </characteristics>
@@ -2911,7 +2819,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ce4-ac6b-4abe-fd67" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d6ff-231c-d2a6-0927" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="d6ff-231c-d2a6-0927" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">For every wound suffered, loose -1 on all others stats except Mv for rest of the battle.</characteristic>
               </characteristics>
@@ -2926,7 +2834,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce6-5ff9-7e5e-5bd9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ae4b-4db0-9389-8503" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="ae4b-4db0-9389-8503" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Poisoned attacks</characteristic>
               </characteristics>
@@ -2948,7 +2856,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2144-bfd5-6643-00e2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5e05-59d4-c668-f2e9" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="5e05-59d4-c668-f2e9" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save</characteristic>
               </characteristics>
@@ -2963,7 +2871,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0824-2604-66b1-be14" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b529-6e28-0590-de28" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="b529-6e28-0590-de28" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Has killing blow</characteristic>
               </characteristics>
@@ -2978,7 +2886,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c242-7fe4-c127-583c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="74a0-729c-5443-43f6" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="74a0-729c-5443-43f6" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">+1 A , must pursue broken units
 </characteristic>
@@ -2994,7 +2902,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b0-c1e0-2a7d-668c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f23d-c0d8-f828-d6e8" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="f23d-c0d8-f828-d6e8" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">One model in b2b contact loose 1 attack chosen by player. No effect on Immune to Pscology&apos;.
 </characteristic>
@@ -3010,7 +2918,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22f-19a6-b378-9e66" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0513-ee1f-de8d-cac3" name="Witchbrew" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="0513-ee1f-de8d-cac3" name="Witchbrew" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Hags only. </characteristic>
               </characteristics>
@@ -3025,7 +2933,7 @@ Unit gains D3CR on first turn charges.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eaa-fe88-9dd7-be88" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd77-6193-539a-de26" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
+            <profile id="bd77-6193-539a-de26" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
               <characteristics>
                 <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Charged target must pass Ld or be -1 WS (Mininmum 1) for rest of cc.</characteristic>
               </characteristics>
@@ -3091,11 +2999,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="4fae-ecab-5fc6-9297" name="Dark Pegasus" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3109,11 +3012,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monster</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="d928-b122-2947-d618" name="Dark Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3127,11 +3025,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Mount</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="5d6d-bbcf-b923-6859" name="Manticore" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3145,11 +3038,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567">Monster</characteristic>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="4165-0381-e2c9-d7c8" name="Black Dragon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3163,11 +3051,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="c4e9-1e4e-011c-1655" name="Cold one Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3181,11 +3064,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">D6</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">4+</characteristic>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="76bc-b9f8-32d3-8669" name="Chariot Crew" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3199,11 +3077,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753">-</characteristic>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="7eb9-82d3-2022-e28c" name="Dark Elf basic" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3217,11 +3090,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="ac64-371e-2bbf-45bb" name="Sea Dragon Cloak" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -3241,11 +3109,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="57f2-89ed-a351-e3d4" name="Dark Elf champion BS" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3259,11 +3122,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="d52f-3c38-c729-8be1" name="Dark Elf elite" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3277,11 +3135,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
     <profile id="5aea-354a-c3c2-6d4f" name="Dark Elf elite champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3295,11 +3148,6 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Save" typeId="7d28-2dad-b18a-6753"/>
-        <characteristic name="WSave" typeId="c0be-3abf-106b-e3c5"/>
-        <characteristic name="MR" typeId="bff2-f7c9-ec7f-049b"/>
-        <characteristic name="Type" typeId="19aa-ae23-b940-6567"/>
-        <characteristic name="Unit Strength" typeId="15a7-2c11-57a9-e43d"/>
       </characteristics>
     </profile>
   </sharedProfiles>

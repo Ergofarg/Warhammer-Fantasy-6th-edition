@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>
@@ -8,7 +8,11 @@
     <selectionEntry id="6d56-4256-16c0-5f89" name="Destroyer of Eternities" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a624-7491-dc3a-0552" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b65-1864-8bc4-af0a" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="5d2b-5eb3-ec91-8ed2" name="DESTROYER OF ETERNITIES " hidden="false" targetId="08af-f3b5-f2e9-205a" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
       </costs>
@@ -16,7 +20,11 @@
     <selectionEntry id="a2e1-3e71-94e8-1f55" name="Crook and Flail of Radiance" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eeb-8d1e-ab67-c360" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b860-ae40-f821-7d02" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="37f8-1389-e327-d9d3" name="CROOK &amp; FLAIL OF RADIANCE " hidden="false" targetId="0e28-d916-e21d-94cd" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
       </costs>
@@ -24,7 +32,11 @@
     <selectionEntry id="9bf8-ea0f-0eff-163b" name="Blade of Setep" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dcd-6672-b9ed-c074" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd80-b2c7-550b-76c1" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="b7ed-dc0c-b81d-1ce3" name="BLADE OF SETEP" hidden="false" targetId="3976-18c1-ef36-1a72" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
       </costs>
@@ -56,6 +68,7 @@
     <selectionEntry id="3f6a-153a-8c1b-e53b" name="Serpent Staff" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d77-ac7c-f1c6-5cd6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d1-8f2f-6c3f-862f" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -72,6 +85,7 @@
     <selectionEntry id="230c-d090-80d6-bb2c" name="Scorpion Armour" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e520-d8ab-a6f4-01f0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce7-5e44-3f0c-62fb" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -88,6 +102,7 @@
     <selectionEntry id="9112-694a-35ee-6e0e" name="Shield of Ptra" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="251c-7aa9-5515-ecad" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc8-21b0-f2af-ea9d" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -211,6 +226,7 @@
     <selectionEntry id="fe28-1e60-a5c4-be59" name="Neferra&apos;s Plaques of Mighty Incantations" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e71-7948-583e-1753" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac1-76f8-e708-3fe0" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -349,16 +365,22 @@
       <entryLinks>
         <entryLink id="15df-d8c0-1bf2-0602" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="d2f8-23d9-1194-ca26" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
-        <entryLink id="8dfd-54fd-00d0-1b11" name="Staff of Ravening" hidden="false" collective="false" import="true" targetId="41d4-3709-0119-eeb9" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a4-390d-d65e-cab3" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="81ac-c2dd-b19d-6bed" name="Neferra&apos;s Plaques of Mighty Incantations" hidden="false" collective="false" import="true" targetId="fe28-1e60-a5c4-be59" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb0-0774-67eb-b14d" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="8dfd-54fd-00d0-1b11" name="Staff of Ravening" hidden="false" collective="false" import="true" targetId="41d4-3709-0119-eeb9" type="selectionEntry"/>
+        <entryLink id="81ac-c2dd-b19d-6bed" name="Neferra&apos;s Plaques of Mighty Incantations" hidden="false" collective="false" import="true" targetId="fe28-1e60-a5c4-be59" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9d9b-ec5a-84b4-13af" name="Magic Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f414-2cae-68c3-605a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f1d4-4246-e370-6667" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="4d0d-5b4d-21c1-087e" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
+        <entryLink id="ce05-109f-bfeb-95a2" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
+        <entryLink id="19a0-42ac-14a5-3d2f" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+        <entryLink id="a7f2-eae5-aa5e-fffd" name="Destroyer of Eternities" hidden="false" collective="false" import="true" targetId="6d56-4256-16c0-5f89" type="selectionEntry"/>
+        <entryLink id="c7d7-4e2f-fd4a-9ede" name="Crook and Flail of Radiance" hidden="false" collective="false" import="true" targetId="a2e1-3e71-94e8-1f55" type="selectionEntry"/>
+        <entryLink id="c1db-9afa-9c20-702e" name="Blade of Setep" hidden="false" collective="false" import="true" targetId="9bf8-ea0f-0eff-163b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -537,6 +559,23 @@ Rare: Screaming Skull Catapault, Carrion, and Skeleton Chariots.</description>
     </rule>
     <rule id="ea59-c5a2-98bb-c3a7" name="Amulet of Pha-Stah" hidden="false">
       <description>Stuff here</description>
+    </rule>
+    <rule id="08af-f3b5-f2e9-205a" name="DESTROYER OF ETERNITIES " publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false">
+      <description>Tomb King on foot only
+The bloodthirsty King Nekbesb first wielded this massive, ornate blade in battle, smashing his foes in a directions and severing limbs and heads with eat swing. It is said that those slain by its blade have no chance of reaching the afterlife, and it was thus greatly feared in ancient Nehekbara. The sword was also use to ritually execute captured foes of the king, and it can cleave through armour, muscle and bone with ease.
+Counts as a great weapon and has the Killing Blow special ability. The player may choose to attack normally with the Destroyer of Eternities or make a special attack If the special attack is chosen, all enemy models that are touching the Tomb King take two automatic hits. The hits do benefit from the special rules for great weapons_ and Killing Blow. If a target is riding a monster or a chariot, then both take two automatic hits. In a challenge, only the model engaged in the challenge, counts as being in contact with the Tomb King.
+</description>
+    </rule>
+    <rule id="0e28-d916-e21d-94cd" name="CROOK &amp; FLAIL OF RADIANCE " publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false">
+      <description>Tomb King or Tomb Prince only.
+These gleaming, golden weapons represent the high status of the bearer, and all in his presence are humbled by the aura of majesty these weapons convey. Only the most powerful and influential leaders may bear these sacred symbols of rulersbip.
++1 Attack. Always strikes first. If another character has this ability, then resolve the order of attacks in Initiative. order. Requires two hands.
+</description>
+    </rule>
+    <rule id="3976-18c1-ef36-1a72" name="BLADE OF SETEP" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false">
+      <description>This highly ornamented curved sword belonged to king Setep of the 5th Khernrian Dynasty, and its edge shimmers with blue energy that can shatter armour.
+Normal armour cannot save against the Wade of Setep. If an enemy model hit by this sword wears magical armour,. then the first hit is automatically discounted (do not roll• to wound) but the magical armour is destroyed for the remainder of the battle. Resolve any further hits as normal.
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
