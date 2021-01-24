@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="5" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="5" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.</readme>
   <publications>
     <publication id="8e66-3042-1d6b-fa6b" name="Vampire Counts Army book"/>
@@ -2904,7 +2904,6 @@
       <selectionEntries>
         <selectionEntry id="fb58-1e62-1283-db8c" name="Hell Banner" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="0881-3bd5-b209-2118" name="Hell Banner" hidden="false" targetId="734d-a49c-211a-e21d" type="profile"/>
             <infoLink id="448f-ffac-0fa4-4692" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
           </infoLinks>
           <costs>
@@ -2912,33 +2911,21 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="aceb-8d67-d17e-b596" name="Banner of Doom" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="cca4-cf67-880d-6999" name="Banner of Doom" hidden="false" targetId="69f3-7b42-267f-a3b1" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0eb3-d26c-b1d0-cafe" name="Banner of the Barrows " hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="b072-5761-0a33-328c" name="Banner of the Barrows " hidden="false" targetId="8207-2084-7070-042b" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de00-7f16-33b8-6c1e" name="Screaming Banner" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="16f9-4ef9-db5e-9667" name="Screaming Banner" hidden="false" targetId="1eaa-889a-4a76-50fd" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d20-2ef5-cf56-83ab" name="Banner of the Dead Legion " hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="4cb5-4760-9e9c-da40" name="Banner of the Dead Legion " hidden="false" targetId="c911-e678-4664-63c1" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -3013,9 +3000,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b2-7d83-17ef-f4e9" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="dad1-f2f4-afef-5664" name="Obsidian Amulet" hidden="false" targetId="9b20-7b4e-392b-b1c5" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
@@ -3024,9 +3008,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e47-075f-11cf-1d53" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="d059-c348-5c65-e358" name="Crown of the Damned" hidden="false" targetId="12fe-7934-b88f-7cd6" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
           </costs>
@@ -3035,9 +3016,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0e-c5c9-f9e5-aafe" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="cc5b-aa96-0ee1-2e40" name="Wristbands of Black Gold " hidden="false" targetId="8096-5d18-b5d2-f2f7" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -3046,9 +3024,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f95-eb40-d9bb-3e6e" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="aaf2-e301-77fb-8c67" name="Ring of the Night" hidden="false" targetId="60e5-81e6-8798-b795" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -3057,9 +3032,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c6-328f-fcb3-395b" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="4a04-4285-efbf-4fe3" name="The Gem of Blood" hidden="false" targetId="9299-e73d-0714-1739" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -3078,9 +3050,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e309-8c5f-eab3-204a" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="4221-4b09-cd0c-0a4b" name="Rod of Flaming Death " hidden="false" targetId="6cef-8d38-9ae3-ea0a" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -3089,9 +3058,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ad-c7ea-1916-3c28" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="daa6-1d0b-6f5c-c278" name="Cursed Book" hidden="false" targetId="cceb-810f-21b2-e383" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -3100,9 +3066,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbdf-fc18-5581-1ef2" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="78bc-0656-c10b-8de6" name="Cloak of Mist and Shadows " hidden="false" targetId="897b-7a6c-a7e7-8966" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
@@ -3111,9 +3074,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af0-7513-7375-ff53" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="4ad0-8092-b47c-0bd5" name="Talon of Death" hidden="false" targetId="aeca-941a-c8fe-414a" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
           </costs>
@@ -3122,9 +3082,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c235-25ac-6aaf-b4bd" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="d503-7dd8-bb65-ac6c" name="Casket of Ages" hidden="false" targetId="a6a0-0a60-d565-88b1" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -3184,6 +3141,7 @@
       <entryLinks>
         <entryLink id="4ac4-997b-4bc3-6e52" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="cdf9-8578-fc1a-9c2e" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="be73-46ef-c70a-1bbe" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b1a2-07df-1a18-9bf9" name="Von Carstein traits" hidden="false" collective="false" import="true">
@@ -3260,7 +3218,6 @@
       <selectionEntries>
         <selectionEntry id="e857-f264-1c2a-2b13" name="The Carstein Ring" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="f9c6-1cb3-be37-b147" name="The Carstein Ring" hidden="false" targetId="e8a8-f06c-3518-a61e" type="profile"/>
             <infoLink id="47b3-a166-83b6-a26f" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
           </infoLinks>
           <costs>
@@ -3268,41 +3225,26 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="e222-e08e-b12a-9f50" name="Obsidian Amulet" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="94fc-6994-79c1-e77f" name="Obsidian Amulet" hidden="false" targetId="9b20-7b4e-392b-b1c5" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1343-cd6e-1557-c32f" name="Crown of the Damned" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="8cb9-9c4b-bb22-fc80" name="Crown of the Damned" hidden="false" targetId="12fe-7934-b88f-7cd6" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="725e-360a-d271-8fcb" name="Wristbands of Black Gold " hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="0daa-aa53-7449-89a9" name="Wristbands of Black Gold " hidden="false" targetId="8096-5d18-b5d2-f2f7" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d21c-11a4-3680-632c" name="Ring of the Night" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="5b3a-e0bf-f880-888e" name="Ring of the Night" hidden="false" targetId="60e5-81e6-8798-b795" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2074-2508-5ab0-bfa2" name="The Gem of Blood" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="76ca-1816-c014-f8aa" name="The Gem of Blood" hidden="false" targetId="9299-e73d-0714-1739" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -3843,6 +3785,7 @@
       <entryLinks>
         <entryLink id="adb3-9853-d566-e432" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="a7ac-677c-c302-3837" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="0962-0219-470b-4952" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c04c-1eca-d10a-2d74" name="Magic Weapons necromancer" hidden="false" collective="false" import="true">
@@ -4439,50 +4382,7 @@ All Bretonnian Knights and Characters hate the model carrying the shield
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="e8a8-f06c-3518-a61e" name="The Carstein Ring" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Von Carstein Vampires only.
-An ancient heirloom of the twisted reigning house of Sylvania, this ring is known to make a Vampire carrying it almost impossible to kill.
-The model has a 4+ Ward save and the Regeneration special rule (sec page 113 of the Warhammer rulebook).
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9b20-7b4e-392b-b1c5" name="Obsidian Amulet" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The dark energies of this powerful Bens surround the wearer and deflect enemy spells and magic weapons.
-The bearer has a 4+ Ward save against wounds caused by magic weapons, spells or indeed any form of magical attack. In addition, the ring confers Magic Resistance (1).
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="12fe-7934-b88f-7cd6" name="Crown of the Damned" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The bearer draws revitalising energies from the spirits imprisoned within the Crown, but at times- their eternal wailing overpowers the mind.
-4+ Ward save. The wearer is subject to stupidity (even if the model is normally Immune to Psychology</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8096-5d18-b5d2-f2f7" name="Wristbands of Black Gold " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">These ancient ornaments are capable of deflecting arrows. darts and bullets directed against the bearer
-3+ Ward save against missile fire of any kind (including hits from war machines. template attacks. magic missiles, etc).
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="60e5-81e6-8798-b795" name="Ring of the Night" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">This magic Jewel has the power to draw a cloud of concealing darkness around the bearer
-5+ Ward save.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9299-e73d-0714-1739" name="The Gem of Blood" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">One use only.
-An ancient relic from Nehekhara, this cursed gem is extremely dangerous for the bearer&apos;s opponents, but it is said that it will eventually be the undoing of its muster.
-When the wearer suffers its first wound in close combat. the gem is activated. Roll a dice. On a result of 2+. the wound is saved and rebounded on the model who caused it. with no armour saves allowed. On a result of 1, the wound is not saved and the hearer suffers 1 additional wound, with no armour saves allowed.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1c24-180a-fdf8-f035" name="Power Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="1c24-180a-fdf8-f035" name="Power Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
 A Power Familiar attracts raw magic power to its owner.
@@ -4490,7 +4390,7 @@ The Familiar adds one dice to both the Power dice and the Dispel dice pool of th
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="a0d8-17da-a93c-7fbb" name="Staff of Damnation" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="a0d8-17da-a93c-7fbb" name="Staff of Damnation" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell, Power Level 4.
 The Staff of Danmation contains a powerful spell that fills the undead with renewed vigour.
@@ -4499,7 +4399,7 @@ Roll a d6 each time the Staff is used. On a roll of 1, the Staff is temporarily 
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="87ff-db95-88d8-c04c" name="Skull Staff" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="87ff-db95-88d8-c04c" name="Skull Staff" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Skull Staff constantly whispers to its hearer, revealing the secrets of magic.
 At the beginning of the bearer&apos;s Magic phase, the enemy must reveal all magic items carried by each one of his models within 12&quot; of the Skull Stall&apos;s bearer.
@@ -4507,7 +4407,7 @@ In addition, thanks to the wise advice of the skull, after the bearer has rolled
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="ce48-5f75-450b-c70b" name="Warrior Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="ce48-5f75-450b-c70b" name="Warrior Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
 A Warrior Familiar accompanies its master and fights to protect him. This magical bodyguard usually takes the form of a diminutive warrior or a tiny monstrous creature
@@ -4515,7 +4415,7 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="e61e-d626-b43d-7cd5" name="Book of Amman" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="e61e-d626-b43d-7cd5" name="Book of Amman" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell, Power Level 3.
 This terrible book is said to have belonged to Arkhan the Black, the greatest general of Nagash&apos;s armies in ancient Nehekbara. It still has the power to stir the undead, filling them with unnatural vigour.
@@ -4524,14 +4424,14 @@ Roll a D6 each time the Book is used. On a result of 1 its powers are temporaril
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="f48f-dd20-1093-9874" name="Black Periapt" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="f48f-dd20-1093-9874" name="Black Periapt" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">This maleficent jewel has the power to trap the winds of Amethyst magic and accumulate them for its bearer, or his lord, to use
 The Pedant allows the hearer to save one unused Power dice or Dispel dice at the end of any Magic phase and store it, to add it to his side&apos;s dice pool in the next Magic phase.
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="5135-fdc8-4ee0-68a8" name="Spell Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+    <profile id="5135-fdc8-4ee0-68a8" name="Spell Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
 A Spell familiar memorises a spell on its master&apos;s behalf offering its master a better choice of deadly spells to unleash in battle.
@@ -4576,83 +4476,6 @@ The Familiar&apos;s owner knows one more spell than he is normally allowed. This
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">4</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6cef-8d38-9ae3-ea0a" name="Rod of Flaming Death " hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell. Power Level 4.
-the Rod contains a sinister spell of destruction which takes the shape of a flaming skull that hurtles against the enemy with a loud and terrifying scream
-the bearer can cast the Rod&apos;s spell once in his Magic phase. The spell requires no Power dice to cast.
-A flaming magic missile with a range of 24&quot; and causing D3 Strength 4 hits spews from the staff. A unit taking at least one casualty must take a Panic test.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="cceb-810f-21b2-e383" name="Cursed Book" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">This tome was written by the mad Necromancer Har&apos;ak Iman, said to be the most depraved man to have ever lived. His vileness radiates from the Book. draining life and energy from all living beings.
-All enemy models within 6&quot; of the Book&apos;s bearer suffer a -1 penalty on their rolls to hit in close combat.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="897b-7a6c-a7e7-8966" name="Cloak of Mist and Shadows " hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">This cloak endows the wearer with ethereal form. Free from 
-the bond of his material body the Undead is free to none 
-through solid matter like a ghost.
-This item can be used only by models on foot. The wearer is Ethereal for the entire game (see page 28). Ile may cast spells in this form, but cannot use missile weapons nor strike blows in close combat, except against other Ethereal creatures.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="aeca-941a-c8fe-414a" name="Talon of Death" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">The touch of the Talon of Death leaves its victims as mere dried husks.
-All enemy models in base contact with the bearer of the Talon of Death automatically suffer 1 Strength 5 hit at the end of each of the bearer&apos;s Movement phases.
-If a character riding a monster/chariot is touching the bearer then both rider and the mount/chariot suffer 1 Strength 5 hit
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a6a0-0a60-d565-88b1" name="Casket of Ages" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell, Power Level 3. One use only.
-The Casket is said to contain the mummified  hand of the Supreme Lord of the Undead
-The Casket may cast its spell once during the battle. The spell requires no Power dice to cast; all the power required is provided by the Casket itself
-When the Casket&apos;s spell is cast, a model in base contact with the bearer (chosen by the bearer) suffers one wound. No armour save is allowed. If the wound is not saved, the victim must also take a Toughness test or die immediately, with no saves allowed whatsoever, not even Ward saves.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="734d-a49c-211a-e21d" name="Hell Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Encrusted with the filth of ages the Hell Banner inspires horror in the hearts of all those who gaze upon it
-All models in the unit cause terror Remember that all models in this unit will cause fear in fear-causing models.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="69f3-7b42-267f-a3b1" name="Banner of Doom" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">The Undead warriors carrying this ancient icon of death are invigorated by its power and can rise again to rejoin the ranks after having been shot down by the enemy,
-The unit has a 5+ ward save against normal and magical missiles.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8207-2084-7070-042b" name="Banner of the Barrows " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Woven from the wind and cold, the chill of this banner touches the hearts of those who stand against its bearers.
-All Wights (Grave Guard, Black Knights and Wight lords) in the unit carrying the Banner will hit the enemy on a 3+, regardless of relative Weapon Skills or any other modifier.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1eaa-889a-4a76-50fd" name="Screaming Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Even the bravest warriors tremble at the thought of fighting the unit carrying this terrifying banner.
-Enemy units taking a Fear test caused by the unit carrying this Banner must roll one extra dice for their test and discard the one with the lowest result.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c911-e678-4664-63c1" name="Banner of the Dead Legion " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">This banner makes the enemies see the Undead they are fighting as a numberless, unstoppable horde.
-Treat the unit carrying the Banner as if it had 1D6 higher Unit Strength than it actually does. Roll each time you need to calculate the Unit Strength. The result applies only for that phase (Movement, Magic, etc) and you will have to roll again in other phases when needed.
-</characteristic>
       </characteristics>
     </profile>
     <profile id="fabd-ef67-72f5-6b3f" name="Vampire Count" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">

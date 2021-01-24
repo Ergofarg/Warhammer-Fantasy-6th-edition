@@ -4570,6 +4570,66 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6a95-95ff-7763-bd6d" name="Buzgob&apos;s Knobbly Staff " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7bb9-9e7c-920b-9c2a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c807-4ad1-4a8d-d2b1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c6ac-c028-d3c0-05ab" name="Buzgob&apos;s Knobbly Staff " hidden="false" targetId="a8de-dba1-a3cd-f79a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="704c-1121-5a10-174e" name="Dangly Wotnotz " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f844-4ce7-6b58-c922" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="18fd-6404-1d67-ebe3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="058d-ad88-eb5c-814d" name="Dangly Wotnotz " hidden="false" targetId="f444-77d1-cf67-81f7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d46e-ef96-d733-e1ae" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3281-2576-3bca-42e2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3549-7f0f-3bb8-3ceb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="427c-e5f2-677d-4852" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" targetId="396e-b169-c6d9-1053" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4676-97f2-17cb-60fa" name="Staff of Baduum " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3ff1-2723-6e78-b3da" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e40b-8ecc-8b62-ddbe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e7d6-8b9a-ad57-900c" name="Staff of Baduum " hidden="false" targetId="44c7-924f-5054-ab52" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a038-6d17-2707-62c4" name="Staff of Sneaky Stealin&apos; " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d55e-fe3b-3980-c09e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae23-b675-31a1-a67b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2b0b-429f-4723-50d6" name="Staff of Sneaky Stealin&apos; " hidden="false" targetId="4fd6-a78b-9c5c-5411" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -4876,7 +4936,7 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04ff-5fc7-7bf3-ef90" type="instanceOf"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="8c44-1e38-e587-56cf" value="1.0">
@@ -4884,74 +4944,22 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="instanceOf"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c44-1e38-e587-56cf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c44-1e38-e587-56cf" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="7ba6-9d7e-0896-918a" name="Staff of Baduum " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0750-fece-14e2-b898" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0615-e04b-38e9-4ae3" name="Staff of Baduum " hidden="false" targetId="44c7-924f-5054-ab52" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1a1d-714c-1f20-b47c" name="Buzgob&apos;s Knobbly Staff " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f25-2efe-6bcc-35aa" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0774-e812-5c07-d55a" name="Buzgob&apos;s Knobbly Staff " hidden="false" targetId="a8de-dba1-a3cd-f79a" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cb7d-7c41-56fb-ba8c" name="Dangly Wotnotz " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c26-e37b-42dc-cf73" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="8035-bbf6-782b-1072" name="Dangly Wotnotz " hidden="false" targetId="f444-77d1-cf67-81f7" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="83f8-53ed-9ebb-c815" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeab-a05c-b299-5cc2" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d2fa-4224-49b1-4355" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" targetId="396e-b169-c6d9-1053" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="da39-476b-9ce0-3d71" name="Staff of Sneaky Stealin&apos; " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4038-0b06-28c8-c0a9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ef51-420b-62c9-294c" name="Staff of Sneaky Stealin&apos; " hidden="false" targetId="4fd6-a78b-9c5c-5411" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="04ff-5fc7-7bf3-ef90" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="1bd7-dae0-aaac-a26a" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
         <entryLink id="ca1f-3345-b109-b3da" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="99ed-8337-b602-d233" name="Buzgob&apos;s Knobbly Staff " hidden="false" collective="false" import="true" targetId="6a95-95ff-7763-bd6d" type="selectionEntry"/>
+        <entryLink id="4a92-7199-230b-6852" name="Dangly Wotnotz " hidden="false" collective="false" import="true" targetId="704c-1121-5a10-174e" type="selectionEntry"/>
+        <entryLink id="df7d-3a58-03b7-78fb" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" collective="false" import="true" targetId="d46e-ef96-d733-e1ae" type="selectionEntry"/>
+        <entryLink id="e2f0-cfc3-a4da-65d5" name="Staff of Baduum " hidden="false" collective="false" import="true" targetId="4676-97f2-17cb-60fa" type="selectionEntry"/>
+        <entryLink id="3a22-7c39-fc6e-056e" name="Staff of Sneaky Stealin&apos; " hidden="false" collective="false" import="true" targetId="a038-6d17-2707-62c4" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4530-6ba6-8337-3954" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -5016,7 +5024,6 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc5-2f00-1c5b-7256" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3ef9-09d8-7f15-3889" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" targetId="dbaf-8b61-ecff-9410" type="profile"/>
             <infoLink id="3733-9628-7b21-0f52" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
           </infoLinks>
           <costs>
@@ -5339,11 +5346,9 @@ D6 Result
         <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">No Armour saves</characteristic>
       </characteristics>
     </profile>
-    <profile id="5064-87f2-2636-434c" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+    <profile id="5064-87f2-2636-434c" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Range" typeId="3107-4d1e-9a51-6564"/>
-        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378"/>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">+2A</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
     <profile id="c75b-68af-56e1-fd1b" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -5353,10 +5358,9 @@ D6 Result
         <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Always hits on 2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="4541-e21d-a6b0-d44d" name="Bad Moon Banner " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="4541-e21d-a6b0-d44d" name="Bad Moon Banner " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Unit is Stubborn
-Night goblins only</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
     <profile id="014f-54d6-8281-3d76" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -5451,30 +5455,29 @@ Night goblins only</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Also 6+WS, goblins only</characteristic>
       </characteristics>
     </profile>
-    <profile id="9cee-0a11-adc9-f4bf" name="Sizzla&apos;s Shiny Baubles " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
+    <profile id="9cee-0a11-adc9-f4bf" name="Sizzla&apos;s Shiny Baubles " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Reflects spells cast at unit on a 4+ including IF</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="68e7-ec52-8e9f-ea58" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
+    <profile id="68e7-ec52-8e9f-ea58" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward Save</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="d2c7-d66c-a6a7-c661" name="Magical Warpaint " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
+    <profile id="d2c7-d66c-a6a7-c661" name="Magical Warpaint " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward Save, Savage Orcs only</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="36cf-fd13-f395-d140" name="Glowy Green Amulet " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
+    <profile id="36cf-fd13-f395-d140" name="Glowy Green Amulet " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Can dispel spells cast at the bearer. Roll same number of die as the caster. Any &apos;1&apos;s&apos; is a hailure and bearer dies. All else, spell is dispelled.
-</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="5e7b-b182-e45e-1299" name="The Collar of Zorga " hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
+    <profile id="5e7b-b182-e45e-1299" name="The Collar of Zorga " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">monsters and mounts must pass Ld test to attack model.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
     <profile id="44c7-924f-5054-ab52" name="Staff of Baduum " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
@@ -5503,77 +5506,69 @@ Night goblins only</characteristic>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">May steal 1 espel dice once per battle</characteristic>
       </characteristics>
     </profile>
-    <profile id="527a-e5b7-85a6-0624" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="527a-e5b7-85a6-0624" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">+1A with killing blow
-Orcs only</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="05d5-bff9-577c-7829" name="Effigy of Mork " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="05d5-bff9-577c-7829" name="Effigy of Mork " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">All hits on bearer are at =1 to hit.
-Savage Orcs only</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="ea4c-547e-44d2-e38a" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="ea4c-547e-44d2-e38a" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bearer gets one additional auto hit at bearers strength</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="000a-5382-ee87-ffa0" name="Guzzla&apos;s Backbone Brew " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="000a-5382-ee87-ffa0" name="Guzzla&apos;s Backbone Brew " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Boost Leadership to 10 for one test. Ld is modified as normal. Applies to rerolls</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="8156-eeb0-10ad-a7d9" name="Mad Cap Mushrooms " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="8156-eeb0-10ad-a7d9" name="Mad Cap Mushrooms " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Fantatics give 2D6 damage on turn release. Night goblins only.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="dbaf-8b61-ecff-9410" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="f42e-6dfa-0499-cbe9" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Used in challenges only. One extra Attack made before all other blows are struck. Has Killing blow. Orc only</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="f42e-6dfa-0499-cbe9" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
+    <profile id="aada-4705-7f92-884e" name="Mork&apos;s Spirit-totem " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell PL3 &apos;Eadbutt</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="aada-4705-7f92-884e" name="Mork&apos;s Spirit-totem " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="279d-3948-78dd-ed04" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Unit has Magical Resistance 1 (MR1). +1 to dispel spells cast elsewhere. Wizards in base contact with unit cannot cast spells</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="279d-3948-78dd-ed04" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="56df-e6e5-7d27-1d29" name="Night Banner " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Common goblins only.
-Models in unit get +1 Ld upto maximun of 9</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="56df-e6e5-7d27-1d29" name="Night Banner " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="1667-8816-dd31-7558" name="Gork&apos;s Waaagh! Banner " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Missile units fire at -1 to hit unit</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="1667-8816-dd31-7558" name="Gork&apos;s Waaagh! Banner " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="afbd-0052-ef29-5254" name="Guff&apos;s Flag " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">+1 M when moving toward enemy (=+2 when charging or marching)</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="afbd-0052-ef29-5254" name="Guff&apos;s Flag " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="1e03-8713-65f6-9dff" name="Nogg&apos;s Banner of Butchery " hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Re-roll one failed break test during battle</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
-    <profile id="1e03-8713-65f6-9dff" name="Nogg&apos;s Banner of Butchery " hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
+    <profile id="ddad-f492-473d-b222" name="The Bashin&apos; Flag of Bork" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Once in a battle add 1 attack to the model. Only rider in case of mounts</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ddad-f492-473d-b222" name="The Bashin&apos; Flag of Bork" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-      <characteristics>
-        <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Ignore the first failed animosity test</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627"/>
       </characteristics>
     </profile>
     <profile id="a3a4-411c-d447-c84d" name="Warpaint" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">

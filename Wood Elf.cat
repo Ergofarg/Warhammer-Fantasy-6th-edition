@@ -3,6 +3,13 @@
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="052f-5a92-5e7c-307a" name="Arcane Items" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="f547-f4c3-b675-e2f1" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="dd5f-f74d-a4a8-ba5b" name="Bodyguard" hidden="false">
       <description>Eternal Guard are pledged to stand beside their lord even should the spectre of death come to claim them. When joined by a Wood Elf Highborn or Noble, a unit of Eternal Guard is Stubborn.</description>

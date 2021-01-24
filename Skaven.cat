@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ab4d-6e55-06e6-6e8e" name="Arcane Items" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e5de-a71e-b538-f2b5" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

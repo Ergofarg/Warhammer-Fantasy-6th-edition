@@ -957,13 +957,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c17-1c96-d164-dce5" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="4ebf-5917-42d2-5605" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">S equals one higher than targets toughness, upto a maximum of 6 for &apos;to wound&apos; and saves.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
                       </costs>
@@ -972,13 +965,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3594-d9af-67d3-2b81" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="c9c2-7fe0-0606-dbfa" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">For every wound suffered, loose -1 on all others stats except Mv for rest of the battle.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
                       </costs>
@@ -987,13 +973,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c503-0f30-b975-1b2f" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="0693-b1bb-d46c-6301" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Poisoned attacks</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
                       </costs>
@@ -1009,13 +988,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e241-218e-76d5-9e49" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="d8a8-8d5e-5fd3-8f36" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
                       </costs>
@@ -1024,13 +996,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e955-70d5-7b15-8d8f" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="7ee9-fbf2-adaa-1b9d" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Has killing blow</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
                       </costs>
@@ -1039,14 +1004,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="051b-20a9-2ad6-a092" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="5450-09c6-ad97-b0d8" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">+1 A , must pursue broken units
-</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
                       </costs>
@@ -1055,14 +1012,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d28-a50d-a269-2e1b" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="f057-a7c7-b377-7193" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">One model in b2b contact loose 1 attack chosen by player. No effect on Immune to Pscology&apos;.
-</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
                       </costs>
@@ -1071,13 +1020,6 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91c0-6b20-956b-0c3c" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="5db0-7b8b-c186-093e" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-                          <characteristics>
-                            <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Charged target must pass Ld or be -1 WS (Mininmum 1) for rest of cc.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
                       </costs>
@@ -2466,14 +2408,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f74-3185-9cb1-fc15" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a149-d32f-293b-ebc4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="edfa-3af7-9fb0-0f58" name="Black Amulet" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save, if passes attacker takes a wound no saves whatsoever, not even ward
-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2483,13 +2417,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42d6-9751-49ad-4a90" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d6-17c2-f9c6-6956" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="dea9-bbff-3319-08fb" name="Deathmask" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Cause Terror</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2499,13 +2426,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ac-289b-6b8f-b093" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad43-f98e-51e4-a126" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="63b7-38a2-6e37-93fc" name="Crown of Black Iron" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save, Immune to high and light magic (character only, not unit or mount)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
           </costs>
@@ -2515,13 +2435,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="125a-65da-e241-d86a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f89-94be-c60d-529c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="c3e0-87c9-5fba-7dd7" name="Seal of Ghrond" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Add 1 die to dispel pool</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2531,14 +2444,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9864-b31d-745a-b3d0" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc0-beb4-9da4-d52d" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d139-f02c-7013-3ea3" name="Ring of Hotek" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">ANY magic user within 6&quot; rolling any doubles is a miscast. double 6 is IF then roll for miscast.
-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
@@ -2558,15 +2463,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2e-0361-a96d-c855" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce95-3b33-9ce8-47f2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="229b-606d-7d0d-87c6" name="Rubicon of Dark dimensions" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell PL5
-One use only.
-On foot only, any model in b-2b contact with bearer must roll equal to or under str on D6. 6 always fails. Failed =slain.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2576,14 +2472,6 @@ On foot only, any model in b-2b contact with bearer must roll equal to or under 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd21-4920-9871-bca2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b607-ed14-29d6-7aa4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="2d7f-b3c3-7433-67d6" name="Ring of Darkness" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound spell PL4
-Attackers require 6 to hit regardless of WS and modifiers. Remains in play</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
@@ -2593,14 +2481,6 @@ Attackers require 6 to hit regardless of WS and modifiers. Remains in play</char
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163c-5aee-e94e-30dd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f26-c8b0-464e-f168" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0677-6a86-b863-7b60" name="Crystal of Midnight" hidden="false" typeId="328f-6716-77b4-7370" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">One use only. Bound Spell PL4
-Choose a magic user anywhere on battlefield, must roll under ld on 3d6 or forgets one spell.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2700,6 +2580,7 @@ Spell still fails</characteristic>
       <entryLinks>
         <entryLink id="476b-d9b4-0608-93b6" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="ee7c-0de7-6022-8d27" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="381f-a007-34a1-4008" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b41c-e666-5fb2-daf2" name="Magic Standards" hidden="false" collective="false" import="true">
@@ -2712,13 +2593,6 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a463-6e47-6e7e-d252" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f114-626f-d484-6cbb" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5119-64b6-64c1-ed09" name="Banner of Nagarythe" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">+1 CR for all units in 6&quot; and unit with banner is unbreakable</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="150.0"/>
           </costs>
@@ -2728,13 +2602,6 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a950-9162-d295-d7e0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2340-8d48-d010-0f49" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0b23-aa01-e57c-cd8b" name="Hydra Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">All models including mounts recieve +1 A in the first round of combat</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
           </costs>
@@ -2744,13 +2611,6 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b13-eb51-f8ba-8836" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe5-378b-2ecb-729a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1f70-1527-0cef-8edc" name="Dread Banner" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Unit causes Fear</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
           </costs>
@@ -2760,14 +2620,6 @@ Spell still fails</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4463-79b9-f231-eaae" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6a-e4d0-1a56-015e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="bf6f-da46-79b2-733e" name="Banner of Murder" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Can charge +D6&quot;
-On a failed charge move normal amout</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
@@ -2777,14 +2629,6 @@ On a failed charge move normal amout</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a097-02b4-1c00-6a77" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a32-1e98-65dc-dfbb" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="75ef-26cd-8b64-7d9e" name="Standard of Slaughter" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">One use only
-Unit gains D3CR on first turn charges.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
           </costs>
@@ -2803,13 +2647,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ba-d693-c44b-fa9e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d15c-945d-6ed3-f31a" name="Manblade" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">S equals one higher than targets toughness, upto a maximum of 6 for &apos;to wound&apos; and saves.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2818,13 +2655,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ce4-ac6b-4abe-fd67" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d6ff-231c-d2a6-0927" name="Black Lotus" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">For every wound suffered, loose -1 on all others stats except Mv for rest of the battle.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2833,13 +2663,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce6-5ff9-7e5e-5bd9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ae4b-4db0-9389-8503" name="Dark Venom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Poisoned attacks</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
@@ -2855,13 +2678,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2144-bfd5-6643-00e2" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5e05-59d4-c668-f2e9" name="Dance of Doom" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">5+ Ward save</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2870,13 +2686,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0824-2604-66b1-be14" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="b529-6e28-0590-de28" name="Touch of Death" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Has killing blow</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2885,14 +2694,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c242-7fe4-c127-583c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="74a0-729c-5443-43f6" name="Rune of Kaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">+1 A , must pursue broken units
-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2901,14 +2702,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b0-c1e0-2a7d-668c" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f23d-c0d8-f828-d6e8" name="Hand of Khaine" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">One model in b2b contact loose 1 attack chosen by player. No effect on Immune to Pscology&apos;.
-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2917,13 +2710,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22f-19a6-b378-9e66" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="0513-ee1f-de8d-cac3" name="Witchbrew" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Hags only. </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2932,13 +2718,6 @@ Unit gains D3CR on first turn charges.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eaa-fe88-9dd7-be88" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="bd77-6193-539a-de26" name="Cry of War" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Charged target must pass Ld or be -1 WS (Mininmum 1) for rest of cc.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>

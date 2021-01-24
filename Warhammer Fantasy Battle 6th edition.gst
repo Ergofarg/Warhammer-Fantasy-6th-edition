@@ -33,24 +33,9 @@
         <characteristicType id="42c3-68ab-cfa5-203e" name="Special rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5feb-de73-fa5c-452f" name="Use magic items instead">
-      <characteristicTypes>
-        <characteristicType id="e5e2-c31b-6ae8-d4fe" name="Magic ability"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="328f-6716-77b4-7370" name="Use magic items instead">
-      <characteristicTypes>
-        <characteristicType id="9115-6a02-75f6-e3b4" name="Magic ability"/>
-      </characteristicTypes>
-    </profileType>
     <profileType id="a89b-d5a3-7805-c44e" name="Magic Items">
       <characteristicTypes>
         <characteristicType id="c7b5-c239-d6c1-0627" name="Magic stuff"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="2b76-c982-4781-e2d3" name="Use magic items instead">
-      <characteristicTypes>
-        <characteristicType id="8121-d7b8-a7c7-352c" name="Magic Stuff"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -243,7 +228,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eed4-81a0-979b-ef01" type="max"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7cc-76a3-c413-ddb8" name="Talisman of Protection" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" collective="false" import="true" type="upgrade">
@@ -494,6 +479,15 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bd00-7ec3-0e5b-0d52" name="Brace Of Pistols" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3854-bcd0-2619-e868" name="Brace Of Pistols" hidden="false" targetId="e5ce-0262-e817-adc2" type="rule"/>
+        <infoLink id="8257-bdb1-5d78-797b" name="Pistol" hidden="false" targetId="e6ab-509a-9826-7080" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="3d6b-9611-a257-ad03" name="Infantry" hidden="false"/>
@@ -560,6 +554,9 @@ These troops never break in close combat, and they are also immune to panic, ter
       <description>Some warriors and creatures in the Warhammer world are almost completely fearless, or such grizzled veterans that scenes which would make lesser troops panic have no effect on them.
 Troops that are immune to psychology are never affected by fear terror, frenzy or any other Psychology rules. Troops immune to Psychology may never flee as a charge reaction - they are far too proud and brave to do this! These troops still have to take Break tests as normal.
 </description>
+    </rule>
+    <rule id="e5ce-0262-e817-adc2" name="Brace Of Pistols" hidden="false">
+      <description>In first round of combat (H-T-H) the model counts as having two handweapons. In the first turn only these have STR4 and Armour Piercing.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

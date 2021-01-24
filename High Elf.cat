@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
+<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.
+All High Elves hate Dark Elves.</readme>
   <publications>
-    <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>
+    <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book"/>
   </publications>
+  <categoryEntries>
+    <categoryEntry id="c465-2fc2-d2bf-4722" name="First among Equals" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f3-2a8b-be27-66c6" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="f42c-be6f-8a5d-7199" name="Prince" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -21,9 +29,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="cab1-5fff-2eb0-52a7" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="89d7-fc0d-a25b-f7e1" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="7ed8-3d4b-f01d-df45" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
@@ -209,15 +214,12 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="7dfd-a3e5-6385-5873" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="5b23-3a70-bf90-03a4" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="a48d-09e9-0201-6317" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6f81-220c-779b-c5a9" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6f81-220c-779b-c5a9" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681f-2751-9a87-cc89" type="max"/>
           </constraints>
@@ -322,9 +324,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="a4f1-b1c3-700b-6b1a" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="2fc5-4b2a-570f-d97f" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="1dc7-99ba-fd41-1b06" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
@@ -355,13 +354,6 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="dbae-b3c4-84e5-3a7d" name="Weapons" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="decrement" field="05ad-f69c-eb1b-8cab" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ad-f69c-eb1b-8cab" type="max"/>
           </constraints>
@@ -376,7 +368,7 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
               </costs>
             </entryLink>
-            <entryLink id="20f3-6d64-dc06-b93c" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+            <entryLink id="20f3-6d64-dc06-b93c" name="Additional Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
               </costs>
@@ -387,25 +379,6 @@
               </costs>
             </entryLink>
             <entryLink id="2e32-86ea-eee8-2b3a" name="Spear Infantry" hidden="false" collective="false" import="true" targetId="104f-5817-4bda-9382" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ed-1db8-eb15-b425" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="94fd-1639-7331-116e" name="Spear (Mounted)" hidden="true" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ed-1db8-eb15-b425" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
               </costs>
@@ -425,7 +398,7 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
               </costs>
             </entryLink>
-            <entryLink id="395c-2e1b-ccf3-ddf0" name="Ithilmar Barded Elven Steed" hidden="false" collective="false" import="true" targetId="670f-ceb0-8bbc-1c38" type="selectionEntry">
+            <entryLink id="395c-2e1b-ccf3-ddf0" name="Barded Elven Steed" hidden="false" collective="false" import="true" targetId="670f-ceb0-8bbc-1c38" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0333-850f-8555-c87c" type="max"/>
               </constraints>
@@ -485,18 +458,6 @@
           </constraints>
         </entryLink>
         <entryLink id="0f72-d92f-fc07-394c" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
-          <modifiers>
-            <modifier type="decrement" field="6a0b-ac16-2591-9be2" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a0b-ac16-2591-9be2" type="max"/>
           </constraints>
@@ -505,18 +466,6 @@
           </costs>
         </entryLink>
         <entryLink id="8fa8-95e8-204d-1e84" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="decrement" field="db79-71ee-537b-0dcb" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db79-71ee-537b-0dcb" type="max"/>
           </constraints>
@@ -525,9 +474,6 @@
           </costs>
         </entryLink>
         <entryLink id="182c-fb9f-79f0-1eb2" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dcd-8690-14bd-d417" type="max"/>
-          </constraints>
           <entryLinks>
             <entryLink id="5961-e106-423c-262a" name="Magic Banners" hidden="false" collective="false" import="true" targetId="c1c3-239d-926d-d504" type="selectionEntryGroup">
               <constraints>
@@ -557,9 +503,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="61db-360e-ab1d-da91" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="b8bc-159b-ade6-c87e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="7475-9475-90fd-adf7" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
@@ -656,7 +599,6 @@
             <modifier type="set" field="name" value="Archers"/>
           </modifiers>
         </infoLink>
-        <infoLink id="94ed-4845-afc4-fead" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d590-213a-cdeb-66a0" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
@@ -756,13 +698,12 @@
     <selectionEntry id="a92b-15a2-017d-0b25" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5ce4-8a07-fb65-284d" name="Fight in three ranks" hidden="false" targetId="184b-9a54-e59b-eef5" type="rule"/>
-        <infoLink id="b57f-8c35-5249-50ab" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="36bd-a7b3-5930-1401" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="841d-6320-e3ac-ce1f" name="Spearmen" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="841d-6320-e3ac-ce1f" name="Spearmen" hidden="false" collective="true" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4429-43da-53f4-dee1" type="min"/>
           </constraints>
@@ -791,7 +732,7 @@
                   <modifiers>
                     <modifier type="increment" field="e048-382c-808f-d5d2" value="1.0">
                       <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccdc-f2fe-7d5e-fde7" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c465-2fc2-d2bf-4722" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -873,7 +814,6 @@
             <modifier type="set" field="name" value="Lothern Sea Guard"/>
           </modifiers>
         </infoLink>
-        <infoLink id="281c-d4b4-ccfb-dfbe" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b85c-9c43-c041-00b4" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -977,18 +917,13 @@
     </selectionEntry>
     <selectionEntry id="6c7e-bb42-34c5-c18e" name="Silver Helms" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="4f42-4520-4d34-709e" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Silver Helms"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="4f42-4520-4d34-709e" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile"/>
         <infoLink id="ac12-3d3b-5498-7f20" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Barded Elven Steed"/>
           </modifiers>
         </infoLink>
-        <infoLink id="a40e-76e8-2697-e1be" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-        <infoLink id="7099-6439-96e6-3bff" name="Barding" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
+        <infoLink id="bbcb-1b92-f108-6a2e" name="Ithilmar Barding" hidden="false" targetId="ddae-46c3-2956-c391" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="371a-9d33-3a48-4b88" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -1023,7 +958,7 @@
                   <modifiers>
                     <modifier type="increment" field="7e79-8f07-e9d4-2355" value="1.0">
                       <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccdc-f2fe-7d5e-fde7" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c465-2fc2-d2bf-4722" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1128,7 +1063,6 @@
         </infoLink>
         <infoLink id="a5b5-0761-66aa-d1be" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile"/>
         <infoLink id="b3de-e669-a617-5eb3" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
-        <infoLink id="ba93-0da6-c14a-d10d" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1a6f-8b3e-df26-6dc6" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1272,8 +1206,13 @@
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="61e2-352a-5026-d212" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Barded Elven Steed"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f55d-124b-bbe5-a419" name="Ithilmar Barding" hidden="false" targetId="ddae-46c3-2956-c391" type="rule"/>
         <infoLink id="dcf9-529f-b9c4-38c9" name="Dragon Armour" hidden="false" targetId="46e3-233c-a770-eae0" type="rule"/>
-        <infoLink id="b802-df93-52c7-32d9" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4317-a30f-1e0d-9a68" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1378,12 +1317,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1269-2d76-bf46-0351" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="7b6d-44c6-c19a-a741" name="Ithilmar Barded Elven Steed" hidden="false" collective="false" import="true" targetId="670f-ceb0-8bbc-1c38" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d3-f46d-3c29-21cd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc70-71ee-1644-2b1c" type="min"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -1410,7 +1343,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="646a-acbd-c57b-8f18" name="Swordmaster" hidden="false" targetId="4d9c-f48b-6872-4fc7" type="rule"/>
-        <infoLink id="0db1-ecbc-6575-5105" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5a57-ccd0-c4fc-c2bb" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1509,7 +1441,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9898-7d83-d981-d81b" name="Shadow Warriors" publicationId="a40f-696a-94e8-ecfb" page="29" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9898-7d83-d981-d81b" name="Shadow Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fd7a-f1b3-5bb6-c804" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile">
           <modifiers>
@@ -1518,8 +1450,6 @@
         </infoLink>
         <infoLink id="7fd6-c58f-ce7b-203d" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule"/>
         <infoLink id="2395-44dd-642f-0bf5" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
-        <infoLink id="7dc9-3c6d-ce6b-73ac" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-        <infoLink id="33a2-ff2c-66d1-30f2" name="Hate Dark Elves" publicationId="a40f-696a-94e8-ecfb" hidden="false" targetId="85b8-4454-f04a-b0e9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="04f1-f28d-8389-50a8" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1579,94 +1509,77 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3e5f-96a1-6995-88c6" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5126-4f55-7236-1d99" name="Tiranoc Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc"/>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901"/>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3"/>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4fd4-c90b-2cb5-b79c" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile"/>
+        <infoLink id="a741-9b41-5606-70f2" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ead0-b288-8171-908e" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1731-044a-e220-7b53" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="61c3-8be7-a5c5-41bc" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76d-8dbe-365e-b03e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211b-1201-48a3-f34b" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d8d-3e41-5521-35e9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="86cd-51af-4ee6-0e2f" name="Tiranoc Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-              <characteristics>
-                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
-                <characteristic name="WS" typeId="f95b-da01-0578-3bdc"/>
-                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901"/>
-                <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
-                <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
-                <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
-                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3"/>
-                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="7461-7ebb-12cc-c613" name="Armour Save 5+" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="ca6b-0e11-3021-24d8" name="Elven Steed" hidden="false" collective="false" import="true" targetId="43d1-66d9-1951-e7ca" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffcf-f728-4b8a-cc78" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="787b-37b0-7b42-e2f3" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca1a-18db-5b89-973f" type="max"/>
               </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ea46-ba4b-5532-d84c" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbe-b50d-9b2b-6ad1" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dba-e678-9282-25a5" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1a7d-1a28-c20b-84d3" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="High Elf Crew x2"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="8025-ad8c-2a3b-7cde" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="baef-80d7-10f4-c653" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c752-b34a-2b1d-dc64" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40a6-bc50-938b-78e0" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="82f4-a507-714f-8fcf" name="Spear (Mounted)" hidden="false" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf6-abb5-f9e1-8467" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df5-498a-9cf8-337f" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="13a8-64f9-66ea-e87f" name="Bow" hidden="false" collective="false" import="true" targetId="9efb-2b02-f245-62f5" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="880e-ea9e-e5d7-3d34" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb7-02c0-0063-7cc8" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6f4b-fb4b-38c3-e863" name="Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ab-f482-060b-3436" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ff-c54f-44b8-f5bc" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1755-0f6c-3475-ceb1" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="85.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f7ca-9c31-b79c-d109" name="High Elf Chatioteer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac0-f9b0-f94e-e374" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc0-1c8b-4ad9-e3e4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee45-a3fe-3da9-5c5d" name="Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773e-bd21-0ddf-1da6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4a8-38d1-cd83-c97a" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d11-a352-7af2-4803" name="Armour Save 5+" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23a9-1288-bcf1-2eeb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a817-943e-64f4-dd6b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="71.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8ff-777b-a0e1-bfbd" name="Phoenix Guard" hidden="false" collective="false" import="true" type="unit">
@@ -1690,7 +1603,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="8454-f824-7201-b440" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
-        <infoLink id="1538-435a-2cb4-0188" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="40b4-ea3e-ccdf-e643" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
@@ -1791,6 +1703,24 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6049-bd02-b650-3391" name="Repeater Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bba8-33ce-65b7-dcbb" name="Repeater Bolt Thrower" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc"/>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901"/>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b"/>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">7</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3"/>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c0d4-7406-6200-58a9" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="403b-2aa1-fefe-3e6c" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
@@ -1800,51 +1730,25 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca4-3e1c-9a10-1b71" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b461-5a10-70b1-3c69" type="min"/>
           </constraints>
-          <profiles>
-            <profile id="7813-11f4-9f60-a4a1" name="Repeater Bolt Thrower" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-              <characteristics>
-                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
-                <characteristic name="WS" typeId="f95b-da01-0578-3bdc"/>
-                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901"/>
-                <characteristic name="S" typeId="b690-4bc0-bb73-267b"/>
-                <characteristic name="T" typeId="8712-f56f-5b22-a720">7</characteristic>
-                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-                <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
-                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3"/>
-                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <selectionEntries>
-            <selectionEntry id="ad32-820f-835f-e621" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e431-0d95-1aa9-9395" name="2 High Elf crew" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ade-b73f-50f5-c39b" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b84-d38f-babb-7f4d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b1f-f369-8460-2f78" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e44-8d96-6dc6-1ba3" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="01e0-57fb-fc90-2240" name="Elven Basic" hidden="false" targetId="75d2-db91-901a-410f" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="High Elf Crew x2"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="1fd8-6c67-f48b-f1ec" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="7068-4ca1-a645-b2c1" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d13d-0226-e9a9-e7e0" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd8-fc9d-c7fc-dee3" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="1f53-0ce5-fe9c-797c" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ce-d7fd-66a3-ecdf" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38a6-9420-6581-b55c" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="9afe-8014-903f-4d40" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac0-eb45-83bc-8075" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e568-6505-d1ec-d5cb" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
           </costs>
@@ -1877,13 +1781,12 @@
         <infoLink id="8198-e5bc-b476-2f23" name="Woodsmen" hidden="false" targetId="314a-5235-87a5-1e35" type="rule"/>
         <infoLink id="4392-20bc-4c20-87c5" name="Lion Cloak" hidden="false" targetId="a901-1bf3-12dd-9958" type="rule"/>
         <infoLink id="425e-5e59-fed5-499a" name="Bodyguard" hidden="false" targetId="5a2b-bce9-7ad9-165e" type="rule"/>
-        <infoLink id="5976-eb05-c3a3-a49e" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false" targetId="8cbe-c290-da84-4c94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8ebd-ab90-48df-ee44" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="641a-df9d-471f-2691" name="White Lions" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="641a-df9d-471f-2691" name="White l;ions" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da47-b7df-0ccf-4e4e" type="min"/>
           </constraints>
@@ -2045,10 +1948,10 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="670f-ceb0-8bbc-1c38" name="Ithilmar Barded Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="670f-ceb0-8bbc-1c38" name="Barded Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="80cf-ac40-97e5-c97a" name="Elven Steed" hidden="false" targetId="a098-a6dd-1150-67c5" type="profile"/>
-        <infoLink id="4b70-4588-a684-df23" name="Ithilmar Barding" hidden="false" targetId="6625-35b1-1707-d1bd" type="profile"/>
+        <infoLink id="7270-6af4-1719-9605" name="Ithilmar Barding" hidden="false" targetId="ddae-46c3-2956-c391" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2098,15 +2001,18 @@
     </selectionEntry>
     <selectionEntry id="ccdc-f2fe-7d5e-fde7" name="First Among Equals" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a798-c0ea-e289-ab77" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a798-c0ea-e289-ab77" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="3d27-68a8-7409-c75e" name="First among Equals" hidden="false" targetId="c465-2fc2-d2bf-4722" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="45a3-3e65-6c49-5cc0" name="Honours" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="45a3-3e65-6c49-5cc0" name="High Elf Honours" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="c2b3-7e06-8de5-7fe5" name="Pure of Heart" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2397,7 +2303,6 @@
           </constraints>
           <infoLinks>
             <infoLink id="d3ec-5594-cde7-e511" name="Vambraces of Defence" hidden="false" targetId="1d38-8252-7db8-50fd" type="rule"/>
-            <infoLink id="1544-1488-57d3-ca5a" name="Vambraces of Defence" hidden="false" targetId="48c5-1c21-3535-1dca" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2585,6 +2490,7 @@
       <entryLinks>
         <entryLink id="75cb-50ba-1eca-259a" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="5e6e-2abb-3eb7-f7c7" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="cc60-10a9-9bd3-338f" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="39ab-c370-3f13-7d60" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -2791,6 +2697,9 @@
     </rule>
     <rule id="a901-1bf3-12dd-9958" name="Lion Cloak" hidden="false">
       <description>The white lion cloak that gives the White Lions of Chrace their name also gives them a +2 armour save versus missile fire. In close combat it is thrown Lock over the shoulder and offers no additional protection.</description>
+    </rule>
+    <rule id="ddae-46c3-2956-c391" name="Ithilmar Barding" hidden="false">
+      <description>Ithilmar is extremely light, but very resilient. Ranting made from ithilmar gives the same protection as heavy steel, but without slowing down the steed that wears it. Ithilmar barding adds +1 to the model&apos;s armour save like ordinary barding, however there is no reduction in the movement rate of the model.</description>
     </rule>
     <rule id="aef2-97fe-962d-9f7a" name="Pure of Heart" hidden="false">
       <description>Mandatory
@@ -3052,10 +2961,10 @@ The unit treats difficult ground as open ground for purposes of movement.
       <description>Those under template suffer Str4 hit. Wounds cause panic test.</description>
     </rule>
     <rule id="184b-9a54-e59b-eef5" name="Fight in three ranks" hidden="false">
-      <description>High Elves on foot and armed with spears may fight in three ranks.</description>
+      <description>High Elves on foot, equipped with spears may fight in three ranks.</description>
     </rule>
     <rule id="85b8-4454-f04a-b0e9" name="Hate Dark Elves" hidden="false">
-      <description>Hate: Dark Elves</description>
+      <description>All high Elves hate Dark elves. </description>
     </rule>
     <rule id="314a-5235-87a5-1e35" name="Woodsmen" hidden="false">
       <description>Chrace is famed for its woods, and years of practice have taught the local folk to move through them without a sound. In battle the White Lions may move through woods without penalty. This includes any characters that are with the unit at the time.</description>
@@ -3063,15 +2972,12 @@ The unit treats difficult ground as open ground for purposes of movement.
     <rule id="5a2b-bce9-7ad9-165e" name="Bodyguard" hidden="false">
       <description>Emboldened by their ancient duty and sworn to lay down their lives before they fail, the White Lions will fight to protect their lord long after the rest of the army has fled. The White Lions are Stubborn if the General is with the unit.</description>
     </rule>
-    <rule id="8cbe-c290-da84-4c94" name="Stoic" publicationId="a40f-696a-94e8-ecfb" page="6" hidden="false">
-      <description>When fighting against a Dark Elf army, High Elves are immune to Panic</description>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="3f9e-10ff-4016-0d94" name="Dragon Armour" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">5+</characteristic>
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Immune to all breath attacks and any fire-based attack (including spells from the Lore of Fire)</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Immune to fire attacks, breath attacks</characteristic>
       </characteristics>
     </profile>
     <profile id="c34e-6408-b346-36e8" name="Armour of Protection" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -3115,11 +3021,6 @@ The unit treats difficult ground as open ground for purposes of movement.
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">5+WS</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="48c5-1c21-3535-1dca" name="Vambraces of Defence" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">4+WS and reroll failed armour saves</characteristic>
       </characteristics>
     </profile>
     <profile id="a098-a6dd-1150-67c5" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3185,12 +3086,6 @@ The unit treats difficult ground as open ground for purposes of movement.
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6625-35b1-1707-d1bd" name="Ithilmar Barding" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
-      <characteristics>
-        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">-1</characteristic>
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
       </characteristics>
     </profile>
   </sharedProfiles>

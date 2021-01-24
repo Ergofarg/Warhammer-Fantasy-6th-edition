@@ -1502,6 +1502,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f03-0d8e-66a3-0b47" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="6889-1fb5-b8b1-c39b" name="Engineering Runes" hidden="false" collective="false" import="true" targetId="a024-f925-6f6e-44f1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
@@ -1522,7 +1523,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="8e61-6d19-275a-3c61" name="Bolt Thrower" hidden="false" targetId="f9f4-4ab2-8b24-8433" type="profile"/>
-            <infoLink id="86e0-8b2d-967a-81fa" name="Crew" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
+            <infoLink id="86e0-8b2d-967a-81fa" name="Dwarf Warrior" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="e75c-6e82-6b49-909c" name="Crew" hidden="false" collective="false" import="true" type="model">
@@ -1554,6 +1555,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a964-0ad6-48cb-87b4" name="Engineering Runes" hidden="false" collective="false" import="true" targetId="a024-f925-6f6e-44f1" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -1590,6 +1594,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac89-3459-a880-0f85" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="0124-9aa0-27cf-3224" name="Engineering Runes" hidden="false" collective="false" import="true" targetId="a024-f925-6f6e-44f1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="85.0"/>
@@ -1627,6 +1632,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8566-42df-99cd-ee14" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="e36a-be8b-279d-409f" name="Engineering Runes" hidden="false" collective="false" import="true" targetId="a024-f925-6f6e-44f1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="125.0"/>
@@ -1725,6 +1731,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a63-c0f1-bb92-6102" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ffd9-5b3a-d9ec-12f1" name="Engineering Runes" hidden="false" collective="false" import="true" targetId="a024-f925-6f6e-44f1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="140.0"/>

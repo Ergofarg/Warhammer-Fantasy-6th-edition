@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -481,7 +481,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0868-fd00-1311-20a7" name="Wizard Level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0868-fd00-1311-20a7" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e7e-4d6a-7fe0-6900">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f1-3494-28f8-f4dc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f352-a665-9559-a931" type="max"/>
@@ -606,6 +606,22 @@
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="1b0a-45a5-e3be-d837" name="Blessed Spawning 1" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a48-266d-121f-8428" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="08cf-e97b-2217-24d0" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry id="aa1a-7509-c515-1b8b" name="Blessed Spawning 2" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca0-6cfc-d4f3-c6a5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5622-dabf-d159-8de8" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1887,18 +1903,130 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9425-66a8-ef0e-bc7a" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927e-e947-d698-d953" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5407-c905-52e4-2294" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4ad5-2248-6d34-f01b" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb6-639e-ece0-aa5d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1aeb-3a03-2812-25d3" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2431-73ea-e415-7496" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2819-7bd2-31d8-86e4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d514-f04e-53ac-e8f7" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ebd3-4260-b4a5-543f" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd4-44e0-0b81-5dd5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="77a0-1bf9-99fe-6a4c" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5f76-eb66-794c-f994" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9207-28a7-63ca-fbb5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4b20-44d8-f73d-f99e" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cc81-eba5-ffef-a3dc" name="Oldblood mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b13-d30f-b026-9cb3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f7a2-c5d8-5f56-caf0" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4501-715e-64b6-08bb" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="37.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="07f0-932c-2857-d3ef" name="Carnosaur" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="65b4-7329-a057-a679" name="Carnosaur" hidden="false" targetId="2acc-06f2-7d4d-7db3" type="profile"/>
+                <infoLink id="9322-7123-13ee-9317" name="Terror" hidden="false" targetId="756a-1071-031a-2158" type="rule"/>
+                <infoLink id="8f83-9fde-57af-97c1" name="Blood-frenzy" hidden="false" targetId="2d3d-6ad5-90d3-3b84" type="rule"/>
+                <infoLink id="8ac6-88ef-6429-1977" name="Ultimate Predator" hidden="false" targetId="bde7-57df-dd14-3ae8" type="rule"/>
+                <infoLink id="161b-dbc9-7dd3-1f12" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="be87-d3de-69a8-f8bf" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="bb7e-eda5-d8ba-09bc" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd88-34f6-3d3d-c06f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c347-38fe-4073-6feb" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6391-ef05-a9e0-9c09" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa2-75a6-8026-683f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7c0f-728c-c2a1-a7ea" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="047c-64df-42fc-9ed5" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a0e-bb39-c743-c8e5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d2d2-4505-d259-19da" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="31c1-f8e7-c99d-90cc" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b730-4cce-ee17-d812" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9539-0c49-fd0c-007d" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5dcd-c767-b2a6-5ff4" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b358-73cb-b86b-c623" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="57bd-8311-5440-c839" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4cfd-b3c7-a3ea-68f1" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="8b18-6469-1fcd-fcaf" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="increment" field="8b18-6469-1fcd-fcaf" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1912,7 +2040,7 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead7-ab00-98a9-2805" type="max"/>
           </constraints>
           <profiles>
-            <profile id="845b-e69b-1dd8-675c" name="Rod of the Storm" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="845b-e69b-1dd8-675c" name="Rod of the Storm" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell, Power Level 5, on use only.
 May be targeted against an enemy during the Magic phase. It is a magic missile that inflicts 2d6 automatic Strength 3 hits (Strength 4 if the target has an Armour save of 4+ or better) on one enemy unit wihtin 18&quot;. In addition, any unit that suffers wounds from the rod must take an immediate Panic Test</characteristic>
@@ -1929,7 +2057,7 @@ May be targeted against an enemy during the Magic phase. It is a magic missile t
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2594-9151-b357-f2dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ba82-c7bb-692e-20a0" name="Cube of Darkness" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="ba82-c7bb-692e-20a0" name="Cube of Darkness" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One Use Only.
 This may be used with the exact sam effects as a Dispel Scroll. In addtion, all Remains in Play spells are automatically removed from play. Finally, roll a D6. The Magic phase ends immediately on the roll of a 4+</characteristic>
@@ -1946,7 +2074,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351c-9840-b8ca-28cf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ffe8-3dae-3b7e-2477" name="Diadem of Power" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="ffe8-3dae-3b7e-2477" name="Diadem of Power" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The diadem allows the bearer to save up to 2 of his own unused Power dice or Dispel dice at the end of any Magic phase and store them, to add to his side&apos;s dice pool in the next Magic phase.</characteristic>
               </characteristics>
@@ -1962,7 +2090,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3850-c0ee-0e58-a88e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c33c-9828-0eaa-75b2" name="Staff of Sorcery" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
+            <profile id="c33c-9828-0eaa-75b2" name="Staff of Sorcery" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
               <characteristics>
                 <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Whenever he dispels a spell, the score required for this wizard to make a successful dispel is reduced by 1</characteristic>
               </characteristics>
@@ -1972,42 +2100,11 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="977b-0428-438e-9937" name="Power Stone" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7073-6abf-ea07-8e3a" type="max"/>
-            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b8-6c4f-e005-d403" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6d31-6dce-cf16-904b" name="Power Stone" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
-              <characteristics>
-                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One use only.
-A further two dice are added to the casting roll, beyond normal limits being allowed.
-Note that a spell cast with a Power Stone can never be cast with Irresistible Force, though it can be Miscast.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="645f-3417-cfc8-5c50" name="Dispel Scroll" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a957-1b12-b2ba-f7a7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7139-a5f4-c7fc-d293" name="Dispel Scroll" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Arcane">
-              <characteristics>
-                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One use only.
-The Dispel Scroll when used automatically cancels the spell just cast.
-Cannot be used against Irresistible Force.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="eea7-904b-10a1-2c0d" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
+        <entryLink id="1567-fb3c-9fb9-d3a0" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ad6e-3337-4672-ae7b" name="Magic Armour" hidden="false" collective="false" import="true">
       <constraints>
@@ -2094,13 +2191,6 @@ Cannot be used against Irresistible Force.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7125-117f-2f46-c21a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e4-aa77-22cf-d911" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="300f-e1a9-0317-b8cd" name="Talisman of Protection" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">This confers upon its wearer a Ward save of 6+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
           </costs>
@@ -2110,13 +2200,6 @@ Cannot be used against Irresistible Force.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a957-48a0-57b0-bb42" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2df-14ca-cff7-5b5d" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="6320-3d41-098c-e692" name="Aura of Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The bearer of this item has a 4+ Ward save against attacks with Strength 5 or more.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2126,13 +2209,6 @@ Cannot be used against Irresistible Force.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba9-9036-1f26-b0b5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef8-20b4-a6d8-e901" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5387-7e5f-ce3c-e770" name="Glyph Necklace" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The character wearing this has a 5+ Ward save</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2142,13 +2218,6 @@ Cannot be used against Irresistible Force.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb9-5f56-08d6-10f4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152f-0171-643c-887d" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="dde2-f6bd-d7d7-6124" name="Amulet of Itzl" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The character wearing this amulet has a 2+ Ward save against the first wound suffered</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
           </costs>
@@ -2392,14 +2461,6 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b0-b863-428e-52ec" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d46-bf8d-4d0e-72ce" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="cbca-0c80-3aa7-4775" name="Gleaming Pendant of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">The pendant may be used at the star of any Lizardmen player&apos;s Close Combat phase. For that turn only, any enemy unit that is in contact with the model using the pendant will strike last in combat - striking after great weapons and even zombies.
-If the enemy has the abilit to always strike first, then on the roll of a 4+ they get to attack first; if they roll a 1-3 then they too will strike last.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
           </costs>
@@ -2409,15 +2470,6 @@ If the enemy has the abilit to always strike first, then on the roll of a 4+ the
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f2-0727-1b7d-9802" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8c-4893-58af-fd45" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ad3f-020c-e52e-80c2" name="Blod Statuette of Spite" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Bound Spell. Power Level 5. One use only.
-One per game, the user may cast the spell bound within the statuette.
-This requires no Power dice to cast as all the power is provided by the statuette. The spell may be cast on any enemy character. That character must immediately take a Toughness test. If this test is failed, then the model loses a wound with no saves of any kind allowed. If the model takes a wound, it must immediately take another toughness test, losing another wound if it fails. This continues until either the model passes a Toughness test or is slain.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2427,15 +2479,6 @@ This requires no Power dice to cast as all the power is provided by the statuett
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0b-8bb1-0785-7de9" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f44-3ca2-6270-a80b" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="ef3f-d1ac-8069-fcee" name="Cloak of Feathers" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Skink on foot only.
-
-The wearer of this cloak may fly.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
           </costs>
@@ -2445,13 +2488,6 @@ The wearer of this cloak may fly.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5d5-dec9-58f3-12fe" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff4-99e7-4c44-fae5" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8884-3b2d-2abb-320d" name="Charm of the Jaguar Warrior" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">The model&apos;s Movement is increased to 9&quot;.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
@@ -2461,15 +2497,6 @@ The wearer of this cloak may fly.</characteristic>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5914-6cc8-2268-e01d" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0909-658a-c5ca-b556" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="31d9-8ea0-e784-86a8" name="Curse-Charm of Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">One use only.
-
-After the enemy rolls on the Miscast Table for the first time in the game, the bearer of the Curse-Charm of Tepok may force their opponent to re-roll the result. This second result stands.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
@@ -2479,13 +2506,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee3f-b5d2-ed2a-8a46" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a578-6b00-963f-8b81" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="4676-2355-f20c-fcf4" name="Bane Head" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">Nominate an enemy character at the start of the battle. All unsaved wounds caused by the bearer on the nominated target are doubled.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
           </costs>
@@ -2495,13 +2515,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa3-51d2-e1e4-67a4" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acfd-b765-8c29-28b8" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="a325-c721-dd5c-59eb" name="Dragonfly of Quicksilver" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">If both the Lizardmen player and his opponent have models with the Scout ability, then the Lizardmen player adds +1 to his dice roll when rolling to see who gets to deploy their scouts first.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
           </costs>
@@ -2511,13 +2524,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d3-3141-e8e2-a8fd" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ec-d9d2-e7b3-28a5" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="e140-bedc-a615-894f" name="Venom of the Firefly Frog" publicationId="3a49-dd2e-fcaa-cdb1" page="54" hidden="false" typeId="328f-6716-77b4-7370" typeName="Enchanted">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="9115-6a02-75f6-e3b4">All mundane weapons used by the model with the Venom of the Firefly Frog (ranged and melee) are coated with this venom. All attacks made with these weapons count as Poisoned Attacks and are magical.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
           </costs>
@@ -2534,13 +2540,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e91-31c4-54b9-f820" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7f-312e-1b32-3f88" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="f66e-d3a6-86b5-f883" name="Totem of Prophecy" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">The unit causes Fear.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
           </costs>
@@ -2550,13 +2549,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553d-6cea-7a5a-af04" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152d-d478-c993-cea5" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="22a1-149c-42c1-1a71" name="Jaguar Standard" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">The unit pursues an extra D6&quot;.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2566,13 +2558,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d9e-325b-61ca-008b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057b-d25a-df88-316b" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="23e2-f9d3-9f91-c1fd" name="War Banner" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">A unit which has a War Banner adds a further +1 to its combat resolution when working out which side has won the combat.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
@@ -2582,15 +2567,6 @@ After the enemy rolls on the Miscast Table for the first time in the game, the b
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="384c-4889-ea00-c157" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded7-e56a-79fd-b123" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="4b4b-4b43-7cd5-c9cb" name="Huanchi&apos;s Blessed Totem" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">The unit may use this banner once per game, at the start of any Lizardmen magic phase.
-The unit moves direct forward up to D6&quot;. 
-If it runs into an enemy unit, it couts as charging in the next Close Combat phase. The enemy may not make any charge reactions.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
           </costs>
@@ -2600,13 +2576,6 @@ If it runs into an enemy unit, it couts as charging in the next Close Combat pha
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="996f-0ad6-4f75-a43e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ec-d1b0-d154-d35e" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d1cd-daf5-a4b7-5496" name="Sun Standard of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="2b76-c982-4781-e2d3" typeName="Magical Standard">
-              <characteristics>
-                <characteristic name="Magic Stuff" typeId="8121-d7b8-a7c7-352c">Missiles fired at the unit suffer -1 to hit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
           </costs>
@@ -2623,13 +2592,6 @@ If it runs into an enemy unit, it couts as charging in the next Close Combat pha
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b9f-d5b6-d58f-5243" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84cf-f047-656d-ffa1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="9d7d-74c7-f02c-076c" name="Cupped Hands of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="52" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The entire unit that is accompanying the Slann gains a 5+ Ward save. Note however that the unit does not get this increase against models that are attacking in close combat.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2639,13 +2601,6 @@ If it runs into an enemy unit, it couts as charging in the next Close Combat pha
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83da-f906-1a18-f40a" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5d6-b962-a14c-02a4" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="8624-ea1a-1fb4-2c36" name="The Divine Plaque of Protection" publicationId="3a49-dd2e-fcaa-cdb1" page="52" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Increase the Ward save that the Slann gets from 4+ to 2+. Note however that the Slann does not get this increase against models in close combat. In close combat the Slann still gets a 4+ ward save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2655,13 +2610,6 @@ If it runs into an enemy unit, it couts as charging in the next Close Combat pha
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8916-4aa1-9923-14ac" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="258e-5b96-777a-1017" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d31f-3e58-134b-a582" name="Plaque of Dominion" publicationId="3a49-dd2e-fcaa-cdb1" page="52" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">Add an extra +1 dice to the Lizardmen player&apos;s power and dispel dice pools.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
           </costs>
@@ -2671,18 +2619,71 @@ If it runs into an enemy unit, it couts as charging in the next Close Combat pha
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c0-30ce-78a4-4949" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1751-7f8e-24e2-63d1" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="1a53-be7a-b74b-a37b" name="Plaque of Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="52" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Talismans">
-              <characteristics>
-                <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">The Slann knows one more spell than he is normally allowed.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bd30-a138-fa7a-ecbe" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1239-2402-7195-3d05" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a347-553a-afa1-d025" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f3-95a3-e3a5-8707" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9182-89cc-0f72-8f0b" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" targetId="6391-ef05-a9e0-9c09" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f2-4478-3b9f-a43a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6da9-a920-2757-22cf" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" targetId="bb7e-eda5-d8ba-09bc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e73-034d-9301-1417" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="51c7-4aa0-0f5c-bb0c" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41bb-7e6c-ed5a-1379" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="28ce-7408-54f6-f933" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" targetId="4ad5-2248-6d34-f01b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1eb-e801-2e5b-a672" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2956-68bb-df32-2eae" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" targetId="2431-73ea-e415-7496" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9239-18e5-921e-f8cb" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e751-65d5-eec2-ce58" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" targetId="047c-64df-42fc-9ed5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31b-b97e-a8ce-500d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

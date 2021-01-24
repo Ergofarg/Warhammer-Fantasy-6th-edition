@@ -367,6 +367,7 @@
         <entryLink id="d2f8-23d9-1194-ca26" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
         <entryLink id="8dfd-54fd-00d0-1b11" name="Staff of Ravening" hidden="false" collective="false" import="true" targetId="41d4-3709-0119-eeb9" type="selectionEntry"/>
         <entryLink id="81ac-c2dd-b19d-6bed" name="Neferra&apos;s Plaques of Mighty Incantations" hidden="false" collective="false" import="true" targetId="fe28-1e60-a5c4-be59" type="selectionEntry"/>
+        <entryLink id="6bd9-34f9-4f03-4143" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9d9b-ec5a-84b4-13af" name="Magic Weapons" hidden="false" collective="false" import="true">
