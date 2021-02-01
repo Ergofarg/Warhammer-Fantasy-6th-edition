@@ -5141,22 +5141,22 @@
       <description>Subject to animosity
 </description>
     </rule>
-    <rule id="f457-297e-425b-75d4" name="Ignore Goblin Panic" hidden="false">
-      <description>Ignore Goblin Panic Orcs expect the smaller greenskins to run aunty and it doesn&apos;t really surprise them when they do. The sight of fleeing Goblins and Snotlings simply reminds the bigger and bolder Orcs why they are best. Consequently when a Goblin unit. Snotling Swarm or Snotling Pump Wagon s destroyed, breaks or flees pat. Orc units do not need to test for panic. See the Viarhammer rulebook. pages 80-81</description>
+    <rule id="f457-297e-425b-75d4" name="Ignore Goblin Panic" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
+      <description>Orcs expect the smaller greenskins to run awayy and it doesn&apos;t really surprise them when they do. The sight of fleeing Goblins and Snotlings simply reminds the bigger and bolder Orcs why they are best. Consequently when a Goblin unit. Snotling Swarm or Snotling Pump Wagon is destroyed, breaks or flees pat. Orc units do not need to test for panic. See the Viarhammer rulebook. pages 80-81</description>
     </rule>
-    <rule id="47bc-b420-0136-87a8" name="Ignore Greenskin Panic: " hidden="false">
-      <description>Ignore Greenskin Panic: Black Ors and Giants expect normal Orcs and Goblins to run away and would be disappointed if they didn&apos;t . Consequendy, when an Orc or Goblin unit (any type), a Snotling Swarm or Snotling Pump Wagon is destroyed. breaks or flees past. Black Orc units and Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
+    <rule id="47bc-b420-0136-87a8" name="Ignore Greenskin Panic: " publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
+      <description>Black Orcs and Giants expect normal Orcs and Goblins to run away and would be disappointed if they didn&apos;t . Consequendy, when an Orc or Goblin unit (any type), a Snotling Swarm or Snotling Pump Wagon is destroyed. breaks or flees past. Black Orc units and Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
     </rule>
-    <rule id="ab83-3475-b1c7-aafa" name="Choppa" hidden="false">
+    <rule id="ab83-3475-b1c7-aafa" name="Choppa" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Choppa: The average Orcish cleaver or dub is a big, crude affair much like the Ore on the blunt end of it. This is the standard armament for Orc foot troops and characters, and is carried instead of a normal hand weapon. Orcs refer to such weapons as &apos;choppas. Such a chunk of metal would he difficult for a human to wield in one hand but Ors are muscle-bound beasts with fists as big as a man&apos;s head (and only marginally more dexterous).
 An Orc warrior on foot armed with a single choppa adds +1 to his Strength in the first round of a combat when he charges. This bonus don not apply if a weapon is carried in each hand, or for Boar, Chariot or monster riders - in such eases the weapon&apos;s natural brutishness is cancelled out by the difficulty of wielding it.
 The Choppa bonus applies to character models on foot that are armed with a single ordinary non-magical choppa. It does not apply to individuals armed with magic weapons as they receive the appropriate magical bonuses instead.
 Note that the bonus armour save for using a hand weapon and shield does not apply to an Orc wielding a choppa. Foot models with a choppa in each hand (additional hand weapon) do get the normal +1 Attack for having two &apos;hand weapons&apos;, though they lose the +1 Strength on the charge.</description>
     </rule>
-    <rule id="b9cb-9cdd-44c3-ba52" name="Fear Elves" hidden="false">
+    <rule id="b9cb-9cdd-44c3-ba52" name="Fear Elves" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Fear Elves: All Goblins dislike fighting Elves of any kind because they &apos;stink funny and because their haughty manner unnerves the little greenskins. A unit of Goblin troops therefore fears any unit of Elves that it does not outnumber by at least two to one. Count any Orcs. Squigs or anything else in the unit as well as the Gobbos. See pages 10-41 of the Warhammer rulebook for the rules on Unit Strength. The rules  for fear an on page 81 of the Warhammer rulebook.</description>
     </rule>
-    <rule id="01cc-ed1b-58ba-0cd6" name="Frenzy: Savage Orcs " hidden="false">
+    <rule id="01cc-ed1b-58ba-0cd6" name="Frenzy: Savage Orcs " publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Frenzy: Savage Orcs are wild and ferocious fighters and are therefore affected by the rules for frenzy. See page 84 of the Warhammer rulebook.</description>
     </rule>
     <rule id="e8d6-cd4a-7353-54a7" name="Warpaint" hidden="false">

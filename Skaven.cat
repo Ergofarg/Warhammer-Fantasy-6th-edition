@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="f804-741f-2593-2dec" name="Skaven army Book 2002"/>
+  </publications>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ab4d-6e55-06e6-6e8e" name="Arcane Items" hidden="false" collective="false" import="true">
       <entryLinks>
@@ -7,4 +10,117 @@
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="ff30-ef5e-258c-2825" name="HE WHO RUNS AWAYLIVES TO FIGHT ANOTHER DAY!" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+      <description>All models In the Skaven army add +1 to the total rolled to determine the distance they flee.</description>
+    </rule>
+    <rule id="dd9e-3b75-bdce-f723" name="STRENGTH IN NUMBERS" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+      <description>AlI units in the Skaven army always add their current rank bonus to their Leadership value for any Leadership based test.
+First work out the Leadership of the unit as normal (character in the unit, General within 12”, magic bonuses/penalties, etc) and then add the rank bonus of the unit to this value. The maximum bonus you can get is obviously +3, for a maximum total Leadership of 10. For example, a unit of Clanrats (Ld 5) with a rank bonus of +2 will have a Leadership of 7 on its own, a Leadership of 8 if led by a Chieftain (Ld 6) or of 9 if within 12&quot; of a Warlord who is the Skaven General (LD 7). Note that the General confers his basic Leadership and then the units modify it with their own rank bonus - do not modify the Leadership of the General with the ranks of his own unit and then pass this modified Leadership on to every unit within 12&quot;!
+When Skaven lose their rank bonus from a charge
+in the -flank or rear. they cannot use this
+Leadership bonus (including when testing for panic for being charged In the
+flank&apos;rear while engaged to the front).
+Remember that fleeing units do not
+have a rank bonus  so fleeing Skaven will have to rally on their
+basic Leadership. 
+</description>
+    </rule>
+    <rule id="9843-950f-0645-b717" name="LIFE IS CHEAP" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+      <description>Unlike other races, Skaven can voluntarily target ranged attacks (missile fire and spells) at enemy units engaged in close combat with friendly units. First check that the target enemy unit is in sight of the unit targeting it (if the weaponispell requires a clear line of sight) and then measure the range to the target (not to the Skaven unit engaged with the target). Roll to hit the enemy as normal, then roll a dice for each hit caused. On a result of 1-3 the hit is resolved against one randomly determined unit among those in close combat with the target, on a result of 4-6 the hit is resolved against the intended target.
+Weapons and spells that make use of a template must be targeted at the enemy as noted above, but the player is allowed to position the template so that it might hit friendly models as well as enemies. If the template ends up touching models from both sides or enemy models in base contact with friendly models. follow the rules under &apos;Shooting &amp; Close Combat&apos; on page 60-61 of the Warhammer rulebook.
+</description>
+    </rule>
+    <rule id="a518-34d4-06c7-3068" name="LEAD FROM THE BACK" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+      <description>Skaven characters can choose to lead units from the rearmost rank, considered a place of honour by Skaven (remember that Champions are not characters). The unit can use their Leadership as normal. Battle Standards have the same effect that they would have if they were in the first rank. Characters can issue and accept challenges only if in base contact with the enemy, as normal.
+If their unit is engaged in combat from a previous turn and the Skaven characters are not in base contact with the enemy, then they have three options in their next Movement phase. They can either stay at the rear of the unit, move to the fighting rank, or decide to leave the unit and move out of it (as if the unit was not engaged in combat). This doesn&apos;t mean that they can join units engaged in combat.
+Furthermore, if Skaven characters refuse a challenge, the Skaven player, rather than his opponent, can choose which character goes at the back of the unit. Once this character is moved to the back of the unit. no further penalties apply to him for having refused the challenge. Note that if the rear of the unit is engaged in combat. the character has to be placed on the flank, inside the unit, or in any other position where it cannot fight. You can never get into base contact with enemies when refusing a challenge.
+</description>
+    </rule>
+    <rule id="1947-e406-8e37-31b4" name="WARPSTONE WEAPONS" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+      <description>The following Skaven weapons contain enough warpstone to count as magical, and so can damage creatures invulnerable to non-magical weapons:
+Assassins&apos; and Gutter Runners&apos; poisoned weapons. plague censers&apos; gas and hits, Warlock Engineers&apos; warp-blades. warplock pistols. poisoned wind globes, Jezzails, Ratling Guns, warpfire Throwers and Warp-lightning Cannons.
+</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="76a0-6aa7-9c16-c99f" name="Warlord" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9939-9917-856d-95ba" name="Grey Seer" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1a46-b681-e8b0-d443" name="Chieftan" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6873-7fae-cc55-29a5" name="Stormvermin" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d752-24a1-81f4-ab45" name="Fangleader" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f88e-f6a6-f847-00c1" name="Clanrat" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

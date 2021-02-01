@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
@@ -1494,6 +1494,9 @@
           </constraints>
           <entryLinks>
             <entryLink id="cc8d-7cc1-0e80-0108" name="Cavalry hammer " hidden="false" collective="false" import="true" targetId="9c55-fbdf-3b4c-f808" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Cavalry Hammer (White Wolves)"/>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a144-8323-15a1-d4fe" type="max"/>
               </constraints>
@@ -1534,12 +1537,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b90f-4c89-9fe6-9d65" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8668-6a27-8afb-884c" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="074a-0749-e28e-389d" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1f6-1e84-5e1e-e67f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c2-ea48-e6f1-3573" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="0a5f-3110-a889-c3ed" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
@@ -1590,6 +1587,7 @@
         <selectionEntry id="327e-b84c-d8df-1edf" name="Magic Items Selection" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8036-16ab-dac9-c156" type="max"/>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad85-a8a6-0b2e-e912" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="69ed-fb1d-75e2-07da" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="c071-eb48-3009-9ec1" type="selectionEntryGroup"/>
@@ -1706,6 +1704,9 @@
             <entryLink id="522e-2ec6-c64a-1448" name="Talismans" hidden="false" collective="false" import="true" targetId="7faf-c609-0b44-9a28" type="selectionEntryGroup"/>
             <entryLink id="6106-eae0-896b-7b1e" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="e9a6-1d90-fba1-755e" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1908,12 +1909,18 @@
             <entryLink id="bc48-345a-b6fe-fe07" name="Talismans" hidden="false" collective="false" import="true" targetId="7faf-c609-0b44-9a28" type="selectionEntryGroup"/>
             <entryLink id="8cff-2375-e0e7-df3d" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="e9a6-1d90-fba1-755e" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f8a8-a0c4-6837-792d" name="Warhammer (Hand Weapon)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d4-8e62-03ba-d6ba" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d297-6006-60fd-679f" type="min"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3d54-fa28-e900-929c" name="Display Prayers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1922,6 +1929,9 @@
           <entryLinks>
             <entryLink id="c5da-44b4-6ea1-8a93" name="Warrior Priest Prayers" hidden="false" collective="false" import="true" targetId="5e56-8205-9d99-c714" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2052,6 +2062,9 @@
             <entryLink id="4f5b-b114-a012-77d4" name="Talismans" hidden="false" collective="false" import="true" targetId="7faf-c609-0b44-9a28" type="selectionEntryGroup"/>
             <entryLink id="bdf2-1b1a-b0bc-be96" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="e9a6-1d90-fba1-755e" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2152,6 +2165,9 @@
             <entryLink id="6cf5-037a-fa8b-889c" name="Talismans" hidden="false" collective="false" import="true" targetId="7faf-c609-0b44-9a28" type="selectionEntryGroup"/>
             <entryLink id="e704-d00b-9f8f-3b66" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="e9a6-1d90-fba1-755e" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2165,6 +2181,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f14-f10a-238b-f3cb" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7edf-605e-0af7-ef33" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3028,7 +3047,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="882a-ff9d-529f-8e33" name="Handgunners" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="882a-ff9d-529f-8e33" name="Handgunners" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5584-31b9-2c38-23a7" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -3036,19 +3055,6 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="920a-2c2f-c1a6-d823" name="New CategoryLink" hidden="false" targetId="b0b1-5266-2bcd-f592" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7682-a719-a689-884a" name="Handgunners" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7c-2ab7-0709-cc54" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="db59-afbb-3937-fbdc" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
           <constraints>
@@ -3056,15 +3062,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f241-e9cd-54c4-400a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b05c-27af-2fdc-4012" name="Empire handgun" hidden="false" collective="false" import="true" targetId="5360-4088-4cb8-8081" type="selectionEntry">
+        <entryLink id="c4f7-163c-9037-74e0" name="Empire handgun" hidden="false" collective="false" import="true" targetId="5360-4088-4cb8-8081" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6663-5197-da3d-ccfe" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff0c-0c19-aae4-2d26" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a61a-50c8-a86f-d87a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21c-0379-0915-ff4e" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a47-b6c6-185d-bf59" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
@@ -3180,6 +3186,9 @@
       <infoLinks>
         <infoLink id="64fb-400b-fd39-8d72" name="Soulfire" hidden="false" targetId="041f-fddb-c32e-22d9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db5f-32c8-795d-ae00" name="Hammer of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3188,6 +3197,9 @@
       <infoLinks>
         <infoLink id="866f-2191-3bda-d160" name="Hammer of Sigmar" hidden="false" targetId="2528-e82c-d57d-0e2a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5f4d-2894-c4df-f425" name="Healing Hand" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3196,6 +3208,9 @@
       <infoLinks>
         <infoLink id="d7bc-47d6-8cf5-bfe7" name="Healing Hand" hidden="false" targetId="bd6c-b4ba-4fee-249b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="164e-3c8a-37e6-8bf2" name="Armour of Righteousness" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3204,6 +3219,9 @@
       <infoLinks>
         <infoLink id="369a-64f1-8f07-9baa" name="Armour of Righteousness" hidden="false" targetId="7026-122b-63c3-7057" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -3310,6 +3328,24 @@
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4837-c50f-afe2-23e8" name="Arcane Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="c654-e9fb-1831-51f0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60a2-a77b-179e-a84b" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60a2-a77b-179e-a84b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="c654-e9fb-1831-51f0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e6b-fb45-1ba3-3d9b" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e6b-fb45-1ba3-3d9b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c654-e9fb-1831-51f0" type="max"/>
       </constraints>

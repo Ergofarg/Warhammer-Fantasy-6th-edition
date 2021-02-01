@@ -550,7 +550,7 @@ extreme bravery, or because the creatures fighting are not truly alive.
 These troops never break in close combat, and they are also immune to panic, terror and fear or any other Psychology rules. If defeated in close combat (even by fear-causing creatures that outnumber them) unbreakable troops continue to fight on regardless of results. They may never, however. declare that they are fleeing as a charge reaction, as they will literally die fighting under any circumstances.
 </description>
     </rule>
-    <rule id="ff2b-8db6-64fa-e9ca" name="IMMUNE TO PSYCHOLOGY" publicationId="315e-e3c4-08af-fd51" page="112" hidden="false">
+    <rule id="ff2b-8db6-64fa-e9ca" name="Immune to Psycology " publicationId="315e-e3c4-08af-fd51" page="112" hidden="false">
       <description>Some warriors and creatures in the Warhammer world are almost completely fearless, or such grizzled veterans that scenes which would make lesser troops panic have no effect on them.
 Troops that are immune to psychology are never affected by fear terror, frenzy or any other Psychology rules. Troops immune to Psychology may never flee as a charge reaction - they are far too proud and brave to do this! These troops still have to take Break tests as normal.
 </description>

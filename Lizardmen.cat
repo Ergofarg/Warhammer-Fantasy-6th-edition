@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -14,6 +14,7 @@
         <infoLink id="55fb-bade-abe9-88be" name="Telepathy" hidden="false" targetId="dd42-cff3-0fac-96c6" type="rule"/>
         <infoLink id="d5a6-817d-351b-0153" name="Shield of the Old Ones" hidden="false" targetId="0e2c-5dd2-438e-9bf9" type="rule"/>
         <infoLink id="c99d-ca57-3c58-d114" name="Wisdom of the Old Ones" hidden="false" targetId="6835-fbc3-f800-cce2" type="rule"/>
+        <infoLink id="50c1-60af-e480-be56" name="Unit Strength 5" hidden="false" targetId="6b65-6cb5-58ae-dfe3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="497d-ea1e-10b3-3268" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
@@ -133,6 +134,21 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="74cd-7b3f-b338-f6ef" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb1-4445-70b9-7b57" type="max"/>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c1-ffc7-395e-acf8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c9d2-7759-5286-0257" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
+            <entryLink id="8b6d-51ac-7f74-581e" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
+            <entryLink id="e072-5393-1bd9-0cdc" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
+            <entryLink id="45c1-2143-017c-5162" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f536-6a6c-0f93-4fe9" name="Armour" hidden="false" collective="false" import="true">
@@ -141,11 +157,8 @@
           </constraints>
           <entryLinks>
             <entryLink id="2f8b-f1a6-c941-ea06" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0"/>
-              </modifiers>
               <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -181,18 +194,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ad1d-c45e-079c-2edb" name="Magic Items" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="607e-1150-75ff-840f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0f7c-3800-c732-a537" name="Arcane Items" hidden="false" collective="false" import="true" targetId="4cfd-b3c7-a3ea-68f1" type="selectionEntryGroup"/>
-            <entryLink id="fd55-0182-3a00-6f2d" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
-            <entryLink id="8072-0c9f-39a8-3cc8" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
-            <entryLink id="e613-af71-ca9d-5d29" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
-            <entryLink id="80d3-2662-7813-316d" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -237,17 +238,37 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6217-830f-33dc-e688" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4b-617e-d1cf-be49" type="max"/>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8304-1b9c-c326-f7c0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="56fd-8a43-6c91-35d2" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
+            <entryLink id="ccc5-cbf2-9018-9a14" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
+            <entryLink id="bf44-ed64-d2d6-754f" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
+            <entryLink id="46f6-eb1e-d6e3-ca55" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a1fb-7862-b3e3-99fe" name="Armour" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14a-149f-cff0-770a" type="max"/>
-          </constraints>
           <entryLinks>
             <entryLink id="61b2-5173-30b1-34c5" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0"/>
-              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f46-dfb8-fe01-d0c6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="611e-91ef-ff93-9549" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8930-6dfc-f9fd-84be" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
               </costs>
@@ -303,13 +324,6 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="ac4b-170d-bef4-200b" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e20e-1d11-a8da-0df1" name="Blessed Spawning" hidden="false" collective="false" import="true">
           <constraints>
@@ -334,17 +348,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2d91-fa30-fa62-5dd6" name="Magic Items" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7945-9283-acbf-720c" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9a0e-08bb-b771-2f54" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
-            <entryLink id="d877-f7ce-db47-7918" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
-            <entryLink id="25e6-4251-36bc-a943" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
-            <entryLink id="26b6-f6dd-14b2-595c" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
-          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="451d-f3aa-269d-a613" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
@@ -389,6 +392,21 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="3386-b151-27f3-68c8" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d285-1a50-7760-e7f1" type="max"/>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a1-4bda-dbbf-3ee5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6e50-de12-b070-7ed5" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
+            <entryLink id="681b-2006-5bfa-39c3" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
+            <entryLink id="2c0f-f44b-4755-1555" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
+            <entryLink id="91e3-19c5-5826-076a" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a913-5dab-16a2-9293" name="Weapons" hidden="false" collective="false" import="true">
@@ -429,29 +447,20 @@
           </constraints>
           <entryLinks>
             <entryLink id="16f6-c090-7ceb-b96d" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0"/>
-              </modifiers>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="821c-ed11-c486-cc9f" name="Magic Items" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589a-5178-8c5d-95a0" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="24f7-ac77-3c99-3470" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="bbd0-c163-1cc8-5edf" type="selectionEntryGroup"/>
-            <entryLink id="ed3f-769e-9d34-93c6" name="Magic Armour" hidden="false" collective="false" import="true" targetId="ad6e-3337-4672-ae7b" type="selectionEntryGroup"/>
-            <entryLink id="98f3-e05a-bd79-33ca" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="a2c9-7abf-3316-b089" type="selectionEntryGroup"/>
-            <entryLink id="d057-fc46-9490-8fd4" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c4de-681a-931d-51c8" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="61a8-de4f-44fa-4bbc" name="Scar Vet Blessed spawnings" hidden="false" collective="false" import="true" targetId="b5f1-cbfb-ba4b-490e" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecab-0a5c-13aa-ec06" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="85.0"/>
@@ -573,7 +582,7 @@
         <categoryLink id="4e44-1ec9-460f-8c88" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5005-7199-18bd-22ca" name="Saurus Warrior" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5005-7199-18bd-22ca" name="Saurus Warrior" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39d-7db5-eef6-c332" type="min"/>
           </constraints>
@@ -614,6 +623,9 @@
           <entryLinks>
             <entryLink id="08cf-e97b-2217-24d0" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="aa1a-7509-c515-1b8b" name="Blessed Spawning 2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -622,6 +634,9 @@
           <entryLinks>
             <entryLink id="5622-dabf-d159-8de8" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -661,7 +676,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9557-839d-31fc-e10c" name="Skink Skirmishers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9557-839d-31fc-e10c" name="Skink Skirmishers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8c45-c192-a2ab-088b" name="Skink Skirmisher" hidden="false" targetId="0dd7-040d-bfb2-95a0" type="profile"/>
         <infoLink id="faea-3470-5003-f97a" name="Aquatic" hidden="false" targetId="d1be-78da-561d-0934" type="rule"/>
@@ -686,20 +701,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dec2-5768-c49b-9bbd" name="Scout" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad54-795e-f344-3f88" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="bfb3-2645-5688-c1a1" name="Scout (Skinks)" hidden="false" targetId="02e3-3d78-0697-b75b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="0bc8-0e68-0665-d90f" name="Skink Brave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab3-3ddd-fe93-e13a" type="max"/>
@@ -711,7 +712,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c9a1-888f-734a-4c16" name="Skink Skirmisher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c9a1-888f-734a-4c16" name="Skink Skirmisher" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48df-b935-cfe5-698c" type="min"/>
             <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd2-4d57-74fa-bb56" type="max"/>
@@ -720,11 +721,26 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="80dd-6f73-1291-b98a" name="Scouts" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fa1-b0c3-22af-bfd2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f960-20f9-411a-f7c0" name="Ranged Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f960-20f9-411a-f7c0" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7fd8-5c40-0608-a13e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d5-85bb-de51-a64f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d5-85bb-de51-a64f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef31-ae08-906f-dcf9" type="max"/>
           </constraints>
           <infoLinks>
@@ -769,7 +785,7 @@
         <categoryLink id="23a7-311b-d601-7b41" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5cd-9b6b-4187-3017" name="Jungle Swarm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e5cd-9b6b-4187-3017" name="Jungle Swarm" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271c-493b-d7b9-6770" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f495-10eb-0d30-f469" type="min"/>
@@ -836,7 +852,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="47b1-e0e4-1c49-0dee" name="Temple Guard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="47b1-e0e4-1c49-0dee" name="Temple Guard" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e17-d908-b57f-4237" type="min"/>
           </constraints>
@@ -896,6 +912,8 @@
         <infoLink id="c662-964c-c8a1-a531" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
         <infoLink id="4a55-9937-6986-8803" name="Stupidity" hidden="false" targetId="6541-7811-4171-a837" type="rule"/>
         <infoLink id="5513-e4b5-f558-7efe" name="Thick Skinned" hidden="false" targetId="d430-8369-52da-6fb1" type="rule"/>
+        <infoLink id="65c3-83c6-9be4-056e" name="Cold One Rider" hidden="false" targetId="5303-809b-30e8-fcdf" type="profile"/>
+        <infoLink id="36be-a067-c721-26e6" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1fa-23be-eef6-b518" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -937,7 +955,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d0d5-b620-7438-ac03" name="Saurus Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d0d5-b620-7438-ac03" name="Saurus Cavalry" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce7-4a1a-9c3d-7d59" type="min"/>
           </constraints>
@@ -1087,7 +1105,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1f4f-6a8c-dd3f-b526" name="Chameleon Skink" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1f4f-6a8c-dd3f-b526" name="Chameleon Skink" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d46-581b-3676-55ed" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb0-14c2-63aa-a701" type="min"/>
@@ -1108,7 +1126,7 @@
         <infoLink id="26fe-f6dd-4e96-5ff3" name="Flying Units" hidden="false" targetId="d015-9b7e-c667-b553" type="rule"/>
         <infoLink id="ef30-573b-fdf7-45d9" name="Hit-and-Run Attack" hidden="false" targetId="1155-71e6-447c-bbfa" type="rule"/>
         <infoLink id="64ee-86a0-3ed1-7c51" name="Poisoned Attacks" hidden="false" targetId="c42e-9dc4-8229-5abe" type="rule"/>
-        <infoLink id="bf9e-dcd2-bde0-742d" name="Terradon &amp; Rider" hidden="false" targetId="2204-be0c-a9a8-af3f" type="profile"/>
+        <infoLink id="d156-871b-885c-ef01" name="Terradon &amp; Rider" hidden="false" targetId="2204-be0c-a9a8-af3f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="88b2-61c0-225a-d19d" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1126,7 +1144,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="444a-100d-bd7b-3c17" name="Terradon &amp; Rider" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="444a-100d-bd7b-3c17" name="Terradon &amp; Rider" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ec-2b0b-06c4-16f1" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2704-d406-57cb-18f2" type="max"/>
@@ -1141,6 +1159,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b897-4495-81ab-300f" name="Stegadon" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="3185-17b2-4e70-9bcc" name="Unit Strength 8" hidden="false">
+          <description>The Stegadon has a unit strength of 2. No not really its 8.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="7a31-9074-ed14-e8d8" name="Stegadon" hidden="false" targetId="2db5-b28c-675e-eb12" type="profile"/>
         <infoLink id="f0d2-f3f5-2e4c-dad4" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
@@ -1171,6 +1194,9 @@
         <infoLink id="a94c-8f5d-1357-c447" name="Spout Flames" hidden="false" targetId="8b70-4bec-cd90-9e40" type="rule"/>
         <infoLink id="27e7-9f74-42ff-713c" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
         <infoLink id="f3e5-862f-e96a-dbd4" name="Salamander " hidden="false" targetId="9db6-619a-29b9-2abe" type="profile"/>
+        <infoLink id="8232-823e-9cf4-ac40" name="Skink Handler" hidden="false" targetId="1cc1-3378-7f15-b160" type="profile"/>
+        <infoLink id="51f8-e755-2d9c-ef11" name="Aquatic" hidden="false" targetId="d1be-78da-561d-0934" type="rule"/>
+        <infoLink id="9608-ebb1-572f-635b" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e99e-4e6b-347a-7456" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -1188,7 +1214,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7669-cc62-4f1e-58a3" name="Salamander" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7669-cc62-4f1e-58a3" name="Salamander" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb9-0898-66e8-0860" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6c-f067-b2db-a1c3" type="min"/>
@@ -1497,6 +1523,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
                 <selectionEntry id="1b68-bd48-424f-6014" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="57b6-f897-541c-807b" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
+                    <infoLink id="e2be-b6a6-fdc1-2bda" name="Stupidity" hidden="false" targetId="6541-7811-4171-a837" type="rule"/>
+                    <infoLink id="1144-23c4-023b-4451" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+                    <infoLink id="216e-27ec-9745-eeb1" name="Thick Skinned" hidden="false" targetId="d430-8369-52da-6fb1" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="37.0"/>
@@ -1512,6 +1541,7 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
                   </infoLinks>
                   <categoryLinks>
                     <categoryLink id="c7a8-4654-8ecb-d07c" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+                    <categoryLink id="4a96-bd4b-0976-4e8a" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
                   </categoryLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
@@ -1719,6 +1749,10 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
         <infoLink id="243b-8b89-caf1-82b0" name="Ultimate Predator" hidden="false" targetId="bde7-57df-dd14-3ae8" type="rule"/>
         <infoLink id="6622-6a5f-cb4b-005b" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="171c-84c1-9b17-e93f" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="d5ab-f430-f0ad-2655" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -1910,6 +1944,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="5407-c905-52e4-2294" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ad5-2248-6d34-f01b" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1918,6 +1955,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="1aeb-3a03-2812-25d3" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2431-73ea-e415-7496" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1926,14 +1966,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="d514-f04e-53ac-e8f7" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
       </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="ebd3-4260-b4a5-543f" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd4-44e0-0b81-5dd5" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="77a0-1bf9-99fe-6a4c" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
-      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5f76-eb66-794c-f994" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1965,7 +2000,8 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
                 <infoLink id="161b-dbc9-7dd3-1f12" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="be87-d3de-69a8-f8bf" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+                <categoryLink id="5895-39c9-0152-a34f" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+                <categoryLink id="d266-3480-379c-01dd" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
@@ -1974,6 +2010,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bb7e-eda5-d8ba-09bc" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1982,6 +2021,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="c347-38fe-4073-6feb" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6391-ef05-a9e0-9c09" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1990,6 +2032,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="7c0f-728c-c2a1-a7ea" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="047c-64df-42fc-9ed5" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1998,6 +2043,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="d2d2-4505-d259-19da" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="31c1-f8e7-c99d-90cc" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2006,6 +2054,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="9539-0c49-fd0c-007d" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5dcd-c767-b2a6-5ff4" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2014,6 +2065,9 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
       <infoLinks>
         <infoLink id="57bd-8311-5440-c839" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2181,7 +2235,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bf9b-10c2-4821-9fee" name="Talisman" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bf9b-10c2-4821-9fee" name="Talismans" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c3-fb6b-3017-bb7e" type="max"/>
       </constraints>
@@ -2685,6 +2739,19 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="b5f1-cbfb-ba4b-490e" name="Scar Vet Blessed spawnings" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8176-4d84-0727-915c" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" targetId="9425-66a8-ef0e-bc7a" type="selectionEntry"/>
+        <entryLink id="1a51-47fc-109e-9db0" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" targetId="4ad5-2248-6d34-f01b" type="selectionEntry"/>
+        <entryLink id="51cf-2b47-6d35-97c8" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" targetId="2431-73ea-e415-7496" type="selectionEntry"/>
+        <entryLink id="8346-b991-82d4-29c4" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" targetId="5f76-eb66-794c-f994" type="selectionEntry"/>
+        <entryLink id="a67d-77d8-ba47-e2db" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" targetId="bb7e-eda5-d8ba-09bc" type="selectionEntry"/>
+        <entryLink id="94e8-910d-61e4-49e9" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" targetId="6391-ef05-a9e0-9c09" type="selectionEntry"/>
+        <entryLink id="b641-3804-aece-59df" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" targetId="047c-64df-42fc-9ed5" type="selectionEntry"/>
+        <entryLink id="525e-3807-b4eb-8732" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry"/>
+        <entryLink id="0dce-a8a7-453f-0fbc" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d1be-78da-561d-0934" name="Aquatic" publicationId="3a49-dd2e-fcaa-cdb1" page="26" hidden="false">
@@ -2896,6 +2963,9 @@ Pick a list, roll a dice to see what you get, choose the default spell instead i
 You cannot have the same spell from the same list more than once per Wizard as normal. However, you could have the same effect from two different spells.
 </description>
     </rule>
+    <rule id="6b65-6cb5-58ae-dfe3" name="Unit Strength 5" hidden="false">
+      <description>The model has a unit strength of 5</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5943-700c-955c-d22d" name="Slan Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3023,9 +3093,9 @@ You cannot have the same spell from the same list more than once per Wizard as n
         <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
         <characteristic name="T" typeId="8712-f56f-5b22-a720">2</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
-        <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
     <profile id="bd4c-23fc-ea1c-ce1e" name="Skink Chief" publicationId="3a49-dd2e-fcaa-cdb1" page="59" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3234,7 +3304,7 @@ You cannot have the same spell from the same list more than once per Wizard as n
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
     <profile id="71c9-6495-4f4c-5d87" name="Revered Guardian" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3261,6 +3331,19 @@ You cannot have the same spell from the same list more than once per Wizard as n
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e308-1de2-d248-ac3e" name="Terradon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc"/>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901"/>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b"/>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720"/>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2"/>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59"/>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3"/>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113"/>
       </characteristics>
     </profile>
   </sharedProfiles>

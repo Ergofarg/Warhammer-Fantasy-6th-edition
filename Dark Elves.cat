@@ -1782,7 +1782,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e83d-6513-8fad-ebff" name="Cauldron Of Blood" hidden="false" collective="false" import="true" type="unit">

@@ -3106,6 +3106,9 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="2945-d784-95eb-4ed3" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db24-2db6-8a40-8728" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="fbac-a5e9-aa9d-d93f" name="Staff of Damnation" hidden="false" targetId="a0d8-17da-a93c-7fbb" type="profile"/>
           </infoLinks>
@@ -3114,6 +3117,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="e0d5-d643-2554-3f30" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b2-b525-081b-d021" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="728c-187e-4754-59f8" name="Skull Staff" hidden="false" targetId="87ff-db95-88d8-c04c" type="profile"/>
           </infoLinks>
@@ -3122,6 +3128,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0e08-ee03-b1a1-a9b0" name="Book of Amman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f399-414d-7768-ee13" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="432d-9a0c-0ddd-faa4" name="Book of Amman" hidden="false" targetId="e61e-d626-b43d-7cd5" type="profile"/>
           </infoLinks>
@@ -3130,6 +3139,9 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="24de-865e-07b0-dbfe" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a1-0f7f-3665-dd27" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="59fd-04b1-4b85-120a" name="Black Periapt" hidden="false" targetId="f48f-dd20-1093-9874" type="profile"/>
           </infoLinks>
