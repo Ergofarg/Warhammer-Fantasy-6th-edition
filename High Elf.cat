@@ -217,7 +217,7 @@
         <categoryLink id="a48d-09e9-0201-6317" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6f81-220c-779b-c5a9" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6f81-220c-779b-c5a9" name="Magic Items and Honours" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681f-2751-9a87-cc89" type="max"/>
           </constraints>
@@ -330,7 +330,7 @@
         <categoryLink id="1dc7-99ba-fd41-1b06" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e74d-4b5e-bbf0-d79c" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e74d-4b5e-bbf0-d79c" name="Magic Items and Honours" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c48-a300-5af6-5a5c" type="max"/>
           </constraints>
@@ -1663,6 +1663,9 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1843,6 +1846,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -1855,6 +1861,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0473-bad0-2ec9-d49b" name="White Lions" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="43cc-fc3f-35a7-8d03">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e164-b6f6-b42d-82ed" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="e94b-6a54-8779-cd60">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e164-b6f6-b42d-82ed" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="343d-842d-c436-770a" type="max"/>
       </constraints>
@@ -2104,33 +2122,115 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c6dc-dc11-352b-ebc4" name="Annulian Crystal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0846-dbf5-e62a-f052" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d42c-e84e-55e4-2edb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4be3-917a-3b28-5849" name="Annulian Crystal" hidden="false" targetId="ef54-aa17-c7e3-76d7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baa0-d2e9-383b-e4de" name="Book of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="486f-8dfb-fcd1-91cf" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="517f-dac2-bdcc-87c4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="06f2-8c4f-ff79-841a" name="Book of Hoeth" hidden="false" targetId="0f09-62b6-c728-6638" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66c8-d113-6c49-5879" name="Jewel of the Dusk" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14fe-f394-9280-055e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798a-0eb7-d760-28dc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a9aa-82a1-94b2-b4f3" name="Jewel of the Dusk" hidden="false" targetId="6e0d-db25-6165-b446" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ac5-78ee-14d9-507b" name="Sigil of Asuryan" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d6-23c5-f470-15fe" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9d-68ec-45f2-3daa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3383-13d8-eec8-bf00" name="Sigil of Asuryan" hidden="false" targetId="606b-34d2-bd68-414f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d3f-b08a-33dc-21fe" name="Silver Wand" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1048-7c8c-b8b9-3b80" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c112-ae72-669a-10e4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6be0-72d9-a3dc-0029" name="Silver Wand" hidden="false" targetId="00bd-0740-5061-5336" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e317-fb5b-5ead-c954" name="Staff of Solidity" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af55-6c80-f827-dfea" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6990-9121-abd6-f947" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0fb5-87ac-9011-56e6" name="Staff of Solidity" hidden="false" targetId="b03b-8feb-1e3f-46b8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c600-d10e-4e4f-6a0e" name="Starwood Staff" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc1-1f41-8a7c-d264" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa57-a38c-965d-11a9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7e96-f07a-4958-da57" name="Starwood Staff" hidden="false" targetId="ef8f-13c9-ab7f-58c2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0ce-b0c4-fcc1-6cac" name="Pure of Heart" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4720-59d3-07c4-68b3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ac-892d-a730-545d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="82ef-69c7-f459-5e20" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dc8f-265a-b611-d092" name="Pure of Heart" hidden="false" targetId="aef2-97fe-962d-9f7a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e164-b6f6-b42d-82ed" name="Lion Guard" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a96-9cd1-25d0-11fe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9c02-b920-a22d-6299" name="Lion Guard" hidden="false" targetId="6cf8-5816-5044-6989" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="45a3-3e65-6c49-5cc0" name="Honours" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="c2b3-7e06-8de5-7fe5" name="Pure of Heart" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa43-e51c-afbd-9ab3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c041-8b35-00c1-1d1e" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a0ec-cc1e-caab-71d3" name="Pure of Heart" hidden="false" targetId="aef2-97fe-962d-9f7a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="601e-5d78-93ec-311d" name="Lion Guard" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95eb-c7b8-1851-d226" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c39b-3277-0755-d77d" name="Lion Guard" hidden="false" targetId="6cf8-5816-5044-6989" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b264-4a85-7357-7ef2" name="Loremaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9209-991a-1aae-69c1" type="max"/>
@@ -2176,6 +2276,10 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="eaa1-6db1-ff15-3058" name="Lion Guard" hidden="false" collective="false" import="true" targetId="e164-b6f6-b42d-82ed" type="selectionEntry"/>
+        <entryLink id="30b5-bd1a-60e2-2354" name="Pure of Heart" hidden="false" collective="false" import="true" targetId="d0ce-b0c4-fcc1-6cac" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="776e-c590-48d5-4bce" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
@@ -2397,7 +2501,6 @@
           </constraints>
           <infoLinks>
             <infoLink id="d3ec-5594-cde7-e511" name="Vambraces of Defence" hidden="false" targetId="1d38-8252-7db8-50fd" type="rule"/>
-            <infoLink id="1544-1488-57d3-ca5a" name="Vambraces of Defence" hidden="false" targetId="48c5-1c21-3535-1dca" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2496,95 +2599,17 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73b-f7e0-bf3f-46a9" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="368d-176c-d17f-5bba" name="Book of Hoeth" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dfb-1d4b-d85b-f4b6" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af9-4656-e34f-5641" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d201-20cf-b0f3-4ca2" name="Book of Hoeth" hidden="false" targetId="0f09-62b6-c728-6638" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1541-248c-8b6b-c238" name="Annulian Crystal" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8478-d0f0-f7c8-b781" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c7-0e35-3814-93dd" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6d60-d9f4-a3d8-29ad" name="Annulian Crystal" hidden="false" targetId="ef54-aa17-c7e3-76d7" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7eb5-d40b-7fad-3166" name="Starwood Staff" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770e-d612-b11e-3d76" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5f-7822-231a-f1ef" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="fbd8-cc10-0528-9251" name="Starwood Staff" hidden="false" targetId="ef8f-13c9-ab7f-58c2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="329f-64dc-1438-43ff" name="Sigil of Asuryan" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa7-5a65-09c6-c2b2" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffd-54da-3a32-b0ba" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1fb7-1b6b-25a0-3984" name="Sigil of Asuryan" hidden="false" targetId="606b-34d2-bd68-414f" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0183-e978-1fba-7e47" name="Staff of Solidity" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaff-0594-69b1-d6a1" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4435-5d9e-f609-1c76" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5928-912c-34f2-7d7b" name="Staff of Solidity" hidden="false" targetId="b03b-8feb-1e3f-46b8" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3b6a-dde2-39b5-70e8" name="Jewel of the Dusk" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd1a-3dfe-909a-4904" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa6d-926d-eda2-e414" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="46c0-8499-76d3-5735" name="Jewel of the Dusk" hidden="false" targetId="6e0d-db25-6165-b446" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="10fd-a9b6-38ce-495a" name="Silver Wand" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b7b-ebab-1516-ce51" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f77-a715-2f84-23f8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2c88-e7c1-19ec-ccea" name="Silver Wand" hidden="false" targetId="00bd-0740-5061-5336" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="75cb-50ba-1eca-259a" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="5e6e-2abb-3eb7-f7c7" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="f339-3c77-df27-ea22" name="Annulian Crystal" hidden="false" collective="false" import="true" targetId="c6dc-dc11-352b-ebc4" type="selectionEntry"/>
+        <entryLink id="979c-ca97-ba69-d93b" name="Book of Hoeth" hidden="false" collective="false" import="true" targetId="baa0-d2e9-383b-e4de" type="selectionEntry"/>
+        <entryLink id="9c2f-cdb4-6688-5a15" name="Jewel of the Dusk" hidden="false" collective="false" import="true" targetId="66c8-d113-6c49-5879" type="selectionEntry"/>
+        <entryLink id="44da-a703-f170-e0a1" name="Sigil of Asuryan" hidden="false" collective="false" import="true" targetId="9ac5-78ee-14d9-507b" type="selectionEntry"/>
+        <entryLink id="f6c2-ce8c-6a1f-5d49" name="Silver Wand" hidden="false" collective="false" import="true" targetId="1d3f-b08a-33dc-21fe" type="selectionEntry"/>
+        <entryLink id="96b0-ef4f-43a4-6dd2" name="Staff of Solidity" hidden="false" collective="false" import="true" targetId="e317-fb5b-5ead-c954" type="selectionEntry"/>
+        <entryLink id="36e7-e392-d8b5-16cc" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="5e16-cb5e-4054-f702" name="Starwood Staff" hidden="false" collective="false" import="true" targetId="c600-d10e-4e4f-6a0e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="39ab-c370-3f13-7d60" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -3115,11 +3140,6 @@ The unit treats difficult ground as open ground for purposes of movement.
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6+</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">5+WS</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="48c5-1c21-3535-1dca" name="Vambraces of Defence" hidden="false" typeId="5feb-de73-fa5c-452f" typeName="Use magic items instead">
-      <characteristics>
-        <characteristic name="Magic ability" typeId="e5e2-c31b-6ae8-d4fe">4+WS and reroll failed armour saves</characteristic>
       </characteristics>
     </profile>
     <profile id="a098-a6dd-1150-67c5" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
