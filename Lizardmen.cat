@@ -1058,6 +1058,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7823-649b-117f-3231" name="Chamelon Skinks" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a51-ec4c-57f4-2d3d" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="375d-9d5a-83c9-2189" name="Aquatic" hidden="false" targetId="d1be-78da-561d-0934" type="rule"/>
         <infoLink id="0f50-63db-06dd-8a33" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
@@ -1065,6 +1068,8 @@
         <infoLink id="1bf9-931e-e595-f80d" name="Scout (Skinks)" hidden="false" targetId="02e3-3d78-0697-b75b" type="rule"/>
         <infoLink id="9536-ff69-50e2-a1e9" name="Poisoned Attacks" hidden="false" targetId="c42e-9dc4-8229-5abe" type="rule"/>
         <infoLink id="410a-71b9-6b84-182a" name="Chameleon Skink" hidden="false" targetId="e795-afb9-4133-f7e3" type="profile"/>
+        <infoLink id="dca6-42bd-056b-7455" name="Expert Hunters" hidden="false" targetId="8b55-7616-fd0b-f1a4" type="rule"/>
+        <infoLink id="822a-6053-7000-fc01" name="Chameleons" hidden="false" targetId="942f-bcf6-d9a6-97d0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5a1e-be3c-4138-cc64" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1107,7 +1112,7 @@
         </selectionEntry>
         <selectionEntry id="1f4f-6a8c-dd3f-b526" name="Chameleon Skink" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d46-581b-3676-55ed" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d46-581b-3676-55ed" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb0-14c2-63aa-a701" type="min"/>
           </constraints>
           <costs>
@@ -1229,214 +1234,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="a656-86e3-d8d6-eaa0" name="Cold Blooded" publicationId="3a49-dd2e-fcaa-cdb1" page="23" hidden="false">
-      <description>For all Leadership tests, Lizardmen units roll 3 dice and choose the lowest 2 scores</description>
-    </rule>
-    <rule id="5914-c55e-e72d-36d2" name="Blowpipes" publicationId="3a49-dd2e-fcaa-cdb1" page="23" hidden="false">
-      <description>Maximum range 12&quot;
-Strength 3
-2 x Multiple Shots</description>
-    </rule>
-    <rule id="d1b8-325f-ab2f-c62e" name="Palanquin" publicationId="3a49-dd2e-fcaa-cdb1" page="24" hidden="false">
-      <description>Treat the Slann as a single model with a sinlge profile, rather like a chariot. If the Slann has joined a unit of troops, the unit counts rank bonuses as if the space taken by the palanquin was taken by normal troops.
-The palanquin may be placed in the centre of the second rank of troops, rather than in the front rank. It is only ever forced to move into the front rank if the front rank is reduced to less than three models. If the palanquin is forced to move to the front rank, it is placed in the centre of the remaining two troops - slide them aside so that the Slann may fit between them. If there is just one model left in the front rank, simply place the Slann next to it. While the Slann has no enemy models in base to base contact, it does not count as being in combat for purposes of its own spell casting and use of magic items, even if the unit around it is. This means that it may still cast spells as if it were unengaged, as it sometimes rises on its palanquin above the fighting to cast its powerful magic before dropping back within the protection of its unit. 
-However, the Slann still counts as being in combat in regards to enemies wishing to target the Slann.</description>
-    </rule>
-    <rule id="878a-eb0f-4672-84a9" name="Contemplation" publicationId="3a49-dd2e-fcaa-cdb1" page="24" hidden="false">
-      <description>Slann will never fight. If engaged in combat, its single attack is made by its Skink attendant darting forward to strike before retreating once again behind the throne. 
-Slann may never take magic weapons or magic armour when choosing magic items.</description>
-    </rule>
-    <rule id="db72-ab27-2c23-506d" name="Telepathy" publicationId="3a49-dd2e-fcaa-cdb1" page="24" hidden="false">
-      <description>For spell casting, the Slann is considered to be able to draw a line of sight to everything that any Skink Priests or other Slann on the table can see. Note that it is still the Slann that casts the spell, and the range is measured from the Slann itself, ignoring any intervening terrain. Eg a Slann in the second rank of a unit of Saurus Warriors that are engaged in combat may cast magic missiles at a foe (even though the Slann itself cannot see them) that a friendly Skink Priest can see, so long as the target is within range of the Slann.</description>
-    </rule>
-    <rule id="04da-0308-67fb-c16a" name="Shield of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="24" hidden="false">
-      <description>Slann are protected by potent magical defences that give them a 4+ ward save</description>
-    </rule>
-    <rule id="499b-963a-d8ab-a7ec" name="Wisdom of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="24, 49" hidden="false">
-      <description>When a Slann Mage-Priest selects his spells before a battle he is allowed more freedom than normal. He may use any Lore from the Warhammer rulebook. What&apos;s more, a single Slann can choose from more than one Lore instead of being limited to just one.
-Pick a list, roll a dice to see what you get, choose the default spell instead if you like and then choose another list or the same again.
-You cannot have the same spell from the same list more than once per Wizard as normal. However, you could have the same effect from two different spells.
-</description>
-    </rule>
-    <rule id="bbd4-8f73-d41f-60e9" name="Fifth Generation" publicationId="3a49-dd2e-fcaa-cdb1" page="49" hidden="false">
-      <description>Slann are so powerful that they add +1 to their attempts to both cast and dispel.</description>
-    </rule>
-    <rule id="8c86-74d2-d678-8baf" name="Fourth Generation" publicationId="3a49-dd2e-fcaa-cdb1" page="49" hidden="false">
-      <description>Whenever a Fourth Generation Slann Mage-Priest suggers a Miscast, the spell automatically fails but no roll on the Miscast Table is taken.</description>
-    </rule>
-    <rule id="0906-3c54-c29b-862c" name="Third Generation" publicationId="3a49-dd2e-fcaa-cdb1" page="49" hidden="false">
-      <description>Third Generation Slann use up an extra Hero choice (so they take up a Lord and a Hero choice).
-
-In addition to any other spells, they also know Drain Magic spell.
-
-And they have +1 wound.
-
-However, Slann of the Third Generation are so ancient and revered that if one is killed in a game, the Lizardmen player&apos;s opponent gains 100 Victory Points added to his total at the end of the battle.</description>
-    </rule>
-    <rule id="30a7-6193-db74-8a8a" name="Second Generation" publicationId="3a49-dd2e-fcaa-cdb1" page="49" hidden="false">
-      <description>Second Generation Slann use up an extra Hero choice, as well as a Rare Unit choice (so they take up a Lord choice, a Hero choice, and a Rare Unit choice).
-
-Every spell cast by the Slann may have an extra dice added to it after the dice have been rolled. This extra dice does not come from the Slann player&apos;s pool of Power dice, and is in affect a &quot;free&quot; dice. This extra dice may cause Irresistible Force or Miscasts as normal. In addition, the Slann has +1 wound (remember this is cumulative, so a Second Generation Slann has 2 more wounds than a Fourth or Fifth Generation Slann).
-
-However, as a Slann of the Second Generation is so ancient and revered, if he is killed in battle then the Lizardmen&apos;s opponent gains an extra 100 Victory Points at the end of the Battle (remember this is cumulative, so the opponent gets can additional 200 VP total). </description>
-    </rule>
-    <rule id="a90e-42c9-ab06-2b8a" name="Scaly Skin 6+" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>Saurus Warriors and Cold One Riders have a Scaly Skin Save of 6+ </description>
-    </rule>
-    <rule id="b772-f07d-2f6c-f3eb" name="Scaly Skin 5+" hidden="false">
-      <description>Temple Guard, Saurus Oldbloods, Saurus Scar-Veterans, and Salamanders have a Scaly Skin Save of 5+</description>
-    </rule>
-    <rule id="e4fc-2106-b90d-f20e" name="Predatory Fighters" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>Saurus Warriors are vicious fighters whose bodies and armament have been created to maximise their fighting potential in close combat. As well as their well-designed weapons, they make use of their bony crests, powerful jaws and claws. Even their shields are designed to strike and slash with, making them formidable opponents.
-
-However, this instinctive and predatory fighting style works best at close range, so Saurus Warriors fighting with spears may only make a single attack rather than two, if they are positioned where they can attack in the second rank of fighting a foe to the unit&apos;s front.</description>
-    </rule>
-    <rule id="81a6-238f-37e5-3a4c" name="Sacred Duty" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>If both a Slann Mage Priest and a Temple Guard are in the army, then the Slann must be placed in the unit.
-The Slann cannot leave this unit- the Temple Guard are spawned to protect the Slann and their temples, and they will not leave their charge for anything.
-Whilst there is a Slann Mage Priest within the unit, the Temple Guard are stubborn (page 85 of the Warhammer rulebook).</description>
-    </rule>
-    <rule id="54dd-860e-4b1d-ca76" name="Fear" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>Page 81 of the Warhammer Rulebook</description>
-    </rule>
-    <rule id="4ac6-f24a-3572-7dc6" name="Stupidity" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>See page 82 of the Warhammer rulebook.
-
-Use 3d6, ignoring the highest dice in the usual manner for Lizardmen</description>
-    </rule>
-    <rule id="b9bd-6085-0d62-d474" name="Thick Skinned" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
-      <description>A Cold One Rider gains an extra bonus of +2 on his armour save rather than the usual +1 for being mounted on cavalry.</description>
-    </rule>
-    <rule id="32b4-b692-b90b-839f" name="Aquatic" publicationId="3a49-dd2e-fcaa-cdb1" page="26" hidden="false">
-      <description>Skinks can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
-    </rule>
-    <rule id="81c7-d821-d64a-031c" name="Skirmishers" publicationId="315e-e3c4-08af-fd51" page="116-117" hidden="false">
-      <description>See pages 116-117</description>
-    </rule>
-    <rule id="37ac-ed94-df36-75bd" name="Scout (Skinks)" publicationId="3a49-dd2e-fcaa-cdb1" page="26" hidden="false">
-      <description>See page 112 of the Warhammer Rulebook.
-In addition, scouting Skinks count as being out of line of sight if they are deployed within a water feature and more than 2&quot; or more from enemy troops as normal</description>
-    </rule>
-    <rule id="825c-99a1-24f4-4f94" name="Poisoned Attacks" publicationId="3a49-dd2e-fcaa-cdb1" page="26" hidden="false">
-      <description>Skink darts and javelins count as Poisoned Attacks (see page 114 Warhammer Rulebook).</description>
-    </rule>
-    <rule id="5012-1fa0-8e04-6348" name="Expert Hunters" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Chamelon Skinks work best when stalking their prey alone. Characters can never join units of Chameleon Skinks</description>
-    </rule>
-    <rule id="552e-4541-0533-856d" name="Chameleons" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Enemies suffer an additional +1 to hit when shooting at Chamelon Skinks.
-
-In addition, Chameleon Skinks are deployed at the same time as Scouts, and can be placed in one of two ways.
-Either place them exactly as Scouts, but with no minimum between them and the enemy, or place in sight of the enemy (even in the open) but more than 12&quot; away from them.</description>
-    </rule>
-    <rule id="08de-6e38-ca37-a209" name="Swarm" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Jungle Swarms represent countless numbers of creatures on a single 40mm by 40mm base. This base is treated as a single model with multiple wounds and attacks.
-A jungle swarm base fights at full effect until it has taken 5 wounds at which point it is removed. Jungle Swarms are Unbreakable (112 Warhammer Rulebook) and cannot be joined by characters</description>
-    </rule>
-    <rule id="8ec9-0017-2814-fe4d" name="Small" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Jungle Swarms do not block line of sight of other units.
-This does not allow skirmishers to move through their formation</description>
-    </rule>
-    <rule id="aa86-3bb6-b70e-de32" name="Scaly Skin 4+" publicationId="3a49-dd2e-fcaa-cdb1" page="28" hidden="false">
-      <description>Kroxigors  Carnosaurs, and Stegadons have a 4+ Scaly Skin Save</description>
-    </rule>
-    <rule id="b61e-20d7-3308-f4be" name="Skirmish Screen" publicationId="3a49-dd2e-fcaa-cdb1" page="28" hidden="false">
-      <description>Both Skinks and Kroxigor are separate units and follow all the normal rules. In addition, Kroxigor may see and charge through Skink units (including Chameleon Skinks) that are not fleeing.
-A Skink unit that has a unit of Kroxigors charge through them must take a leadership test. If this is failed, they may not voluntarily move that turn.
-
-Enemy units charged by Kroxigor through a Skirmish screen may stand and shoot as normal. For the purposes of working out range and whether the unit can stand &amp; shoot at all, measure the distance to the point from which the Kroxigor emerge (ie the front of the Skink unit).</description>
-    </rule>
-    <rule id="6bb8-9c4b-fb8f-dca4" name="Controlled Creatuers" publicationId="3a49-dd2e-fcaa-cdb1" page="29" hidden="false">
-      <description>Any shooting against the Salamanders unit will hit the Salamanders on a roll of 1-4 and the Skinks on a 5-6.
-If all Skink Handlers are slain, then the Salamanders must take a leadership test. If they fail this test, they must roll on the Monster Reaction table (pg 105 Warhammer Rulebook).</description>
-    </rule>
-    <rule id="7de4-b0dd-a328-7057" name="Spout Flames" publicationId="3a49-dd2e-fcaa-cdb1" page="29" hidden="false">
-      <description>Range of 15&quot;.
-Roll an Artillery dice fo each Salamander. This is the number of hits that the target suffer. Hits are resolved at Strength 3, although they reduce the target&apos;s armour save by -1. Note that Salamanders cannot stand &amp; shoot, though they may move and shoot as normal.
-
-On the roll of a Misfire, D3 of the Skink Handlers are removed as casualties, and the Salamander does not spout flames that Shooting phase. If there are no Skinks left then the shot is discounted.</description>
-    </rule>
-    <rule id="2652-c432-174c-b1ea" name="Mounted" publicationId="3a49-dd2e-fcaa-cdb1" page="30" hidden="false">
-      <description>Skinks riding Terradons get a 6+ armour save</description>
-    </rule>
-    <rule id="41f5-0286-2535-2f8e" name="Flying Units" publicationId="3a49-dd2e-fcaa-cdb1" page="30" hidden="false">
-      <description>Terradons can fly</description>
-    </rule>
-    <rule id="5855-7368-a7f5-766e" name="Hit-and-Run Attack" publicationId="3a49-dd2e-fcaa-cdb1" page="30" hidden="false">
-      <description>On any turn that Terradons charge, work out combat as normal. If the Terradons lose combat or it is a draw, they do not take a break test but automatically fall back (counts as fleeing, does not cause panic in nearby units, and Terradons automatically rally). The enemy cannot puruse.
-If the Terradons won combat, they may elect to fall back. Regardless of whether they chose to fall back or not, the enemy must take a Break test as normal. If the Terradons elected to stay then work out the results of the Break and any pursuits as normal.
-This special attack may only be used on a the turn that Terradons charge.</description>
-    </rule>
-    <rule id="33f3-ee30-ee3d-5de2" name="Ridden Monster" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>Stegadons count as ridden monsters with more than one rider.
-If the Stegadons are killed the Skinks form a small Skirmishing unit.
-If all the Skinks are killed then the Stegadon is treated like any other ridden monster that loses its rider.
-For VP, only the Stegadon and characters counts.</description>
-    </rule>
-    <rule id="f7c6-733a-c03e-4eb2" name="Terror" publicationId="315e-e3c4-08af-fd51" page="81" hidden="false">
-      <description>See pg 81 Warhammer Rulebook</description>
-    </rule>
-    <rule id="f3dc-5f75-7415-5737" name="Large Target" publicationId="315e-e3c4-08af-fd51" page="62" hidden="false"/>
-    <rule id="c5c8-9676-37e9-f47a" name="Impact Hits" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>The Stegadon causes D6+1 impact hits when it charges (see Warhammer Rulebook pg 128, chariot with scythes).</description>
-    </rule>
-    <rule id="8a60-bc66-e00f-338f" name="Howdah" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>The howdah gives the Skinks or any character riding it a 2+ armour save which cannot be improved in any way (characters may still use a ward save).</description>
-    </rule>
-    <rule id="5a58-5124-4bed-cc45" name="Mixed Weapons" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>Skinks in the howdah carry a variety of weapons. For game purposes these count as hand weapons and javelins (javelins count as poisoned, and the Skinks may throw their javelins in any direction)</description>
-    </rule>
-    <rule id="dc12-58ea-b992-5876" name="Giant Bow" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>This bow is fired using the Skink&apos;s ballistic skill.
-Single S5 hit that does D3 wounds.
-Penetrates ranks as bolt thrower.
-Can move and fire, firing arc equals that of the Stegadon itself.
-Two Skinks must fire it rather then throw javelins.
-May shoot over normal sized units and interposing terrain that large targets can see over.</description>
-    </rule>
-    <rule id="1767-e8f6-fd20-f87e" name="Stubborn" publicationId="315e-e3c4-08af-fd51" page="85" hidden="false">
-      <description>See Warhammer Rulebook</description>
-    </rule>
-    <rule id="b5d3-9885-9186-d7d0" name="Immune to Panic" publicationId="3a49-dd2e-fcaa-cdb1" page="31" hidden="false">
-      <description>Stegadons and any riders are immune to panic</description>
-    </rule>
-    <rule id="8f5c-73ec-5acc-ca37" name="Blood-frenzy" publicationId="3a49-dd2e-fcaa-cdb1" page="32" hidden="false">
-      <description>Once a Carnosaur has inflicted a wound or casualty, it will immediately become subject to frenzy from the next close combat phase onwards. The Carnosaur will never lose its frenzy, even if it is beaten in combat.
-See page 84 of the Warhammer rulebook for Frenzy.</description>
-    </rule>
-    <rule id="840d-9920-eab8-f5e1" name="Ultimate Predator" publicationId="3a49-dd2e-fcaa-cdb1" page="32" hidden="false">
-      <description>Against Large Targets, each wound that the Carnosaur inflicts does D3 wounds rather than 1.</description>
-    </rule>
-    <rule id="9f9a-41a0-36a3-cab2" name="Blesssed Spawning of Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Aquatic, +1 Initiative</description>
-    </rule>
-    <rule id="314e-b9a3-8a4b-6cfb" name="Blesssed Spawning Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>When the unit/character charges, they get +1 Attack for that round of combat.</description>
-    </rule>
-    <rule id="dc70-5763-8143-953f" name="Blesssed Spawning Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Scaly Skin save increased +1.</description>
-    </rule>
-    <rule id="5902-73c1-fcf9-1118" name="Blesssed Spawning Tlazcotl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Immune to Psychology (Carnosaur will still be subject to Blood-Frenzy, Cold One will still be subject to Stupidity).</description>
-    </rule>
-    <rule id="af6b-cdf0-51e4-0102" name="Blesssed Spawning of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Roll an extra dice when pursuing and choose the highest two (three if mounted).</description>
-    </rule>
-    <rule id="28a8-46e5-7920-e88d" name="Blesssed Spawning of Huanchi" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>The unit may move through jungles, woods, and forest as if they were open ground, suffering no penalties for movement.</description>
-    </rule>
-    <rule id="d1d2-dc6f-5a15-50c3" name="Blesssed Spawning Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>The presence of the unit or the character on the battlefield adds one dice to the player&apos;s dispel dice pool</description>
-    </rule>
-    <rule id="679c-db02-5e75-9435" name="Blesssed Spawning of Itzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Characters must take the Blesssed Spawning of Itzl if they wish to ride a Carnosaur or a Cold One.</description>
-    </rule>
-    <rule id="c273-84bb-c71d-1bd9" name="Blesssed Mark of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>The character may reroll a total of D3 (roll at the start of the game) single D6&apos;s per game. Each reroll entitles the player to take a single D6 of his own that directly affects the character (including one of the dice rolled as part of a 2D6 etc) and roll it again.
-This can potentially cause Irresistible Force or avoid a Miscast. Remember that you cannot reroll a reroll.</description>
-    </rule>
-  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="c043-73dd-db25-ece0" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2704,6 +2501,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e73-034d-9301-1417" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
         </entryLink>
         <entryLink id="51c7-4aa0-0f5c-bb0c" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry">
           <constraints>
@@ -2741,15 +2541,51 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
     </selectionEntryGroup>
     <selectionEntryGroup id="b5f1-cbfb-ba4b-490e" name="Scar Vet Blessed spawnings" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="8176-4d84-0727-915c" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" targetId="9425-66a8-ef0e-bc7a" type="selectionEntry"/>
-        <entryLink id="1a51-47fc-109e-9db0" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" targetId="4ad5-2248-6d34-f01b" type="selectionEntry"/>
-        <entryLink id="51cf-2b47-6d35-97c8" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" targetId="2431-73ea-e415-7496" type="selectionEntry"/>
-        <entryLink id="8346-b991-82d4-29c4" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" targetId="5f76-eb66-794c-f994" type="selectionEntry"/>
-        <entryLink id="a67d-77d8-ba47-e2db" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" targetId="bb7e-eda5-d8ba-09bc" type="selectionEntry"/>
-        <entryLink id="94e8-910d-61e4-49e9" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" targetId="6391-ef05-a9e0-9c09" type="selectionEntry"/>
-        <entryLink id="b641-3804-aece-59df" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" targetId="047c-64df-42fc-9ed5" type="selectionEntry"/>
-        <entryLink id="525e-3807-b4eb-8732" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry"/>
-        <entryLink id="0dce-a8a7-453f-0fbc" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry"/>
+        <entryLink id="8176-4d84-0727-915c" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" targetId="9425-66a8-ef0e-bc7a" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1a51-47fc-109e-9db0" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" targetId="4ad5-2248-6d34-f01b" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="51cf-2b47-6d35-97c8" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" targetId="2431-73ea-e415-7496" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8346-b991-82d4-29c4" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" targetId="5f76-eb66-794c-f994" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a67d-77d8-ba47-e2db" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" targetId="bb7e-eda5-d8ba-09bc" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="94e8-910d-61e4-49e9" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" targetId="6391-ef05-a9e0-9c09" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b641-3804-aece-59df" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" targetId="047c-64df-42fc-9ed5" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="525e-3807-b4eb-8732" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0dce-a8a7-453f-0fbc" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
