@@ -695,14 +695,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="992c-d708-dd46-6d67" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87c-1d1e-7338-d7ea" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ba8a-b51f-65f9-5f96" name="Mounts" hidden="false" collective="false" import="true">
@@ -756,6 +748,27 @@
             </entryLink>
             <entryLink id="9e35-fc3f-fb95-63ab" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3aea-621a-cde8-b4f6" name="Magic Level" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e7-cf73-36d9-421f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e61c-2c49-1872-a290" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9888-4923-f6d5-157a" name="Level 3 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bb-8a93-85c8-5196" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="66e0-fd8f-7578-d1b1" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa80-56df-4510-6216" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1199,14 +1212,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f18e-822a-1301-d36a" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c7-10fc-64ec-052e" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8ae9-6a07-d7dd-0f1b" name="Mounts" hidden="false" collective="false" import="true">
@@ -1231,6 +1236,27 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d43a-4107-8610-85de" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e32-8685-6ceb-98c4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d3-1792-2b2d-75d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22f-02fa-bef5-e4bf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9e32-8685-6ceb-98c4" name="Level 3 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1231-5633-efc0-9919" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="bf49-5bae-5e66-6f4f" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb4d-5c4f-5546-a020" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1274,14 +1300,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6e78-f354-c2bd-eb38" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f706-4b87-ae99-da52" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3db2-fbbc-3b87-602f" name="Magic Items" hidden="false" collective="false" import="true">
@@ -1306,6 +1324,27 @@
             </entryLink>
             <entryLink id="243a-a2ad-15c5-2819" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="237a-32b9-75ed-79b5" name="Magic Level" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c044-296f-e37d-5547" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f454-40c0-bf1d-78d4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="63f5-d9c3-b179-6980" name="Level 3 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6989-756a-3800-b423" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7b5e-36a4-3a6f-0f8e" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b30-e7ee-5eab-73ce" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1860,14 +1899,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d4e7-ddf6-bff6-4e04" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c83-0b25-45ed-3499" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="282d-afda-0de8-93c8" name="Mounts" hidden="false" collective="false" import="true">
@@ -1921,6 +1952,27 @@
             </entryLink>
             <entryLink id="cbd1-ba19-280c-f6f3" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bbf1-6402-24b4-5794" name="Magic Level" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9d-253a-6b37-4c1f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc6-86d9-026c-7549" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eb20-c898-6345-c1b3" name="Level 1 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0773-8f79-b431-847d" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9d6d-45b0-8cf3-7a10" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="844d-2d93-5800-6bdd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2332,14 +2384,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c536-f5bb-6053-6521" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76d-bebe-720b-6056" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3a26-e515-28a5-93c6" name="Mounts" hidden="false" collective="false" import="true">
@@ -2391,6 +2435,27 @@
             <entryLink id="5c93-6d8b-e3bd-5462" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="464f-0a4c-913b-dce5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="cfa9-a8eb-79b9-a9cb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247b-00f5-964c-c448" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548e-614e-c825-38dd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cfa9-a8eb-79b9-a9cb" name="Level 1 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec63-e59a-6b4a-d247" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="854f-8cdb-258b-c326" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288c-3af2-c510-b3fd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2430,14 +2495,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="86e5-16bf-6007-0879" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7183-49d7-c026-46e3" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae34-5d26-89b9-4094" name="Magic Items" hidden="false" collective="false" import="true">
@@ -2462,6 +2519,27 @@
             </entryLink>
             <entryLink id="1356-6095-6c7c-8fb8" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3388-fe31-1220-3825" name="Magic Level" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1fc-d514-e322-6bfe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e5-f223-89ac-381d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="05e2-247d-081c-a6d0" name="Level 1 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76c-c211-b225-225a" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="0381-829a-f4a1-d27f" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f39a-bf2d-2c22-b304" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4630,6 +4708,102 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ad25-b6b2-7eb8-4181" name="Battleaxe of the last Waaagh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c19c-b355-5809-7edb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7bd8-c5ef-a890-4056" name="Battleaxe of the last Waaagh" hidden="false" targetId="d1a3-d76e-33f6-fd2e" type="profile"/>
+        <infoLink id="6ad5-1b01-aaac-0ea7" name="BATI&apos;LEAXE OF THE LAST WAAAGH!" hidden="false" targetId="a9a4-f1cf-6743-6ab9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8691-2973-fe1b-0e47" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f18-e07b-c59d-9ce7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d6d4-ab3d-7583-f77b" name="Kleevas Cleaver of Cleavage" hidden="false" targetId="8a4a-d6a1-d24b-e89a" type="profile"/>
+        <infoLink id="55fa-ad3d-8080-9e8b" name="KLEEVA&apos;S CLEAVER OF CLEAVAGE" hidden="false" targetId="31cb-d75b-6246-12ed" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b4d-5606-4efe-5330" name="Krumpa&apos;s club of Crumpin&apos;" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a35-21b3-8d5a-1882" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="33cc-10b0-3ade-1d0d" name="Krumpa&apos;s club of Crumpin&apos;" hidden="false" targetId="10f8-e65d-7259-4916" type="profile"/>
+        <infoLink id="0700-c7de-fcb8-c409" name="KRUMPA&apos;S CLUB OF CRUMPIN&apos;" hidden="false" targetId="2acc-e515-fd0f-d2b1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb89-b525-88ef-79d3" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d783-9d54-6705-9f6d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="96f6-5222-1f0d-4c66" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" targetId="5064-87f2-2636-434c" type="profile"/>
+        <infoLink id="3bc5-45fe-0b9e-72f0" name="BASHA’S BIG AXE OF BASHIN&apos;" hidden="false" targetId="be64-5c5a-5efc-5883" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ccbd-0159-115b-109b" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4769-49cf-5fce-1fb9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9832-d449-800c-8b6c" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" targetId="c75b-68af-56e1-fd1b" type="profile"/>
+        <infoLink id="e779-091d-2eb9-2ee4" name="HACKA’S SWORD OF HACKIN&apos;" hidden="false" targetId="d8d8-87ac-4c2d-174f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de09-9f09-a054-8ad5" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d849-5e67-1dac-2498" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4f0f-72c9-f715-db35" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" targetId="014f-54d6-8281-3d76" type="profile"/>
+        <infoLink id="608b-76e6-992f-2cc6" name="FUMPA&apos;S CLUB OF FUMPIN&apos;" hidden="false" targetId="1f39-0b5e-452b-15c4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5eb5-0daf-2256-f5c0" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e7-c8ab-d083-e6b0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d850-b161-7ad8-59e4" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" targetId="ecd0-4f28-1a74-692a" type="profile"/>
+        <infoLink id="c02c-f413-0016-9472" name="KURBOG&apos;S CURMUDGEONLY CLOBBERA" hidden="false" targetId="a15e-5bc4-294f-40c4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b672-f985-467d-8a7b" name="Porka&apos;s Pigstikka" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981e-1851-63ed-e627" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e4d8-e115-28ee-b1ca" name="Porka&apos;s Pigstikka" hidden="false" targetId="e8f9-2cc2-8953-534d" type="profile"/>
+        <infoLink id="ad22-42e8-507e-7622" name="PORKO&apos;S PIGSTIKKA" hidden="false" targetId="a0df-6bdd-1044-fea7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -4637,94 +4811,6 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f7-11e0-b92e-1089" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8cce-ac47-1cd7-a521" name="Battleaxe of the last Waaagh" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e4-aea5-5104-2937" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a4f6-9c0b-3ac0-0d5c" name="Battleaxe of the last Waaagh" hidden="false" targetId="d1a3-d76e-33f6-fd2e" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="77cc-94b9-75f9-114c" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b1-064a-75b5-b407" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="74ef-83c2-810d-48cd" name="Kleevas Cleaver of Cleavage" hidden="false" targetId="8a4a-d6a1-d24b-e89a" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d078-e069-237d-9231" name="Krumpa&apos;s club of Crumpin&apos;" page="" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e984-98f6-928e-d10f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2b6a-c0a2-0c1b-8ae6" name="Krumpa&apos;s club of Crumpin&apos;" hidden="false" targetId="10f8-e65d-7259-4916" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9725-4231-adfd-8aca" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab3-f80d-867d-1882" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ea91-2fed-1125-2d4e" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" targetId="5064-87f2-2636-434c" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84a9-146f-8c51-7027" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86b7-6432-5724-5e0b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5684-b159-ba12-99cc" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" targetId="c75b-68af-56e1-fd1b" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1993-fef4-5673-c9ab" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ba-7eca-8d38-b9ed" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9200-5132-8b9f-16ec" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" targetId="014f-54d6-8281-3d76" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b355-5473-d979-a553" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b22-979c-3b2f-af01" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0b52-de63-5f9d-2c01" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" targetId="ecd0-4f28-1a74-692a" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3a54-a513-ee51-900a" name="Porka&apos;s Pigstikka" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9751-bdd3-509a-d1a8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2af8-7d5f-089a-2833" name="Porka&apos;s Pigstikka" hidden="false" targetId="e8f9-2cc2-8953-534d" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="5003-711f-4166-6882" name="Ulags Akk&apos;rit Axe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22a-875b-4ecc-0f8f" type="max"/>
@@ -4775,6 +4861,15 @@
         <entryLink id="d5c5-935f-e250-818e" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
         <entryLink id="c06b-fd39-882b-a3c4" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
         <entryLink id="f8c2-5966-be04-d376" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="cc2d-39ed-a9f3-31d3" name="Battleaxe of the last Waaagh" hidden="false" collective="false" import="true" targetId="ad25-b6b2-7eb8-4181" type="selectionEntry"/>
+        <entryLink id="3a52-6693-2c90-0512" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" targetId="8691-2973-fe1b-0e47" type="selectionEntry"/>
+        <entryLink id="a3a2-667d-4968-7f57" name="Krumpa&apos;s club of Crumpin&apos;" hidden="false" collective="false" import="true" targetId="3b4d-5606-4efe-5330" type="selectionEntry"/>
+        <entryLink id="69df-bb43-c7c3-1bce" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" targetId="8691-2973-fe1b-0e47" type="selectionEntry"/>
+        <entryLink id="deaf-7f7e-b244-8190" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" collective="false" import="true" targetId="cb89-b525-88ef-79d3" type="selectionEntry"/>
+        <entryLink id="3879-6ab1-984c-4f9a" name="Hacka&apos;s Sword of Hackin&apos;" hidden="false" collective="false" import="true" targetId="ccbd-0159-115b-109b" type="selectionEntry"/>
+        <entryLink id="45d2-cba5-2ceb-2435" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" collective="false" import="true" targetId="de09-9f09-a054-8ad5" type="selectionEntry"/>
+        <entryLink id="7489-67a7-6dd8-7090" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" collective="false" import="true" targetId="5eb5-0daf-2256-f5c0" type="selectionEntry"/>
+        <entryLink id="b534-e1e9-c021-a56b" name="Porka&apos;s Pigstikka" hidden="false" collective="false" import="true" targetId="b672-f985-467d-8a7b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0953-e235-772f-9575" name="Magic Armour" hidden="false" collective="false" import="true">
@@ -5275,6 +5370,46 @@ D6 Result
     </rule>
     <rule id="791e-557a-a5cc-d02b" name="Tail Attack" hidden="false">
       <description>After all close combats attacks have been resolved the thewyvern strikes with its tail. Even after death the tail still strikes. attacks are resolved at normal strength and are poisoned attack. Any wounds count toward CR.</description>
+    </rule>
+    <rule id="a9a4-f1cf-6743-6ab9" name="BATI&apos;LEAXE OF THE LAST WAAAGH!" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>Revered subject of the Orc myth of the end of everything when Gork&apos;s (or possibly Mprk &apos;s) chosen Best Boss Ragnor goes mad with an axe and destroys the whole world. This is the famous Orcish day of Ragnarok
+In close combat the bearer receives a potentially whopping +D6 Attacks - roll randomly each combat round to we just how crazed the wielder is that particular turn. On a 6 the favour of Gork tor possibly Mork) is withdrawn from the wielder once his attacks have been resolved - the Battleaxe of the Last Waaagh! then ceases to work at the end of that Close Combat phase.
+</description>
+    </rule>
+    <rule id="31cb-d75b-6246-12ed" name="KLEEVA&apos;S CLEAVER OF CLEAVAGE" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>Even for a simple Instrument of hacking, Kleevas Cleaver is a brutal looking weapon.
+All hits wound automatically. Armour Hits are modified by the Strength of the bearer.
+</description>
+    </rule>
+    <rule id="2acc-e515-fd0f-d2b1" name="KRUMPA&apos;S CLUB OF CRUMPIN&apos;" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>This sacred weapon has been passed down the generations for more years than an Orc can count. Handed down from Boss Orc to a bigger Orc than could take it off him, this rather well worm spiky club punches through armour with no problem.
+The Club of Crumpin’ allows no armour saves
+</description>
+    </rule>
+    <rule id="be64-5c5a-5efc-5883" name="BASHA’S BIG AXE OF BASHIN&apos;" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>This legendary are is all that is left of the once mighty Basha, Warboss of the Iron Skullz;  after be stood rather too close to a drunken giant at the Battle of Grim&apos;s Crag.
+The axe gives the wielder +2 Attacks in close combat
+</description>
+    </rule>
+    <rule id="d8d8-87ac-4c2d-174f" name="HACKA’S SWORD OF HACKIN&apos;" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>It was said, mostly by Hacka that be fought alongside Azhag and was the one who first proclaimed him &apos;the Slaughterer. He also mentioned singlehandedly killing Sigmas- and being a drinking buddy of GorK or possibly Mork). Whatever the truth, Hacker acquired this slender and rather Elven looking sword front somewhere strange and nobody has felt much like asking where. Not after the last time, anyway.
+The Sword of Harkin&apos; hits on 2+ regardless of the wielder&apos;s WS
+</description>
+    </rule>
+    <rule id="1f39-0b5e-452b-15c4" name="FUMPA&apos;S CLUB OF FUMPIN&apos;" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>Since the dawn of last Thursday. Fumpa&apos;s club has been the traditional symbol of leadership amongst the Blacknose tribe. Of counse, to start with there were a few who didn&apos;t see it like that but tbey have  all since been, convinced.
+The Club of Fortuna confers +2 Strength to all close combat attacks made by the character fighting with it.
+</description>
+    </rule>
+    <rule id="a15e-5bc4-294f-40c4" name="KURBOG&apos;S CURMUDGEONLY CLOBBERA" publicationId="7dda-637b-31ad-951c" page="30" hidden="false">
+      <description>The spite andlust for vengeance that ooze from this weapon leave those struck by it utterly dumbstruck and unwilling so attack lest they incur its wrath once more.
+If an enemy model suffers one or more wounds (after saves) inflicted by the Curmudgeonly Clobbcra It may make no more Attacks in that combat engagement. If the VICTIM is mounted or rides a chariot, then only the rider or ntonster that actually suffers the wound is *4 !gibbered&apos; and not the entire model mount etc. Only one model can he &apos;clobbered&apos; at a time. Other models that are hit whilst one is &apos;clobbered&apos; suffer wounds as normal but no additional effects.
+</description>
+    </rule>
+    <rule id="a0df-6bdd-1044-fea7" name="PORKO&apos;S PIGSTIKKA" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Most of the many spears that have been used by Porko&apos;s Boar Boar boyz lie shattered on the battlefields of the Old Worlde but not this one. In battle. the gleaming point of the Pigstikka pierces any armour with ease, skewering several foes with one rake. -ready for later* as Porko used to say, referring to the traditional  after-battle barbecue.
+Pigstikka gives the wielder +1 Strength on the turn he charges.  In addition, on the turn he charges he also gets one extra attack  per rank in the enemy unit (up to a maximum of 3.
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
