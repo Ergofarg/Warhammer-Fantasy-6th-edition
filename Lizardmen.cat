@@ -1058,6 +1058,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7823-649b-117f-3231" name="Chamelon Skinks" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a51-ec4c-57f4-2d3d" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="375d-9d5a-83c9-2189" name="Aquatic" hidden="false" targetId="d1be-78da-561d-0934" type="rule"/>
         <infoLink id="0f50-63db-06dd-8a33" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
@@ -1109,7 +1112,7 @@
         </selectionEntry>
         <selectionEntry id="1f4f-6a8c-dd3f-b526" name="Chameleon Skink" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d46-581b-3676-55ed" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d46-581b-3676-55ed" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb0-14c2-63aa-a701" type="min"/>
           </constraints>
           <costs>
