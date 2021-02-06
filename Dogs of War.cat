@@ -159,14 +159,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d9-8e6d-0fbe-913d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4de0-7e6f-97ee-410a" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="974b-6eca-7bb7-7539" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="65e3-426c-daeb-a49a" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52fd-d9b2-b82c-44cc" type="max"/>
@@ -211,6 +203,16 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="deba-e247-37d1-7802" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f630-8c33-c846-f26f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
       </costs>
@@ -342,14 +344,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175f-4e24-aa2e-8d8e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0d3b-8397-9705-c937" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f66-4829-7670-fc99" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="ca23-263f-38c4-d850" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7460-7c97-08c5-c3b1" type="max"/>
@@ -402,6 +396,16 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a715-8361-06c7-c351" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="915b-7b6e-318e-09e2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
       </costs>
@@ -549,14 +553,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32c-337e-eab9-dd39" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ca98-5292-a06f-90e7" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a77f-e7eb-a136-6f0c" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="972b-616a-54da-7c4a" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9e-6684-04f8-74ed" type="max"/>
@@ -609,6 +605,16 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b282-79b4-4b71-f2c7" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0f-9a99-5984-ec7b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
       </costs>
@@ -649,7 +655,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7fd6-07bf-8167-6f65" name="Magic Level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7fd6-07bf-8167-6f65" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="f7d8-6cb4-b9fd-692a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b57-d584-bd87-a513" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6189-6ce3-8316-1f80" type="max"/>
@@ -772,7 +778,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a0b0-2202-c719-ba51" name="Magic level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a0b0-2202-c719-ba51" name="Magic level" hidden="false" collective="false" import="true" defaultSelectionEntryId="f56e-9fbb-a216-2332">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78a-beae-f6ec-d424" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ea-4268-f62f-3084" type="max"/>
@@ -1487,7 +1493,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d3-7af4-b681-ece9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d3-7af4-b681-ece9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0dab-c8ee-ac8d-ea02" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
@@ -1499,7 +1505,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98fd-b3bc-6b95-6236" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98fd-b3bc-6b95-6236" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1632,7 +1638,7 @@
         </entryLink>
         <entryLink id="85f8-4a2c-aff3-5699" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="0.0">
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -1733,16 +1739,9 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="c466-e517-5a87-b680" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="447b-017f-64b5-0cb6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906c-7c1a-8ca1-86df" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c0-6aa9-5201-a002" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a871-b5ee-353c-0975" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="accf-217b-da02-5d80" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
@@ -1833,7 +1832,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="00f5-ee62-c145-f0c3" name="Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="00f5-ee62-c145-f0c3" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="2278-2ddc-15e4-465a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee4c-79ec-46de-7f84" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288f-11ba-4f8f-9810" type="min"/>
@@ -2167,7 +2166,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f542-516a-e029-9feb" name="Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f542-516a-e029-9feb" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c3e-2226-4a42-d0b4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2916-dcec-0cf5-9b7d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f27-47d7-5c61-f8ef" type="min"/>
@@ -2544,7 +2543,12 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3849-6e83-9ca5-fcba" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry"/>
+        <entryLink id="3849-6e83-9ca5-fcba" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b260-c91c-e7c3-63a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c65-855e-4843-5b4d" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
