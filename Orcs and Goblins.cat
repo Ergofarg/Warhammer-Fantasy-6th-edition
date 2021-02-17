@@ -221,26 +221,10 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a4c-b3d6-95a7-a6be" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7b95-7baf-bb45-1b91" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ea5-0bd4-0746-dd7e" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="def5-d1e7-c28b-6b38" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="462b-d48c-06c9-091f" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="7129-ffe3-51b0-36ce" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="660e-be21-50bd-76fb" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="7806-4d0d-e78f-5559" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7611-460b-33aa-7c0f" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="7b95-7baf-bb45-1b91" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+                <entryLink id="def5-d1e7-c28b-6b38" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+                <entryLink id="7129-ffe3-51b0-36ce" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+                <entryLink id="7806-4d0d-e78f-5559" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -494,26 +478,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-06e5-6eb9-086f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8bc0-eafe-ee70-1740" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2fc-d936-c492-3049" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="9f83-57a5-c196-e110" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427a-69c8-fd4f-56fa" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="122f-d235-84f1-ce60" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b2-c51c-9ee8-2d52" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="f026-ab0d-5ad4-db1c" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a486-f092-9100-d72f" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="8bc0-eafe-ee70-1740" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="9f83-57a5-c196-e110" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+            <entryLink id="122f-d235-84f1-ce60" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="f026-ab0d-5ad4-db1c" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -634,26 +602,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e008-75cc-80f3-59a7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d458-68af-f8d1-fd84" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02c-264c-82dd-dcf2" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="4b33-cff7-85b6-d2a5" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb1-708f-981b-4fc8" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b28c-c318-1f4d-d8d6" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d43-b030-c046-ff9c" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d424-0bb9-22bc-71f5" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8814-1ccb-8e93-15a6" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="d458-68af-f8d1-fd84" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="4b33-cff7-85b6-d2a5" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+            <entryLink id="b28c-c318-1f4d-d8d6" name="Magic Talismans Savage" hidden="false" collective="false" import="true" targetId="2323-2874-dacd-315b" type="selectionEntryGroup"/>
+            <entryLink id="d424-0bb9-22bc-71f5" name="Enchanted Items Savage Orcs" hidden="false" collective="false" import="true" targetId="9c80-9f97-e489-0600" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -731,21 +683,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f10-bafd-c607-1bae" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="37ad-0849-ed07-d3f4" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b21-2d40-a783-c5d9" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="a73a-6a68-1810-fc10" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c78-9193-103a-ce0e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ca9d-d7e2-8514-b6ed" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf0-8f40-2bdb-6755" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="37ad-0849-ed07-d3f4" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="a73a-6a68-1810-fc10" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="ca9d-d7e2-8514-b6ed" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
             <entryLink id="9e35-fc3f-fb95-63ab" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -759,6 +699,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bb-8a93-85c8-5196" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="66e0-fd8f-7578-d1b1" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -849,21 +792,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0b-53c1-102f-178e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="41a4-7b72-8d98-55ad" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f1-15d9-908b-72ef" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="5b6d-1da1-5160-bdf5" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d8-609c-8781-4da2" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="1ff6-a038-0a9f-7ab2" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6434-3fe5-95cb-6aa5" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="41a4-7b72-8d98-55ad" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="5b6d-1da1-5160-bdf5" name="Magic Talismans Savage" hidden="false" collective="false" import="true" targetId="2323-2874-dacd-315b" type="selectionEntryGroup"/>
+            <entryLink id="1ff6-a038-0a9f-7ab2" name="Enchanted Items Savage Orcs" hidden="false" collective="false" import="true" targetId="9c80-9f97-e489-0600" type="selectionEntryGroup"/>
             <entryLink id="9cf6-99b8-d365-df84" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -997,26 +928,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fe-d8e9-458b-3d84" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d57d-309e-43b5-d3d2" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ae-7ee2-58cf-88e3" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="53c6-12bc-10e4-11a6" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82de-8a0b-512c-5c95" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="cfb0-fe3b-a7e2-cc64" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b11-3ca4-a1f0-0b4a" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="655c-3b88-bd03-573b" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b730-26b0-75d2-b13a" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="d57d-309e-43b5-d3d2" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="53c6-12bc-10e4-11a6" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup"/>
+            <entryLink id="cfb0-fe3b-a7e2-cc64" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="655c-3b88-bd03-573b" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1113,26 +1028,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8400-e716-e937-b349" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3b11-8295-5cf2-de13" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba1-dd5e-eb34-735f" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="1c50-a347-94e2-165f" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d343-df5a-a60f-0dba" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="37f7-765f-a4d3-d9c2" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f646-af80-328e-53f7" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="e012-1bf9-0fa1-40c1" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7b-82fa-70df-2395" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="3b11-8295-5cf2-de13" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="1c50-a347-94e2-165f" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup"/>
+            <entryLink id="37f7-765f-a4d3-d9c2" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="e012-1bf9-0fa1-40c1" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1183,31 +1082,13 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02bb-f951-5f0c-75e3" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ecf1-6039-7b6f-e27c" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e050-64cc-7418-bc84" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="2bad-b493-db52-bb53" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d282-55b6-2236-6226" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="2f5d-7014-5b55-b997" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebcb-ae47-fc26-4943" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="ecf1-6039-7b6f-e27c" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+                <entryLink id="2bad-b493-db52-bb53" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+                <entryLink id="2f5d-7014-5b55-b997" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
+                <entryLink id="89b1-0811-072b-2792" name="Arcane Items Goblin" hidden="false" collective="false" import="true" targetId="f5dc-bffb-5305-5ddc" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="65c4-2305-da7c-953a" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca2-abbe-4f02-8401" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
@@ -1250,6 +1131,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1231-5633-efc0-9919" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="bf49-5bae-5e66-6f4f" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1307,21 +1191,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d8-8b7f-87a3-2852" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="25b1-f6fc-c08e-7612" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0796-3b9e-5cf4-e86e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="fef8-bef6-fe66-9c50" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d87-b3c8-64ae-ba7f" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ed6f-d15b-1aa7-b492" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb96-e901-7ed2-4518" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="25b1-f6fc-c08e-7612" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="fef8-bef6-fe66-9c50" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="ed6f-d15b-1aa7-b492" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
             <entryLink id="243a-a2ad-15c5-2819" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1335,6 +1207,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6989-756a-3800-b423" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7b5e-36a4-3a6f-0f8e" name="Level 4 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1516,26 +1391,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9156-56dd-385b-b98e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2bf4-3639-e13e-9409" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d04c-8b6b-a936-5b78" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="1524-0200-e2e8-6d94" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c4-f8c4-6d75-0603" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b8a3-6215-504b-8ba9" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c30f-b4c0-b6b5-46ae" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="fc8f-3fce-c5a3-c645" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1373-fec8-3acf-5f65" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="2bf4-3639-e13e-9409" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="1524-0200-e2e8-6d94" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+            <entryLink id="b8a3-6215-504b-8ba9" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="fc8f-3fce-c5a3-c645" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1605,26 +1464,10 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b44-4b91-94d6-83b1" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="7f1e-7159-5560-9fb6" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0295-cff0-5cf3-19aa" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="db08-cd5b-4a9c-aa92" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d2-36ac-af44-fe3b" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="46dc-941b-1d1f-77cf" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc77-f6e0-86aa-c7c6" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="6028-085c-79f6-34ff" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b79-7ba4-0243-adf5" type="max"/>
-                  </constraints>
-                </entryLink>
+                <entryLink id="7f1e-7159-5560-9fb6" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+                <entryLink id="db08-cd5b-4a9c-aa92" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+                <entryLink id="46dc-941b-1d1f-77cf" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+                <entryLink id="6028-085c-79f6-34ff" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1834,26 +1677,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc1-78e2-56bd-4510" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fbf5-3768-1b0c-f2fe" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1304-5e02-9cbd-1f0e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7045-a71c-f5ef-09fb" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10d1-f938-e510-0c92" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="37a1-32ef-31c5-9a81" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f4-a3e1-b5d2-0413" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ea15-04c9-bba4-e38d" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da15-5c7c-3b24-33e7" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="fbf5-3768-1b0c-f2fe" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="7045-a71c-f5ef-09fb" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+            <entryLink id="37a1-32ef-31c5-9a81" name="Magic Talismans Savage" hidden="false" collective="false" import="true" targetId="2323-2874-dacd-315b" type="selectionEntryGroup"/>
+            <entryLink id="ea15-04c9-bba4-e38d" name="Enchanted Items Savage Orcs" hidden="false" collective="false" import="true" targetId="9c80-9f97-e489-0600" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1935,21 +1762,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="562a-5e79-2761-8209" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a644-2784-5c82-a507" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc24-056b-82aa-82cb" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="010b-5d0f-2cbf-ee73" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6a-c186-2ae3-1bb7" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6042-42ce-8b12-4cfc" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="771d-54ce-d9b7-9235" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="a644-2784-5c82-a507" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="010b-5d0f-2cbf-ee73" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="6042-42ce-8b12-4cfc" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
             <entryLink id="cbd1-ba19-280c-f6f3" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1963,6 +1778,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0773-8f79-b431-847d" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9d6d-45b0-8cf3-7a10" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2041,21 +1859,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2682-1888-8418-a25d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3268-0ddd-8706-ff24" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56f1-decd-964e-9bd8" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="1590-5e93-f57d-18dd" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e375-52ed-273f-d734" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="0892-0fec-5e18-260d" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4e-19f3-b3cb-3225" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="3268-0ddd-8706-ff24" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="1590-5e93-f57d-18dd" name="Magic Talismans Savage" hidden="false" collective="false" import="true" targetId="2323-2874-dacd-315b" type="selectionEntryGroup"/>
+            <entryLink id="0892-0fec-5e18-260d" name="Enchanted Items Savage Orcs" hidden="false" collective="false" import="true" targetId="9c80-9f97-e489-0600" type="selectionEntryGroup"/>
             <entryLink id="b6e4-5437-7832-d0c0" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2190,26 +1996,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1e-5e87-66c8-5ca1" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ed53-eab7-14a8-dce6" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6d-493e-728c-0bdf" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="4ea9-0f76-9b31-eb33" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="422f-12fd-37bf-a801" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="2c51-089d-86c2-1622" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae1-a521-ed23-7f4e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="8750-403a-df2c-7429" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2d-6fdc-cf70-cd1d" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="ed53-eab7-14a8-dce6" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="4ea9-0f76-9b31-eb33" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup"/>
+            <entryLink id="2c51-089d-86c2-1622" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="8750-403a-df2c-7429" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2321,26 +2111,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9381-9b99-b262-ccb2" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="57cf-382f-2b43-c613" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d53a-7d4b-7d97-f954" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="92d8-b2ab-75a3-0b64" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d4-9abb-df1d-f76e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="1a43-36ca-73e4-d2e6" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346f-d046-e259-3316" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="4534-4a9a-3081-a276" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cef4-d06d-9143-10d9" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="57cf-382f-2b43-c613" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="92d8-b2ab-75a3-0b64" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup"/>
+            <entryLink id="1a43-36ca-73e4-d2e6" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="4534-4a9a-3081-a276" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2417,22 +2191,10 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="169f-7fdc-8727-3465" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a0c4-d322-8600-d724" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7c-bd19-0984-a51c" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="dfe2-7712-21ad-adf7" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b3-5147-1f5a-efdf" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7878-7dd3-d839-05bb" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea09-031b-d701-7097" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="5c93-6d8b-e3bd-5462" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
+            <entryLink id="a0c4-d322-8600-d724" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="dfe2-7712-21ad-adf7" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="7878-7dd3-d839-05bb" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
+            <entryLink id="5c93-6d8b-e3bd-5462" name="Arcane Items Goblin" hidden="false" collective="false" import="true" targetId="f5dc-bffb-5305-5ddc" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="464f-0a4c-913b-dce5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="cfa9-a8eb-79b9-a9cb">
@@ -2445,6 +2207,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec63-e59a-6b4a-d247" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="854f-8cdb-258b-c326" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2502,21 +2267,9 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="509c-0128-fc7a-7fb1" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8bbd-f4aa-f6e2-4943" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bf-3514-162c-496a" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="2bef-a874-dade-268b" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c06-a6f8-a27e-4403" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="59a6-938f-c33e-db02" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b1-949f-1378-221c" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="8bbd-f4aa-f6e2-4943" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="2bef-a874-dade-268b" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="59a6-938f-c33e-db02" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
             <entryLink id="1356-6095-6c7c-8fb8" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2530,6 +2283,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76c-c211-b225-225a" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0381-829a-f4a1-d27f" name="Level 2 Shaman" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4438,7 +4194,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57c-e897-bc3d-1dc1" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="14f0-0475-3f47-43d1" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
+                    <entryLink id="14f0-0475-3f47-43d1" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e4-3b41-879c-952f" type="max"/>
                       </constraints>
@@ -4448,7 +4204,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1620-10fe-8991-e06b" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="fd98-128a-aeb9-34e6" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
+                    <entryLink id="fd98-128a-aeb9-34e6" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15fe-c55c-accd-8d63" type="max"/>
                       </constraints>
@@ -4532,7 +4288,7 @@
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110d-e7d1-f0bc-c719" type="max"/>
                           </constraints>
                         </entryLink>
-                        <entryLink id="59c0-b404-e28a-4c90" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup">
+                        <entryLink id="59c0-b404-e28a-4c90" name="Magic Armour Goblin" hidden="false" collective="false" import="true" targetId="6203-6513-d07b-6c5f" type="selectionEntryGroup">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b37-7347-0d93-1b81" type="max"/>
                           </constraints>
@@ -4542,7 +4298,7 @@
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ef-5ff1-00d3-e9a9" type="max"/>
                           </constraints>
                         </entryLink>
-                        <entryLink id="48f9-6d47-3b6b-ec20" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup">
+                        <entryLink id="48f9-6d47-3b6b-ec20" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b67-3be2-9dcb-fc9e" type="max"/>
                           </constraints>
@@ -4655,6 +4411,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="c6ac-c028-d3c0-05ab" name="Buzgob&apos;s Knobbly Staff " hidden="false" targetId="a8de-dba1-a3cd-f79a" type="profile"/>
+        <infoLink id="78a2-8e99-d3e1-8cad" name="BUZGOB&apos;S KNOBBLY STAFF" hidden="false" targetId="6d68-627b-3933-dfb9" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
@@ -4667,6 +4424,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="058d-ad88-eb5c-814d" name="Dangly Wotnotz " hidden="false" targetId="f444-77d1-cf67-81f7" type="profile"/>
+        <infoLink id="fe5e-f3fa-820f-8dc6" name="DANGLY WOTNOTZ" hidden="false" targetId="2c15-dfdd-c292-2d32" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -4679,6 +4437,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="427c-e5f2-677d-4852" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" targetId="396e-b169-c6d9-1053" type="profile"/>
+        <infoLink id="a5c4-1138-1a6b-f5e6" name="DITTO&apos;S DOUBLE DOIN&apos; DOO-DAHS" hidden="false" targetId="1d5f-9580-4d6c-3974" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -4691,6 +4450,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="e7d6-8b9a-ad57-900c" name="Staff of Baduum " hidden="false" targetId="44c7-924f-5054-ab52" type="profile"/>
+        <infoLink id="9e9e-1293-9868-fed0" name="STAFF OF BADUUMM" hidden="false" targetId="a079-ff34-d158-a4c6" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
@@ -4703,6 +4463,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="2b0b-429f-4723-50d6" name="Staff of Sneaky Stealin&apos; " hidden="false" targetId="4fd6-a78b-9c5c-5411" type="profile"/>
+        <infoLink id="072e-73e2-685d-e73e" name="STAFF OF SNEAKY STEALIN&apos;" hidden="false" targetId="919a-7c3d-6cc1-c4c5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -4804,65 +4565,417 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="12de-1b8e-98e7-4d9f" name="Ulags Akk&apos;rit Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e5-5edd-5c2c-e55e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8f-a30a-3aaf-e6e4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a3bb-8bb1-536e-dc94" name="Ulags Akk&apos;rit Axe" hidden="false" targetId="9459-0868-9e49-a46b" type="profile"/>
+        <infoLink id="c6ff-5170-5a6c-304e" name="ULAG&apos;S AKKRIT AXE" hidden="false" targetId="308e-4e7b-4889-6631" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44ff-d15c-b271-813f" name="Wallopa&apos;s One Hit Wunda " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf3-d177-b8a0-075b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d03f-872e-750e-5606" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fddd-79d1-6ec3-5244" name="Wallopa&apos;s One Hit Wunda " hidden="false" targetId="d4f5-01bc-2c09-8e25" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3434-3da4-aa15-47d8" name="Ozat&apos;s Club of Smakin&apos; " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9518-a178-b6d4-17c6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e7-1d6e-0e12-9a77" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7ab3-b25f-a6c3-3ebc" name="Ozat&apos;s Club of Smakin&apos; " hidden="false" targetId="d470-146e-c5d5-e052" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0a2-89e9-247f-d10e" name="Duffa&apos;s club of Duffin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df8-0f5c-bb56-a62a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cb-f5cb-407f-fc42" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4165-50a2-e0e7-802f" name="Duffa&apos;s club of Duffin&apos;" hidden="false" targetId="a5b3-bf2c-dc3e-b46e" type="profile"/>
+        <infoLink id="17aa-e048-a00b-1973" name="DUFFA&apos;S CLUB OF DUFFIN&apos;" hidden="false" targetId="e3a1-03cd-7ad2-5bbf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb6e-fc66-71f7-8152" name="Armour of Gork " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1d-28bb-ef1f-db7f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191d-41a2-baa0-33b0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="14ad-328c-6f5c-8f00" name="Armour of Gork " hidden="false" targetId="3e85-87a2-bc29-05d6" type="profile"/>
+        <infoLink id="eb0d-ea7a-958e-8663" name="ARMOUR OF GORK" hidden="false" targetId="9033-d8d5-7dc6-f524" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79a9-e00d-17f1-e789" name="Armour of Mork " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7912-fc01-e0a1-afdd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32c-f5a6-c8c0-cca6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cf47-1712-5dea-3252" name="Armour of Mork " hidden="false" targetId="0345-8267-3cd6-3d52" type="profile"/>
+        <infoLink id="8978-8260-f4a2-a82c" name="ARMOUR OF MORK" hidden="false" targetId="2f5a-c43a-7358-263b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0765-a8bf-9437-a914" name="Armour of Protectyness " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b978-ef50-33c1-de3e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de62-7526-797d-eefa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4749-8b8e-f81e-0446" name="Armour of Protectyness " hidden="false" targetId="bec9-8c27-f8fc-aaaf" type="profile"/>
+        <infoLink id="ffe0-f42e-b2d7-7838" name="ARMOUR OF PROTECTYNESS" hidden="false" targetId="fc64-03be-8d88-b996" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4217-6223-abd4-1fda" name="Drog&apos;s Dead &apos;Ard Armour " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f5-28b5-39ea-0667" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b3e-2750-05ec-7996" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2ba1-d264-f962-d016" name="Drog&apos;s Dead &apos;Ard Armour " hidden="false" targetId="1d96-3f3d-4a12-fcbc" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49dc-82bc-771b-2ee5" name="Ironskin Shield " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0c-3f94-7889-2b9f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9e8-013e-672b-4dfc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dec4-d68c-6a31-83d8" name="Ironskin Shield " hidden="false" targetId="060a-2442-8d56-12dd" type="profile"/>
+        <infoLink id="bb9f-20f3-19ae-edf7" name="IRONSKIN SHIELD" hidden="false" targetId="4fb5-c7fb-2295-1cf4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b501-27a6-778d-adc3" name="Nobbla&apos;s &apos;Elmet " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe5a-9e6d-d935-7e06" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cec-f3d0-783c-43de" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="669c-d960-2bd8-434a" name="Nobbla&apos;s &apos;Elmet " hidden="false" targetId="2491-49be-a38f-aecf" type="profile"/>
+        <infoLink id="e803-8455-3265-e554" name="NOBBLES &apos;ELMET" hidden="false" targetId="4112-71d4-eac4-34eb" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49a3-ab40-4a54-af44" name="Ugbrag&apos;s Lucky Shield " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a270-fd4b-5adc-acae" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eef-7909-1889-1b7b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="480c-1bd5-6a1e-d51b" name="Ugbrag&apos;s Lucky Shield " hidden="false" targetId="f7e0-ad0a-12db-1eb9" type="profile"/>
+        <infoLink id="a1bf-aabb-3344-f04f" name="UGBRAG&apos;S LUCKY SHIELD" hidden="false" targetId="4790-c6e0-82c2-ae10" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c44-eaf3-8755-3c9b" name="Sizzla&apos;s Shiny Baubles " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa8e-88aa-1917-ef40" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed4-a61a-6494-93d3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="75b3-af88-53b0-1b6d" name="Sizzla&apos;s Shiny Baubles " hidden="false" targetId="9cee-0a11-adc9-f4bf" type="profile"/>
+        <infoLink id="351e-57e2-567b-3163" name="SIZZLES SHINY BAUBLES" hidden="false" targetId="03ae-7f13-77f0-329c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ebd1-8d11-13bb-4dfa" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f22-679b-5945-0ce9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e533-5423-219b-9e40" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b2c3-8089-bca5-fae7" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" targetId="68e7-ec52-8e9f-ea58" type="profile"/>
+        <infoLink id="0aad-fbb7-abfe-e17e" name="WARBOSS UMM&apos;S BEST BIG BOSS&apos;S &apos;AT" hidden="false" targetId="9ce9-42cf-8b08-65f1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="561c-1502-3615-ba62" name="Magical Warpaint " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37d-25a9-2d56-cbd1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fa-9d09-3d39-96e9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1367-4763-dc91-8cd4" name="Magical Warpaint " hidden="false" targetId="d2c7-d66c-a6a7-c661" type="profile"/>
+        <infoLink id="e46e-8117-3d2d-5f79" name="MAGICAL WARPAINT" hidden="false" targetId="a2f4-b15b-ee71-282d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="adae-143f-aead-3116" name="Glowy Green Amulet " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ab-bda2-760b-1f11" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f8-cd63-edaf-ede3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="28be-1b02-f248-7609" name="Glowy Green Amulet " hidden="false" targetId="36cf-fd13-f395-d140" type="profile"/>
+        <infoLink id="8f75-1130-fa0d-9236" name="GLOWY GREEN AMULET" hidden="false" targetId="e997-d0c7-a470-e694" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fc9-0e1a-d9b3-dd65" name="The Collar of Zorga " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e7-28e2-9c22-c632" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5223-f84e-c469-fa84" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8c7f-268f-d39a-3ade" name="The Collar of Zorga " hidden="false" targetId="5e7b-b182-e45e-1299" type="profile"/>
+        <infoLink id="f748-a9a0-f2b1-d231" name="THE COLLAR OF ZORGA" hidden="false" targetId="b530-73fc-fb0f-aae4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5e3-cb96-470e-ef39" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5999-13d3-c97e-1521" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ada-2d67-26bf-07b6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e881-d2af-6ffd-ae12" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" targetId="527a-e5b7-85a6-0624" type="profile"/>
+        <infoLink id="de59-f0dc-caeb-cd5d" name="WARBOSS IMBAD&apos;SIRON GNASHAS" hidden="false" targetId="42ce-d81c-803a-c9cf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4473-a9a9-4c52-d864" name="Effigy of Mork " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b31b-2e6e-7678-e58e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1339-c0d2-f9ab-80d5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="86d5-9d8c-7c0f-1219" name="Effigy of Mork " hidden="false" targetId="05d5-bff9-577c-7829" type="profile"/>
+        <infoLink id="a068-ca22-1d33-c26d" name="EFFIGY OF MORK" hidden="false" targetId="e89b-a399-fbad-ee7f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44a0-ec31-37ed-ae5b" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf65-fce5-b171-bcbb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd0-9586-495e-1137" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="07d0-2460-f2de-7fcd" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" targetId="ea4c-547e-44d2-e38a" type="profile"/>
+        <infoLink id="c7d2-aef7-50f6-4999" name="BIGGED&apos;S &apos;ED KICKIN BOOTS" hidden="false" targetId="d6f0-400f-3afe-313f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03f3-a7d9-626f-b4a3" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37db-a375-111b-bbaf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57e-04ed-4dc8-e532" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dd10-26f1-e706-e563" name="Guzzla&apos;s Backbone Brew " hidden="false" targetId="000a-5382-ee87-ffa0" type="profile"/>
+        <infoLink id="57ef-b584-1492-2505" name="GUZZLA&apos;S BACKBONE BREW" hidden="false" targetId="cc87-c631-a650-8b84" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a918-6572-e65d-49a0" name="Mad Cap Mushrooms " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="023e-3a36-3f8c-8ab8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e1-6ec0-805f-152b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a419-afe0-05bd-2671" name="Mad Cap Mushrooms " hidden="false" targetId="8156-eeb0-10ad-a7d9" type="profile"/>
+        <infoLink id="4f04-5ed8-a0d8-1ef5" name="MAD CAP MUSHROOMS" hidden="false" targetId="598a-a9e7-5c6b-220c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36fc-7518-fc3a-f758" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="966c-988e-77f7-982a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c05-05fa-4e84-13dc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9e53-d465-0a7c-dda8" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
+        <infoLink id="40b1-711e-1046-1688" name="&apos;EDBUTTIN&quot;AT" hidden="false" targetId="9ec1-7d8d-84ee-ced9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b6f-892f-3e17-a306" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b33f-2237-1e5e-fa2a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e3-7a2c-9178-08aa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="da8a-2b85-95fb-94d6" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" targetId="f42e-6dfa-0499-cbe9" type="profile"/>
+        <infoLink id="d0b0-f120-6ffc-3a56" name="NIBBLA&apos;S &apos;ITTY RING" hidden="false" targetId="cf4c-acf8-a779-9cab" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a8f-1002-5a67-df41" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac19-64d9-e7c7-ae53" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d2-6229-3382-340a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b316-35b7-7747-4ab2" name="Mork&apos;s Spirit-totem " hidden="false" targetId="aada-4705-7f92-884e" type="profile"/>
+        <infoLink id="3abc-bbc6-96c0-1ec9" name="MORK&apos;S SPIRIT-TOTEM" hidden="false" targetId="0eca-6895-4217-9c4d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee33-35b6-e118-a5b8" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6964-18b7-811b-df7f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701a-1fa3-7b69-ee63" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0401-c7a8-bcbb-4048" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" targetId="279d-3948-78dd-ed04" type="profile"/>
+        <infoLink id="fa32-aad9-dcdd-d5c0" name="ROWDY GROTT&apos;S BIG RED RAGGEDY BANNER" hidden="false" targetId="75aa-b73d-461c-cf4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41b7-fb5c-5085-cdff" name="Bad Moon Banner " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9248-b316-c6f1-dba3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59de-6c78-13a3-24fa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="023f-f26b-c4df-9165" name="BAD MOON BANNER" hidden="false" targetId="a735-b585-0814-cc27" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fbf-acba-ae94-1042" name="Night Banner " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2246-5927-1537-2e14" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="387a-c690-1b88-b589" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2545-c78c-88e9-5be5" name="Night Banner " hidden="false" targetId="56df-e6e5-7d27-1d29" type="profile"/>
+        <infoLink id="51f2-f9fc-c19d-0b15" name="NIGHT BANNER" hidden="false" targetId="8778-88d2-287b-952b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14b2-0f7e-e4d6-1156" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb6-6f3d-5c9b-09b5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6a-3e31-dab6-ffe6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="14b8-1cbe-4d63-1301" name="Gork&apos;s Waaagh! Banner " hidden="false" targetId="1667-8816-dd31-7558" type="profile"/>
+        <infoLink id="1807-2237-e4a3-2870" name="GORK&apos;S WAAAGH! BANNER" hidden="false" targetId="1daf-08ed-89f2-8169" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef39-9a02-a6e6-4887" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c84-6ece-835b-2ec8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-f7f5-238d-fc76" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4782-51c6-91f8-94f9" name="Guff&apos;s Flag " hidden="false" targetId="afbd-0052-ef29-5254" type="profile"/>
+        <infoLink id="0d7e-79d3-c440-e2d0" name="GUFF&apos;S FLAG" hidden="false" targetId="d6e4-c6ed-bd48-6f2e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="648e-1b65-a83f-c81f" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e658-3c52-61c3-9264" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fff-f0ed-9e20-fca8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d283-1084-4055-5226" name="Nogg&apos;s Banner of Butchery " hidden="false" targetId="1e03-8713-65f6-9dff" type="profile"/>
+        <infoLink id="4c08-9944-e808-0ca5" name="NOGG&apos;S BANNER OF BUTCHERY" hidden="false" targetId="a222-066e-a74e-f255" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edf2-4cea-3652-899d" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9849-1866-5222-f282" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f92-c688-87d6-93d5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9dc6-57b6-c15e-b162" name="The Bashin&apos; Flag of Bork" hidden="false" targetId="ddad-f492-473d-b222" type="profile"/>
+        <infoLink id="63f9-9f4f-0898-c8f2" name="THE BASHIN&apos; FLAG OF BORK" hidden="false" targetId="2339-e55f-1653-6ed3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f7-11e0-b92e-1089" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="5003-711f-4166-6882" name="Ulags Akk&apos;rit Axe" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22a-875b-4ecc-0f8f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b598-218a-62a7-77ec" name="Ulags Akk&apos;rit Axe" hidden="false" targetId="9459-0868-9e49-a46b" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1173-241e-1cff-d899" name="Duffa&apos;s club of Duffin&apos;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f3b-501f-4791-eff0" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f06c-2206-4f77-53ed" name="Duffa&apos;s club of Duffin&apos;" hidden="false" targetId="a5b3-bf2c-dc3e-b46e" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5ac9-0b18-e147-aa05" name="Ozat&apos;s Club of Smakin&apos; " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f3e-3609-263b-3324" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="45eb-8249-cf19-8429" name="Ozat&apos;s Club of Smakin&apos; " hidden="false" targetId="d470-146e-c5d5-e052" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3c32-dd0a-b88d-a327" name="Wallopa&apos;s One Hit Wunda " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc1-9962-1137-7d1c" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="427b-47e9-8187-0746" name="Wallopa&apos;s One Hit Wunda " hidden="false" targetId="d4f5-01bc-2c09-8e25" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="0240-694f-124d-4fe1" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
         <entryLink id="d5c5-935f-e250-818e" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
         <entryLink id="c06b-fd39-882b-a3c4" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
         <entryLink id="f8c2-5966-be04-d376" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
         <entryLink id="cc2d-39ed-a9f3-31d3" name="Battleaxe of the last Waaagh" hidden="false" collective="false" import="true" targetId="ad25-b6b2-7eb8-4181" type="selectionEntry"/>
-        <entryLink id="3a52-6693-2c90-0512" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" targetId="8691-2973-fe1b-0e47" type="selectionEntry"/>
         <entryLink id="a3a2-667d-4968-7f57" name="Krumpa&apos;s club of Crumpin&apos;" hidden="false" collective="false" import="true" targetId="3b4d-5606-4efe-5330" type="selectionEntry"/>
         <entryLink id="69df-bb43-c7c3-1bce" name="Kleevas Cleaver of Cleavage" hidden="false" collective="false" import="true" targetId="8691-2973-fe1b-0e47" type="selectionEntry"/>
         <entryLink id="deaf-7f7e-b244-8190" name="Basha&apos;s Big Axe od Bashin&apos;" hidden="false" collective="false" import="true" targetId="cb89-b525-88ef-79d3" type="selectionEntry"/>
@@ -4870,158 +4983,43 @@
         <entryLink id="45d2-cba5-2ceb-2435" name="Fumpa&apos;s Club of Fumpin&apos;" hidden="false" collective="false" import="true" targetId="de09-9f09-a054-8ad5" type="selectionEntry"/>
         <entryLink id="7489-67a7-6dd8-7090" name="Kurbog&apos;s Curmudgeonly Clobbera" hidden="false" collective="false" import="true" targetId="5eb5-0daf-2256-f5c0" type="selectionEntry"/>
         <entryLink id="b534-e1e9-c021-a56b" name="Porka&apos;s Pigstikka" hidden="false" collective="false" import="true" targetId="b672-f985-467d-8a7b" type="selectionEntry"/>
+        <entryLink id="99e1-10da-747b-f772" name="Ulags Akk&apos;rit Axe" hidden="false" collective="false" import="true" targetId="12de-1b8e-98e7-4d9f" type="selectionEntry"/>
+        <entryLink id="233d-826c-d25f-d865" name="Wallopa&apos;s One Hit Wunda " hidden="false" collective="false" import="true" targetId="44ff-d15c-b271-813f" type="selectionEntry"/>
+        <entryLink id="0ae3-6379-825d-ba96" name="Ozat&apos;s Club of Smakin&apos; " hidden="false" collective="false" import="true" targetId="3434-3da4-aa15-47d8" type="selectionEntry"/>
+        <entryLink id="b86f-37bf-4d6b-e020" name="Duffa&apos;s club of Duffin&apos;" hidden="false" collective="false" import="true" targetId="e0a2-89e9-247f-d10e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0953-e235-772f-9575" name="Magic Armour" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0953-e235-772f-9575" name="Magic Armour Orc" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="4928-8a21-ef4a-3007" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4928-8a21-ef4a-3007" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="d6ec-7bd4-34a1-a30e" name="Armour of Protectyness " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0de-3d86-bdea-a094" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7672-b4a4-fbe1-1b10" name="Armour of Protectyness " hidden="false" targetId="bec9-8c27-f8fc-aaaf" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="91d3-8b04-654d-bcb3" name="Armour of Mork " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f6a-1fed-65a2-cfa9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f6c8-b2d5-5e91-5075" name="Armour of Mork " hidden="false" targetId="0345-8267-3cd6-3d52" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="caa8-39a3-da52-cc0b" name="Ironskin Shield " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8004-40ba-1181-56a0" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="88bf-1c5b-dc5a-20b9" name="Ironskin Shield " hidden="false" targetId="060a-2442-8d56-12dd" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="363b-77f4-87cf-21ae" name="Armour of Gork " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94a-579d-45f6-b613" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="da10-01f5-2c58-8c63" name="Armour of Gork " hidden="false" targetId="3e85-87a2-bc29-05d6" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d47e-641f-e1c8-99fb" name="Ugbrag&apos;s Lucky Shield " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b2e-c9df-c28d-dcde" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5d97-6ebb-1bba-08be" name="Ugbrag&apos;s Lucky Shield " hidden="false" targetId="f7e0-ad0a-12db-1eb9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bd8e-728a-1310-fad3" name="Drog&apos;s Dead &apos;Ard Armour " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3469-e47a-a14f-954d" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4ce1-f83c-b942-2264" name="Drog&apos;s Dead &apos;Ard Armour " hidden="false" targetId="1d96-3f3d-4a12-fcbc" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a7f7-0dbb-ef01-a52f" name="Nobbla&apos;s &apos;Elmet " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7970-63ab-6bda-fbec" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="eee0-6845-dce0-4ba7" name="Nobbla&apos;s &apos;Elmet " hidden="false" targetId="2491-49be-a38f-aecf" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="5660-95e9-b662-c0b5" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry"/>
+        <entryLink id="6388-aa3e-3af5-2ea4" name="Armour of Gork " hidden="false" collective="false" import="true" targetId="fb6e-fc66-71f7-8152" type="selectionEntry"/>
+        <entryLink id="c832-54bd-863b-d604" name="Armour of Mork " hidden="false" collective="false" import="true" targetId="79a9-e00d-17f1-e789" type="selectionEntry"/>
+        <entryLink id="ffe6-f556-ddb7-fc3d" name="Armour of Protectyness " hidden="false" collective="false" import="true" targetId="0765-a8bf-9437-a914" type="selectionEntry"/>
+        <entryLink id="f550-2ce7-d52f-938c" name="Drog&apos;s Dead &apos;Ard Armour " hidden="false" collective="false" import="true" targetId="4217-6223-abd4-1fda" type="selectionEntry"/>
+        <entryLink id="e528-e268-c681-cd01" name="Ironskin Shield " hidden="false" collective="false" import="true" targetId="49dc-82bc-771b-2ee5" type="selectionEntry"/>
+        <entryLink id="6a06-5919-89c6-374a" name="Ugbrag&apos;s Lucky Shield " hidden="false" collective="false" import="true" targetId="49a3-ab40-4a54-af44" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="608e-dd64-023b-25f7" name="Magic Talismans" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410c-e144-e1c6-a797" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="a542-2569-724f-19f8" name="Sizzla&apos;s Shiny Baubles " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75da-d6c8-f5a2-4396" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4f83-d65c-0263-3c27" name="Sizzla&apos;s Shiny Baubles " hidden="false" targetId="9cee-0a11-adc9-f4bf" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="252f-84c3-3bd2-9f1e" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="832f-fd7f-6623-9761" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="56b8-b91b-f199-29e6" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" targetId="68e7-ec52-8e9f-ea58" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="45f0-8ff1-4a13-a203" name="Magical Warpaint " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2852-1f72-a628-5b71" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b019-11eb-3764-2894" name="Magical Warpaint " hidden="false" targetId="d2c7-d66c-a6a7-c661" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f1d7-4c2b-bddb-6d62" name="Glowy Green Amulet " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f590-4a6c-ada1-539a" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="da1e-2186-dab6-888c" name="Glowy Green Amulet " hidden="false" targetId="36cf-fd13-f395-d140" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c5b0-39bb-e535-3fe7" name="The Collar of Zorga " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c6-80ee-9b48-e8b8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5ab2-a416-1030-ea40" name="The Collar of Zorga " hidden="false" targetId="5e7b-b182-e45e-1299" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="f1ca-22f0-6542-991a" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+        <entryLink id="0caa-8255-7aa7-46e0" name="Sizzla&apos;s Shiny Baubles " hidden="false" collective="false" import="true" targetId="0c44-eaf3-8755-3c9b" type="selectionEntry"/>
+        <entryLink id="2706-9027-0ab7-916c" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" collective="false" import="true" targetId="ebd1-8d11-13bb-4dfa" type="selectionEntry"/>
+        <entryLink id="4796-432d-3f3c-c974" name="Glowy Green Amulet " hidden="false" collective="false" import="true" targetId="adae-143f-aead-3116" type="selectionEntry"/>
+        <entryLink id="e00a-3888-10e4-cde8" name="The Collar of Zorga " hidden="false" collective="false" import="true" targetId="9fc9-0e1a-d9b3-dd65" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2eab-0673-0cb1-a5ea" name="Arcane Items" hidden="false" collective="false" import="true">
@@ -5031,7 +5029,7 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="8c44-1e38-e587-56cf" value="1.0">
@@ -5039,7 +5037,7 @@
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5054,180 +5052,120 @@
         <entryLink id="4a92-7199-230b-6852" name="Dangly Wotnotz " hidden="false" collective="false" import="true" targetId="704c-1121-5a10-174e" type="selectionEntry"/>
         <entryLink id="df7d-3a58-03b7-78fb" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" collective="false" import="true" targetId="d46e-ef96-d733-e1ae" type="selectionEntry"/>
         <entryLink id="e2f0-cfc3-a4da-65d5" name="Staff of Baduum " hidden="false" collective="false" import="true" targetId="4676-97f2-17cb-60fa" type="selectionEntry"/>
-        <entryLink id="3a22-7c39-fc6e-056e" name="Staff of Sneaky Stealin&apos; " hidden="false" collective="false" import="true" targetId="a038-6d17-2707-62c4" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4530-6ba6-8337-3954" name="Enchanted Items" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="b812-7551-c267-5fee" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="736d-ce82-8046-0341" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3320-d5aa-b259-4dbc" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" targetId="527a-e5b7-85a6-0624" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c818-8d90-656f-6b45" name="Effigy of Mork " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc29-85ff-0e3f-5727" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b6c2-0181-d6bf-a968" name="Effigy of Mork " hidden="false" targetId="05d5-bff9-577c-7829" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c534-0032-10f7-349e" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14df-7e6a-a1b4-c4c7" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="18d1-641a-d960-5a02" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" targetId="ea4c-547e-44d2-e38a" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="112a-99fc-76a4-c80a" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9621-6039-b254-7463" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1eb2-2e4b-300e-8cec" name="Guzzla&apos;s Backbone Brew " hidden="false" targetId="000a-5382-ee87-ffa0" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="370e-cff6-afac-a98e" name="Mad Cap Mushrooms " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8561-124e-3bac-cfe3" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="bec9-d505-213f-f655" name="Mad Cap Mushrooms " hidden="false" targetId="8156-eeb0-10ad-a7d9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8032-9749-72aa-7a02" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc5-2f00-1c5b-7256" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3733-9628-7b21-0f52" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84c3-ad6a-8277-7889" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5faf-803c-d634-1e01" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="94e1-052f-7811-e74f" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" targetId="f42e-6dfa-0499-cbe9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+    <selectionEntryGroup id="4530-6ba6-8337-3954" name="Enchanted Items orcs" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="75e8-198f-8bbb-39e1" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" collective="false" import="true" targetId="b5e3-cb96-470e-ef39" type="selectionEntry"/>
+        <entryLink id="f37b-14f5-16b0-77b1" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" targetId="44a0-ec31-37ed-ae5b" type="selectionEntry"/>
+        <entryLink id="01d5-f5af-e6ad-6bb6" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" targetId="03f3-a7d9-626f-b4a3" type="selectionEntry"/>
+        <entryLink id="e889-3e3f-2379-9050" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" collective="false" import="true" targetId="36fc-7518-fc3a-f758" type="selectionEntry"/>
+        <entryLink id="e712-553a-7a5d-cad9" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" targetId="5b6f-892f-3e17-a306" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0406-bb04-6134-2ee9" name="Magical Standard" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="4cc0-e5d4-23c5-63fa" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd24-4443-cb95-0959" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="883a-28f9-eef8-071e" name="Mork&apos;s Spirit-totem " hidden="false" targetId="aada-4705-7f92-884e" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1a2e-6420-c499-e42b" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe2-5299-eb53-21b4" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4ab4-03a9-40bc-3510" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" targetId="279d-3948-78dd-ed04" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="04ef-37ca-1601-d073" name="Bad Moon Banner " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea3-4171-e602-cea5" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0a5f-f1cb-390a-bb46" name="Night Banner " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8442-517f-023c-7a49" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="02fd-de8a-87ce-d60d" name="Night Banner " hidden="false" targetId="56df-e6e5-7d27-1d29" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6c20-235c-bd32-1aa0" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="345a-e5b9-3d3c-ced8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a9e9-8c7c-a63f-8069" name="Gork&apos;s Waaagh! Banner " hidden="false" targetId="1667-8816-dd31-7558" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="12e5-4aad-67f2-e147" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb6-baed-7962-5ce6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="458b-0e0d-d4af-e940" name="Guff&apos;s Flag " hidden="false" targetId="afbd-0052-ef29-5254" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="30f8-716c-c6b9-cb8a" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d65-1469-7220-ed1a" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a9cd-ceec-b2e8-6dfc" name="Nogg&apos;s Banner of Butchery " hidden="false" targetId="1e03-8713-65f6-9dff" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bb88-dedb-741a-d300" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb0f-1eea-76c3-2ef6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d67d-21ae-5ae2-b70d" name="The Bashin&apos; Flag of Bork" hidden="false" targetId="ddad-f492-473d-b222" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="c4cd-b9c1-77d9-7b57" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="076c-3b6d-153c-df82" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" targetId="4a8f-1002-5a67-df41" type="selectionEntry"/>
+        <entryLink id="42b9-a236-e6f3-0fda" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" collective="false" import="true" targetId="ee33-35b6-e118-a5b8" type="selectionEntry"/>
+        <entryLink id="8f7a-04c8-f585-4975" name="Bad Moon Banner " hidden="false" collective="false" import="true" targetId="41b7-fb5c-5085-cdff" type="selectionEntry"/>
+        <entryLink id="85db-9ab4-17f7-e180" name="Night Banner " hidden="false" collective="false" import="true" targetId="4fbf-acba-ae94-1042" type="selectionEntry"/>
+        <entryLink id="baf9-183d-8b3b-e647" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" targetId="14b2-0f7e-e4d6-1156" type="selectionEntry"/>
+        <entryLink id="1ed1-8928-ff51-1508" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" targetId="ef39-9a02-a6e6-4887" type="selectionEntry"/>
+        <entryLink id="6757-c9cf-1a88-a85f" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" targetId="648e-1b65-a83f-c81f" type="selectionEntry"/>
+        <entryLink id="03cd-4c8a-20b6-4c53" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" targetId="edf2-4cea-3652-899d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6203-6513-d07b-6c5f" name="Magic Armour Goblin" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="fcdb-85e5-ff5e-c15c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcdb-85e5-ff5e-c15c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6b37-d789-cca8-8fdd" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry"/>
+        <entryLink id="678d-6884-ead1-5096" name="Armour of Gork " hidden="false" collective="false" import="true" targetId="fb6e-fc66-71f7-8152" type="selectionEntry"/>
+        <entryLink id="f7b5-1ac1-600a-d5b0" name="Armour of Mork " hidden="false" collective="false" import="true" targetId="79a9-e00d-17f1-e789" type="selectionEntry"/>
+        <entryLink id="5c75-eda3-0519-1b8d" name="Armour of Protectyness " hidden="false" collective="false" import="true" targetId="0765-a8bf-9437-a914" type="selectionEntry"/>
+        <entryLink id="a888-eb79-3612-404b" name="Ironskin Shield " hidden="false" collective="false" import="true" targetId="49dc-82bc-771b-2ee5" type="selectionEntry"/>
+        <entryLink id="cd78-8b30-1e5e-47a0" name="Nobbla&apos;s &apos;Elmet " hidden="false" collective="false" import="true" targetId="b501-27a6-778d-adc3" type="selectionEntry"/>
+        <entryLink id="a106-2068-757c-0e60" name="Ugbrag&apos;s Lucky Shield " hidden="false" collective="false" import="true" targetId="49a3-ab40-4a54-af44" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2323-2874-dacd-315b" name="Magic Talismans Savage" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3d8-77ba-decd-805f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b11e-cf3a-75e4-d743" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+        <entryLink id="0f22-57df-07d6-9a5b" name="Sizzla&apos;s Shiny Baubles " hidden="false" collective="false" import="true" targetId="0c44-eaf3-8755-3c9b" type="selectionEntry"/>
+        <entryLink id="b93d-005a-43fd-9300" name="Warboss Umm&apos;s Beast Big Boss&apos;s &apos;At " hidden="false" collective="false" import="true" targetId="ebd1-8d11-13bb-4dfa" type="selectionEntry"/>
+        <entryLink id="9bbc-7beb-447e-3ef2" name="Magical Warpaint " hidden="false" collective="false" import="true" targetId="561c-1502-3615-ba62" type="selectionEntry"/>
+        <entryLink id="d62b-0f49-da37-e646" name="Glowy Green Amulet " hidden="false" collective="false" import="true" targetId="adae-143f-aead-3116" type="selectionEntry"/>
+        <entryLink id="d417-598b-a81b-6f81" name="The Collar of Zorga " hidden="false" collective="false" import="true" targetId="9fc9-0e1a-d9b3-dd65" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f5dc-bffb-5305-5ddc" name="Arcane Items Goblin" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="5d20-7d0e-bd61-db6a" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="5d20-7d0e-bd61-db6a" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d20-7d0e-bd61-db6a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4e93-529a-c4db-9dc3" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
+        <entryLink id="39a6-7329-7a7b-0f7d" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="2943-9715-78fe-6111" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="1f09-6a89-d798-9385" name="Buzgob&apos;s Knobbly Staff " hidden="false" collective="false" import="true" targetId="6a95-95ff-7763-bd6d" type="selectionEntry"/>
+        <entryLink id="3d5b-9fff-e0e2-27cd" name="Dangly Wotnotz " hidden="false" collective="false" import="true" targetId="704c-1121-5a10-174e" type="selectionEntry"/>
+        <entryLink id="5fc6-3283-1f2e-d67f" name="Ditto&apos;s Double Doin&apos; Doo-dahs " hidden="false" collective="false" import="true" targetId="d46e-ef96-d733-e1ae" type="selectionEntry"/>
+        <entryLink id="70cc-0a3b-a520-d59b" name="Staff of Baduum " hidden="false" collective="false" import="true" targetId="4676-97f2-17cb-60fa" type="selectionEntry"/>
+        <entryLink id="4ca4-3ef2-bdf9-49f4" name="Staff of Sneaky Stealin&apos; " hidden="false" collective="false" import="true" targetId="a038-6d17-2707-62c4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7883-3006-7a0c-f13b" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="3ddc-c943-70b5-ef68" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" targetId="44a0-ec31-37ed-ae5b" type="selectionEntry"/>
+        <entryLink id="f872-85c9-f54e-5d33" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" targetId="03f3-a7d9-626f-b4a3" type="selectionEntry"/>
+        <entryLink id="1338-8a3a-17a2-6c9b" name="Mad Cap Mushrooms " hidden="false" collective="false" import="true" targetId="a918-6572-e65d-49a0" type="selectionEntry"/>
+        <entryLink id="88f5-9298-3e27-89b5" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" targetId="5b6f-892f-3e17-a306" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9c80-9f97-e489-0600" name="Enchanted Items Savage Orcs" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="66f9-21c9-9a54-8fd8" name="Warboss Imbad&apos;s Iron Gnashas " hidden="false" collective="false" import="true" targetId="b5e3-cb96-470e-ef39" type="selectionEntry"/>
+        <entryLink id="3019-deaa-8cac-a6c1" name="Effigy of Mork " hidden="false" collective="false" import="true" targetId="4473-a9a9-4c52-d864" type="selectionEntry"/>
+        <entryLink id="0081-6470-49e5-1625" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" targetId="44a0-ec31-37ed-ae5b" type="selectionEntry"/>
+        <entryLink id="163a-e116-fa2d-225a" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" targetId="03f3-a7d9-626f-b4a3" type="selectionEntry"/>
+        <entryLink id="6e25-f1e1-c312-e98c" name="&apos;Eadbuttin&apos; &apos;At " hidden="false" collective="false" import="true" targetId="36fc-7518-fc3a-f758" type="selectionEntry"/>
+        <entryLink id="02ea-e9c5-2dcf-5056" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" targetId="5b6f-892f-3e17-a306" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="93fa-7c86-0bcd-2b38" name="Enchanted Items goblins" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7cfa-5c8f-2472-c8b2" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" targetId="44a0-ec31-37ed-ae5b" type="selectionEntry"/>
+        <entryLink id="2da4-d54a-2aec-baad" name="Guzzla&apos;s Backbone Brew " hidden="false" collective="false" import="true" targetId="03f3-a7d9-626f-b4a3" type="selectionEntry"/>
+        <entryLink id="1390-4781-4926-79f5" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" targetId="5b6f-892f-3e17-a306" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5410,6 +5348,127 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
       <description>Most of the many spears that have been used by Porko&apos;s Boar Boar boyz lie shattered on the battlefields of the Old Worlde but not this one. In battle. the gleaming point of the Pigstikka pierces any armour with ease, skewering several foes with one rake. -ready for later* as Porko used to say, referring to the traditional  after-battle barbecue.
 Pigstikka gives the wielder +1 Strength on the turn he charges.  In addition, on the turn he charges he also gets one extra attack  per rank in the enemy unit (up to a maximum of 3.
 </description>
+    </rule>
+    <rule id="9033-d8d5-7dc6-f524" name="ARMOUR OF GORK" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour sates.</description>
+    </rule>
+    <rule id="2f5a-c43a-7358-263b" name="ARMOUR OF MORK" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. Also gives the wearer and the unit he is with Magic Resistance (2).</description>
+    </rule>
+    <rule id="fc64-03be-8d88-b996" name="ARMOUR OF PROTECTYNESS" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally Also. the wearer ignores the first wound he suffers.</description>
+    </rule>
+    <rule id="aaec-4496-e1ca-0d9f" name="DROG&apos;S DEAD &apos;ARD ARMOUR " publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Gives the wearer a 1+ armour save that cannot be improved.</description>
+    </rule>
+    <rule id="e3a1-03cd-7ad2-5bbf" name="DUFFA&apos;S CLUB OF DUFFIN&apos;" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Duffs was Wollopas sidekick until he was eaters by a Squrig. Waking up inside the Squigs stomach was a bit of a shock and although he fought his way out be was never quite the same afterwards. It is said that this club retains some of his frenzy escape even now
+The Club of Duffin’&apos; strikes with +3 Attacks once in the game. The Orc player must declare that he&apos;s using the extra Attacks
+before makes any rolls to hit. All 3 Attacks have to be used at same time and the bearer has to roll to hit as usual. Duffa&apos;s only works once in the game.
+</description>
+    </rule>
+    <rule id="4fb5-c7fb-2295-1cf4" name="IRONSKIN SHIELD" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Counts as a shield (6+ armour save) which can be combined with other equipment normally Also gives the bearer a 4+ Ward save.</description>
+    </rule>
+    <rule id="4112-71d4-eac4-34eb" name="NOBBLES &apos;ELMET" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Gives the wearer a 6+ armour save and may be worn in addition to normal armour. Also gives the wearer a 6+ Ward save.</description>
+    </rule>
+    <rule id="03ae-7f13-77f0-329c" name="SIZZLES SHINY BAUBLES" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>If you fail to dispel an enemy spell east at the bearer or the unit he is with. or choose not to try, then you may attempt to reflect It back at the caster. You may even do this if the spell was cast with Irresistible Force. Roll 1D6 for each spell. On a 1-3. the Shiny Baubles do nothing and the spell takes effect as normal. On a 4+ the spell is reflected hack at the caster with all the normal effects. The original caster may make one attempt to dispel his own spell (unless it was cast with Irresistible Force), just as if it had been cast at him. He may use Power dice to dispel with, or a magic item, Dispel Magic Scroll or whatever, exactly as normal.</description>
+    </rule>
+    <rule id="a6e9-bfbb-3e8b-4b3d" name="WALLOPA&apos;S ONE HIT WUNDA" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Wallopas One Hit Wunda provides its user with +3S but it works once in the game. The player can decide to use the weapon once hits have been scored but before rolling for wounds. The +3S bonus applies to one hit that has been scored by the bearer that turn. Any other hits scored by the bearer are normal Strength.</description>
+    </rule>
+    <rule id="308e-4e7b-4889-6631" name="ULAG&apos;S AKKRIT AXE" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>This axe looks suspiciously clean for a greenskin item, which
+gives away its magical nature.  In battle it writhes in the hands, seeming always to have a better idea than the wielder of how to hit the enemy.
+The wielder may re-roll any to hit note that miss.
+</description>
+    </rule>
+    <rule id="4790-c6e0-82c2-ae10" name="UGBRAG&apos;S LUCKY SHIELD" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>Counts as a shield (6+ armour save) which can he combined with other equipment normally. Also, the bearer discounts the first hit suffered in the battle.</description>
+    </rule>
+    <rule id="79c3-78a7-c278-66d6" name="OWZATT&apos;S CLUB OF SMACKIN&apos;" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+      <description>A characterer which suffers one or more wounds (after saves) from the Club but is not killed, is immediately knocked clean his unit. Place him 1&quot; away from his unit. and as far from the model wielding the Club as possible.</description>
+    </rule>
+    <rule id="9ce9-42cf-8b08-65f1" name="WARBOSS UMM&apos;S BEST BIG BOSS&apos;S &apos;AT" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Magical Boss&apos;s at wot protects you - giz you a 5+ Ward save dunnit. May be worn in addition to normal or magical armour.</description>
+    </rule>
+    <rule id="a2f4-b15b-ee71-282d" name="MAGICAL WARPAINT" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Savage Orcs only.
+If the wearer fails his armour save, he may make a 5+ Ward save. A model cannot wear any armour (not even magical) if it has the Magical Warpaint, though it may carry a shield.</description>
+    </rule>
+    <rule id="e997-d0c7-a470-e694" name="GLOWY GREEN AMULET" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Instead of making a normal dispel attempt. a model with the Amulet may attempt to nullify any enemy spell Cast at the bearer or the unit he is with. Roll the same number of D6 as the caster used to cast the spell. If all are 2-6 then the Amulet dispels the spell. However. if one or more dice is a 1 then the spell gets through as the Amulet overloads and explodes, killing the wearer outright (with no saves of any kind allowed). The Amulet cannot stop spells cast with irresistible Force.</description>
+    </rule>
+    <rule id="b530-73fc-fb0f-aae4" name="THE COLLAR OF ZORGA" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Monsters and mounts of any size must pass a Leadership test (on their own Leadership characteristic) to attack the wearer. If they fail, they may choose to attack another model instead. Roll once each close combat round.</description>
+    </rule>
+    <rule id="a079-ff34-d158-a4c6" name="STAFF OF BADUUMM" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>The bearer adds +1 to the total of the Casting roll for every spell he attempts.</description>
+    </rule>
+    <rule id="6d68-627b-3933-dfb9" name="BUZGOB&apos;S KNOBBLY STAFF" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Once per Magic phase the Shaman can re-roll all the Casting dice for a single spell Note that he must re-roll all the dice and a Miscast on the first attempt is ignored if he re-rolls the dice</description>
+    </rule>
+    <rule id="2c15-dfdd-c292-2d32" name="DANGLY WOTNOTZ" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Once per game the bearer may use it to add +1 to a single dice of his Casting roll or his Dispel roll. Decide after the dice have been rolled. Note that this can potentially either stop a Miscast or cause a spell to be cast with Irresistible Force.</description>
+    </rule>
+    <rule id="1d5f-9580-4d6c-3974" name="DITTO&apos;S DOUBLE DOIN&apos; DOO-DAHS" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>The bearer may attempt to cast each of his spells up to twice per friendly Magic phase instead of just one. Each attempt requires Power dice as normal - the Doo-Dahs simply allow the option. they don&apos;t supply any power.</description>
+    </rule>
+    <rule id="919a-7c3d-6cc1-c4c5" name="STAFF OF SNEAKY STEALIN&apos;" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Once per battle. in a friendly Magic phase. the bearer may steal one dice from his opponent&apos;s Dispel pile and add it to his own Power dice pile (whatever colour the dice previously was, it now turns green).</description>
+    </rule>
+    <rule id="42ce-d81c-803a-c9cf" name="WARBOSS IMBAD&apos;SIRON GNASHAS" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>The character wearing the Gnashas gains +1 Attack in dose combat. This additional attack counts as being made with the Killing Blow special ability.</description>
+    </rule>
+    <rule id="e89b-a399-fbad-ee7f" name="EFFIGY OF MORK" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>All close combat attacks that art made against the bearer are at -1 to hit.</description>
+    </rule>
+    <rule id="d6f0-400f-3afe-313f" name="BIGGED&apos;S &apos;ED KICKIN BOOTS" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>Iron-shod unpleasantness. In close combat the bearer gets one ;additional automatic hit at his basic Strength value in addition to his normal Attacks.</description>
+    </rule>
+    <rule id="cc87-c631-a650-8b84" name="GUZZLA&apos;S BACKBONE BREW" publicationId="7dda-637b-31ad-951c" page="32" hidden="false">
+      <description>The character who carries this most potent of potions can take 
+a swig when he or the unit that he is with is about to take a 
+leadership test. The character&apos;s Leadership value is immediately
+boosted to 10 when the test is taken. Unfortunately the effect of the brew is but momentary and the character&apos;s Leadership value returns to normal thereafter. Guzzla&apos;s Backbone brew can only he guzzled once - so you get just the one use - but the full Leaderahip value of 10 applies to any re-roll you might he entitled to should you he unfortunate enough to fail the first time. This bonus Leadership is modified by combat resulrs. etc, as normal.</description>
+    </rule>
+    <rule id="598a-a9e7-5c6b-220c" name="MAD CAP MUSHROOMS" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>If the character is with a unit of Night Goblins when their Fanatics are released he may give them each a Mad Cap Mushroombefore they go whirling off. If they hit a unit (from either side) on the turn they are released it suffers 2D6 hits Instead olf the usual 1D6. Subsequent units encountered by each Fanatic are struck by 1D6 hits as usual</description>
+    </rule>
+    <rule id="9ec1-7d8d-84ee-ced9" name="&apos;EDBUTTIN&quot;AT" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>May only he used in challenges. The wearer gets one extra attack, made before all other blows are struck. This Attack is made with the Killing Blow special ability and is resolved at the wearer&apos;s normal Strength. Even if the opponent is killed by the &apos;eadbutt. the character wearing the &apos;At should still make his remaining attack, to calculate overkill for combat resolution</description>
+    </rule>
+    <rule id="cf4c-acf8-a779-9cab" name="NIBBLA&apos;S &apos;ITTY RING" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>Bound Spell (Power Level 3)
+The &apos;Itty&apos; Ring may cast its Bound spell once per Magic phase like an ordinary spell. The spell requires no Power dice to cast all the power required is presided by the ring Itself
+The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of the Little Waaagli,
+</description>
+    </rule>
+    <rule id="0eca-6895-4217-9c4d" name="MORK&apos;S SPIRIT-TOTEM" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit carrying Monk&apos;s Spirit-Intern gains Magic Resistance (1). In addition. any attempt to dispel any enemy spell that isn&apos;t cast at the unit gains + 1 to its Dispel roll. Finally, no enemy Wizard in contact with the unit carrysing Mork&apos;s Splrit•Totem can cast a spell at all – good old Mork stops &apos;em.</description>
+    </rule>
+    <rule id="75aa-b73d-461c-cf4f" name="ROWDY GROTT&apos;S BIG RED RAGGEDY BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>Common Goblins (including characters) in a unit with Rowdy Grott&apos;s Rig Red Raggedy Banner get a + 1 Leadership bonus up to a maximum value of 9.</description>
+    </rule>
+    <rule id="a735-b585-0814-cc27" name="BAD MOON BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit is stubborn. See the Psychology section of the Warhammer rulebook, page 85.</description>
+    </rule>
+    <rule id="8778-88d2-287b-952b" name="NIGHT BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>Thanks to the darkness and shadowyness of it all, not to mention the dimness. any missiles fired at the unit are at -1 to hit.</description>
+    </rule>
+    <rule id="1daf-08ed-89f2-8169" name="GORK&apos;S WAAAGH! BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit that carries Gook&apos;s Waaagh! banner adds + 1 to its Movement value (i.e. + on its normal move and +2&quot; on its charge and march) so long as it moves towards the closest enemy by the shortest route.</description>
+    </rule>
+    <rule id="d6e4-c6ed-bd48-6f2e" name="GUFF&apos;S FLAG" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit may re-roll one failed break test during the battle.</description>
+    </rule>
+    <rule id="a222-066e-a74e-f255" name="NOGG&apos;S BANNER OF BUTCHERY" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit carrying the Banner of Butchery may. once during the battle. add + 1 Attack to each model fighting tor that turn. In the case of mounted models only the rider gets the bonus, not the mount. Once used. the banner has no further effect.</description>
+    </rule>
+    <rule id="2339-e55f-1653-6ed3" name="THE BASHIN&apos; FLAG OF BORK" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>The unit which carries the Bashin&apos; Flag of Bork ignores the first faded Animosity roll of the game - it passes the test instead. Any further rolls are taken as normal (even the spirit of Bork Crazy-Hear can only do so much).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
