@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
   <publications>
     <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>
@@ -1503,7 +1503,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6055-d487-1ccf-f06a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c146-2320-8c62-782b" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry"/>
+        <entryLink id="c146-2320-8c62-782b" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff9-9c06-fca1-54c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d7a-5701-97de-cffd" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2215,6 +2220,9 @@
       <infoLinks>
         <infoLink id="dc8f-265a-b611-d092" name="Pure of Heart" hidden="false" targetId="aef2-97fe-962d-9f7a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e164-b6f6-b42d-82ed" name="Lion Guard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2580,7 +2588,11 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="cff4-76b1-1be3-45ee" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+        <entryLink id="cff4-76b1-1be3-45ee" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="10.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="eb6e-ca9e-213d-506a" name="Arcane Items" hidden="false" collective="false" import="true">
@@ -2600,15 +2612,27 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73b-f7e0-bf3f-46a9" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="75cb-50ba-1eca-259a" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
-        <entryLink id="5e6e-2abb-3eb7-f7c7" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="75cb-50ba-1eca-259a" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="20.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5e6e-2abb-3eb7-f7c7" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="20.0"/>
+          </modifiers>
+        </entryLink>
         <entryLink id="f339-3c77-df27-ea22" name="Annulian Crystal" hidden="false" collective="false" import="true" targetId="c6dc-dc11-352b-ebc4" type="selectionEntry"/>
         <entryLink id="979c-ca97-ba69-d93b" name="Book of Hoeth" hidden="false" collective="false" import="true" targetId="baa0-d2e9-383b-e4de" type="selectionEntry"/>
         <entryLink id="9c2f-cdb4-6688-5a15" name="Jewel of the Dusk" hidden="false" collective="false" import="true" targetId="66c8-d113-6c49-5879" type="selectionEntry"/>
         <entryLink id="44da-a703-f170-e0a1" name="Sigil of Asuryan" hidden="false" collective="false" import="true" targetId="9ac5-78ee-14d9-507b" type="selectionEntry"/>
         <entryLink id="f6c2-ce8c-6a1f-5d49" name="Silver Wand" hidden="false" collective="false" import="true" targetId="1d3f-b08a-33dc-21fe" type="selectionEntry"/>
         <entryLink id="96b0-ef4f-43a4-6dd2" name="Staff of Solidity" hidden="false" collective="false" import="true" targetId="e317-fb5b-5ead-c954" type="selectionEntry"/>
-        <entryLink id="36e7-e392-d8b5-16cc" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="36e7-e392-d8b5-16cc" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="40.0"/>
+          </modifiers>
+        </entryLink>
         <entryLink id="5e16-cb5e-4054-f702" name="Starwood Staff" hidden="false" collective="false" import="true" targetId="c600-d10e-4e4f-6a0e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -2806,7 +2830,11 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="93d0-692f-50a9-afe8" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="93d0-692f-50a9-afe8" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ecfa-8486-4f6c-c249" value="20.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
