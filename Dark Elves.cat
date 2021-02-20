@@ -1228,9 +1228,6 @@
           <infoLinks>
             <infoLink id="f1f3-a3d0-94fc-8bd6" name="Repeater crossbow" hidden="false" targetId="b916-4f8c-1160-5e41" type="profile"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
