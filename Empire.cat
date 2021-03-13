@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
@@ -3329,14 +3329,6 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="4837-c50f-afe2-23e8" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="c654-e9fb-1831-51f0" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60a2-a77b-179e-a84b" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60a2-a77b-179e-a84b" type="greaterThan"/>
-          </conditions>
-        </modifier>
         <modifier type="increment" field="c654-e9fb-1831-51f0" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e6b-fb45-1ba3-3d9b" repeats="1" roundUp="false"/>
