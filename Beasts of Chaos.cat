@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c768-2f35-01cf-9ac8" name="Beasts of Chaos" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5c46-289b-07ae-149d" name="Beastlord" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e6d8-e016-85e0-ff62" name="Beatlord" hidden="false" targetId="d2eb-d24c-e0f5-f716" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0999-ea5a-0fdc-e5ed" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="95.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6493-36be-1169-e364" name="Mark of Chaos" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="d2eb-d24c-e0f5-f716" name="Beatlord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
