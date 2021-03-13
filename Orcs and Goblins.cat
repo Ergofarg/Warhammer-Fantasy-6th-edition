@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -222,7 +222,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="7b95-7baf-bb45-1b91" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
-                <entryLink id="def5-d1e7-c28b-6b38" name="Magic Armour" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
+                <entryLink id="def5-d1e7-c28b-6b38" name="Magic Armour Orc" hidden="false" collective="false" import="true" targetId="0953-e235-772f-9575" type="selectionEntryGroup"/>
                 <entryLink id="7129-ffe3-51b0-36ce" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
                 <entryLink id="7806-4d0d-e78f-5559" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="4530-6ba6-8337-3954" type="selectionEntryGroup"/>
               </entryLinks>
@@ -1197,7 +1197,7 @@
             <entryLink id="243a-a2ad-15c5-2819" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="237a-32b9-75ed-79b5" name="Magic Level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="237a-32b9-75ed-79b5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="63f5-d9c3-b179-6980">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c044-296f-e37d-5547" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f454-40c0-bf1d-78d4" type="max"/>
@@ -2273,7 +2273,7 @@
             <entryLink id="1356-6095-6c7c-8fb8" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3388-fe31-1220-3825" name="Magic Level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3388-fe31-1220-3825" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="05e2-247d-081c-a6d0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1fc-d514-e322-6bfe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e5-f223-89ac-381d" type="max"/>
@@ -5032,14 +5032,6 @@
             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="8c44-1e38-e587-56cf" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="greaterThan"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c44-1e38-e587-56cf" type="max"/>
@@ -5118,14 +5110,6 @@
           </repeats>
           <conditions>
             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="5d20-7d0e-bd61-db6a" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
