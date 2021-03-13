@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
   </publications>
@@ -1228,6 +1228,9 @@
           <infoLinks>
             <infoLink id="f1f3-a3d0-94fc-8bd6" name="Repeater crossbow" hidden="false" targetId="b916-4f8c-1160-5e41" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2492,14 +2495,6 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
           </repeats>
           <conditions>
             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="bb40-3961-3617-75af" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ed5-eacf-d55a-5e9e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
