@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -1870,11 +1870,6 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4cfd-b3c7-a3ea-68f1" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="8b18-6469-1fcd-fcaf" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ed5-eacf-d55a-5e9e" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
         <modifier type="increment" field="8b18-6469-1fcd-fcaf" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
