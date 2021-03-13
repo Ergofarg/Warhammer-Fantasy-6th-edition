@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
   <publications>
     <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>
@@ -227,7 +227,7 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c912-ad72-4b11-b18d" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="283e-ea90-f0fd-1bde" name="High Elf Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
+                <entryLink id="283e-ea90-f0fd-1bde" name="Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
                 <entryLink id="87d6-a09f-26ac-6dbf" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="776e-c590-48d5-4bce" type="selectionEntryGroup"/>
                 <entryLink id="1001-5383-8799-dce3" name="Talismans" hidden="false" collective="false" import="true" targetId="f948-c838-ba2d-07c5" type="selectionEntryGroup"/>
                 <entryLink id="1dc8-ba83-2e72-97ff" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="39ab-c370-3f13-7d60" type="selectionEntryGroup"/>
@@ -340,7 +340,7 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6d-3a9e-993a-9553" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="6892-0e07-bfa5-348d" name="High Elf Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
+                <entryLink id="6892-0e07-bfa5-348d" name="Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
                 <entryLink id="1e83-f8ea-8d7c-2d62" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="776e-c590-48d5-4bce" type="selectionEntryGroup"/>
                 <entryLink id="dd42-c20d-f1bf-6558" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3532-01ee-3728-ecc6" type="selectionEntryGroup"/>
                 <entryLink id="5cb2-ee94-dcbc-a26f" name="Talismans" hidden="false" collective="false" import="true" targetId="f948-c838-ba2d-07c5" type="selectionEntryGroup"/>
@@ -565,7 +565,7 @@
         <categoryLink id="7475-9475-90fd-adf7" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="67f5-47d1-b39b-d7d8" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="67f5-47d1-b39b-d7d8" name="Magic and Honours" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a380-5ec6-a33e-176f" type="max"/>
           </constraints>
@@ -575,7 +575,7 @@
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82cd-c660-9a7e-1c4c" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="a350-de30-b2ff-e27e" name="High Elf Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
+                <entryLink id="a350-de30-b2ff-e27e" name="Honours" hidden="false" collective="false" import="true" targetId="45a3-3e65-6c49-5cc0" type="selectionEntryGroup"/>
                 <entryLink id="11d2-44b1-5810-e46b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="776e-c590-48d5-4bce" type="selectionEntryGroup"/>
                 <entryLink id="1d43-7a5b-931b-50c8" name="Talismans" hidden="false" collective="false" import="true" targetId="f948-c838-ba2d-07c5" type="selectionEntryGroup"/>
                 <entryLink id="52e0-d39c-5dc6-a965" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="39ab-c370-3f13-7d60" type="selectionEntryGroup"/>
@@ -2235,58 +2235,60 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d94a-3564-95b3-b1e2" name="Channeler" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e7-87c5-4dc0-ffac" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5fbd-0869-aa72-5862" name="Channeler" hidden="false" targetId="b4c4-1e31-731e-b59c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e396-1327-0d9e-b3ec" name="Loremaster" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a14-b763-3bc2-276d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7911-90b6-842b-453b" name="Loremaster" hidden="false" targetId="be07-fa78-02c5-5add" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="930e-d932-f0a3-9dc0" name="Seer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c0-2d32-b16c-9bd5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="928f-661c-7251-ebe0" name="Seer" hidden="false" targetId="8874-fbe7-fd69-3159" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca54-1c77-5f68-e73e" name="Swordmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b6-dfd4-cb78-356e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c26e-b8f7-2e26-0826" name="Swordmaster" hidden="false" targetId="4d9c-f48b-6872-4fc7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="45a3-3e65-6c49-5cc0" name="Honours" publicationId="a40f-696a-94e8-ecfb" page="15" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="b264-4a85-7357-7ef2" name="Loremaster" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9209-991a-1aae-69c1" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="8573-2090-aee3-58ed" name="Loremaster" hidden="false" targetId="be07-fa78-02c5-5add" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="41c6-2664-9d14-7d0d" name="Swordmaster" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b7-0d76-4e98-555b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="55cb-2e4e-9b06-4d3d" name="Swordmaster" hidden="false" targetId="4d9c-f48b-6872-4fc7" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e64b-b89e-aac7-a712" name="Seer" hidden="true" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a8a-0914-ab55-0b88" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6a77-9ec1-42f5-1c64" name="Seer" hidden="false" targetId="8874-fbe7-fd69-3159" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="78ad-9fae-d5bb-31a3" name="Channeler" hidden="true" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c4-d21e-3111-d6b5" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="cdd4-f095-a0f7-4168" name="Channeler" hidden="false" targetId="b4c4-1e31-731e-b59c" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="eaa1-6db1-ff15-3058" name="Lion Guard" hidden="false" collective="false" import="true" targetId="e164-b6f6-b42d-82ed" type="selectionEntry"/>
         <entryLink id="30b5-bd1a-60e2-2354" name="Pure of Heart" hidden="false" collective="false" import="true" targetId="d0ce-b0c4-fcc1-6cac" type="selectionEntry"/>
+        <entryLink id="2773-3686-0d1c-fe08" name="Channeler" hidden="false" collective="false" import="true" targetId="d94a-3564-95b3-b1e2" type="selectionEntry"/>
+        <entryLink id="45e1-bb6d-c6f0-20b6" name="Loremaster" hidden="false" collective="false" import="true" targetId="e396-1327-0d9e-b3ec" type="selectionEntry"/>
+        <entryLink id="8f5e-a280-ec34-1ceb" name="Seer" hidden="false" collective="false" import="true" targetId="930e-d932-f0a3-9dc0" type="selectionEntry"/>
+        <entryLink id="8bfb-8bc6-13a1-7f91" name="Swordmaster" hidden="false" collective="false" import="true" targetId="ca54-1c77-5f68-e73e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="776e-c590-48d5-4bce" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -2597,11 +2599,6 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="eb6e-ca9e-213d-506a" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="a73b-f7e0-bf3f-46a9" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e6e-2abb-3eb7-f7c7" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
         <modifier type="increment" field="a73b-f7e0-bf3f-46a9" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75cb-50ba-1eca-259a" repeats="1" roundUp="false"/>
