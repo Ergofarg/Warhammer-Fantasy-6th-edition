@@ -202,13 +202,16 @@
             <selectionEntry id="0bab-ee61-3e16-1e85" name="Tomb Kings Unit (Magical banner)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23f-0a6f-2d62-f306" type="max"/>
-                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f536-a968-e51b-9b25" type="max"/>
               </constraints>
               <categoryLinks>
                 <categoryLink id="98df-fda8-3fce-519c" name="Tomb Kings Unit" hidden="false" targetId="6cd3-1a34-f6db-034d" primary="false"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="2815-862b-ea82-7ba9" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup"/>
+                <entryLink id="2815-862b-ea82-7ba9" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334d-c10b-fd76-6c5c" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -794,10 +797,13 @@
         <selectionEntry id="c18a-1f93-56ff-6c36" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf19-46ee-f9c6-6c38" type="max"/>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f178-fa83-df7a-870b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1e3f-500a-0cc1-77e0" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup"/>
+            <entryLink id="1e3f-500a-0cc1-77e0" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf1f-41f9-48a9-837a" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -860,10 +866,13 @@
         <selectionEntry id="4ad9-c02a-c202-3f28" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d0a-430f-146d-df30" type="max"/>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b8-5809-7c7a-e76b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="52b5-bde2-2a76-cd6b" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup"/>
+            <entryLink id="52b5-bde2-2a76-cd6b" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0445-8a6b-0ad5-a627" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
@@ -985,13 +994,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e73-2aaf-20b8-c68e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e88e-797f-3022-bfe9" type="min"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4232-1d59-596f-3b8d" name="Skull of the Foe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a1-1c37-94af-c5d3" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1032,6 +1044,9 @@
       <categoryLinks>
         <categoryLink id="802e-ffa7-a8e2-152e" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -1225,6 +1240,7 @@
     <selectionEntry id="a30a-fa6e-c818-770a" name="Blue Khepra" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb7-9193-d76d-cfcc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a449-f0c2-934f-1ccd" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -1233,6 +1249,7 @@
     <selectionEntry id="c317-e9bc-832c-426b" name="Death Mask of Kharnut" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f3-a593-f7f7-76ce" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da00-f54d-b34f-a503" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -1241,6 +1258,7 @@
     <selectionEntry id="20a5-b1a6-3f55-c87a" name="Brooch of the Great Desert" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76af-1adc-8059-4997" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d25-4888-0ba0-f85f" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -1249,6 +1267,7 @@
     <selectionEntry id="641a-bf6e-fda7-88ff" name="Chariot of Fire" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf8-df79-0467-db86" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7685-8a27-1a7b-585d" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -1257,6 +1276,7 @@
     <selectionEntry id="e4f6-712d-29f4-705c" name="Cloak of the Dunes" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fe-0e07-a134-748a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ea-1839-8405-02d4" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -1265,6 +1285,7 @@
     <selectionEntry id="d3d7-06b7-64b2-6d70" name="Icon of Rulership" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74eb-ac9f-8fc4-7343" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa83-92f9-bc28-a6d2" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -1273,6 +1294,7 @@
     <selectionEntry id="f708-b8f1-b729-998c" name="Vambraces of the Sun" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a59-8e81-b4e0-2560" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd22-2bd2-2f10-3612" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -1545,6 +1567,13 @@
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0e6a-2df1-e29d-3de1" name="Enchanted Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="28aa-9a78-3af8-427f" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3d7-06b7-64b2-6d70" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28aa-9a78-3af8-427f" type="max"/>
       </constraints>
