@@ -1,12 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f804-741f-2593-2dec" name="Skaven army Book 2002"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="8a04-b53c-bf5a-43cc" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7abe-1cb3-ada9-c22f" name="Warlord" hidden="false" targetId="76a0-6aa7-9c16-c99f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="11fe-bff8-eeff-4c28" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="93c9-d9af-818d-34dd" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de3-75a2-7944-9484" type="max"/>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f932-cb00-ec9c-121d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0386-61eb-58fa-a266" name="Magical Weapons" hidden="false" collective="false" import="true" targetId="77a4-916d-8b96-b97a" type="selectionEntryGroup"/>
+            <entryLink id="47ff-c4fb-ce51-0ff0" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3aa2-a354-e221-9114" type="selectionEntryGroup"/>
+            <entryLink id="b591-199d-c45a-0606" name="Talismans" hidden="false" collective="false" import="true" targetId="e52c-c54c-35bc-9c8e" type="selectionEntryGroup"/>
+            <entryLink id="2d0d-1f79-8afd-c5d2" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="07e7-1605-444d-4069" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f68a-e04a-0699-ea8f" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389e-e405-0970-d0e7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5df8-7f84-15ae-45fc" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1f9f-6efc-c96e-9fb6" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5cb7-bbea-cd5c-3612" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9ad8-e9aa-436e-906d" name="Warplock Pistol" hidden="false" collective="false" import="true" targetId="5dcc-e6e0-089a-d0ae" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5284-f397-8be6-835b" name="Armour" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="761e-eb2e-1244-5006" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50e2-1873-a856-03e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761e-eb2e-1244-5006" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1df3-876f-bf7c-5ddd" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cc2e-c9bb-c501-d03e" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ded-7948-bed4-8b74" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c582-80e5-3ec4-41c8" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e1-2a0e-d5e1-70c9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="df75-dade-0419-e0b2" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd4-5679-12e7-0f42" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324c-ed7d-cac4-135e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="5dcc-e6e0-089a-d0ae" name="Warplock Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5889-10b8-52ea-269d" name="Warplock Pistol" hidden="false" targetId="cbb2-3d84-55bb-b738" type="rule"/>
+        <infoLink id="993a-20c0-c28d-6ce8" name="Warplock Pistol" hidden="false" targetId="5e7d-88c0-01e3-7b56" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ab4d-6e55-06e6-6e8e" name="Arcane Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="fbcd-fc59-4327-baa6" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcd-fc59-4327-baa6" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="e5de-a71e-b538-f2b5" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="fb2f-56a1-afad-249b" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
+        <entryLink id="c244-5a75-d738-9008" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="77a4-916d-8b96-b97a" name="Magical Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5400-06c9-b9d4-94ec" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2312-2a53-e206-9cc4" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="57a3-d120-abcc-4899" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
+        <entryLink id="834b-247f-81eb-c3e4" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
+        <entryLink id="0cc9-b7a0-8adc-38c2" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3aa2-a354-e221-9114" name="Magic Armour" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="33b5-9d10-ccd5-569a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b5-9d10-ccd5-569a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="872e-ff59-9747-a71a" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e52c-c54c-35bc-9c8e" name="Talismans" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9446-266b-b418-ca89" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="639e-7438-874b-7423" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="07e7-1605-444d-4069" name="Enchanted Items" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f2-91c8-7345-89ca" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6100-dfd7-c6bd-f62c" name="Magic Banners" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e8-4ce7-0e71-0d0d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b5a7-b61f-af9c-ade2" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -37,10 +206,49 @@ If their unit is engaged in combat from a previous turn and the Skaven character
 Furthermore, if Skaven characters refuse a challenge, the Skaven player, rather than his opponent, can choose which character goes at the back of the unit. Once this character is moved to the back of the unit. no further penalties apply to him for having refused the challenge. Note that if the rear of the unit is engaged in combat. the character has to be placed on the flank, inside the unit, or in any other position where it cannot fight. You can never get into base contact with enemies when refusing a challenge.
 </description>
     </rule>
-    <rule id="1947-e406-8e37-31b4" name="WARPSTONE WEAPONS" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
+    <rule id="1947-e406-8e37-31b4" name="Warpstone Weapons" publicationId="f804-741f-2593-2dec" page="10" hidden="false">
       <description>The following Skaven weapons contain enough warpstone to count as magical, and so can damage creatures invulnerable to non-magical weapons:
 Assassins&apos; and Gutter Runners&apos; poisoned weapons. plague censers&apos; gas and hits, Warlock Engineers&apos; warp-blades. warplock pistols. poisoned wind globes, Jezzails, Ratling Guns, warpfire Throwers and Warp-lightning Cannons.
 </description>
+    </rule>
+    <rule id="8268-5855-2a56-fec3" name="Mainstay Unit" publicationId="f804-741f-2593-2dec" page="11" hidden="false">
+      <description>The number of Clanrat units in the army restricts the maximum number of multiples of any other unit that can be included in the army.
+For example, if you have one unit of Clanrats, you can include one unit of Globadicrs, one of Stormvermin, one of Gutter Runners. etc. If you have two units of Clanrats then you can include up to two units of Globadlers, up to two units of Gutter Runners, up to two Warp4ightning Cannons. etc.
+AlI normal restrictions still apply on top of this.
+</description>
+    </rule>
+    <rule id="62af-f28d-681b-0102" name="Expendable" publicationId="f804-741f-2593-2dec" page="11" hidden="false">
+      <description>All Skaven units, except other units of Clanrat Slaves, automatically pass Panic tests caused by units of Clanrat Slaves.
+All Skaven units automatically pass Panic tests caused by Rat Swarms.</description>
+    </rule>
+    <rule id="b822-e5e8-ebfc-fa2f" name="Swarm" publicationId="f804-741f-2593-2dec" page="11" hidden="false">
+      <description>Swarms represent many creatures on a single 40mm x 40mm base. This base is treated as a single model with several Wounds and Attacks. A Rat Swann base fights at full effect until it has taken 5 Wounds then it is removed. Rat Swarms are Unbreakable and cannot be joined by characters.</description>
+    </rule>
+    <rule id="4839-e7a0-f4de-4b56" name="Small" publicationId="f804-741f-2593-2dec" page="11" hidden="false">
+      <description>Rat Swarms don&apos;t block line  sight of other units. Note that this does not allow  other skirmishers to pass through them.</description>
+    </rule>
+    <rule id="1a49-def0-9def-0a44" name="Plague Censer" publicationId="f804-741f-2593-2dec" page="32" hidden="false">
+      <description>A censer consecrated to the Horned Rat and filled with lethal burning warpstone is used as a weapon by its crazed bearers (it counts as a flail). In addition when the censer is swung around violently it creates a deadly cloud of warpstone vapours. If the bearer is in base contact with an enemy at the beginning of the Close Combat phase (both the Skaven player&apos;s and the enemy&apos;s), all models in base contact with one or more models armed with a censer must take a Toughness test, as should the bearer himself. If the test Is failed, the victim suffers 1 wound with no armour save. All Clan Pestilens Skaven and models with the Mark of Nurgle fail the test only on a roll of 6. The wounds caused by the gas are resolved before impact hits but after Assassins are revealed and 
+challenged models are moved. Wounds caused by the gas count for combat resolution. Models killed by the gas are close combat casualties and therefore don&apos;t get to fight back.
+
+
+
+
+</description>
+    </rule>
+    <rule id="37b1-7d4f-c4af-0c2a" name="Whip" publicationId="f804-741f-2593-2dec" page="32" hidden="false">
+      <description>Counts as an additional hand weapon if the bearer is in base contact with an enemy.
+In addition, it can be used in a similar way to a spear, allowing the bearer to make one Attack (regardless of the model&apos;s number of Attacks) through a rank of Rat Ogres. The same applies to Giant Rats, except that whip armed models can attack over any number of ranks of Giant Rats.
+An enemy model cannot attack back against whip-armed models if it is not in base contact with them.
+</description>
+    </rule>
+    <rule id="24a6-b3ee-d336-85d5" name="Smoke Bombs" publicationId="f804-741f-2593-2dec" page="32" hidden="false">
+      <description>An Assassin equipped with these bombs uses them to create a diversion and disappear in a puff of smoke when things are starting to look bad in a fight.
+If the Assassin is fighting on his own (ie, he is not inside a unit and not part of a multiple combat) and has to flee from a close combat, enemy units have to roll 4+ on a D6 to be able to pursue him. Note that the Assassin cannot choose not to use the bombs.
+</description>
+    </rule>
+    <rule id="cbb2-3d84-55bb-b738" name="Warplock Pistol" publicationId="f804-741f-2593-2dec" page="32" hidden="false">
+      <description>A warplock pistol follows the normal rules for pistols. except that it has a range of 10&quot; and a Strength of 5. In addition, warplock pistols are Reliable (see p.27). </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -172,6 +380,78 @@ Assassins&apos; and Gutter Runners&apos; poisoned weapons. plague censers&apos; 
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f165-f5b5-ae56-d947" name="Plague Priest" publicationId="f804-741f-2593-2dec" page="13" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="411f-91b5-68e1-76c3" name="Plague Monk" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="520e-e808-bf11-af69" name="Plague Deacon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d65-ea4e-8ee1-300d" name="Censor Bearer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="daeb-8243-ccf2-d954" name="Plague Rats" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">2</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">2</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5e7d-88c0-01e3-7b56" name="Warplock Pistol" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">10&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">5</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">cc , AP, Reliable</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
