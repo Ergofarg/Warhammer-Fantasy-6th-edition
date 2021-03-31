@@ -23,6 +23,9 @@
             <entryLink id="b591-199d-c45a-0606" name="Talismans" hidden="false" collective="false" import="true" targetId="e52c-c54c-35bc-9c8e" type="selectionEntryGroup"/>
             <entryLink id="2d0d-1f79-8afd-c5d2" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="07e7-1605-444d-4069" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -101,6 +104,14 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d773-b873-3790-10f2" name="Grey Seer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6045-25d1-533b-b296" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="235.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5dcc-e6e0-089a-d0ae" name="Warplock Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -108,6 +119,311 @@
         <infoLink id="5889-10b8-52ea-269d" name="Warplock Pistol" hidden="false" targetId="cbb2-3d84-55bb-b738" type="rule"/>
         <infoLink id="993a-20c0-c28d-6ce8" name="Warplock Pistol" hidden="false" targetId="5e7d-88c0-01e3-7b56" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0342-da98-11ca-3f82" name="Fellblade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e9-b992-9ba9-0ed1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c596-a7ae-e9e0-2e14" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1861-e215-fe21-cf74" name="Fellblade" hidden="false" targetId="f3b4-3d39-18a1-98b8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9dd0-d493-1213-4938" name="Gouger" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="554a-164e-5e58-14cd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3446-ff57-0e0c-9ec9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f9e2-cae8-54b1-2702" name="Gouger" hidden="false" targetId="a00b-b791-9f8e-7508" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bb1-9a41-724c-cffa" name="Blade of Black Fury" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50b4-66db-61da-f088" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601b-a14b-99c6-0be6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2f42-0f05-b6e0-4963" name="Blade of Black Fury" hidden="false" targetId="a7ae-7369-faad-f2c4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0b7-aa31-5ab4-5849" name="Warpstone Stars" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f47-e39d-c7bc-f791" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a3-fa75-c6cb-3dd6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d03-f869-4a2f-79be" name="Warpstone Stars" hidden="false" targetId="be27-391f-760a-7485" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97f0-5410-17c6-9201" name="Weeping Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d325-3450-ab90-0af9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0f-6f54-cf4a-2a37" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4a6e-4770-deb6-096a" name="Weeping Blade" hidden="false" targetId="0146-3424-2607-ace7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d598-5821-9cf6-3969" name="Cursed Blade of Delirium" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0496-187a-1963-7043" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba4-a302-2720-db08" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6689-ad5b-3500-419e" name="Cursed Blade of Delirium" hidden="false" targetId="2e8c-2385-4808-2f96" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51be-3e4c-8a93-4ea1" name="Headsplitter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9221-2baa-6a2a-264a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f99-1632-c163-9bb1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2209-5fb2-631f-f644" name="Headsplitter" hidden="false" targetId="ebe1-d874-ee10-326b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3b9-179e-20f9-f995" name="Desolate Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9850-ea68-2ca0-812c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc67-f2cc-ab11-19d2" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="110e-be37-05d0-4804" name="Dwarf-Slayer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f7-2a8c-6f71-1ff7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74eb-7dee-a961-3b7c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="13bf-0e39-701e-7f03" name="Dwarf-Slayer" hidden="false" targetId="9e66-9c22-07e8-1aab" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98a6-7697-1dba-3f6d" name="Blade of Corruption" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09aa-2859-b4cf-d04f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1263-2983-143e-83af" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="44e7-79ce-d449-b2ad" name="Blade of Corruption" hidden="false" targetId="d3cd-f4a1-6259-d348" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57ab-30ea-e8a1-1386" name="Languishers Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3493-9394-7933-8085" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a21-b17f-423c-9750" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d8c7-ebd8-f894-65bd" name="Languishers Sword" hidden="false" targetId="6c4d-7905-a574-f9cd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1350-673e-49ca-df44" name="Death Globes" publicationId="f804-741f-2593-2dec" page="37" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d11b-c313-1ac8-92fd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c0-ac13-313c-ccea" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cb10-3115-b8b0-30ae" name="Death Globes" hidden="false" targetId="3bd5-d49e-cfcf-108d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35d6-b422-3e9e-e2a5" name="Blade of Nurglitch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a961-f5b8-7d18-f7b4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2283-9af7-84ca-1b9c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4fae-1158-e86c-94a4" name="Blade of Nurglitch" hidden="false" targetId="186d-5a29-f7bd-592b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dce8-e74a-bc8f-83a9" name="Things-Catcher" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="529b-9507-cbb4-1def" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7116-0333-6dbe-b851" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2f7c-4bd9-36b1-df74" name="Things-Catcher" hidden="false" targetId="4dd7-f638-75c7-66e3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85a2-511a-8f89-eb07" name="Rust Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6930-3d58-64b3-2cf5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="200d-6d11-80e3-a3d1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e8a1-66f2-a824-8d1c" name="Rust Armour" hidden="false" targetId="120c-f9ed-ce77-ad8a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c46a-2486-c070-f7f7" name="Warpstone Armour " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b9-45dc-50b7-370a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0228-bd0e-00a4-3868" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cd73-8a69-ffdb-210a" name="Warpstone Armour " hidden="false" targetId="4e5b-290f-9a3b-2587" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd51-738b-7ddb-c827" name="Cautious Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b39a-7b0c-da4b-f9d9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad7-2a2e-2f5f-5175" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="14ef-e27a-b946-127e" name="Cautious Shield" hidden="false" targetId="1a2c-95ec-9c74-612e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a93b-71fc-7caf-d973" name="Twisted Crown of the Horned Rat" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e500-d263-4800-e377" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f82-5f24-17ca-1243" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7eb2-8332-7b41-4918" name="Twisted Crown of the Horned Rat" hidden="false" targetId="b1c7-9d7d-dc40-557a" type="rule"/>
+        <infoLink id="478e-467b-af89-d6e5" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="282c-600d-0d62-7abc" name="Tenebrous Cloak" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8a-1985-cf9e-b665" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b08c-bf28-f7d6-b028" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c975-679c-5c73-4a05" name="Tenebrous Cloak" hidden="false" targetId="4470-29b3-63ea-2a65" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3be2-2334-720d-55a0" name="The Foul Pendant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6474-ebd2-a3de-b245" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3740-6595-dc3b-8ff1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1251-da3a-1383-01c6" name="The Foul Pendant" hidden="false" targetId="17ca-75e9-f4ba-86a4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f90-649b-02aa-68e6" name="Warpstone Amulet" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9975-ab5c-1985-9b80" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="63de-13eb-dca8-17ea" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="48fb-60c1-34c6-2a79" name="Warpstone Amulet" hidden="false" targetId="1455-df47-55eb-0f4d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="701f-6399-c401-2354" name="Ring of Darkness" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb0f-f9ea-bc2b-bd61" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1730-a9b6-3abb-d4c3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9078-14eb-cba3-99a5" name="Ring of Darkness" hidden="false" targetId="1523-27d7-74c1-8791" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d73-cedc-a3c5-b238" name="Warpstone Scroll" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7bd3-60d7-2a1e-b444" name="Warpstone Scroll" hidden="false" targetId="70a9-c2ad-7f7e-66d3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf5f-a9d4-26e0-e575" name="Warp Scroll" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6d56-dffb-9f38-be07" name="Warp Scroll" hidden="false" targetId="4640-e858-149f-04c4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="448a-cd0f-6ff5-cb0e" name="Storm Daemon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-dd3a-6096-6e41" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a0d-f454-682e-17f4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a83e-2bf5-86de-ce7a" name="Storm Daemon" hidden="false" targetId="62e0-113c-e75b-049d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c037-761d-2d86-d0c1" name="Eye of the Horned Rat" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f287-dc68-09f9-487b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c8b-0fe1-6b56-b4e3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="906e-5d07-314c-11ef" name="Eye of the Horned Rat" hidden="false" targetId="1d3b-2724-4a6f-a032" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -115,10 +431,26 @@
       <modifiers>
         <modifier type="increment" field="fbcd-fc59-4327-baa6" value="1.0">
           <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d73-cedc-a3c5-b238" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d73-cedc-a3c5-b238" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="fbcd-fc59-4327-baa6" value="1.0">
+          <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="fbcd-fc59-4327-baa6" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8f4-391d-b40b-bd42" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8f4-391d-b40b-bd42" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -129,6 +461,10 @@
         <entryLink id="e5de-a71e-b538-f2b5" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
         <entryLink id="fb2f-56a1-afad-249b" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="c244-5a75-d738-9008" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="ce4c-226d-2b36-172f" name="Warpstone Scroll" hidden="false" collective="false" import="true" targetId="3d73-cedc-a3c5-b238" type="selectionEntry"/>
+        <entryLink id="e8f4-391d-b40b-bd42" name="Warp Scroll" hidden="false" collective="false" import="true" targetId="bf5f-a9d4-26e0-e575" type="selectionEntry"/>
+        <entryLink id="c8cc-ec10-6a11-287e" name="Storm Daemon" hidden="false" collective="false" import="true" targetId="448a-cd0f-6ff5-cb0e" type="selectionEntry"/>
+        <entryLink id="9791-fefe-f877-e579" name="Eye of the Horned Rat" hidden="false" collective="false" import="true" targetId="c037-761d-2d86-d0c1" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="77a4-916d-8b96-b97a" name="Magical Weapons" hidden="false" collective="false" import="true">
@@ -140,6 +476,20 @@
         <entryLink id="57a3-d120-abcc-4899" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
         <entryLink id="834b-247f-81eb-c3e4" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
         <entryLink id="0cc9-b7a0-8adc-38c2" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+        <entryLink id="c616-fa8c-af3d-fd90" name="Fellblade" hidden="false" collective="false" import="true" targetId="0342-da98-11ca-3f82" type="selectionEntry"/>
+        <entryLink id="2be0-bd4f-35fa-68c4" name="Gouger" hidden="false" collective="false" import="true" targetId="9dd0-d493-1213-4938" type="selectionEntry"/>
+        <entryLink id="9e51-43e5-0828-4098" name="Blade of Black Fury" hidden="false" collective="false" import="true" targetId="7bb1-9a41-724c-cffa" type="selectionEntry"/>
+        <entryLink id="dc05-629c-1312-7cae" name="Warpstone Stars" hidden="false" collective="false" import="true" targetId="f0b7-aa31-5ab4-5849" type="selectionEntry"/>
+        <entryLink id="957e-1227-6bff-1cfd" name="Weeping Blade" hidden="false" collective="false" import="true" targetId="97f0-5410-17c6-9201" type="selectionEntry"/>
+        <entryLink id="e883-6d38-3cee-cfde" name="Cursed Blade of Delirium" hidden="false" collective="false" import="true" targetId="d598-5821-9cf6-3969" type="selectionEntry"/>
+        <entryLink id="8c0a-89bc-88f3-82ad" name="Headsplitter" hidden="false" collective="false" import="true" targetId="51be-3e4c-8a93-4ea1" type="selectionEntry"/>
+        <entryLink id="c094-671f-8a34-a094" name="Desolate Blade" hidden="false" collective="false" import="true" targetId="e3b9-179e-20f9-f995" type="selectionEntry"/>
+        <entryLink id="e9e8-9595-bdee-6ba8" name="Dwarf-Slayer" hidden="false" collective="false" import="true" targetId="110e-be37-05d0-4804" type="selectionEntry"/>
+        <entryLink id="fc2f-c52b-b368-fb6a" name="Blade of Corruption" hidden="false" collective="false" import="true" targetId="98a6-7697-1dba-3f6d" type="selectionEntry"/>
+        <entryLink id="3dc1-31ec-844b-514b" name="Languishers Sword" hidden="false" collective="false" import="true" targetId="57ab-30ea-e8a1-1386" type="selectionEntry"/>
+        <entryLink id="d667-5d20-2af5-6e63" name="Death Globes" hidden="false" collective="false" import="true" targetId="1350-673e-49ca-df44" type="selectionEntry"/>
+        <entryLink id="23c9-b4c0-2092-c854" name="Blade of Nurglitch" hidden="false" collective="false" import="true" targetId="35d6-b422-3e9e-e2a5" type="selectionEntry"/>
+        <entryLink id="96c4-c56a-e607-4125" name="Things-Catcher" hidden="false" collective="false" import="true" targetId="dce8-e74a-bc8f-83a9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="3aa2-a354-e221-9114" name="Magic Armour" hidden="false" collective="false" import="true">
@@ -155,6 +505,9 @@
       </constraints>
       <entryLinks>
         <entryLink id="872e-ff59-9747-a71a" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry"/>
+        <entryLink id="55f8-4431-3a08-5022" name="Rust Armour" hidden="false" collective="false" import="true" targetId="85a2-511a-8f89-eb07" type="selectionEntry"/>
+        <entryLink id="d2c1-33bf-752a-456e" name="Warpstone Armour " hidden="false" collective="false" import="true" targetId="c46a-2486-c070-f7f7" type="selectionEntry"/>
+        <entryLink id="38a5-2773-e29f-d938" name="Cautious Shield" hidden="false" collective="false" import="true" targetId="bd51-738b-7ddb-c827" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e52c-c54c-35bc-9c8e" name="Talismans" hidden="false" collective="false" import="true">
@@ -163,6 +516,11 @@
       </constraints>
       <entryLinks>
         <entryLink id="639e-7438-874b-7423" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+        <entryLink id="e1d7-7cab-c667-f0a8" name="Twisted Crown of the Horned Rat" hidden="false" collective="false" import="true" targetId="a93b-71fc-7caf-d973" type="selectionEntry"/>
+        <entryLink id="be55-b11c-d8e1-ab2f" name="Tenebrous Cloak" hidden="false" collective="false" import="true" targetId="282c-600d-0d62-7abc" type="selectionEntry"/>
+        <entryLink id="9dae-f7af-b091-138f" name="The Foul Pendant" hidden="false" collective="false" import="true" targetId="3be2-2334-720d-55a0" type="selectionEntry"/>
+        <entryLink id="9735-4f87-b4d6-901d" name="Warpstone Amulet" hidden="false" collective="false" import="true" targetId="0f90-649b-02aa-68e6" type="selectionEntry"/>
+        <entryLink id="3f0b-84b4-131a-ac06" name="Ring of Darkness" hidden="false" collective="false" import="true" targetId="701f-6399-c401-2354" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="07e7-1605-444d-4069" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -250,6 +608,98 @@ If the Assassin is fighting on his own (ie, he is not inside a unit and not part
     <rule id="cbb2-3d84-55bb-b738" name="Warplock Pistol" publicationId="f804-741f-2593-2dec" page="32" hidden="false">
       <description>A warplock pistol follows the normal rules for pistols. except that it has a range of 10&quot; and a Strength of 5. In addition, warplock pistols are Reliable (see p.27). </description>
     </rule>
+    <rule id="f3b4-3d39-18a1-98b8" name="Fellblade" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>The Fellblade&apos;s wielder has Strength 10. Each unsaved wound is multiplied into 1D6 wounds. Roll a dice at the end of the wielder&apos;s turn: on a 3+ there is no effect; on a roll of 1-2 the wielder suffers 1 wound with no armour save allowed.</description>
+    </rule>
+    <rule id="a00b-b791-9f8e-7508" name="Gouger" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>No armour saves are allowed against wounds caused by the Gouger.</description>
+    </rule>
+    <rule id="a7ae-7369-faad-f2c4" name="Blade of Black Fury" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>The sword confers +2 Attacks to the wielder.</description>
+    </rule>
+    <rule id="be27-391f-760a-7485" name="Warpstone Stars" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>Clan Eshin only
+The model can throw as many Warpstone Stars in a single Shooting phase as it has Attacks on its profile (all against the same target). Treat them as normal throwing stars but with a range of 10&quot; and Strength 5. Each unsaved wound is multiplied into 1D3 wounds.</description>
+    </rule>
+    <rule id="0146-3424-2607-ace7" name="Weeping Blade" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>The wielder has +1 Strength. Each unsaved Wound is multiplied into D3 wounds.</description>
+    </rule>
+    <rule id="2e8c-2385-4808-2f96" name="Cursed Blade of Delirium" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>The wielder&apos;s Weapon Skill is raised to 10.</description>
+    </rule>
+    <rule id="ebe1-d874-ee10-326b" name="Headsplitter" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>This is treated as a normal-sling, but against models with Toughness 5 or more it always wounds on a 2+ with no armour saves allowed.</description>
+    </rule>
+    <rule id="247d-a1fd-a909-edf8" name="Desolate Blade" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>The sword confers +2 Strength to all close combat attacks made by the wielder.</description>
+    </rule>
+    <rule id="9e66-9c22-07e8-1aab" name="Dwarf-Slayer" publicationId="f804-741f-2593-2dec" page="36" hidden="false">
+      <description>Against Dwarfs the wielder always wounds on a 2+. Armour saves suffer a -3 modifier, regardless of the wielder&apos;s Strength.</description>
+    </rule>
+    <rule id="d3cd-f4a1-6259-d348" name="Blade of Corruption" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Clan Pestliens only
+Once an enemy has suffered an unsaved wound from this weapon, he must roll a dice at the beginning of each of his turns. On a roll of 1-3 he will suffer one wound, with no armour save allowed.</description>
+    </rule>
+    <rule id="6c4d-7905-a574-f9cd" name="Languishers Sword" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>The wielder of the sword always strikes first in close combat, even before enemies that have charged. If the wielder is fighting another enemy who is also entitled to strike first (because of spells, special abilities, etc). then resolve attacks in Initiative order. If both combatants&apos; Initiative values are equal, mill a dice to determine whom Strikes first.</description>
+    </rule>
+    <rule id="3bd5-d49e-cfcf-108d" name="Death Globes" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Clan Skryre only 
+The character can throw one Globe per Shooting phase. Place the small round template with its centre anywhere within 8&quot; of the character: -Scatter the template and resolve hits as you would for a Stone Thrower template. All models hit suffer a wound on the result of a 4+, with no armour save allowed. If you roll a Misfire, centre the template on the model throwing the globe.</description>
+    </rule>
+    <rule id="186d-5a29-f7bd-592b" name="Blade of Nurglitch" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Enemy models lose 1 point of Toughness from their profile for each unsaved wound they-suffer, to a minimum of Toughness 1.</description>
+    </rule>
+    <rule id="4dd7-f638-75c7-66e3" name="Things-Catcher" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Clan Moulder only
+This weapon requires two hands to use and confers the Killing Blow special ability (see page 112 o ihe Warhammer rulebook)</description>
+    </rule>
+    <rule id="120c-f9ed-ce77-ad8a" name="Rust Armour" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Gives a 5+ armour save that-can be combined with other armour as normal. In addition, If the wearer is wounded by a hit with a Strength sufficiently high to completely cancel his armour save (or a hit that does not allow armour saves at all, such as from a cannon ball), the wound is discounted but the armour falls to pieces and is destroyed.</description>
+    </rule>
+    <rule id="4e5b-290f-9a3b-2587" name="Warpstone Armour " publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Gives a 4+ armour save that can be combined with other armour as normal. For each successful armour save in close combat, the armour inflicts a Strength 4 hit against the enemy that struck the blow.</description>
+    </rule>
+    <rule id="1a2c-95ec-9c74-612e" name="Cautious Shield" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>Gives a 6+ armour save that can be combined with other armour as normal. The bearer can force one model in base contact to lose 1 Attack (he can choose which Attack in the case of opponents with different Attacks, such as cavalry models)...
+In addition, the model can decide not in attack at all, but to wield the shield with two hands and concentrate on defence. If he decides to do this, the chosen enemy will lost 2 Attacks. The player must declare which way the shield will be used at the beginning of each Close Combat phase. before any side striker blows.
+</description>
+    </rule>
+    <rule id="b1c7-9d7d-dc40-557a" name="Twisted Crown of the Horned Rat" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>The Twisted Crown gives the wearer the regeneration ability (see page 113&apos; of the Warhammer rulebook).</description>
+    </rule>
+    <rule id="4470-29b3-63ea-2a65" name="Tenebrous Cloak" publicationId="f804-741f-2593-2dec" page="37" hidden="false">
+      <description>This item confers .a 3+ Ward save to the wearer
+against normal and masical Missiles. •
+</description>
+    </rule>
+    <rule id="17ca-75e9-f4ba-86a4" name="The Foul Pendant" publicationId="f804-741f-2593-2dec" hidden="false">
+      <description>The pendant confers a 5+ Ward save to the bearer. </description>
+    </rule>
+    <rule id="1455-df47-55eb-0f4d" name="Warpstone Amulet" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>The Amulet confers to the bearer a 4+ Ward save. At the end of the game roll a 1D6. On the result of 1, the character succumbs to the mutating power of the &apos; warpstone and counts as a casualty for the purposes of allocating Victory points, and cannot contest table quarters. No re-rolls are allowed for this final roll.</description>
+    </rule>
+    <rule id="1523-27d7-74c1-8791" name="Ring of Darkness" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>The bearer and the unit he&apos; is with have Magic Resistance (1). Also, when a spell, magic item or any other scrying magic would force the Skaven player to reveal magic items or any other &apos;hidden&apos; presence in the unit, the Skaven player must only reveal the presence of this ring. Everything else &apos;remains hidden.</description>
+    </rule>
+    <rule id="70a9-c2ad-7f7e-66d3" name="Warpstone Scroll" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>Scroll; Bound Spell (Power Level 5); 
+One Use Only
+All units of, fliers within 24&quot; of the caster suffer D6 Strength 6 hits. Flying monsters and their riders within range also suffer 1D6 Strength 6 hits, randomised like shooting hits.</description>
+    </rule>
+    <rule id="4640-e858-149f-04c4" name="Warp Scroll" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>The scroll&apos;s spell has a range of 24” and can be cast on any unit which-is visible to the bearer. The spell contained in the scroll inflicts one Strength 3 hit on every model in the unit. If the unit suffers any casualties, it must take a Panic test.</description>
+    </rule>
+    <rule id="62e0-113c-e75b-049d" name="Storm Daemon" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>Bound Spell (Power Level 4); Warlock Engineers only
+Once in each of his own Magic phases, the bearer can cast the Warp Lightning spell (the weakest version only; see page 35). The spell requires no Power dice to cast as all the power is provided by the Storm Daemon itself
+Roll a D6 every time it is used. On a 1 the Storm Daemon runs out of power and cannot be used for the rest of the battle.
+</description>
+    </rule>
+    <rule id="1d3b-2724-4a6f-a032" name="Eye of the Horned Rat" publicationId="f804-741f-2593-2dec" page="38" hidden="false">
+      <description>The Wizard can decide to activate the Eye at the beginning of each of his Magic phases. On a result of 2-6 add one Power dice to the Power dice pool. If a 1 is rolled, no dice are added to the pool and instead one dice is removed from the pool.</description>
+    </rule>
+    <rule id="20e5-9fdd-a83b-01ad" name="Warpstone Tolen" publicationId="f804-741f-2593-2dec" page="38" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="76a0-6aa7-9c16-c99f" name="Warlord" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
