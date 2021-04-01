@@ -1579,9 +1579,6 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="3e5f-96a1-6995-88c6" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
