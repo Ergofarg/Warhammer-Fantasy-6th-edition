@@ -229,6 +229,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b22a-6be5-d4f9-7776" name="Staff of Sorcery" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -461,6 +464,7 @@
     <selectionEntry id="bddd-26a2-7b14-c3fa" name="Throwing Axe" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d01e-a5d1-b9be-69ec" name="Throwing Axe" hidden="false" targetId="c4c3-8f22-9db7-1a00" type="profile"/>
+        <infoLink id="ef9e-e592-d413-0c53" name="Thrown Weapons" hidden="false" targetId="eecc-4ed0-db8a-f6dc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -469,6 +473,7 @@
     <selectionEntry id="6c61-37b0-5fa6-c20c" name="Throwing Star/ Knife" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d76f-ae3e-98ae-7a6d" name="Throwing Star/ Knife" hidden="false" targetId="9c9b-f589-846f-c1d8" type="profile"/>
+        <infoLink id="160d-d464-ad1f-b955" name="Thrown Weapons" hidden="false" targetId="eecc-4ed0-db8a-f6dc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -531,7 +536,8 @@ Alternatively, Scouts can be placed on the controlling player&apos;s deployment 
       <description>Unit are skirmishers</description>
     </rule>
     <rule id="ab5d-dda1-bffc-a027" name="Frenzy" publicationId="315e-e3c4-08af-fd51" page="84" hidden="false">
-      <description>Subject to frenzy. </description>
+      <description>Subject to frenzy. +1 Attack
+Frenzied troops must pursue broken units.</description>
     </rule>
     <rule id="2738-27d5-f4af-4722" name="Poisoned Attacks" publicationId="315e-e3c4-08af-fd51" page="114" hidden="false">
       <description>Poisoned Attacks. Hits of 6 auto wound. Sve as normal.
@@ -565,6 +571,12 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     </rule>
     <rule id="e5ce-0262-e817-adc2" name="Brace Of Pistols" hidden="false">
       <description>In first round of combat (H-T-H) the model counts as having two handweapons. In the first turn only these have STR4 and Armour Piercing.</description>
+    </rule>
+    <rule id="1e6c-d634-a65c-78eb" name="Hatred" hidden="false">
+      <description>In the first turn of combat you may re-roll missed &apos;To-hit&apos; rolls</description>
+    </rule>
+    <rule id="eecc-4ed0-db8a-f6dc" name="Thrown Weapons" hidden="false">
+      <description>Thrown weapons do not suffer penalties for long range, nor for moving</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
