@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
@@ -1507,6 +1507,7 @@
             <entryLink id="6ffd-43e9-329f-d85c" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3dd-c1d8-860d-0091" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abfc-0b50-0faa-acc5" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2889,7 +2890,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee74-f071-e73a-001a" name="Archers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ee74-f071-e73a-001a" name="Archer Detachment" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="84af-432c-8c52-e3a1" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -2930,7 +2931,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fd8-6150-4151-4b59" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5fd8-6150-4151-4b59" name="Crossbowmen detachment" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ae69-1342-afef-aa7c" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -3002,7 +3003,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fc5-6d03-cc2f-18ab" name="Halberdiers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8fc5-6d03-cc2f-18ab" name="Halberdier Detachment" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="d6d5-82ff-e54a-06f3" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -3047,7 +3048,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="882a-ff9d-529f-8e33" name="Handgunners" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="882a-ff9d-529f-8e33" name="Handgunner Detachment" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5584-31b9-2c38-23a7" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -3055,6 +3056,16 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8943-7d0e-45a5-d628" name="Handgunner" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ce-0242-10b9-421e" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="db59-afbb-3937-fbdc" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
           <constraints>
@@ -3069,11 +3080,8 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="6a47-b6c6-185d-bf59" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6a47-b6c6-185d-bf59" name="Spearmen Detachment" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e12a-a4b6-b922-2248" name="Empire soldier" hidden="false" targetId="b777-4b66-0f67-d717" type="profile">
           <modifiers>
@@ -3126,7 +3134,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81eb-90ce-eaa0-190e" name="Swordsmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="81eb-90ce-eaa0-190e" name="Swordsmen Detachment" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0538-8251-33ec-3140" name="Swordsmen" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
