@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -647,6 +647,14 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="35d0-8c85-663b-fb2b" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f6-0c23-3fbd-379e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9a58-c31b-4b0a-dbc9" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ba8a-b51f-65f9-5f96" name="Mounts" hidden="false" collective="false" import="true">
@@ -784,6 +792,14 @@
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="1c86-761e-ea76-694b" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc5-364b-4965-0a6f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="37d3-b51e-0787-3cec" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1093,6 +1109,14 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ec0e-16e9-5121-eb96" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6115-0fd7-2020-311f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f906-ceeb-bb7e-3e69" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8ae9-6a07-d7dd-0f1b" name="Mounts" hidden="false" collective="false" import="true">
@@ -1183,6 +1207,14 @@
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="b0cb-8aa3-e540-ddbb" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="839c-a623-6086-f341" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3e42-b3eb-17c3-1487" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1726,6 +1758,14 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1b89-4834-1fcd-19ff" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ec-48c4-b3b3-8049" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b0fe-4175-1d8d-0a59" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="282d-afda-0de8-93c8" name="Mounts" hidden="false" collective="false" import="true">
@@ -1851,6 +1891,14 @@
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="b35c-0d9b-c8c0-703a" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318f-8c54-938c-75d7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2fa1-5b5b-5ff5-77b7" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2158,6 +2206,14 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="12c2-cc87-b9d2-3df4" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d1-0bb9-80d9-126c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4442-38ac-5ae0-4415" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3a26-e515-28a5-93c6" name="Mounts" hidden="false" collective="false" import="true">
@@ -2186,7 +2242,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5949-d37c-f238-180c" name="Magic Items" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5949-d37c-f238-180c" name="Magic Items Selection" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="169f-7fdc-8727-3465" type="max"/>
           </constraints>
@@ -2259,6 +2315,14 @@
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="d89a-0424-0fb4-c3c5" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b125-250e-921c-4fb2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9fd5-69cc-b084-bf56" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2570,7 +2634,7 @@
         <categoryLink id="da4f-69bc-0ba3-4793" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5fb-a639-766e-34e0" name="Savage Orc Boyz" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e5fb-a639-766e-34e0" name="Savage Orc Boyz" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2bd-009a-fe28-14aa" type="min"/>
           </constraints>
@@ -2599,8 +2663,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7e0-b702-c2d1-2371" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0af-e148-eda5-2737" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb1-62e1-14ca-0c7b" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="767f-6aef-44a6-63b5" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
@@ -2663,7 +2726,7 @@
               <modifiers>
                 <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2675,7 +2738,7 @@
               <modifiers>
                 <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -4964,6 +5027,54 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c2cf-8f3a-6f9d-6e5c" name="1.Gaze of Mork" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c33-52d3-8587-53cf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="40c7-4834-79b2-1828" name="GAZE OF MORK" hidden="false" targetId="3e56-0647-dea6-cf80" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="76f6-aade-a5ca-864f" name="3.&apos;Eadbutt" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8890-df7b-eb40-2a84" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1aae-a4dd-f3ea-51a8" name="&apos;EADBUTT" hidden="false" targetId="e1af-1553-dfb8-6bbe" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a034-cac5-4e39-600c" name="2.Fist of Gork" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bde-bdbf-6967-2e01" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="adfe-0f0f-6fa9-49e4" name="FISTS OF GORK" hidden="false" targetId="32a5-cb87-fe4a-bbab" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b043-9454-57be-7769" name="4.Brain Busta" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff9f-fa55-d18f-d2d8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a7aa-bd22-208d-bd53" name="BRAIN BURSTA" hidden="false" targetId="be07-0455-26fa-151e" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ab11-5685-e149-bf00" name="5.Ere We Go" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ba-d392-6db2-5108" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7aa1-3208-3d32-84c8" name="&apos;ERE WE GO!" hidden="false" targetId="75be-85d3-92b5-d5c3" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2bc0-854d-ef1d-d077" name="6.Hand of Gork" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ffb-c965-f56a-6dea" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8207-38ec-ee1d-5b90" name="THE HAND OF GORK" hidden="false" targetId="f1cf-5d16-34f7-1898" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -5152,6 +5263,16 @@
         <entryLink id="1390-4781-4926-79f5" name="Nibbla&apos;s &apos;Itty Ring " hidden="false" collective="false" import="true" targetId="5b6f-892f-3e17-a306" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="b7e2-ab17-22cd-10b6" name="LittleWaaagh" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b58b-cb1f-9a0b-f094" name="1.Gaze of Mork" hidden="false" collective="false" import="true" targetId="c2cf-8f3a-6f9d-6e5c" type="selectionEntry"/>
+        <entryLink id="a6e5-9588-f524-968a" name="2.Fist of Gork" hidden="false" collective="false" import="true" targetId="a034-cac5-4e39-600c" type="selectionEntry"/>
+        <entryLink id="76e9-ae7f-44c5-8358" name="3.&apos;Eadbutt" hidden="false" collective="false" import="true" targetId="76f6-aade-a5ca-864f" type="selectionEntry"/>
+        <entryLink id="cb03-336d-f0cc-ce08" name="4.Brain Busta" hidden="false" collective="false" import="true" targetId="b043-9454-57be-7769" type="selectionEntry"/>
+        <entryLink id="3ac8-d5e1-1a8b-12a4" name="5.Ere We Go" hidden="false" collective="false" import="true" targetId="ab11-5685-e149-bf00" type="selectionEntry"/>
+        <entryLink id="75a2-0e82-647a-3a90" name="6.Hand of Gork" hidden="false" collective="false" import="true" targetId="2bc0-854d-ef1d-d077" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="23f9-c5d1-7c15-0c4c" name="Animosity" publicationId="7dda-637b-31ad-951c" page="8" hidden="false">
@@ -5333,10 +5454,10 @@ If an enemy model suffers one or more wounds (after saves) inflicted by the Curm
 Pigstikka gives the wielder +1 Strength on the turn he charges.  In addition, on the turn he charges he also gets one extra attack  per rank in the enemy unit (up to a maximum of 3.
 </description>
     </rule>
-    <rule id="9033-d8d5-7dc6-f524" name="ARMOUR OF GORK" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+    <rule id="9033-d8d5-7dc6-f524" name="Armour of Gork" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
       <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour sates.</description>
     </rule>
-    <rule id="2f5a-c43a-7358-263b" name="ARMOUR OF MORK" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
+    <rule id="2f5a-c43a-7358-263b" name="Armour of Mork" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
       <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. Also gives the wearer and the unit he is with Magic Resistance (2).</description>
     </rule>
     <rule id="fc64-03be-8d88-b996" name="ARMOUR OF PROTECTYNESS" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
@@ -5453,6 +5574,37 @@ The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of 
     </rule>
     <rule id="2339-e55f-1653-6ed3" name="THE BASHIN&apos; FLAG OF BORK" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
       <description>The unit which carries the Bashin&apos; Flag of Bork ignores the first faded Animosity roll of the game - it passes the test instead. Any further rolls are taken as normal (even the spirit of Bork Crazy-Hear can only do so much).</description>
+    </rule>
+    <rule id="e1af-1553-dfb8-6bbe" name="&apos;EADBUTT" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CASTS ON 7+
+Cast this on a single enemy model within 24” and line of sight. lt doesn&apos;t matter if you couldn&apos;t normally target the model - the waaagh! power targets him amongst the crowd. If successfully cast, the &apos;Eadbutt hits the model will cause 1 Strength 4 hit with no armour saving throw allowed. 
+</description>
+    </rule>
+    <rule id="32a5-cb87-fe4a-bbab" name="FISTS OF GORK" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CAST ON 7+
+This has a range of 8&quot; and may he cast on any single enemy unit even if it is in close combat. If successfully cast, the target unit is pummeled by a Burry of ghostly green fists. Work out damage from the spell as if each of the models in the target unit (including riders and monstrous mounts separately) had been attacked by a charging Orc with a choppa, i.e. A1 WS3, S4. Characters do not get a &quot;look out. Sir!&quot; roll.
+</description>
+    </rule>
+    <rule id="be07-0455-26fa-151e" name="BRAIN BURSTA" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CAST ON 8+
+This is a magic missile with a   r ange  of up to 24&quot;. If
+successfully cast, the Braln Bursta hits its target and causes 2D6 Strength 4 hits.
+</description>
+    </rule>
+    <rule id="75be-85d3-92b5-d5c3" name="&apos;ERE WE GO!" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CAST ON 9+
+Target a friendly unit of Orcs or Goblins (any type of either) within 18&quot; and in close combat. The unit immediately fights a round of close combat as normal, but without any attacks back from the other side or any combat resolution.
+</description>
+    </rule>
+    <rule id="f1cf-5d16-34f7-1898" name="THE HAND OF GORK" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CASTS ON 9+
+You may cut this on one Orc or Goblin unit (of any type) within 24&quot;, provided that the target unit could charge the enemy if it was the greenskin&apos;s Movement phase. If successfully cast, the unit will attempt to charge - move the unit 21)6&quot; towards the enemy. If there is a choice of targets, move the unit towards the closest. Any unit that moves into contact with an enemy unit counts as charging in the usual way. The enemy are aught by the suddenness of the advance and can only hold before greenskins charging with the Hand of Gork - they can&apos;t stand &amp; shoot, flee, etc. Note that if the enemy cause fear or terror: the charge is treated as &apos;pursuit into fresh enemy&apos; (see page 76 of the Warhammer rulebook).
+</description>
+    </rule>
+    <rule id="3e56-0647-dea6-cf80" name="GAZE OF MORK" publicationId="7dda-637b-31ad-951c" page="28" hidden="false">
+      <description>CAST ON 5+
+The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfully cast, it hits its target and causes D6 Strength 4 hits.
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
