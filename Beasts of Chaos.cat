@@ -1,23 +1,823 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c768-2f35-01cf-9ac8" name="Beasts of Chaos" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c768-2f35-01cf-9ac8" name="Beasts of Chaos" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="5c46-289b-07ae-149d" name="Beastlord" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e6d8-e016-85e0-ff62" name="Beatlord" hidden="false" targetId="d2eb-d24c-e0f5-f716" type="profile"/>
+        <infoLink id="5847-9da0-1b5b-915c" name="Raiders" hidden="false" targetId="94df-5354-54cd-c16e" type="rule"/>
+        <infoLink id="1334-1ad0-805f-f3a2" name="Beastmen Ambush" hidden="false" targetId="171a-a558-c27b-9cc9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0999-ea5a-0fdc-e5ed" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="79da-8b48-d9dc-7c69" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8954-4082-c696-fb58" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="15d3-6374-481a-046d" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="339a-d9ff-ce64-57b7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="602a-30bb-b518-3193" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d5-1106-f69b-8f5c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="30c1-3528-34e9-890d" name="Armour" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="d4a7-378a-678b-d480" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e2-1873-a856-03e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a7-378a-678b-d480" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2cfe-7468-f35c-1355" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57a1-918e-f0fc-ad0b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ff2c-13c0-4ac0-2beb" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb9-cf91-d0ab-a12e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ed8c-79ed-a8e0-c3b2" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b9-45ee-b2f7-d8a6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b9af-6ea8-de0b-03a4" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824f-e6cf-6b3b-5a8e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9403-a3e8-747b-a815" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="95.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6161-c30d-690f-f55d" name="Spawn of Chaos" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ca19-e317-87c9-f057" name="Special Movement" hidden="false" targetId="ce83-e5c9-7647-4198" type="rule"/>
+        <infoLink id="84fd-2dbd-9195-1278" name="Special Attacks" hidden="false" targetId="705f-1427-258d-d57c" type="rule"/>
+        <infoLink id="7bbc-2c04-4bd0-a0fb" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule"/>
+        <infoLink id="825e-9b13-1b09-72d6" name="Unit Strength 3" hidden="false" targetId="f3a8-3c9f-4fcb-5092" type="rule"/>
+        <infoLink id="2d2a-2615-0390-33e2" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="5fc6-04bf-0925-a482" name="Spawn of Chaos" hidden="false" targetId="e383-4acd-1500-c2b6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="90da-8884-f6cc-f5ce" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="39b4-bed4-f359-4864" name="Chaos Affinity" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab7d-f255-d028-0349" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5ee4-cf9d-229c-ea27" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="387b-a9bb-97c9-40ee" name="Beasts of Nurgle" hidden="false" targetId="3985-0656-191a-aee8" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0557-cb8b-e967-8ca1" name="Bloodbweast of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a61f-89fb-2f1c-dcec" name="Bloodbeasts of Khorne" hidden="false" targetId="252e-8422-6be2-b510" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b638-803a-f9cc-daac" name="Fiend of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c0f7-428e-0471-5aae" name="Fiends of Slaanesh" hidden="false" targetId="9dbf-0e56-40d6-cadd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="24c8-9305-b13b-28da" name="Fyrwrym Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d94b-1853-36f8-15e3" name="Firewyrms of Tzeentch" hidden="false" targetId="61ae-d526-b803-d11f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c24-577a-af2c-e173" name="Chaos Giant" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8d1b-807d-7b14-4e04" name="Giant" hidden="false" targetId="2add-4573-354b-54f4" type="profile"/>
+        <infoLink id="0c8c-9d2e-a26a-ac85" name="Fall Over(Giants)" hidden="false" targetId="197a-b58b-3324-b6a5" type="rule"/>
+        <infoLink id="7ec9-58f7-0062-de4a" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="f952-cf1f-e241-86e3" name="Giant Special Attacks" hidden="false" targetId="51d3-ac6f-3e2e-ab89" type="rule"/>
+        <infoLink id="35f4-5d23-c898-84fb" name="Ignore Little &apos;un Panic: " hidden="false" targetId="4af2-1a92-dd54-df32" type="rule"/>
+        <infoLink id="d066-8603-8ed9-abf9" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c586-4c04-0c5a-41cd" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="77d9-abb7-c01d-d190" name="Mutant Monstrosity" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="887a-c035-8450-8daa" name="Mutant Monstrosity" hidden="false" targetId="e2e8-18fb-44ed-901c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="205.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a8b-35f8-d02a-2417" name="Chaos Ogres" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7cb4-4cd5-5633-673f" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="3b6b-9173-acae-d2db" name="Chaos Ogre" hidden="false" targetId="caa2-9b32-c20d-ecbd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="395c-f745-f2c1-6985" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cacd-2624-a107-3517" name="Chaos Ogre" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1d-ec2c-7002-c347" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2cf8-15a2-150c-00b5" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0da-6624-f313-4163" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7420-8ba8-5c9b-6ec0" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="4.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="636c-f5f3-dbac-b727" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1972-a56c-6fa6-f269" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa2-3e8e-0703-ec2e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="82c0-0cca-d2df-afc1" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e6a-5f07-5e3c-f279">
+          <modifiers>
+            <modifier type="increment" field="7d24-495d-a596-098f" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e2-1873-a856-03e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d24-495d-a596-098f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d5-4f9f-01b9-181f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6e6a-5f07-5e3c-f279" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="287f-54ba-91ed-bb73" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="40e5-24ae-b0d2-3614" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5465-2036-075f-f45a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2558-9be0-c522-738b" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ef-aab6-9bf6-9506" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4d35-3bff-0e90-a011" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0bc4-88b5-4a4d-a0cc" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f013-91c6-f525-91b7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5ad8-c484-80c8-4f63" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b0-1de5-dcdb-075c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d843-14b6-6761-c3b8" name="Big Ogre" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98b0-64c1-c408-081c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="471e-810a-fc82-eff2" name="Big Chaos Ogre" hidden="false" targetId="8e77-7b7f-8213-9593" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2fba-2b63-eef1-b363" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22c-e23e-7321-f9f1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8680-9ea6-2099-c1bc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe8c-e8d9-ba13-8b3d" name="Chaos Trolls" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="62ba-45b5-834a-24a5" name="Chaos Troll" hidden="false" targetId="71f2-720f-4f7f-e95c" type="profile"/>
+        <infoLink id="221e-819e-3fb2-da90" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="72b6-1de5-364a-8ee1" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="c316-0e60-245e-583c" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule"/>
+        <infoLink id="79ef-75e6-65c0-0a41" name="Troll Vomit" hidden="false" targetId="46f1-9343-4a57-0fab" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ac5d-b561-6d87-4f95" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0f82-3525-066c-3dd8" name="Chaos Trolls" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d9-551e-4754-58f9" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fdf-2f32-0551-4ca1" name="Dragon Ogre Shaggoth" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="5986-21c3-3b6b-6ee0" name="Shaggoth" hidden="false" targetId="8536-631e-b1f0-4249" type="profile"/>
+        <infoLink id="b7a1-84d7-4c70-f3e0" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="a224-c548-96e0-7a03" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="546a-f7de-4afb-19e6" name="Scaly Skin 4+" hidden="false" targetId="ac0c-1a00-3030-9706" type="rule"/>
+        <infoLink id="9aca-3e66-7f45-3643" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="3c7a-afdb-1b56-a094" name="Unit Strength" hidden="false" targetId="d096-8ca3-94ed-0c40" type="rule"/>
+        <infoLink id="2478-d234-5ca5-ec5d" name="Storm Rage Shaggoth" hidden="false" targetId="2bc0-51ef-94ff-08a3" type="rule"/>
+        <infoLink id="febe-c647-c10b-e510" name="Shaggoth Champions" hidden="false" targetId="9045-7422-5774-167a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9dd8-b714-eafd-885b" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="27a4-26c1-c06e-a8da" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="186e-cf22-5b82-94c3" name="Shaggoth Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="266a-8c09-8415-11e6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7cb9-74b5-b9fe-cd76" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f7-fc71-afe6-a3d2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5e4c-fc66-3bd1-76f5" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c5dc-1ce8-558e-efe5" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b7fe-2111-9335-4e94" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4747-46b0-daf2-f6cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a01-689e-5d45-60cf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d263-5a81-b49a-c455" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="295.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46d7-63d8-cda7-acef" name="Beast Herd" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="5598-7499-baf8-519f" name="Gor" hidden="false" targetId="7177-5943-acb2-26ec" type="profile"/>
+        <infoLink id="db72-dc70-7465-4c48" name="Ungors" hidden="false" targetId="c828-f0a5-81d5-5e72" type="profile"/>
+        <infoLink id="ef26-4053-ba69-4775" name="Foe-render" hidden="false" targetId="a903-e207-7d97-e041" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="260b-ece8-35da-fb48" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8998-dfaa-81a4-ce43" name="Gors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c47-56b9-b315-9580" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="61aa-61cd-ed39-e1b5" name="Ungors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0f-4260-a2a7-0fe1" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ce5c-1a20-f865-93f7" name="Gor Weapons selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="204c-06b2-2300-3842">
+          <entryLinks>
+            <entryLink id="204c-06b2-2300-3842" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0f-be62-5ba7-8bc0" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8423-5edf-8168-6ec9" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a1c-994e-d0e1-7306" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="a768-25ef-0845-6e1c" name="Braystaff" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c39-dcb1-9387-110a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9809-d81d-ea3a-bd4f" name="Braystaff" hidden="false" targetId="b0f1-3cb9-9ec7-06fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7ff-31af-939e-0fbd" name="Mark of Chaos Undivided" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2537-dbe0-239a-3427" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a4b9-e2be-b9c4-55fa" name="Mark of Chaos Undivided" hidden="false" targetId="7ef7-2eee-3cab-4001" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8b7-ff7c-2879-8db9" name="Lord Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ce-b770-3f08-0636" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="42be-ce46-2757-576b" name="Lord Of Tzeentch" hidden="false" targetId="4ef1-4caa-bbf4-0322" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b510-e39d-1948-f49a" name="Shaggoth Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c5b-8402-df04-f2ab" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4df9-3039-64b7-47e7" name="Shaggoth Of Tzeentch" hidden="false" targetId="59dc-14bc-d944-c095" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8cb0-65ea-cd8a-c528" name="Doombull Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac7-c348-154d-c959" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2c25-f4be-5cd8-7335" name="Doombull Of Tzeentch" hidden="false" targetId="8cee-9f8c-2820-a414" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b7d-a133-0091-820c" name="Hero of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a81-41cd-bedf-bdc1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dfbd-27f4-ec5b-4ca4" name="Hero of Tzeentch" hidden="false" targetId="da22-6a2f-7aa6-73eb" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bbf-25a9-fd0b-8317" name="Regiment of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ca8-27f4-e866-29e2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ac4a-46b3-6fac-b7c5" name="Regiment of Tzeentch" hidden="false" targetId="df73-ae01-072e-6f09" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5e2-00e0-fbb6-e338" name="Minotaurs of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="034b-fc02-6af8-7d6d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="66c0-e6c7-1ea4-95f6" name="Minotaurs of Tzeentch" hidden="false" targetId="75ec-cba2-d344-1e5f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7349-3243-effe-59d8" name="Lord of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4221-42ac-3bd4-1e72" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="024a-9797-f4cd-1ba3" name="Lord of Khorne" hidden="false" targetId="adc8-8faf-e81a-61f7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f4a-dd70-d202-c996" name="Shaggoth of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093f-7ba1-6789-d52b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="25d1-d9f2-1442-8043" name="Shaggoth of Khorne" hidden="false" targetId="254e-eabc-b557-b7c8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="6493-36be-1169-e364" name="Mark of Chaos" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="6493-36be-1169-e364" name="Mark of Chaos" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a12-ca25-2996-601d" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d635-ce9a-7f5d-b1fe" name="Magic Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae6-fe9d-9309-44cf" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e420-a385-d290-c556" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="a459-14b5-cc78-1843" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
+        <entryLink id="9f9b-d269-9e1d-8474" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
+        <entryLink id="3199-ab31-722c-eb0d" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="31d8-668f-ac49-5a4b" name="Magic Armour" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="0db7-d0eb-e098-02dc" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0db7-d0eb-e098-02dc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="35ce-24da-fcfd-297b" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="72f8-1777-cd9d-64aa" name="Enchanted items" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a6-6e86-d279-5b18" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1dc8-ee75-ff34-9455" name="Arcane Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="27fa-c0fd-dd28-8221" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fa-c0fd-dd28-8221" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5bdf-98aa-0fb1-1e35" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="9038-f6ca-a1f4-0c6e" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
+        <entryLink id="aa2c-ad02-1b4a-90e9" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0b8c-7adf-ebda-2164" name="Talismans" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f8-12b8-e4f7-c313" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cacc-ccd9-63b6-d4d1" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9ba2-ac34-9580-5e79" name="Magical Banners" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="275b-4e89-e5cf-81d7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="781f-9b7a-2f8a-b7c6" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="94df-5354-54cd-c16e" name="Raiders" publicationId="7f4a-e6ae-d049-ee56" page="18" hidden="false">
+      <description>Units with the Raiders special rule fight in a disorganised mass rather than ordered ranks and files. They arc treated just like skirmishers, with the following exceptions:
+•	They may only make a charge move if at least one quarter of the models in the unit are within normal charge range of the enemy unit.
+•	They gain rank bonus for combat resolution Just like normal units, up to a maximum of +2.
+•	When charging or charged, if the unit would normally form up less than four models wide, then it forms up four models wide (space permitting).
+•	Units with the Raiders special rule may not be joined by characters who are not Raiders. Characters with the Raiders special rule may Join any unit they wish, but if they join a unit which does not have the Raiders special rule then they are treated exactly like any other character model.
+</description>
+    </rule>
+    <rule id="171a-a558-c27b-9cc9" name="Beastmen Ambush" publicationId="7f4a-e6ae-d049-ee56" page="18" hidden="false">
+      <description>If the General of the army has the Ambush special rule he carries a Brayhorn, which he may sound during the battle to summon Beastmen and Warhounds that lie in wait. It for whatever reason, the General no longer counts as a Beasts General, then he loses his Ambush special rule.
+Units with Ambush can use this ability in any scenario that allows Scouts to use their special deployment. Up to half of your ambushing units and characters (rounding down), may be set up in ambush. For example, an army with three Beastherds, two characters with Ambush and two Warhounds units can put any three of these units and/or characters into ambush. Make a note of which units are in ambush at the start of the battle, before deployment starts. If characters are waiting in ambush, they may join another unit and arrive with them - make a note of which unit they are with before the battle begins.
+Ambushing units are not deployed at the start of the battle. However, the General must be deployed normally Models do not count as in play while waiting in ambush (for example. for the purposes of generating Power or Dispel dim). If, for some reason,the General is removed from play before sounding his brayhorn, then any units sent to wait in ambush count as destroyed when determining Victory points.
+Starting from the second Chaos turn, during any Chaos Movement phase, after charges have been declared, the General may sound the brayhom and launch the ambush. For each unit waiting in ambush, mark a point on the table edge you wish them to move on from. After this, make a Leadership test for each unit. If the test is passed, every model in the unit moves on from the marked point, in the same way as if they had pursued an enemy off the table in the previous turn. If the Leadership test is failed, they turn up at a random point on the table edge. Roll a Scatter dice in the middle of the table and follow the arrow (even on a roll of a 1111) to determine the point on the table edge where the unit enters.
+
+</description>
+    </rule>
+    <rule id="4ef1-4caa-bbf4-0322" name="Lord Of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Lord is a Level 4 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+    </rule>
+    <rule id="59dc-14bc-d944-c095" name="Shaggoth Of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>&apos;The Shaggoth is a Level 2 Sorcerer and can cast spells whilst wearing armour.</description>
+    </rule>
+    <rule id="b6a2-1771-6736-aa0f" name="UNRULY" hidden="false">
+      <description>At the start of each Chaos Compulsory Movement phase, roll a 1D6 for each Unruly unit. On a roll of a 1, the unit&apos;s headstrong nature has got the better of it. If there is an enemy unit that can be charged using the normal rules, the Beastmen must charge (charging the closest unit if there is more than one legal target). If no charges are possible, the unit moves as quickly and directly as possible towards the nearest enemy.</description>
+    </rule>
+    <rule id="b0f1-3cb9-9ec7-06fa" name="Braystaff" hidden="false">
+      <description>A Braystaff can be used in one of two ways (nominate which at the start of each Close Combat round). 
+It may be used as a great weapon, in which case it grants +2 Strength and strikes last, or it may be used 
+defensively, in which ease it grants +2 to the wielder&apos;s Armour save, but does not give any additional benefit.
+</description>
+    </rule>
+    <rule id="5dde-c27b-c0ef-7bc9" name="Tuskgor Charge" publicationId="7f4a-e6ae-d049-ee56" page="22" hidden="false">
+      <description>A charging Tuskgor receives a Strength bonus of +2, giving it a strength value of 5  on the first turn it charges. This bonus applies to the tuskgor itself not the chariot nor the riders within.</description>
+    </rule>
+    <rule id="b942-f72e-84c3-7dcf" name="Bloodgreed" hidden="false">
+      <description>Minotaurs are known for their craving of flesh and even in the heat of battle will stop to devour the fallen rather than continue the fight. Minotaurs never &apos;Overun&apos; even if normally forced to do by pyscology or some other  effect.  However Minotaurs pursue on 3D6 instead of the normal 2D6.</description>
+    </rule>
+    <rule id="d015-a10f-b209-416b" name="Centigors" publicationId="7f4a-e6ae-d049-ee56" page="24" hidden="false">
+      <description>Centigors are mounted on a cavalry base and are treated as cavalry in all respects except for the following;
+
+They do not recieve a +1 Armour Save
+They may benefit from using two hand weapons or sword and shield as if on foot.
+They use cavalry rules for spears.</description>
+    </rule>
+    <rule id="3a6c-9982-ca86-f953" name="Drunken" publicationId="7f4a-e6ae-d049-ee56" page="24" hidden="false">
+      <description>Centigors are inclined to drink vast quantities of noxious beer and looted wine and spirits before battle, working themselves up into a drunken frenzy. While this makes them heedless of danger, and can turn them into berserk fighters, it can also severely incapacitate them.
+Roll a 1D6 for each Centigor unit at the start of each of their turns, before charges are declared. On a roll of 1, they must test for stupidity that turn (see pages 82-83 of the Warhammer rulebook). On a roll of 2-5 the alcohol has no benefit or hindrance that turn. On a roll of 6 they become subject to frenzy for that turn (even if they have previously lost a round of combat). Remember that while subject to stupidity or frenzy they are immune to all other forms of psychology.
+</description>
+    </rule>
+    <rule id="b7fa-e957-f2b8-c161" name="Move through woods" publicationId="7f4a-e6ae-d049-ee56" page="24" hidden="false">
+      <description>Centigors are creatures of the dark forests, able to gallop along winding tracks and weave through the trees with great speed. Units of Centigors suffer no movement penalties for moving through wooded terrain.</description>
+    </rule>
+    <rule id="3051-ecf7-1480-9d69" name="Trample" publicationId="7f4a-e6ae-d049-ee56" page="24" hidden="false">
+      <description>As well as their weapons, Centigors use their hooves and sheer size to crush the enemy. Centigors have an additional Attack, which does not benefit from weapon penalties or bonuses.</description>
+    </rule>
+    <rule id="3f90-f890-d070-9b85" name="Storm Rage" publicationId="7f4a-e6ae-d049-ee56" page="25" hidden="false">
+      <description>Dragon Ogres bathe in lightning to invigorate themselves and extend their lives. They are immune to all lightning•based attacks and spells. for example. Skaven warp-lightning attacks and certain Lore of Heavens spells, such as Storm of Cronos and Forked Lightning. If for whatever reason, Dragon Ogres are targeted by a lightning-based attack, they suffer no effects and become frenzied.</description>
+    </rule>
+    <rule id="d096-8ca3-94ed-0c40" name="Unit Strength" hidden="false">
+      <description>Shaggoths have a Unit Strength of 6 (this is not increased by the Mark of Nurgle).</description>
+    </rule>
+    <rule id="ac0c-1a00-3030-9706" name="Scaly Skin 4+" hidden="false">
+      <description>The Shaggoth&apos;s tough scales give it a Scaly Skin save of 4+.</description>
+    </rule>
+    <rule id="0540-9668-5221-67d7" name="Scaly Skin +5" hidden="false">
+      <description>Dragon Ogres gain a 5+ Scaly Skin save from their tough hides.</description>
+    </rule>
+    <rule id="2bc0-51ef-94ff-08a3" name="Storm Rage Shaggoth" hidden="false">
+      <description>Shaggoths bathe in lightning to invigorate themselves and extend their lives. They are immune to all lightning-based attacks and spells, for example, Skaven warp-lightning attacks and certain Lore of I leavens spells such as Storm of Cronos and Forked Lightning targeted by a lightning-based attack, it suffers no effects and becomes frenzied, even though it is normally Immune from Psychology.</description>
+    </rule>
+    <rule id="9045-7422-5774-167a" name="Shaggoth Champions" hidden="false">
+      <description>The strongest Shaggoths battle each other for dominance, and the victor will emerge as a Champion of the Chaos gods. A Shaggoth Champion is treated exactly like a Lord character (may be the army General, issue challenges, etc,) and may bc. given Marks of Chaos (see page 60).</description>
+    </rule>
+    <rule id="ce83-e5c9-7647-4198" name="Special Movement" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>Spawn of Chaos are moved in the Compulsory Movement part of the Chaos player&apos;s 
+Movement phase, moving 2D6&quot; each turn. The player has no control over the distance moved, but must nominate in which direction the Spawn will move before rolling the dice (this must be in a straight line).
+If the Spawn&apos;s movement is sufficient to take it into an enemy unit then it counts as charging, following all of the normal rules. The target may make a charge response as normal, counting the Movement value rolled as the Spawn&apos;s maximum charge distance (for the purposes of fleeing, standing and shooting. etc).
+
+</description>
+    </rule>
+    <rule id="705f-1427-258d-d57c" name="Special Attacks" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>Chaos Spawn have a random number of Attacks. This is rolled at the start of every Close Combat phase. Roll to hit and wound as normal.</description>
+    </rule>
+    <rule id="f3a8-3c9f-4fcb-5092" name="Unit Strength 3" hidden="false">
+      <description>Chaos Spawn have a Unit Strength of 3.</description>
+    </rule>
+    <rule id="3985-0656-191a-aee8" name="Beasts of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>Beasts of Nurgle have Poisoned Attacks (see page 114 of the Warhammer rulebook).</description>
+    </rule>
+    <rule id="9dbf-0e56-40d6-cadd" name="Fiends of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>A Fiend of Slaanesh has a Movement value of 3D6&quot;, Instead of 2D6&quot;.</description>
+    </rule>
+    <rule id="252e-8422-6be2-b510" name="Bloodbeasts of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>Spawn of the Blood God have +1 Strength (making them Strength 5).</description>
+    </rule>
+    <rule id="61ae-d526-b803-d11f" name="Firewyrms of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>These creatures breathe magical flames. They have a Strength 3 breath weapon (see page 114 of the \WI-hammer rulebook). If the Spawn is not engaged in combat, It will target the nearest enemy unit it can see (this is the Chaos player&apos;s choice in the case of two or more units being equidistant from the Spawn).</description>
+    </rule>
+    <rule id="197a-b58b-3324-b6a5" name="Fall Over(Giants)" hidden="false">
+      <description>Giants are ungainly and frequently befuddled, as a consequence of which they often trip, stumble or fall down. &apos;They are especially prone to this if they&apos;ve been raiding the local brewery. When a Giant falls over, this is bad news for everyone nearby as a falling Giant can easily squash anything it falls on.
+A Giant must test to see whether it falls over if any of the following apply:
+1)	When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2)	At the start of the Movement phase if it is fleeing.
+3)	When it crosses an obstacle. Test when the obstacle is reached.
+4)	If the Giant decides to Jump Up and flown on an enemy. Test immediately beforehand.
+
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template (see page 80) with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
+Any model hit by a falling Giant automatically takes one Strength 6 hit which causes D3 wounds. These hits are resolved in the usual way. If the unit is in combat and the Giant has fallen over whilst attempting to Jump Up and Down, wounds inflicted by a falling Giant count towards the combat result.
+A Giant that falls over automatically suffers 1 wound itself. No armour saves apply to this wound. if the Giant is in combat then this wound counts towards the final combat result.
+Once on the ground, a Giant may get up in his following Movement phase, but may not otherwise move that turn. Whilst on the ground a Giant may not attack, but he can still defend himself after a fashion so the enemy must still roll to score hits on him. If forced to flee whilst on the ground the Giant is slain - the enemy swarm over him and cut him to pieces. If the Giant gets the opportunity to pursue his foes whilst he&apos;s on the ground he stands up instead. A Giant may attack on the turn it stands up.
+
+</description>
+    </rule>
+    <rule id="51d3-ac6f-3e2e-ab89" name="Giant Special Attacks" hidden="false">
+      <description>Giants do not attack in the same way as other creatures though they select their victims as normal. They are far too large and fractious to take orders, and much too scatterbrained to have any sort of coherent plan. In fact, once in combat even the Giant doesn&apos;t really know what he&apos;s going to do next! To determine what happens, each Close Combat phase roll a D6 on one of the following tables when it is the Giant&apos;s turn to fight. Which table you use depends on the size of the Giant&apos;s victim. When fighting characters riding monsters, decide whether to attack the rider or mount, as normal and use the appropriate table for the size of the target.
+Giant fighting big things (Ogres, Kroxigors, Minotaurs or similar sized or larger creatures including chariots):
+D6 Result
+1 Yell and Bawl
+2-4 Thump With Club 
+5-6 &apos;Eadhutt
+
+Giant fighting anyone smaller than above:
+Result
+1 Yell and Bawl
+2-4Jump Up and Down Pick Up and...
+5-6 Swing With Club
+
+Yell and Bawl: The Giant yells and bawls at the y. This is not a pleasant experience as Giants are deafenningly loud and tend towards poor oral hygienne. Neither the Giant nor models in contact him actually fight if they have not already donethis round, but the combat round is automatically won by the Giant&apos;s side. The enemy are automatically beaten and must take resultant Break tests with a -2 modifier.
+
+Up and Down: The Giant jumps up and down 
+usly on top of one enemy unit in base contact. 
+ore he starts, the Giant must test to determine if 
+falls over. If he falls over, work out where he falls
+I calculate damage as already described. Any nds caused by the fall (on either side) count aids the combat result. Assuming that he remains his none too nimble feet, the Giant bounds up
+I down on the enemy unit, cackling madly.
+unit sustains 2D6 Strength 6 hits allocated as
+ing hits. Work out damage and saves as usual. rats enjoy jumping up and down on their enemies much that a Giant that does so in one combat nd will automatically do so in the following nd if he is able to. assuming that he did not fall r in the previous round. A separate test is aired at the start of each succeeding combat nd to determine if the Giant falls over. A Giant t starts to Jump Up and Down will therefore tinue to do so until he falls over or until the nhat comes to an end.
+Suing with Club: The Giant swings his club across the enemy&apos;s ranks, knocking many targets to the floor. The Giant inflicts D6 Strength 6 hits on the target unit, allocated as shooting hits.
+Thump with Club: Most Giants carry a big club, often a tree trunk or a big bone. If they have no weapon they will use their enormous fists. The Giant picks one model as his target and brings down his club with a single mighty stroke.
+The target may attempt to avoid the blow by taking 
+and passing an Initiative test (use the lowest if the 
+model has several different values). If avoided there
+is no effect. If failed the target is struck and takes 2D6 wounds with no armour save allowed. If a double is rolled the Giant&apos;s club embeds itself in the ground and the Giant cannot attack at all in the following round whiLst he recovers his weapon (this ceases to apply if the combat ends before the next round).
+Eadbutt: The Giant head-butts his enemy. automatically inflicting 1 wound with no armour saves allowed. If the victim is wounded but not slain then he is dazed and loses all of his following attacks - if the target has not yet attacked that combat round he loses those Attacks, if he has already attacked he loses the following round&apos;s attacks.
+Pick up and... : The Giant stoops down and selects a model (Giant player&apos;s choice) that is either in base contact or touching a model in base contact (Giants have a long reach). The target may make a single attack to try to fend off the Giant&apos;s clumsy hand. If this attack hits and wounds the Giant, the Giant&apos;s attack fails, otherwise the Giant grabs the model and the player rolls a 06 to see what happens nest:
+D6 Result
+1 Stuff into Bag. The Giant stuffs the victim into his lug along with sheep, cows and other plunder. The model is effectively a casualty and can do nothing whilst in the bag, but if the Giant should he slain any enemy trapped in his hag are freed unharmed at the end of the battle. Victory points are not awarded to the enemy for freed models.
+2 Throw Back into Combat. The victim is hurled hack into his own unit like a living missile. This causes a wound on the victim with no saves of any kind allowed, and D6 Strength 3 hits (saves as normal) on the unit.
+3 Hurl. The victim is hurled Into any enemy unit within 12&quot; of the Giant - randomly determine which. This causes a wound on the victim with no saves of any kind allowed, and DO Strength 3 hits (saves as normal) on the unit. If no enemy units are in range, treat this as a Throw Back into Combat result instead.
+4 Squash. This doesn&apos;t really bear thinking about. Suffice to say the model becomes a casualty and is removed from the game.
+5 Eat. The Giant gobbles his victim up, swallowing him whole. The model is removed from the game.
+6 Pick Another. The Giant stuffs the victim hurriedly into his bag or under his shirt (or down his trousers if they&apos;re really unlucky) and attempts to pick up another victim. The second victim makes a single attack (as above) to avoid being picked up. If the Giant rolls a succession of 6s it is possible for him to amass a collection of trapped foes in his pockets and bags (not to mention down his trousers). Trapped models arc effectively casualties, exactly as explained in the Stuff into Bag result described above.
+
+
+</description>
+    </rule>
+    <rule id="4af2-1a92-dd54-df32" name="Ignore Little &apos;un Panic: " publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t . Consequendy, when a cavalry sized base unit, or smaller,  is destroyed. breaks or flees past Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
+    </rule>
+    <rule id="e2e8-18fb-44ed-901c" name="Mutant Monstrosity" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
+      <description>The giant has a 5+ armour sdave from scaly skin. After the giant has rolled attacks roll another d6. If theresult is the same as the attack roll the giant leaps ontop of the enemy. This is treated like a falling over but the player controls in which direction the giant falls.</description>
+    </rule>
+    <rule id="46f1-9343-4a57-0fab" name="Troll Vomit" publicationId="7f4a-e6ae-d049-ee56" page="31" hidden="false">
+      <description>Instead of attacking normally a troll may elect to vomit on the enemy. Each model inflicts onw automatic str5 hit with no armour saves allowed.</description>
+    </rule>
+    <rule id="7ef7-2eee-3cab-4001" name="Mark of Chaos Undivided" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The character, unit or chariot may re-roll failed Psychology tests.</description>
+    </rule>
+    <rule id="8cee-9f8c-2820-a414" name="Doombull Of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Doombull is a Level 2 Sorcerer and can cast spells whilst wearing armour.</description>
+    </rule>
+    <rule id="da22-6a2f-7aa6-73eb" name="Hero of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Hero is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+    </rule>
+    <rule id="df73-ae01-072e-6f09" name="Regiment of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fleeing.</description>
+    </rule>
+    <rule id="75ec-cba2-d344-1e5f" name="Minotaurs of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fitting.</description>
+    </rule>
+    <rule id="adc8-8faf-e81a-61f7" name="Lord of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Lord is subject to frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
+    </rule>
+    <rule id="254e-eabc-b557-b7c8" name="Shaggoth of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Shaggoth is subject to frenzy even if otherwise  Immune to Psychology. In addition, its presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.
+</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
-    <profile id="d2eb-d24c-e0f5-f716" name="Beatlord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="d2eb-d24c-e0f5-f716" name="Beastlord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
@@ -28,6 +828,331 @@
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7177-5943-acb2-26ec" name="Gor" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c828-f0a5-81d5-5e72" name="Ungors" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="50e2-88ea-f6df-4c47" name="Wargor" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a903-e207-7d97-e041" name="Foe-render" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="22f5-f64d-ed46-53cb" name="Warhound" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="526e-1568-ad54-34d7" name="Bestigor" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="99e0-837b-5da8-8668" name="Gouge Horn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7960-69d9-3961-af40" name="Bray Shaman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="95f2-d5d3-3a14-0e0d" name="Great Bray Shaman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7afd-2c81-0a8a-074f" name="Tuskgor Chariot" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">-</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6105-cc4f-5e3e-983c" name="Bestigor Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a743-2797-05bf-0a00" name="Ungor Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c49-3e3d-b040-a0ca" name="Tuskgor " hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0874-a97d-c005-213d" name="Bloodkine" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c0a-27bf-9272-2e6f" name="Minotaur" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c9c-33ea-e4f4-520f" name="Doombull" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1385-b121-c22a-76d4" name="Centigor" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1(2)</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bfc6-7a2e-44a2-412f" name="Gorehoof" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2(3)</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f33-b185-cb21-6b5d" name="Dragon ogre" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8536-631e-b1f0-4249" name="Shaggoth" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e383-4acd-1500-c2b6" name="Spawn of Chaos" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">2D6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">D6+1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2add-4573-354b-54f4" name="Giant" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">Special</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="caa2-9b32-c20d-ecbd" name="Chaos Ogre" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8e77-7b7f-8213-9593" name="Big Chaos Ogre" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="71f2-720f-4f7f-e95c" name="Chaos Troll" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">1</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">4</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
