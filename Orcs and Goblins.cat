@@ -132,7 +132,7 @@
                     <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
                     <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
                     <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
-                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
                   </characteristics>
                 </profile>
@@ -654,6 +654,9 @@
           <entryLinks>
             <entryLink id="9a58-c31b-4b0a-dbc9" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -800,6 +803,9 @@
           <entryLinks>
             <entryLink id="37d3-b51e-0787-3cec" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1116,6 +1122,9 @@
           <entryLinks>
             <entryLink id="f906-ceeb-bb7e-3e69" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1215,6 +1224,9 @@
           <entryLinks>
             <entryLink id="3e42-b3eb-17c3-1487" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1765,6 +1777,9 @@
           <entryLinks>
             <entryLink id="b0fe-4175-1d8d-0a59" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1899,6 +1914,9 @@
           <entryLinks>
             <entryLink id="2fa1-5b5b-5ff5-77b7" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2213,6 +2231,9 @@
           <entryLinks>
             <entryLink id="4442-38ac-5ae0-4415" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2323,6 +2344,9 @@
           <entryLinks>
             <entryLink id="9fd5-69cc-b084-bf56" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3763,21 +3787,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5066-8da5-dc89-003b" name="Giant" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="4733-cffa-d76b-f5df" name="Giant" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">Special</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="5551-a55f-a547-a856" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="9406-7d10-252e-7517" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
@@ -3785,6 +3794,7 @@
         <infoLink id="4c5e-803e-5eb8-811c" name="Move (Giants)" hidden="false" targetId="cf9d-173b-a26c-5142" type="rule"/>
         <infoLink id="5971-3de7-5561-88ac" name="Fall Over(Giants)" hidden="false" targetId="6ac3-2766-f5b4-3e55" type="rule"/>
         <infoLink id="e7a5-d4b8-c3bf-666f" name="Giant Special Attacks" hidden="false" targetId="62d5-76e9-a504-a1cb" type="rule"/>
+        <infoLink id="8765-359c-4cfa-63c6" name="Giant" hidden="false" targetId="52b0-1b66-112b-941d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="67ee-b663-ba6f-f77c" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -4906,6 +4916,7 @@
       <infoLinks>
         <infoLink id="9e53-d465-0a7c-dda8" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
         <infoLink id="40b1-711e-1046-1688" name="&apos;EDBUTTIN&quot;AT" hidden="false" targetId="9ec1-7d8d-84ee-ced9" type="rule"/>
+        <infoLink id="8a4f-10dd-c15f-6701" name="&apos;Edbuttin&apos; &apos;At" hidden="false" targetId="f10c-94bb-b1ae-f608" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -5034,6 +5045,9 @@
       <infoLinks>
         <infoLink id="40c7-4834-79b2-1828" name="GAZE OF MORK" hidden="false" targetId="3e56-0647-dea6-cf80" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="76f6-aade-a5ca-864f" name="3.&apos;Eadbutt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5042,6 +5056,9 @@
       <infoLinks>
         <infoLink id="1aae-a4dd-f3ea-51a8" name="&apos;EADBUTT" hidden="false" targetId="e1af-1553-dfb8-6bbe" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a034-cac5-4e39-600c" name="2.Fist of Gork" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5050,6 +5067,9 @@
       <infoLinks>
         <infoLink id="adfe-0f0f-6fa9-49e4" name="FISTS OF GORK" hidden="false" targetId="32a5-cb87-fe4a-bbab" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b043-9454-57be-7769" name="4.Brain Busta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5058,6 +5078,9 @@
       <infoLinks>
         <infoLink id="a7aa-bd22-208d-bd53" name="BRAIN BURSTA" hidden="false" targetId="be07-0455-26fa-151e" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ab11-5685-e149-bf00" name="5.Ere We Go" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5066,6 +5089,9 @@
       <infoLinks>
         <infoLink id="7aa1-3208-3d32-84c8" name="&apos;ERE WE GO!" hidden="false" targetId="75be-85d3-92b5-d5c3" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2bc0-854d-ef1d-d077" name="6.Hand of Gork" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5074,6 +5100,9 @@
       <infoLinks>
         <infoLink id="8207-38ec-ee1d-5b90" name="THE HAND OF GORK" hidden="false" targetId="f1cf-5d16-34f7-1898" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -5542,7 +5571,7 @@ boosted to 10 when the test is taken. Unfortunately the effect of the brew is bu
     <rule id="598a-a9e7-5c6b-220c" name="MAD CAP MUSHROOMS" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
       <description>If the character is with a unit of Night Goblins when their Fanatics are released he may give them each a Mad Cap Mushroombefore they go whirling off. If they hit a unit (from either side) on the turn they are released it suffers 2D6 hits Instead olf the usual 1D6. Subsequent units encountered by each Fanatic are struck by 1D6 hits as usual</description>
     </rule>
-    <rule id="9ec1-7d8d-84ee-ced9" name="&apos;EDBUTTIN&quot;AT" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+    <rule id="9ec1-7d8d-84ee-ced9" name="&apos;Edbuttin&apos; &apos;At" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
       <description>May only he used in challenges. The wearer gets one extra attack, made before all other blows are struck. This Attack is made with the Killing Blow special ability and is resolved at the wearer&apos;s normal Strength. Even if the opponent is killed by the &apos;eadbutt. the character wearing the &apos;At should still make his remaining attack, to calculate overkill for combat resolution</description>
     </rule>
     <rule id="cf4c-acf8-a779-9cab" name="NIBBLA&apos;S &apos;ITTY RING" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
@@ -5996,6 +6025,24 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">D6</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="52b0-1b66-112b-941d" name="Giant" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">Special</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f10c-94bb-b1ae-f608" name="&apos;Edbuttin&apos; &apos;At" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+      <characteristics>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">+1 impact hit on challenges with killing blow.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

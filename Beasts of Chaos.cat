@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c768-2f35-01cf-9ac8" name="Beasts of Chaos" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c768-2f35-01cf-9ac8" name="Beasts of Chaos" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
   </publications>
@@ -438,6 +438,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -551,6 +554,243 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ab4a-0362-891d-a013" name="Minotaurs of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770f-a436-d809-5670" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1625-0b39-f0d7-3587" name="Minotaurs of Khorne" hidden="false" targetId="56a3-26b3-1748-d16e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3484-989a-dcbb-cb53" name="Regiment of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a44-c34b-f66d-efff" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e5cc-037f-fc7b-7c8b" name="Regiment of Khorne" hidden="false" targetId="0333-334e-bed1-cbb9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5828-e3e0-b18b-2669" name="Hero of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56d-0f33-f1b3-932a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="996f-0532-8fcf-e2b1" name="Hero of Khorne" hidden="false" targetId="f225-44aa-1e0d-4366" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0be-c1e7-478d-bad0" name="Doombull Of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9a-f863-4c8a-435a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a951-b231-0a17-9f9f" name="Doombull Of Khorne" hidden="false" targetId="5ce3-e56b-9921-56e4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d4e-2569-e41a-32ae" name="Lord of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de6-bc93-e309-84d0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7f34-0529-0c12-2a62" name="Lord of Nurgle" hidden="false" targetId="adc8-8faf-e81a-61f7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07ed-8023-616e-344e" name="Shaggoth of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca04-f1ef-3e8a-ee4a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="15e9-ff34-836a-5c34" name="Shaggoth of Nurgle" hidden="false" targetId="254e-eabc-b557-b7c8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8cf-c3f3-392e-d467" name="Doombull Of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a09-39e4-b7bb-9051" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d645-1cd8-ace0-f1ab" name="Doombull Of Nurgle" hidden="false" targetId="5ce3-e56b-9921-56e4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd6c-b9b1-03f8-273d" name="Hero of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="496b-81cc-9d65-aca0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c56b-9822-74a1-46d1" name="Hero of Nurgle" hidden="false" targetId="f225-44aa-1e0d-4366" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dccb-9c38-8ca6-3ad7" name="Regiment of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db07-a087-231d-b3e8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="26f6-2704-ba4d-99a8" name="Regiment of Nurgle" hidden="false" targetId="1bdb-9608-0a33-2bd9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30cb-7f1b-760f-418c" name="Minotaurs of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c82-4b73-58bc-ad7e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e45c-0c7d-5a60-7c31" name="Minotaurs of Nurgle" hidden="false" targetId="56a3-26b3-1748-d16e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0aa1-edf9-6a31-417e" name="Lord of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c0-2962-447b-49c7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="44d7-0396-4d69-b906" name="Lord of Slaanesh" hidden="false" targetId="a078-5943-a541-bff0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a95e-b0c4-070e-522a" name="Shaggoth of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e331-4364-8eca-3bbd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4ccd-4166-d66f-ad9a" name="Shaggoth of Slaanesh" hidden="false" targetId="377b-2cce-784a-1688" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="785e-dace-ffd3-5f88" name="Doombull Of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9e0-d634-890b-bb44" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="24b3-aed7-7345-8d32" name="Doombull Of Slaanesh" hidden="false" targetId="6d5b-9936-9c1b-0d82" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f8d-ad08-9225-26a3" name="Regiment of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="904c-d132-03e0-72bd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0985-9ba7-ef38-5cf8" name="Regiment of Slaanesh" hidden="false" targetId="58d2-74c9-dbef-581d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23c1-340d-fabf-74a9" name="Minotaurs of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2496-5b0b-23ae-f61a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7c34-53c8-4189-35a4" name="Minotaurs of Slaanesh" hidden="false" targetId="a8f5-738c-d106-ac41" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34a6-820e-cc1b-fa7d" name="Axes Of Khorgor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b603-da9d-7372-6172" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d4-b9fe-8c65-e640" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="143d-9294-6e93-9028" name="Axes Of Khorgor" hidden="false" targetId="ef42-8147-69df-de60" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87f5-66b7-726b-8080" name="The Black Maul" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef9-6835-d27f-3be8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="177a-61e0-27a2-bd61" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d848-fa41-3cd8-6bcd" name="The Black Maul" hidden="false" targetId="f3da-2621-88ac-dde2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ed0-2a8d-bc8e-e60f" name="Bonecrusher Mace" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abab-5243-e514-e315" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cf9-1f33-2e7f-00c9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="83ff-7dfc-addd-3c19" name="Bonecrusher Mace" hidden="false" targetId="a7dc-7a88-6034-bbdf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bb5-385e-f1d4-a27c" name="Great Fang" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3363-c228-38f4-45ef" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca79-7b5e-b3b5-9942" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="46da-aae2-ea49-cac9" name="Great Fang" hidden="false" targetId="e574-e2a0-5673-314c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2162-521b-312e-6ba1" name="Slaughter&apos;s Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9091-eac5-0b22-75c6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824d-d69c-21a8-7e2b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1ec6-e211-4108-574d" name="Slaughter&apos;s Blade" hidden="false" targetId="159d-5f20-2399-496a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc01-29da-af20-521c" name="Scimitar of Skultar " publicationId="7f4a-e6ae-d049-ee56" page="63" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5747-4782-b90e-4a11" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aad-3ba9-7b56-6952" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e5db-929a-2c58-918f" name="Scimitar of Skultar " hidden="false" targetId="4ba2-866f-8150-f2eb" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6493-36be-1169-e364" name="Mark of Chaos" hidden="false" collective="false" import="true">
@@ -567,6 +807,12 @@
         <entryLink id="a459-14b5-cc78-1843" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
         <entryLink id="9f9b-d269-9e1d-8474" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
         <entryLink id="3199-ab31-722c-eb0d" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+        <entryLink id="1b16-6950-5284-c8d0" name="Axes Of Khorgor" hidden="false" collective="false" import="true" targetId="34a6-820e-cc1b-fa7d" type="selectionEntry"/>
+        <entryLink id="9f64-75d1-76e0-4b51" name="The Black Maul" hidden="false" collective="false" import="true" targetId="87f5-66b7-726b-8080" type="selectionEntry"/>
+        <entryLink id="0a1e-ca15-5668-d8f8" name="Bonecrusher Mace" hidden="false" collective="false" import="true" targetId="1ed0-2a8d-bc8e-e60f" type="selectionEntry"/>
+        <entryLink id="6df7-7d85-1ac9-4af5" name="Great Fang" hidden="false" collective="false" import="true" targetId="8bb5-385e-f1d4-a27c" type="selectionEntry"/>
+        <entryLink id="1cd5-2e40-3db4-220f" name="Slaughter&apos;s Blade" hidden="false" collective="false" import="true" targetId="2162-521b-312e-6ba1" type="selectionEntry"/>
+        <entryLink id="6aa9-77e1-4450-131b" name="Scimitar of Skultar " hidden="false" collective="false" import="true" targetId="bc01-29da-af20-521c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="31d8-668f-ac49-5a4b" name="Magic Armour" hidden="false" collective="false" import="true">
@@ -808,12 +1054,87 @@ D6 Result
     <rule id="75ec-cba2-d344-1e5f" name="Minotaurs of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
       <description>In each Chaos Magic phase, the unit generates an extra Power dice. No dice are generated if the unit is fitting.</description>
     </rule>
-    <rule id="adc8-8faf-e81a-61f7" name="Lord of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+    <rule id="adc8-8faf-e81a-61f7" name="Lord of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Lord causes fear and has + 1 Wound.</description>
+    </rule>
+    <rule id="254e-eabc-b557-b7c8" name="Shaggoth of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Shaggoth has + 1 Wound.</description>
+    </rule>
+    <rule id="56a3-26b3-1748-d16e" name="Minotaurs of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Minotaurs have a 5+ Scaly Skin save.</description>
+    </rule>
+    <rule id="1bdb-9608-0a33-2bd9" name="Regiment of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The unit causes fear.</description>
+    </rule>
+    <rule id="f225-44aa-1e0d-4366" name="Hero of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Hero causes fear and has +1 Wound.</description>
+    </rule>
+    <rule id="5ce3-e56b-9921-56e4" name="Doombull Of Nurgle" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Doombull has +1 Wound.</description>
+    </rule>
+    <rule id="a078-5943-a541-bff0" name="Lord of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Lord is Immune to Psychology</description>
+    </rule>
+    <rule id="b29a-9385-dd0a-e371" name="Lord of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
       <description>The Lord is subject to frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
     </rule>
-    <rule id="254e-eabc-b557-b7c8" name="Shaggoth of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+    <rule id="6d5b-9936-9c1b-0d82" name="Doombull Of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Doombull is Immune to Psychology.</description>
+    </rule>
+    <rule id="126d-0c53-7ecd-a55b" name="Doombull Of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The Doombull is subject to frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
+    </rule>
+    <rule id="43e4-f96f-96f9-6d1c" name="Hero of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The hero is subject to frenzy. In addition, his presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
+    </rule>
+    <rule id="6f80-0873-a3aa-5cb7" name="Hero of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Hero is Immune to Psychology.</description>
+    </rule>
+    <rule id="a8f5-738c-d106-ac41" name="Minotaurs of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The unit is Immune to Psychology.</description>
+    </rule>
+    <rule id="9e56-5b06-2238-dcb8" name="Minotaurs of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The unit is subject to frenzy. In addition, its presence cm the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
+    </rule>
+    <rule id="58d2-74c9-dbef-581d" name="Regiment of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The unit is Immune to Psychology.</description>
+    </rule>
+    <rule id="0333-334e-bed1-cbb9" name="Regiment of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
+      <description>The unit is subject to frenzy. In addition, its presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.</description>
+    </rule>
+    <rule id="377b-2cce-784a-1688" name="Shaggoth of Slaanesh" publicationId="7f4a-e6ae-d049-ee56" page="61" hidden="false">
+      <description>The Shaggoth always strikes first in close combat. If Its opponent also has the ability to always strike first then resolve their attacks In normal Initiative order.
+</description>
+    </rule>
+    <rule id="6164-1854-a33a-8bb8" name="Shaggoth of Khorne" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
       <description>The Shaggoth is subject to frenzy even if otherwise  Immune to Psychology. In addition, its presence on the battlefield adds one dice to the player&apos;s Dispel dice pile.
 </description>
+    </rule>
+    <rule id="ef42-8147-69df-de60" name="Axes Of Khorgor" publicationId="7f4a-e6ae-d049-ee56" page="62" hidden="false">
+      <description>Characters on foot only
+This pair of axes requires two hands to use. The bearer gains +1 Attack and may re•roll any missed rolls to hit in close combat.</description>
+    </rule>
+    <rule id="f3da-2621-88ac-dde2" name="The Black Maul" publicationId="7f4a-e6ae-d049-ee56" page="62" hidden="false">
+      <description>Adds +2 to the bearer&apos;s Strength, and the bearer is also subject to frenzy.</description>
+    </rule>
+    <rule id="a7dc-7a88-6034-bbdf" name="Bonecrusher Mace" publicationId="7f4a-e6ae-d049-ee56" page="62" hidden="false">
+      <description>The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength.
+Against Castles, Empire Steam *Milks and in other situations where a roll to wound is not taken, the wielder counts as having double its Strength characteristic, to a maximum of 10.
+</description>
+    </rule>
+    <rule id="e574-e2a0-5673-314c" name="Great Fang" publicationId="7f4a-e6ae-d049-ee56" page="62" hidden="false">
+      <description>No Armour saves are made against wounds caused by the Great Fang</description>
+    </rule>
+    <rule id="159d-5f20-2399-496a" name="Slaughter&apos;s Blade" publicationId="7f4a-e6ae-d049-ee56" page="63" hidden="false">
+      <description>Characters on Foot only
+The Slaughterer&apos;s Blade counts as a great weapon in all respects. In addition, for each wound inflicted with the Slaughterer&apos;s Blade, roll a 1D6 immediately. Each roll of a 4+ heals one lost Wound to the bearer (up to their starting Wounds total). Wounds regained in this way do not count towards combat resolution.</description>
+    </rule>
+    <rule id="4ba2-866f-8150-f2eb" name="Scimitar of Skultar " publicationId="7f4a-e6ae-d049-ee56" page="63" hidden="false">
+      <description>Rolls of 6 to wound with this weapon allow no Armour saves.</description>
+    </rule>
+    <rule id="322b-acda-9dde-8ea2" name="Pelt of the Dark Young " publicationId="7f4a-e6ae-d049-ee56" page="63" hidden="false">
+      <description>Beasts of Chaos characters only
+The Pelt confers a 6+ Scaly Skin save that can be combined with normal armour. It also gives the bearer and any unit he loins Magic Resistance (1).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
