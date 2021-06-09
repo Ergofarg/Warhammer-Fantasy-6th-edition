@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="5" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="5" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.</readme>
   <publications>
     <publication id="8e66-3042-1d6b-fa6b" name="Vampire Counts Army book"/>
@@ -971,7 +971,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a359-4a25-39d6-f518" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="a359-4a25-39d6-f518" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="cd0e-60a1-ebb3-e33e" name="Magic Standards" hidden="false" collective="false" import="true" targetId="0937-a1bc-b331-8ce1" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f213-1b12-5e99-0cec" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="4023-f2e0-11f7-b90d" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
@@ -1043,6 +1051,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b5d8-db21-a4b7-9e94" name="Necromancer" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9146-849e-0be0-34b7" name="Necromancer" hidden="false" targetId="5d1b-f820-16d5-553f" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9395-7ad9-f060-64bf" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
         <categoryLink id="1047-7bbc-2f5e-78fe" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
@@ -2622,7 +2633,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="da79-b7c3-3a00-1979" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="da79-b7c3-3a00-1979" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="9155-5a57-a648-5e5b" name="Magic Standards" hidden="false" collective="false" import="true" targetId="0937-a1bc-b331-8ce1" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a5-744c-890d-a646" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
@@ -4533,6 +4552,19 @@ The Familiar&apos;s owner knows one more spell than he is normally allowed. This
         <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
         <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d1b-f820-16d5-553f" name="Necromancer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>

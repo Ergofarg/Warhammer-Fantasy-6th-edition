@@ -6,6 +6,150 @@
   <categoryEntries>
     <categoryEntry id="d4a7-5999-8207-4efe" name="Orc" hidden="false"/>
   </categoryEntries>
+  <forceEntries>
+    <forceEntry id="91d5-8f4b-22fa-9def" name="Night Goblin Horde wip" hidden="false">
+      <categoryLinks>
+        <categoryLink id="d165-75af-18f2-ec9d" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="46de-2dc4-8c90-75f2" value="1.0">
+                  <repeats>
+                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="46de-2dc4-8c90-75f2" value="0.0">
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46de-2dc4-8c90-75f2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a75c-65ab-ae66-321a" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="9f9f-1ead-6548-9ee2" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false">
+          <modifiers>
+            <modifier type="increment" field="9a06-ecd7-c743-1421" value="1.0">
+              <repeats>
+                <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a06-ecd7-c743-1421" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3c53-7b76-9d24-cf09" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false">
+          <modifiers>
+            <modifier type="set" field="e25b-9930-0220-fec2" value="3.0">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="e25b-9930-0220-fec2" value="1.0">
+                  <repeats>
+                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="e25b-9930-0220-fec2" value="4.0">
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-9930-0220-fec2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="102e-c11c-b7b1-ceab" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false">
+          <modifiers>
+            <modifier type="set" field="be8d-b475-fb36-6b4e" value="1.0">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="be8d-b475-fb36-6b4e" value="1.0">
+                  <repeats>
+                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="be8d-b475-fb36-6b4e" value="2.0">
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8d-b475-fb36-6b4e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f0a3-8e46-1986-ac55" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false">
+          <modifiers>
+            <modifier type="set" field="65b4-8660-9299-5891" value="3.0">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="65b4-8660-9299-5891" value="4.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="65b4-8660-9299-5891" value="0.0">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="65b4-8660-9299-5891" value="2.0">
+              <repeats>
+                <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65b4-8660-9299-5891" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ad39-ceb4-ef14-a69f" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="ed65-df1a-50a2-c3ac" name="Night Goblin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1443,7 +1587,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fbfc-984b-277c-a313" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="fbfc-984b-277c-a313" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="2167-2806-f66d-a4ec" name="Magical Standard" hidden="false" collective="false" import="true" targetId="0406-bb04-6134-2ee9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc95-f527-7db3-7c8e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
@@ -1600,7 +1752,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4280-e373-746b-438f" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="4280-e373-746b-438f" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="9165-3755-68fc-4cf8" name="Magical Standard" hidden="false" collective="false" import="true" targetId="0406-bb04-6134-2ee9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b836-2be2-d9aa-2f6f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -1729,7 +1889,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="84b7-ffa3-cde6-164d" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="84b7-ffa3-cde6-164d" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="92db-541b-3588-08aa" name="Magical Standard" hidden="false" collective="false" import="true" targetId="0406-bb04-6134-2ee9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b857-b6f7-986b-7faf" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
@@ -2070,7 +2238,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c312-e4d9-02b1-65c5" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="c312-e4d9-02b1-65c5" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="a90a-c2be-3a2a-a723" name="Magical Standard" hidden="false" collective="false" import="true" targetId="0406-bb04-6134-2ee9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f6f-4380-6050-356e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -2185,7 +2361,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f124-7342-d91e-07fa" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
+        <entryLink id="f124-7342-d91e-07fa" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="058a-eb90-dc41-affa" name="Magical Standard NG" hidden="false" collective="false" import="true" targetId="7527-6347-c3d1-8cfa" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6199-b5d8-3da6-df82" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -5201,8 +5385,6 @@
       <entryLinks>
         <entryLink id="c4cd-b9c1-77d9-7b57" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
         <entryLink id="076c-3b6d-153c-df82" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" targetId="4a8f-1002-5a67-df41" type="selectionEntry"/>
-        <entryLink id="42b9-a236-e6f3-0fda" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" collective="false" import="true" targetId="ee33-35b6-e118-a5b8" type="selectionEntry"/>
-        <entryLink id="8f7a-04c8-f585-4975" name="Bad Moon Banner " hidden="false" collective="false" import="true" targetId="41b7-fb5c-5085-cdff" type="selectionEntry"/>
         <entryLink id="85db-9ab4-17f7-e180" name="Night Banner " hidden="false" collective="false" import="true" targetId="4fbf-acba-ae94-1042" type="selectionEntry"/>
         <entryLink id="baf9-183d-8b3b-e647" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" targetId="14b2-0f7e-e4d6-1156" type="selectionEntry"/>
         <entryLink id="1ed1-8928-ff51-1508" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" targetId="ef39-9a02-a6e6-4887" type="selectionEntry"/>
@@ -5302,6 +5484,30 @@
         <entryLink id="cb03-336d-f0cc-ce08" name="4.Brain Busta" hidden="false" collective="false" import="true" targetId="b043-9454-57be-7769" type="selectionEntry"/>
         <entryLink id="3ac8-d5e1-1a8b-12a4" name="5.Ere We Go" hidden="false" collective="false" import="true" targetId="ab11-5685-e149-bf00" type="selectionEntry"/>
         <entryLink id="75a2-0e82-647a-3a90" name="6.Hand of Gork" hidden="false" collective="false" import="true" targetId="2bc0-854d-ef1d-d077" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7527-6347-c3d1-8cfa" name="Magical Standard NG" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="1e54-9898-5601-0b15" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="6d05-b328-4ad5-9165" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" targetId="4a8f-1002-5a67-df41" type="selectionEntry"/>
+        <entryLink id="fc84-a210-65b1-d722" name="Bad Moon Banner " hidden="false" collective="false" import="true" targetId="41b7-fb5c-5085-cdff" type="selectionEntry"/>
+        <entryLink id="5a92-b054-78f4-3f11" name="Night Banner " hidden="false" collective="false" import="true" targetId="4fbf-acba-ae94-1042" type="selectionEntry"/>
+        <entryLink id="963e-ec36-31e8-de9d" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" targetId="14b2-0f7e-e4d6-1156" type="selectionEntry"/>
+        <entryLink id="3e34-40e0-2878-30f4" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" targetId="ef39-9a02-a6e6-4887" type="selectionEntry"/>
+        <entryLink id="b481-c4ef-f3a4-52d8" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" targetId="648e-1b65-a83f-c81f" type="selectionEntry"/>
+        <entryLink id="2fcb-c29b-2cc2-8d31" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" targetId="edf2-4cea-3652-899d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="150f-e2fe-acfb-6092" name="Magical Standard (Goblins)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="dbc9-3949-b4db-9dc8" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="6e5e-1718-f370-5046" name="Mork&apos;s Spirit-totem " hidden="false" collective="false" import="true" targetId="4a8f-1002-5a67-df41" type="selectionEntry"/>
+        <entryLink id="5b7d-c068-acd5-c9ae" name="Rowdy Grott&apos;s Big Red Raggedy Banner " hidden="false" collective="false" import="true" targetId="ee33-35b6-e118-a5b8" type="selectionEntry"/>
+        <entryLink id="ff6b-5be1-dfa5-6921" name="Night Banner " hidden="false" collective="false" import="true" targetId="4fbf-acba-ae94-1042" type="selectionEntry"/>
+        <entryLink id="9103-058c-8dfd-e673" name="Gork&apos;s Waaagh! Banner " hidden="false" collective="false" import="true" targetId="14b2-0f7e-e4d6-1156" type="selectionEntry"/>
+        <entryLink id="24a4-5fc4-923c-4885" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" targetId="ef39-9a02-a6e6-4887" type="selectionEntry"/>
+        <entryLink id="759e-3c33-c13e-c296" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" targetId="648e-1b65-a83f-c81f" type="selectionEntry"/>
+        <entryLink id="2ff0-8659-cbfd-9859" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" targetId="edf2-4cea-3652-899d" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5588,8 +5794,8 @@ The &apos;Itty Ring contains the &apos;Eadbutt spell described in the spells of 
     <rule id="75aa-b73d-461c-cf4f" name="ROWDY GROTT&apos;S BIG RED RAGGEDY BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
       <description>Common Goblins (including characters) in a unit with Rowdy Grott&apos;s Rig Red Raggedy Banner get a + 1 Leadership bonus up to a maximum value of 9.</description>
     </rule>
-    <rule id="a735-b585-0814-cc27" name="BAD MOON BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
-      <description>The unit is stubborn. See the Psychology section of the Warhammer rulebook, page 85.</description>
+    <rule id="a735-b585-0814-cc27" name="Bad Moon Banner" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
+      <description>Night goblins Only.  The unit is stubborn. See the Psychology section of the Warhammer rulebook, page 85.</description>
     </rule>
     <rule id="8778-88d2-287b-952b" name="NIGHT BANNER" publicationId="7dda-637b-31ad-951c" page="33" hidden="false">
       <description>Thanks to the darkness and shadowyness of it all, not to mention the dimness. any missiles fired at the unit are at -1 to hit.</description>
