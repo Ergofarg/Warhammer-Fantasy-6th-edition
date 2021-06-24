@@ -572,6 +572,25 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2258-e16e-24dd-6e85" name="Saurus Warriors" publicationId="3a49-dd2e-fcaa-cdb1" page="60" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="43cc-fc3f-35a7-8d03">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b0a-45a5-e3be-d837" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa1a-7509-c515-1b8b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" field="category" value="e94b-6a54-8779-cd60">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa1a-7509-c515-1b8b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="c593-92fc-2222-f3eb" name="Saurus Warrior" hidden="false" targetId="f7b5-50ad-834b-f896" type="profile"/>
         <infoLink id="3be8-1aea-3e63-2115" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
