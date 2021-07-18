@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="5" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="6" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.</readme>
   <publications>
     <publication id="8e66-3042-1d6b-fa6b" name="Vampire Counts Army book"/>
@@ -72,7 +72,7 @@
         </selectionEntry>
         <selectionEntry id="dee9-ebd2-f788-db2e" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -1041,9 +1041,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5e-0887-4d97-9f16" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c74-3736-0a8c-0c64" type="min"/>
           </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
-          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2862,6 +2859,90 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3013-1494-ee91-1cf8" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d83b-7706-3d74-dbc8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b3-9116-6f74-d142" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="62f9-1b2c-70f0-1cde" name="Black Periapt" hidden="false" targetId="f50f-48cb-b46d-24c6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5eb3-43a3-e38f-2402" name="Spell Familiar" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e83-c0ad-a87e-cdb8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f7-fd62-2f07-8ad8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6ed1-ef10-0037-f056" name="Power Familiar" hidden="false" targetId="e4ae-3fb4-0161-1b50" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94dc-9b20-f845-34ba" name="Power Familiar" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c63-73c7-0112-a7de" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757a-8839-2f42-2dcd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ea2e-8579-f250-1720" name="Power Familiar" hidden="false" targetId="5e09-1249-2522-02eb" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5d0-7e6e-5ef5-e09f" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db5-569f-e0ed-54ad" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea77-4f1a-98f2-7bee" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ee0e-70ce-4f5e-d6a5" name="Skull Staff" hidden="false" targetId="dd0c-c277-feb8-b692" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc3c-7fcc-1a1e-53be" name="Book of Arkhan" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bec5-540a-782e-f38e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a58d-2d41-19cd-badf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5af4-c3c0-d569-fe9f" name="Book of Arkhan" hidden="false" targetId="e19f-f3c4-e9b7-8aa6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d4d-797f-9a5c-5ad1" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4b-9845-947d-4e09" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b95-81d7-e9af-7bee" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8462-0749-a138-538c" name="Staff of Damnation" hidden="false" targetId="565e-1ccc-b4ac-a062" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="218b-5620-2777-2986" name="Warrior Familiar" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4670-9aed-2209-cda6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="982a-b87d-fa02-0858" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="512e-d744-8a12-b1ee" name="Warrior Familiar" hidden="false" targetId="48c0-226b-c58c-5d0d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="74b7-0e6b-69df-50dc" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true">
@@ -3119,56 +3200,14 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b583-f222-c8d1-abea" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="2945-d784-95eb-4ed3" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db24-2db6-8a40-8728" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="fbac-a5e9-aa9d-d93f" name="Staff of Damnation" hidden="false" targetId="a0d8-17da-a93c-7fbb" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e0d5-d643-2554-3f30" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b2-b525-081b-d021" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="728c-187e-4754-59f8" name="Skull Staff" hidden="false" targetId="87ff-db95-88d8-c04c" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0e08-ee03-b1a1-a9b0" name="Book of Amman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f399-414d-7768-ee13" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="432d-9a0c-0ddd-faa4" name="Book of Amman" hidden="false" targetId="e61e-d626-b43d-7cd5" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="24de-865e-07b0-dbfe" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a1-0f7f-3665-dd27" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="59fd-04b1-4b85-120a" name="Black Periapt" hidden="false" targetId="f48f-dd20-1093-9874" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="4ac4-997b-4bc3-6e52" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="cdf9-8578-fc1a-9c2e" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
         <entryLink id="be73-46ef-c70a-1bbe" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="6d10-cae4-2507-45dc" name="Black Periapt" hidden="false" collective="false" import="true" targetId="3013-1494-ee91-1cf8" type="selectionEntry"/>
+        <entryLink id="7c00-560a-b742-82b8" name="Skull Staff" hidden="false" collective="false" import="true" targetId="a5d0-7e6e-5ef5-e09f" type="selectionEntry"/>
+        <entryLink id="5f56-1893-f00d-1dbc" name="Book of Arkhan" hidden="false" collective="false" import="true" targetId="fc3c-7fcc-1a1e-53be" type="selectionEntry"/>
+        <entryLink id="ba70-97ab-a0f2-df72" name="Staff of Damnation" hidden="false" collective="false" import="true" targetId="4d4d-797f-9a5c-5ad1" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b1a2-07df-1a18-9bf9" name="Von Carstein traits" hidden="false" collective="false" import="true">
@@ -3729,90 +3768,16 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa59-e6b8-9523-3510" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="a5e8-5c9c-5793-f725" name="Power Familiar" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4402-9a1d-36f7-867f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="84c4-b83d-0b89-3bf1" name="Power Familiar" hidden="false" targetId="1c24-180a-fdf8-f035" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9134-9fb5-9609-f798" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e1e-5d16-cecb-54f3" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ad23-e1d7-34c4-4103" name="Staff of Damnation" hidden="false" targetId="a0d8-17da-a93c-7fbb" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fecf-ab41-94d3-38bb" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a110-f72d-615f-c2b7" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4141-6d44-df5d-f4d2" name="Skull Staff" hidden="false" targetId="87ff-db95-88d8-c04c" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="23f9-e5e5-75fd-efa3" name="Warrior Familiar" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91b-b49a-a3d5-2d65" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="fca1-32b4-013d-cfa2" name="Warrior Familiar" hidden="false" targetId="ce48-5f75-450b-c70b" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2229-cc9d-46b4-3d0f" name="Book of Arkhan" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0dc-642d-0671-1b18" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f3ba-1faf-a681-3df1" name="Book of Amman" hidden="false" targetId="e61e-d626-b43d-7cd5" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="514c-1cc8-0d63-5012" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08fd-452e-4253-64ec" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="8e5e-acb3-09a2-7f67" name="Black Periapt" hidden="false" targetId="f48f-dd20-1093-9874" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="32ae-b2a4-b9db-c43a" name="Spell Familiar" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="4cae-a20e-8374-b6cb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ffc-3fb2-b563-7b58" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="691e-38f3-0c7c-f910" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="806e-7f66-5327-321d" name="Spell Familiar" hidden="false" targetId="5135-fdc8-4ee0-68a8" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="adb3-9853-d566-e432" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
         <entryLink id="a7ac-677c-c302-3837" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
         <entryLink id="0962-0219-470b-4952" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="787e-19e8-0444-a8c3" name="Black Periapt" hidden="false" collective="false" import="true" targetId="3013-1494-ee91-1cf8" type="selectionEntry"/>
+        <entryLink id="4561-b83b-6268-9dde" name="Spell Familiar" hidden="false" collective="false" import="true" targetId="5eb3-43a3-e38f-2402" type="selectionEntry"/>
+        <entryLink id="0ec8-aa23-e935-59f7" name="Power Familiar" hidden="false" collective="false" import="true" targetId="94dc-9b20-f845-34ba" type="selectionEntry"/>
+        <entryLink id="b3f3-a106-3c4e-407f" name="Book of Arkhan" hidden="false" collective="false" import="true" targetId="fc3c-7fcc-1a1e-53be" type="selectionEntry"/>
+        <entryLink id="e099-6d75-b20c-5951" name="Staff of Damnation" hidden="false" collective="false" import="true" targetId="4d4d-797f-9a5c-5ad1" type="selectionEntry"/>
+        <entryLink id="67c6-f3bb-803a-0ca3" name="Warrior Familiar" hidden="false" collective="false" import="true" targetId="218b-5620-2777-2986" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c04c-1eca-d10a-2d74" name="Magic Weapons necromancer" hidden="false" collective="false" import="true">
@@ -4168,6 +4133,39 @@ This staff allows Mannfred to cast one spell for free in each of his Magic phase
 This cloak provides Mannfred with a 3+ Ward save
 </description>
     </rule>
+    <rule id="f50f-48cb-b46d-24c6" name="Black Periapt" publicationId="8e66-3042-1d6b-fa6b" page="51" hidden="false">
+      <description>The Periapt allows the bearer to saw one unused Power dice or Dispel chn- at the end of any Magic phase and more it, to add It to his side&apos;s dice pool in the next Magic phase.</description>
+    </rule>
+    <rule id="e4ae-3fb4-0161-1b50" name="Spell Familiar" publicationId="8e66-3042-1d6b-fa6b" page="51" hidden="false">
+      <description>the Familiar&apos;s owner knows one mine spell than he Is normally allowed. This does not increase his magic level</description>
+    </rule>
+    <rule id="5e09-1249-2522-02eb" name="Power Familiar" publicationId="8e66-3042-1d6b-fa6b" page="50" hidden="false">
+      <description>Cannot be chosen by Blood Dragons
+The familiar adds one die to both the power dice pool and the dispel dice pool of the bearers side.</description>
+    </rule>
+    <rule id="dd0c-c277-feb8-b692" name="Skull Staff" publicationId="8e66-3042-1d6b-fa6b" page="50" hidden="false">
+      <description>At the beginning of the bearer&apos;s Magic phase, the enemy must reveal all magic items carried by each one of his models within 12&quot; of the Skull Stall&apos;s bearer.
+In addition, thanks to the wise advice of the skull, after the bearer has rolled on the Miscast table, he can choose to re-roll the dice. The second result applies.
+</description>
+    </rule>
+    <rule id="e19f-f3c4-e9b7-8aa6" name="Book of Arkhan" publicationId="8e66-3042-1d6b-fa6b" page="50" hidden="false">
+      <description>Bound Spell, Power Level 3.
+The bearer can release the Vanhel&apos;s Danse Macabre spell contained in the Hook once per Magic phase like an ordinary spell. No power is necessary to cast the spell as the Book provides all the power required.
+Roll a D6 each time the Book is used. On a result of 1 Its powers are temporarily exhausted and the Book cannot he used again that battle
+</description>
+    </rule>
+    <rule id="565e-1ccc-b4ac-a062" name="Staff of Damnation" publicationId="8e66-3042-1d6b-fa6b" page="50" hidden="false">
+      <description>Bound Spell, Power Level 4.
+The Staff of Danmation contains a powerful spell that fills the undead with renewed vigour.
+The bearer can release the powers of the staff once in each of his Magic phases. All Undeati units within 12&quot; are affected by the Hellish Vigour spell (see page 59).
+Roll a d6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and can&apos;t be used again that battle</description>
+    </rule>
+    <rule id="48c0-226b-c58c-5d0d" name="Warrior Familiar" publicationId="8e66-3042-1d6b-fa6b" page="50" hidden="false">
+      <description>Can&apos;t be chosen by Blood Dragon Vampires.
+A Warrior Familiar accompanies its master and fights to protect him. This magical bodyguard usually takes the form of a diminutive warrior or a tiny monstrous creature
+At the beginning of the Close Combat phase, before hits are struck, the Familiar inflicts one Strength 5 hit on a single model chosen by the Wizard from among those in base contact with him.
+</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1b47-ce97-cf0a-447a" name="Frostblade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -4409,60 +4407,12 @@ All Bretonnian Knights and Characters hate the model carrying the shield
 </characteristic>
       </characteristics>
     </profile>
-    <profile id="1c24-180a-fdf8-f035" name="Power Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
-A Power Familiar attracts raw magic power to its owner.
-The Familiar adds one dice to both the Power dice and the Dispel dice pool of the bearer&apos;s side.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a0d8-17da-a93c-7fbb" name="Staff of Damnation" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell, Power Level 4.
-The Staff of Danmation contains a powerful spell that fills the undead with renewed vigour.
-The bearer can release the powers of the staff once in each of his Magic phases. All Undeati units within 12&quot; are affected by the Hellish Vigour spell (see page 59).
-Roll a d6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and can&apos;t be used again that battle
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="87ff-db95-88d8-c04c" name="Skull Staff" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Skull Staff constantly whispers to its hearer, revealing the secrets of magic.
-At the beginning of the bearer&apos;s Magic phase, the enemy must reveal all magic items carried by each one of his models within 12&quot; of the Skull Stall&apos;s bearer.
-In addition, thanks to the wise advice of the skull, after the bearer has rolled on the Miscast table, he can choose to re-roll the dice. The second result applies.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ce48-5f75-450b-c70b" name="Warrior Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
-A Warrior Familiar accompanies its master and fights to protect him. This magical bodyguard usually takes the form of a diminutive warrior or a tiny monstrous creature
-At the beginning of the Close Combat phase, before hits are struck, the Familiar inflicts one Strength 5 hit on a single model chosen by the Wizard from among those in base contact with him.
-</characteristic>
-      </characteristics>
-    </profile>
     <profile id="e61e-d626-b43d-7cd5" name="Book of Amman" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell, Power Level 3.
 This terrible book is said to have belonged to Arkhan the Black, the greatest general of Nagash&apos;s armies in ancient Nehekbara. It still has the power to stir the undead, filling them with unnatural vigour.
 The bearer can release the Vannes Danse Macabre spell contained in the Book once per Magic phase like an ordinary spell. No power is necessary to cast the spell as the Book provides all the power required,
 Roll a D6 each time the Book is used. On a result of 1 its powers are temporarily exhausted and the Book cannot be used again that battle.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f48f-dd20-1093-9874" name="Black Periapt" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">This maleficent jewel has the power to trap the winds of Amethyst magic and accumulate them for its bearer, or his lord, to use
-The Pedant allows the hearer to save one unused Power dice or Dispel dice at the end of any Magic phase and store it, to add it to his side&apos;s dice pool in the next Magic phase.
-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5135-fdc8-4ee0-68a8" name="Spell Familiar" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
-      <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Can&apos;t be chosen by Blood Dragon Vampires.
-A Spell familiar memorises a spell on its master&apos;s behalf offering its master a better choice of deadly spells to unleash in battle.
-The Familiar&apos;s owner knows one more spell than he is normally allowed. This does not increase his magic level.
 </characteristic>
       </characteristics>
     </profile>
