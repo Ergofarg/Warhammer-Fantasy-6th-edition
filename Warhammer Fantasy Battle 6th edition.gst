@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-febf" name="Warhammer Fantasy Battle 6th edition" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-febf" name="Warhammer Fantasy Battle 6th edition" revision="7" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -48,6 +48,27 @@
     <categoryEntry id="b0b1-5266-2bcd-f592" name="Detachment" hidden="false"/>
     <categoryEntry id="7a1c-d611-c2dc-def1" name="Characters" hidden="false"/>
     <categoryEntry id="0644-bfcd-32c2-21dc" name="Special Characters" hidden="false"/>
+    <categoryEntry id="7fea-07fa-27c1-d2ec" name="General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc8-ba3b-d1be-fc01" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3c1-cd8c-7df6-370c" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="27a1-f3c9-99dd-9dc7" name="Beast General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5647-3ef0-9a08-8159" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="86bf-fb26-b6d1-d685" name="Daemon General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e910-f2d2-826b-9a64" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="4a08-4f99-7bc3-30f0" name="Mortal General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c29c-4535-d3e5-f21d" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7d9d-6c8d-4ea0-b7ad" name="Standard " hidden="false">
@@ -265,6 +286,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf1b-d4a5-ad56-80f3" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="950e-6cb6-1db3-271f" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="381b-2ec6-801a-13cf" name="Biting Blade" hidden="false" targetId="bff6-6558-993b-20d2" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
       </costs>
@@ -274,6 +298,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dad1-d33d-0d59-269d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="def8-a287-2e97-8274" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="b533-fe92-1235-56a1" name="Sword of Battle" hidden="false" targetId="6a0d-f38f-8528-e0f0" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
       </costs>
@@ -283,15 +310,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e58-33a7-788f-7fc7" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e40b-b4c1-ed22-82cc" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="c9ca-e793-d620-9f47" name="Sword of Might" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
-            <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User +1 S</characteristic>
-            <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +1 Strength</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="143e-aa70-fc1e-5f6e" name="Sword of Might" hidden="false" targetId="7c28-f07c-6ad8-0e10" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
       </costs>
@@ -301,15 +322,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9bb-1a01-1d6f-c689" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f890-1c46-6d14-1589" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="8deb-ade9-02c8-f009" name="Sword of Striking" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
-            <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">+1 WS</characteristic>
-            <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +1 WS</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="2571-b8b0-7d05-6e59" name="Sword of Striking" hidden="false" targetId="4db8-f106-acab-2e93" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
       </costs>
@@ -488,6 +503,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f2fb-8b67-9f3b-a096" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3be4-10bb-770a-34e7" name="Morning Star" hidden="false" targetId="929d-16ed-c03a-8d1c" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -497,6 +515,30 @@
         <infoLink id="3854-bcd0-2619-e868" name="Brace Of Pistols" hidden="false" targetId="e5ce-0262-e817-adc2" type="rule"/>
         <infoLink id="8257-bdb1-5d78-797b" name="Pistol" hidden="false" targetId="e6ab-509a-9826-7080" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="511d-ba62-1f10-5f5c" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6468-1f1c-dc6d-2850" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9824-7aba-3836-1c6a" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ede5-67c9-6f4e-b839" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b430-74ff-f0b2-d95b" name="Scythed Wheels" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b36f-a274-3c6f-8c9a" type="max"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -577,6 +619,9 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     </rule>
     <rule id="eecc-4ed0-db8a-f6dc" name="Thrown Weapons" hidden="false">
       <description>Thrown weapons do not suffer penalties for long range, nor for moving</description>
+    </rule>
+    <rule id="5bb1-dbc9-3bbc-b05b" name="Scythed Wheels " hidden="false">
+      <description>Scythed Wheels give a +1 on impact hits.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -750,6 +795,34 @@ Always Strikes Last</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bff6-6558-993b-20d2" name="Biting Blade" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">Melee</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">-1 to armour save in addition to normal modifier for Strength.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a0d-f38f-8528-e0f0" name="Sword of Battle" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">Melee</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As user</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">+1 attack to the bearer.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c28-f07c-6ad8-0e10" name="Sword of Might" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">Melee</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">+1</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236"/>
+      </characteristics>
+    </profile>
+    <profile id="4db8-f106-acab-2e93" name="Sword of Striking" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">+1 WS</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +1 WS</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
