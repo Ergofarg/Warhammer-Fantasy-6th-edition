@@ -543,6 +543,15 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cf14-fc0f-57a7-b80c" name="General" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c91-400a-652a-1632" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb0-41e1-46b4-887d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="90c8-8c6f-c6d1-a6e5" name="General" hidden="false" targetId="7fea-07fa-27c1-d2ec" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="3d6b-9611-a257-ad03" name="Infantry" hidden="false"/>
