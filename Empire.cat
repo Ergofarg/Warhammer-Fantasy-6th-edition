@@ -275,6 +275,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="536c-1042-a3a2-dfd9" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="bf2b-f4c7-0a9e-3b2d" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
@@ -1560,6 +1561,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c05-dbb0-ce76-1ca3" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ebfe-5617-1c16-0ead" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="160.0"/>
@@ -1670,6 +1672,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757a-c601-d45d-33fb" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="14e7-a70c-ec36-cd9f" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
@@ -1870,6 +1873,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
         </entryLink>
+        <entryLink id="e24f-1dd3-b9b6-79ce" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
@@ -2025,6 +2029,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3e47-99fc-190a-c036" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="95.0"/>
       </costs>
@@ -2130,6 +2137,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </entryLink>
+        <entryLink id="c670-7136-8342-b93c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2224,6 +2232,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </entryLink>
+        <entryLink id="f91f-09d1-679b-e92a" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
@@ -2252,6 +2261,9 @@
           <categoryLinks>
             <categoryLink id="4aa4-fec7-5dc7-ca1e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2281,6 +2293,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
+        <entryLink id="d989-ccc8-be68-88e4" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>

@@ -50,23 +50,8 @@
     <categoryEntry id="0644-bfcd-32c2-21dc" name="Special Characters" hidden="false"/>
     <categoryEntry id="7fea-07fa-27c1-d2ec" name="General" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc8-ba3b-d1be-fc01" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3c1-cd8c-7df6-370c" type="min"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="27a1-f3c9-99dd-9dc7" name="Beast General" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5647-3ef0-9a08-8159" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="86bf-fb26-b6d1-d685" name="Daemon General" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e910-f2d2-826b-9a64" type="max"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry id="4a08-4f99-7bc3-30f0" name="Mortal General" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c29c-4535-d3e5-f21d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dc8-ba3b-d1be-fc01" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3c1-cd8c-7df6-370c" type="min"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
@@ -549,8 +534,11 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb0-41e1-46b4-887d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="90c8-8c6f-c6d1-a6e5" name="General" hidden="false" targetId="7fea-07fa-27c1-d2ec" primary="false"/>
+        <categoryLink id="44a1-b5ee-b96d-97a6" name="General" hidden="false" targetId="7fea-07fa-27c1-d2ec" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

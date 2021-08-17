@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000"/>
   </publications>
@@ -212,6 +212,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </entryLink>
+        <entryLink id="e644-f0e3-ee1e-d942" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="135.0"/>
@@ -287,6 +288,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </entryLink>
+        <entryLink id="c71c-91cb-77c1-8160" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="140.0"/>
@@ -443,6 +445,7 @@
             <entryLink id="b746-2f92-faed-5faf" name="Banner Runes" hidden="false" collective="false" import="true" targetId="77b6-ae8b-7dac-ae7f" type="selectionEntryGroup"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="475a-4116-e980-2cf2" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -509,6 +512,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
           </costs>
         </entryLink>
+        <entryLink id="ab62-8181-75fe-b81c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
@@ -613,6 +617,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
           </costs>
         </entryLink>
+        <entryLink id="c281-8ac8-8e56-f73e" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>

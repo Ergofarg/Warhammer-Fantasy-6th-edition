@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="6" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.</readme>
+  <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
+The Necrach Thrall can only be general if you choose the noble blood trait.
+</readme>
   <publications>
     <publication id="8e66-3042-1d6b-fa6b" name="Vampire Counts Army book"/>
   </publications>
@@ -848,6 +850,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5c57-5cd6-a17c-1d0c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="185.0"/>
       </costs>
@@ -1142,6 +1147,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="509d-c95d-3792-4e44" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
       </costs>
@@ -1699,6 +1707,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="943e-5789-86d0-1f2d" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="285.0"/>
       </costs>
@@ -2072,6 +2083,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="05bd-c070-04e3-1b9b" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="205.0"/>
       </costs>
@@ -2137,7 +2151,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad56-c72c-5c98-5d2a" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="e52a-0c75-1357-8f3b" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+                    <entryLink id="e52a-0c75-1357-8f3b" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2f34-a145-911a-fa00" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3361-42b3-f373-f95e" type="max"/>
                       </constraints>
@@ -2348,6 +2362,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="b029-6b8a-cfd8-bdef" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
@@ -2783,6 +2800,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e711-cff3-a7b2-2bc2" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="00bd-d8e5-9feb-0d1c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac6-ee94-2161-3eb0" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="690.0"/>
@@ -3188,7 +3210,7 @@
       <modifiers>
         <modifier type="increment" field="b583-f222-c8d1-abea" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ac4-997b-4bc3-6e52" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ac4-997b-4bc3-6e52" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="increment" field="b583-f222-c8d1-abea" value="1.0">
@@ -3756,7 +3778,7 @@
       <modifiers>
         <modifier type="increment" field="fa59-e6b8-9523-3510" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adb3-9853-d566-e432" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="adb3-9853-d566-e432" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="increment" field="fa59-e6b8-9523-3510" value="1.0">
