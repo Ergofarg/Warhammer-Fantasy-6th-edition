@@ -48,6 +48,12 @@
     <categoryEntry id="b0b1-5266-2bcd-f592" name="Detachment" hidden="false"/>
     <categoryEntry id="7a1c-d611-c2dc-def1" name="Characters" hidden="false"/>
     <categoryEntry id="0644-bfcd-32c2-21dc" name="Special Characters" hidden="false"/>
+    <categoryEntry id="a37e-7207-de6d-acb0" name="General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d818-c60d-b1f8-8aaa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1077-7379-f142-f382" type="min"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7d9d-6c8d-4ea0-b7ad" name="Standard " hidden="false">
@@ -550,6 +556,14 @@
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1b7c-2c90-6d96-28c9" name="General" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b30-f604-aa3b-1c34" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b6a9-2d67-cff3-dde7" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
