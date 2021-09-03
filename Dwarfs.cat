@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3a5f-213a-5ffc-4ec0" name="Dwarfs" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000"/>
   </publications>
@@ -212,7 +212,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </entryLink>
-        <entryLink id="e644-f0e3-ee1e-d942" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="e644-f0e3-ee1e-d942" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="135.0"/>
@@ -266,16 +266,26 @@
         <selectionEntryGroup id="66b3-eb96-8660-4199" name="Runes" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="150.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9c-a2be-64fc-09f7" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc4-5381-0747-842b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="d7e8-2d1e-3deb-4323" name="Runesmith Runic Talismans" hidden="false" collective="false" import="true" targetId="9d60-ca7d-bb3d-b739" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="name" value="Runic Talismans"/>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0005-c61f-b6da-e05f" type="max"/>
+              </constraints>
             </entryLink>
-            <entryLink id="d968-e8e4-b325-b435" name="Armour Runes" hidden="false" collective="false" import="true" targetId="9427-d5cc-7a03-09ac" type="selectionEntryGroup"/>
-            <entryLink id="1001-2fb4-f83c-5eb6" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="43b9-1aa2-9342-95d6" type="selectionEntryGroup"/>
+            <entryLink id="d968-e8e4-b325-b435" name="Armour Runes" hidden="false" collective="false" import="true" targetId="9427-d5cc-7a03-09ac" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e03-b9f7-7da7-7aba" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1001-2fb4-f83c-5eb6" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="43b9-1aa2-9342-95d6" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d18-11a9-d8c0-6974" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -288,7 +298,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </entryLink>
-        <entryLink id="c71c-91cb-77c1-8160" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="c71c-91cb-77c1-8160" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="140.0"/>
@@ -445,7 +455,7 @@
             <entryLink id="b746-2f92-faed-5faf" name="Banner Runes" hidden="false" collective="false" import="true" targetId="77b6-ae8b-7dac-ae7f" type="selectionEntryGroup"/>
           </entryLinks>
         </entryLink>
-        <entryLink id="475a-4116-e980-2cf2" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="475a-4116-e980-2cf2" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -512,7 +522,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
           </costs>
         </entryLink>
-        <entryLink id="ab62-8181-75fe-b81c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="ab62-8181-75fe-b81c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
@@ -617,7 +627,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
           </costs>
         </entryLink>
-        <entryLink id="c281-8ac8-8e56-f73e" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="c281-8ac8-8e56-f73e" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -1069,7 +1079,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a3c4-17bb-ec61-0592" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+        <entryLink id="a3c4-17bb-ec61-0592" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a4-ca1b-3aab-2896" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ba-a28c-a28f-be2a" type="min"/>
@@ -1080,6 +1090,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f8-e99b-41ec-59fb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784e-0764-d4ab-7c32" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="71d5-3231-f3c8-6b45" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
