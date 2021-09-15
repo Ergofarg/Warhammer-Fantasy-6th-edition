@@ -2418,7 +2418,7 @@
     <selectionEntry id="f0a2-4169-b132-b7c1" name="Chaos Daemon Sword " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e9-267e-b741-a4e2" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7503-78ac-db9a-597b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7503-78ac-db9a-597b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="0fca-6b23-684f-11e0" name="Chaos Daemon Sword " hidden="false" targetId="542e-0bbf-1067-3bac" type="rule"/>
@@ -2442,13 +2442,61 @@
     <selectionEntry id="8d9c-6925-e37c-f79d" name="Hellfire Sword" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="789e-352c-8471-68cb" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30fe-c2e0-c604-2c58" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30fe-c2e0-c604-2c58" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a569-e9ba-c357-ea34" name="Hellfire Sword" hidden="false" targetId="951a-dcbb-c004-627b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8010-335c-9d17-fc4e" name="Chaos Runesword" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1627-d60b-90e6-7572" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4f7-3ae6-150d-4492" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8b7c-6c22-8e86-04fb" name="Chaos Runesword" hidden="false" targetId="468c-9041-1b2a-2460" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf59-4169-1df5-1304" name="Whip Of Pleasure" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd64-27bd-2d05-ad9b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87f9-d445-b02b-925c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b633-e756-1f2c-432d" name="Whip Of Pleasure" hidden="false" targetId="e467-7a61-bfc5-3652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bea5-a537-c544-0ba3" name="Berserker Sword " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1d-f955-e2b4-5570" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6bc-d781-fc9f-ed04" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3ce0-7422-2dc0-f8db" name="Berserker Sword " hidden="false" targetId="cf6c-7217-e487-f92e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdb5-b0e8-ef25-4392" name="Rending Sword " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7fb9-f9f1-8b32-a9ed" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3da-f18d-81c0-f991" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1801-064c-a189-14dd" name="Rending Sword " hidden="false" targetId="2fde-0f77-c064-650c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2732,6 +2780,10 @@
         <entryLink id="e9e6-a857-13be-6c16" name="Chaos Daemon Sword " hidden="false" collective="false" import="true" targetId="f0a2-4169-b132-b7c1" type="selectionEntry"/>
         <entryLink id="2b18-0582-bb48-ad38" name="Sword of Change " hidden="false" collective="false" import="true" targetId="4c12-c210-19dc-90b2" type="selectionEntry"/>
         <entryLink id="2e09-d9d1-24ec-8f49" name="Hellfire Sword" hidden="false" collective="false" import="true" targetId="8d9c-6925-e37c-f79d" type="selectionEntry"/>
+        <entryLink id="3e4d-581e-aff4-321e" name="Chaos Runesword" hidden="false" collective="false" import="true" targetId="8010-335c-9d17-fc4e" type="selectionEntry"/>
+        <entryLink id="7f50-d15f-1672-de6d" name="Whip Of Pleasure" hidden="false" collective="false" import="true" targetId="bf59-4169-1df5-1304" type="selectionEntry"/>
+        <entryLink id="002f-2495-b950-460d" name="Berserker Sword " hidden="false" collective="false" import="true" targetId="bea5-a537-c544-0ba3" type="selectionEntry"/>
+        <entryLink id="a64d-9044-a919-5c91" name="Rending Sword " hidden="false" collective="false" import="true" targetId="fdb5-b0e8-ef25-4392" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d61d-4d6e-4a5f-37a6" name="Lord Of Chaos Mark" hidden="false" collective="false" import="true" defaultSelectionEntryId="3955-d700-01cc-6d7e">
@@ -3118,6 +3170,19 @@ nothing happens. On a roll of 4 or more, the model is turned Into a Chaos Spawn 
     </rule>
     <rule id="951a-dcbb-c004-627b" name="Hellfire Sword" publicationId="d750-ac7f-7465-d6d1" page="62" hidden="false">
       <description>Any model wounded by the Hellfire Sword (after saves, etc) bursts into flames and suffers an additional D6 wounds with no armour saves allowed. Attacks from the Hellfire Sword count as flaming for the purposes of regeneration, etc.</description>
+    </rule>
+    <rule id="468c-9041-1b2a-2460" name="Chaos Runesword" publicationId="d750-ac7f-7465-d6d1" page="62" hidden="false">
+      <description>The wielder gains + 1 Weapon Skill, +1 Strength and +1 Attack.</description>
+    </rule>
+    <rule id="e467-7a61-bfc5-3652" name="Whip Of Pleasure" publicationId="d750-ac7f-7465-d6d1" page="62" hidden="false">
+      <description>Models with the Mark of Slaanesh only
+The wielder gains + 1 Attack, but he cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative </description>
+    </rule>
+    <rule id="cf6c-7217-e487-f92e" name="Berserker Sword " publicationId="d750-ac7f-7465-d6d1" page="62" hidden="false">
+      <description>The wielder of the Berserker Sword may make additional attacks In every Close Combat phase. The number of additional attacks is equal to half the Unit Strength of all enemy models In base contact (rounding up). For example, a character in contact with two Ogres (combined Unit Strength of 6) would get 3 additional Attacks. If the bearer is involved in a challenge, only the Unit Strength of the opponent is counted.</description>
+    </rule>
+    <rule id="2fde-0f77-c064-650c" name="Rending Sword " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
