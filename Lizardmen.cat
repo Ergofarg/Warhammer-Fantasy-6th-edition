@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="4" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="5" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
+  <categoryEntries>
+    <categoryEntry id="5c12-eebd-de21-0b3d" name="Slann" hidden="false"/>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="64c4-4576-b4b0-0b87" name="Slann Mage Priest" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -19,6 +22,7 @@
       <categoryLinks>
         <categoryLink id="497d-ea1e-10b3-3268" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="d81b-ac27-ce7e-3045" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="fc7d-a4c3-e838-1714" name="Slann" hidden="false" targetId="5c12-eebd-de21-0b3d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="29e5-688d-7372-91af" name="Wizard Level 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -95,6 +99,7 @@
             <entryLink id="fc4c-e4db-d7b3-1c1a" name="Magic Banners" hidden="false" collective="false" import="true" targetId="106e-cbcc-35b6-ec13" type="selectionEntryGroup"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="81fb-e616-f2cc-edfc" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="325.0"/>
@@ -198,6 +203,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c11c-ef59-7755-8f48" name="Oldblood Blessed Spawning" hidden="false" collective="false" import="true" targetId="a9b0-85eb-cc4b-5f8d" type="selectionEntry"/>
+        <entryLink id="a3df-841c-2478-a463" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="145.0"/>
@@ -366,6 +372,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fd02-6b50-d219-173d" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
       </costs>
@@ -461,6 +470,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecab-0a5c-13aa-ec06" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5ebb-4a14-5c6e-fafa" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="85.0"/>
@@ -567,6 +577,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="537c-1174-3865-af0f" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
       </costs>
@@ -822,9 +835,26 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e235-3d94-2bdc-6a1a" name="Temple Guard" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e235-3d94-2bdc-6a1a" name="Temple Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="6cdc-b7e5-8987-a4ca" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c12-eebd-de21-0b3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="6cdc-b7e5-8987-a4ca" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c12-eebd-de21-0b3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="6cdc-b7e5-8987-a4ca" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c12-eebd-de21-0b3d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f2-5d7b-480b-4096" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cdc-b7e5-8987-a4ca" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="eb07-ebd9-9e08-854d" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
