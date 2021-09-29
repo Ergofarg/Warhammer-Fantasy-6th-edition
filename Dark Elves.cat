@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
   </publications>
@@ -227,7 +227,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7a1e-c134-434e-3313" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="7a1e-c134-434e-3313" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="125.0"/>
@@ -520,7 +520,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d57d-6d02-bdb0-d089" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="d57d-6d02-bdb0-d089" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="215.0"/>
@@ -742,7 +742,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="030a-4b09-0210-225c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="030a-4b09-0210-225c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
@@ -823,7 +823,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f0dd-194b-58fd-d01e" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="f0dd-194b-58fd-d01e" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
@@ -918,7 +918,28 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="65d6-0bb2-18e8-c4cf" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="65d6-0bb2-18e8-c4cf" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+        <entryLink id="90eb-6864-98d4-dc7c" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e857-76fa-9f98-5225" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c134-152e-4615-12f4" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" targetId="8cc4-44bf-16d6-b960" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="543c-10b4-a2bb-3396" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e74b-6be4-a2aa-a871" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -1596,9 +1617,21 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f624-a724-3e59-28cc" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry"/>
-        <entryLink id="0ae4-34b4-fc76-80b2" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry"/>
-        <entryLink id="0aea-a583-b084-93f2" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry"/>
+        <entryLink id="f624-a724-3e59-28cc" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcaf-a918-2add-31bb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0ae4-34b4-fc76-80b2" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9014-3f78-4b10-3dd2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0aea-a583-b084-93f2" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="916f-45ea-3637-f6e3" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2130,6 +2163,14 @@
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="95.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="8cc4-44bf-16d6-b960" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8f-b97b-51aa-3f61" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8f1c-2fbe-4da5-d89f" name="Sea Dragon Cloak" hidden="false" targetId="ac64-371e-2bbf-45bb" type="profile"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

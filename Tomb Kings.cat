@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>
@@ -114,12 +114,20 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
           </costs>
         </entryLink>
+        <entryLink id="1d48-e7d6-79d6-8cca" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27df-a7ec-a388-5f5c" name="Liche High Priest" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="e94b-6a54-8779-cd60">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e96e-b80b-5f0e-e017" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="4679-b894-84d6-1f19" name="Liche High Priest" hidden="false" targetId="87eb-0256-1197-d94a" type="profile"/>
         <infoLink id="1122-b055-e7ad-9cd0" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
@@ -145,6 +153,50 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e96e-b80b-5f0e-e017" name="Casket Of Souls" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a00-856c-9945-5666" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9a6-5f99-92dc-4d9e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bbd4-59f5-5d22-741c" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+            <infoLink id="5722-9ba2-2a9a-9ce3" name="The Light of Death. " hidden="false" targetId="881e-bdb5-59b7-c282" type="rule"/>
+            <infoLink id="9f24-00c4-2456-4b58" name="Casket War Machines" hidden="false" targetId="59bb-e58d-ef5c-3d33" type="rule"/>
+            <infoLink id="4365-151f-105b-d0c5" name="Spirit Souls" hidden="false" targetId="c1ac-0e92-511f-f9f8" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="a28a-76b7-bfff-84d1" name="Casket Guard x2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-0192-8608-56cb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="120b-10b6-e8fd-8085" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ca03-a5f2-b1aa-7bdb" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+                <infoLink id="9468-b171-b304-d189" name="Tomb Blades" hidden="false" targetId="faa9-669f-d6d0-3810" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="6f8f-6499-07ce-c738" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c119-3b63-155a-eb53" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858b-7236-8633-2888" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="becb-00cf-1ae2-4865" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ec-0b23-e246-0bc8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fcb-4c36-226a-2814" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="165.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="4de1-11ef-98c0-b145" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
@@ -158,11 +210,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
           </costs>
         </entryLink>
-        <entryLink id="1fba-e718-d260-a6ff" name="Casket Of Souls" hidden="false" collective="false" import="true" targetId="34d5-1331-7a8f-434e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ac-fde7-6e5a-4e7c" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="fa91-369a-3d07-7467" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="245.0"/>
@@ -371,12 +419,20 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
           </costs>
         </entryLink>
+        <entryLink id="a55f-89b0-b878-a0d6" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78f9-33ae-0bae-bbcd" name="Liche Priest" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="e94b-6a54-8779-cd60">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="befc-a601-76fe-a482" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="7fa2-a5e3-819d-1264" name="Liche Priest" hidden="false" targetId="f291-b8c9-8106-a80d" type="profile"/>
         <infoLink id="a38b-5bc7-27cd-6a69" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
@@ -402,6 +458,53 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="befc-a601-76fe-a482" name="Casket Of Souls" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="92c6-6a06-af3f-d2c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2b-0f12-c4c3-a219" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1c6d-594a-0b13-b4c2" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+            <infoLink id="7c33-dd3f-2a34-45e6" name="The Light of Death. " hidden="false" targetId="881e-bdb5-59b7-c282" type="rule"/>
+            <infoLink id="80aa-bf31-60d2-3bbb" name="Casket War Machines" hidden="false" targetId="59bb-e58d-ef5c-3d33" type="rule"/>
+            <infoLink id="7711-2614-0792-4873" name="Spirit Souls" hidden="false" targetId="c1ac-0e92-511f-f9f8" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="1cce-edac-57b2-1912" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="8de4-a6bc-2298-af4c" name="Casket Guard x2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e87-87c4-53d7-3e34" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fe-bfdc-c391-08f3" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7073-517b-1e72-ae97" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+                <infoLink id="6186-336b-b19c-fe9a" name="Tomb Blades" hidden="false" targetId="faa9-669f-d6d0-3810" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="0198-32f2-3534-d270" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae0-39db-e5a3-7841" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a0-b01b-cf83-5d64" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="7646-7ae6-f03c-f88d" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f83-2d96-3367-9d6b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bacf-486c-e84d-b478" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="165.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="f885-757b-bf57-8431" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
@@ -415,14 +518,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
           </costs>
         </entryLink>
-        <entryLink id="cb14-cac8-0cf3-85da" name="Casket Of Souls" hidden="false" collective="false" import="true" targetId="34d5-1331-7a8f-434e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3e-62ce-7446-2d9a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="165.0"/>
-          </costs>
-        </entryLink>
+        <entryLink id="be8b-40d8-494e-7c37" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="115.0"/>
@@ -1459,7 +1555,7 @@
         <infoLink id="156a-390a-91be-13a1" name="Spirit Souls" hidden="false" targetId="c1ac-0e92-511f-f9f8" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7d3c-2a8f-b0be-3f26" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+        <categoryLink id="1c0a-36d5-b682-7f3c" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="74a7-d470-0264-740a" name="Casket Guard x2" hidden="false" collective="false" import="true" type="upgrade">

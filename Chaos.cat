@@ -2499,6 +2499,39 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3c1b-acbe-0312-7031" name="Blade of Blood" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba4d-cf37-e629-2082" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b3a-638b-2e6d-8d36" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="018d-51c9-be85-1f6f" name="Blade of Blood" hidden="false" targetId="a97d-29fa-7be2-a529" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9687-59e3-3a45-5ebe" name="Filth Mace " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3148-4b01-59f4-9502" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b146-a7da-d408-5fe0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2507-137c-5f3c-f41c" name="Filth Mace " hidden="false" targetId="8368-bd30-b489-494a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc79-360e-9914-67ca" name="Soul Cleaver " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21cf-de5a-b89b-1a13" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0642-be9a-62b5-ffe0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6493-36be-1169-e364" name="Marks of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5d1-90ad-502e-4fcf">
@@ -2784,6 +2817,9 @@
         <entryLink id="7f50-d15f-1672-de6d" name="Whip Of Pleasure" hidden="false" collective="false" import="true" targetId="bf59-4169-1df5-1304" type="selectionEntry"/>
         <entryLink id="002f-2495-b950-460d" name="Berserker Sword " hidden="false" collective="false" import="true" targetId="bea5-a537-c544-0ba3" type="selectionEntry"/>
         <entryLink id="a64d-9044-a919-5c91" name="Rending Sword " hidden="false" collective="false" import="true" targetId="fdb5-b0e8-ef25-4392" type="selectionEntry"/>
+        <entryLink id="ad2d-7002-f17a-2153" name="Filth Mace " hidden="false" collective="false" import="true" targetId="9687-59e3-3a45-5ebe" type="selectionEntry"/>
+        <entryLink id="e533-b1e4-def0-d4a2" name="Blade of Blood" hidden="false" collective="false" import="true" targetId="3c1b-acbe-0312-7031" type="selectionEntry"/>
+        <entryLink id="42de-0233-ad96-7d28" name="Soul Cleaver " hidden="false" collective="false" import="true" targetId="dc79-360e-9914-67ca" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d61d-4d6e-4a5f-37a6" name="Lord Of Chaos Mark" hidden="false" collective="false" import="true" defaultSelectionEntryId="3955-d700-01cc-6d7e">
@@ -3183,6 +3219,15 @@ The wielder gains + 1 Attack, but he cannot carry a shield or banner. In additio
     </rule>
     <rule id="2fde-0f77-c064-650c" name="Rending Sword " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
       <description>A model wounded by the Rending Sword (after saves. etc) loses not one but D3 wounds.</description>
+    </rule>
+    <rule id="a97d-29fa-7be2-a529" name="Blade of Blood" publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>For each unsaved wound which the Blade of Blood causes, the wielder may take a Strength test. If the test is passed, the wielder gains +1 Wound. This may not increase his Wounds value above double its normal number of Wounds. If the test is failed, the wielder loses one Wound.</description>
+    </rule>
+    <rule id="8368-bd30-b489-494a" name="Filth Mace " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>All attacks with the Filth Mace count as poisoned attacks. In addition, If the bearer of the mace kills an enemy character in close combat, he will cause terror for the rest of the game.</description>
+    </rule>
+    <rule id="b3a9-1ff6-4902-375e" name="Soul Cleaver " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>Any model wounded by the Soul Cleaver (after saves. etc) must pass a Toughness test or suffer an additional wound (with no saves allowed).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
