@@ -770,9 +770,7 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a48d-6dda-ea59-af0c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8a72-75c6-bfe4-6ef4" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="d635-ce9a-7f5d-b1fe" type="selectionEntryGroup"/>
-            <entryLink id="40f2-548c-fcdf-92b5" name="Magic Armour" hidden="false" collective="false" import="true" targetId="31d8-668f-ac49-5a4b" type="selectionEntryGroup"/>
-            <entryLink id="69b0-820d-a27d-f93c" name="Talismans" hidden="false" collective="false" import="true" targetId="0b8c-7adf-ebda-2164" type="selectionEntryGroup"/>
+            <entryLink id="8a72-75c6-bfe4-6ef4" name="Magic Weapons Beastmen" hidden="false" collective="false" import="true" targetId="d635-ce9a-7f5d-b1fe" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1744,6 +1742,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b23b-f2bc-13e4-6008" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="3b6b-4f3e-2ac6-3cde" name="Mortal General" hidden="false" targetId="a878-7899-6700-e5fb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e9a5-0cc7-3cd3-fcfa" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -2532,6 +2531,18 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="264c-e98e-4b75-0ade" name="Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d274-046f-6ef9-3368" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c73c-5677-215a-0c34" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="663e-47ec-6fd0-8228" name="Axe of Khorne" hidden="false" targetId="61f7-513e-ae06-fab7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6493-36be-1169-e364" name="Marks of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5d1-90ad-502e-4fcf">
@@ -2615,10 +2626,10 @@
       <modifiers>
         <modifier type="increment" field="27fa-c0fd-dd28-8221" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2820,6 +2831,7 @@
         <entryLink id="ad2d-7002-f17a-2153" name="Filth Mace " hidden="false" collective="false" import="true" targetId="9687-59e3-3a45-5ebe" type="selectionEntry"/>
         <entryLink id="e533-b1e4-def0-d4a2" name="Blade of Blood" hidden="false" collective="false" import="true" targetId="3c1b-acbe-0312-7031" type="selectionEntry"/>
         <entryLink id="42de-0233-ad96-7d28" name="Soul Cleaver " hidden="false" collective="false" import="true" targetId="dc79-360e-9914-67ca" type="selectionEntry"/>
+        <entryLink id="2980-e456-9029-50b5" name="Axe of Khorne" hidden="false" collective="false" import="true" targetId="264c-e98e-4b75-0ade" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d61d-4d6e-4a5f-37a6" name="Lord Of Chaos Mark" hidden="false" collective="false" import="true" defaultSelectionEntryId="3955-d700-01cc-6d7e">
@@ -3228,6 +3240,9 @@ The wielder gains + 1 Attack, but he cannot carry a shield or banner. In additio
     </rule>
     <rule id="b3a9-1ff6-4902-375e" name="Soul Cleaver " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
       <description>Any model wounded by the Soul Cleaver (after saves. etc) must pass a Toughness test or suffer an additional wound (with no saves allowed).</description>
+    </rule>
+    <rule id="61f7-513e-ae06-fab7" name="Axe of Khorne" publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>Confers on the bearer the Killing Blow ability</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

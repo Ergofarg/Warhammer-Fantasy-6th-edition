@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="7" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -482,7 +482,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="26cc-4e0f-9707-2eaa" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="26cc-4e0f-9707-2eaa" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="135.0"/>
@@ -633,7 +633,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="24dd-8605-0d0b-84e2" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="24dd-8605-0d0b-84e2" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="110.0"/>
@@ -760,7 +760,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f7d1-c89f-3727-40a9" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="f7d1-c89f-3727-40a9" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="125.0"/>
@@ -806,6 +806,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="9a58-c31b-4b0a-dbc9" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="a432-a107-3ec1-4ef6" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="6566-3982-6715-5d45" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -879,7 +880,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a2d7-7a89-7059-81f2" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="a2d7-7a89-7059-81f2" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="180.0"/>
@@ -958,6 +959,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="37d3-b51e-0787-3cec" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="5e66-ca4e-f432-e3ec" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="6566-3982-6715-5d45" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -978,7 +980,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4c6c-f0fa-c07a-7943" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="4c6c-f0fa-c07a-7943" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="190.0"/>
@@ -1117,7 +1119,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="269d-98ca-acb1-b153" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="269d-98ca-acb1-b153" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -1220,7 +1222,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1d69-5704-7e5e-86e2" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="1d69-5704-7e5e-86e2" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -1286,6 +1288,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="f906-ceeb-bb7e-3e69" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="2baa-7598-d16d-21a5" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="6566-3982-6715-5d45" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -1345,7 +1348,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="81db-1978-5581-f6e3" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="81db-1978-5581-f6e3" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="155.0"/>
@@ -1385,12 +1388,13 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b0cb-8aa3-e540-ddbb" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d6d1-7a41-56b5-2a83" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="839c-a623-6086-f341" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7369-2cca-97cf-9956" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3e42-b3eb-17c3-1487" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="9bc2-160f-1104-ca58" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="59ad-e254-0699-dcbe" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="6566-3982-6715-5d45" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -1435,7 +1439,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f563-bf48-bc98-30b5" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="f563-bf48-bc98-30b5" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="160.0"/>
@@ -1623,7 +1627,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="9418-a3ad-c0dd-2825" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="9418-a3ad-c0dd-2825" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
@@ -1789,6 +1793,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
+        <entryLink id="6800-317a-4abb-62c7" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -1926,7 +1931,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="18d3-2ab5-07ce-f515" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="18d3-2ab5-07ce-f515" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
@@ -2020,7 +2025,7 @@
             <entryLink id="cbd1-ba19-280c-f6f3" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bbf1-6402-24b4-5794" name="Magic Level" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bbf1-6402-24b4-5794" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb20-c898-6345-c1b3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9d-253a-6b37-4c1f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc6-86d9-026c-7549" type="max"/>
@@ -2046,7 +2051,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="31df-7ca5-f87a-f87a" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="31df-7ca5-f87a-f87a" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -2133,7 +2138,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f78a-f29e-053f-d93e" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="f78a-f29e-053f-d93e" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="67.0"/>
@@ -2282,7 +2287,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="d775-c3fd-643c-d7a4" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="d775-c3fd-643c-d7a4" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -2406,7 +2411,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="34cb-a765-1cfb-20ec" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="34cb-a765-1cfb-20ec" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2521,7 +2526,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="07a6-ae90-eb77-37a1" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="07a6-ae90-eb77-37a1" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2611,7 +2616,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="78e0-42d6-5433-31be" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="78e0-42d6-5433-31be" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
@@ -2661,21 +2666,6 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c91f-cf5b-df3a-04b8" name="Big &apos;Uns" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e68-1a26-82b9-d93f" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a726-abca-784f-e348" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
@@ -2711,6 +2701,20 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dea-bd13-8708-a548" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="0111-4b1e-83eb-0dff" name="Magical Standard" hidden="false" collective="false" import="true" targetId="0406-bb04-6134-2ee9" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="0102-f529-ec00-e824" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="ac23-b9d3-4046-23b7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="55e1-54b4-d27e-217b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0102-f529-ec00-e824" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
               </costs>
@@ -2763,6 +2767,17 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a04f-262e-0c50-424f" name="Big &apos;Uns" hidden="false" collective="false" import="true" targetId="55e1-54b4-d27e-217b" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
@@ -3001,6 +3016,17 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="2abd-b618-5131-35a5" name="Bow" hidden="false" collective="false" import="true" targetId="9efb-2b02-f245-62f5" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4296,7 +4322,7 @@
         <categoryLink id="5feb-bdfe-2887-0312" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="df29-1982-ca2a-4064" name="Goblin Wolf chariot" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="df29-1982-ca2a-4064" name="Goblin Wolf chariot" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd88-75b6-9913-a696" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d6-abe2-4e2d-7804" type="max"/>
@@ -4339,28 +4365,26 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <selectionEntries>
-                <selectionEntry id="e534-a274-c7a3-1161" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e53-e6e5-928c-9b9e" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="896c-59c5-84ad-9d98" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cf3f-422b-1491-a057" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0a-7090-26ef-9213" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0189-17bb-1f88-595c" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5366,6 +5390,62 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="55e1-54b4-d27e-217b" name="Big &apos;Uns" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c963-b87b-f401-49ef" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1e2-c84e-ae83-3201" name="1.Mork Save Us" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d5-b857-61d8-0c18" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ade1-6a38-a1c7-b6e2" name="2.Gork&apos;ll Fix it" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a41-e6e4-665c-6382" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbd5-c33e-44f2-424e" name="3.Bash &apos;Em Ladz" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971c-dca8-6d14-8423" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1afa-cabd-a448-a67c" name="4.The Foot of Gork" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3edb-6226-97bf-b9bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fc8-b2b7-7d41-eb2b" name="5. Gorks Warpath" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f1-3297-916f-95d6" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c02d-ce51-6db0-e0da" name="6. Waaagh!" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b87-b66a-03ac-d88d" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d5f-aed3-1c41-d305" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -5584,6 +5664,16 @@
         <entryLink id="24a4-5fc4-923c-4885" name="Guff&apos;s Flag " hidden="false" collective="false" import="true" targetId="ef39-9a02-a6e6-4887" type="selectionEntry"/>
         <entryLink id="759e-3c33-c13e-c296" name="Nogg&apos;s Banner of Butchery " hidden="false" collective="false" import="true" targetId="648e-1b65-a83f-c81f" type="selectionEntry"/>
         <entryLink id="2ff0-8659-cbfd-9859" name="The Bashin&apos; Flag of Bork" hidden="false" collective="false" import="true" targetId="edf2-4cea-3652-899d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6566-3982-6715-5d45" name="Big Waaagh" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="4779-5313-3497-408d" name="1.Mork Save Us" hidden="false" collective="false" import="true" targetId="a1e2-c84e-ae83-3201" type="selectionEntry"/>
+        <entryLink id="127f-510f-bcf4-f1e0" name="2.Gork&apos;ll Fix it" hidden="false" collective="false" import="true" targetId="ade1-6a38-a1c7-b6e2" type="selectionEntry"/>
+        <entryLink id="f169-9f3e-d3e7-b04e" name="3.Bash &apos;Em Ladz" hidden="false" collective="false" import="true" targetId="fbd5-c33e-44f2-424e" type="selectionEntry"/>
+        <entryLink id="ff79-9b0f-bb94-98f1" name="4.The Foot of Gork" hidden="false" collective="false" import="true" targetId="1afa-cabd-a448-a67c" type="selectionEntry"/>
+        <entryLink id="7d27-aeb4-c7dc-f075" name="5. Gorks Warpath" hidden="false" collective="false" import="true" targetId="3fc8-b2b7-7d41-eb2b" type="selectionEntry"/>
+        <entryLink id="3608-191f-8052-60fa" name="6. Waaagh!" hidden="false" collective="false" import="true" targetId="c02d-ce51-6db0-e0da" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
