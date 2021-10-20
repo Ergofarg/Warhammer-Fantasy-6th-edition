@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
@@ -275,7 +275,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="536c-1042-a3a2-dfd9" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="bf2b-f4c7-0a9e-3b2d" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="bf2b-f4c7-0a9e-3b2d" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
@@ -1561,7 +1561,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c05-dbb0-ce76-1ca3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="ebfe-5617-1c16-0ead" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="ebfe-5617-1c16-0ead" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="160.0"/>
@@ -1672,7 +1672,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757a-c601-d45d-33fb" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="14e7-a70c-ec36-cd9f" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="14e7-a70c-ec36-cd9f" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
@@ -1873,7 +1873,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="e24f-1dd3-b9b6-79ce" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="e24f-1dd3-b9b6-79ce" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
@@ -2030,7 +2030,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3e47-99fc-190a-c036" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="3e47-99fc-190a-c036" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="95.0"/>
@@ -2137,7 +2137,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </entryLink>
-        <entryLink id="c670-7136-8342-b93c" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="c670-7136-8342-b93c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2232,7 +2232,7 @@
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
           </costs>
         </entryLink>
-        <entryLink id="f91f-09d1-679b-e92a" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="f91f-09d1-679b-e92a" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
@@ -2293,7 +2293,7 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="d989-ccc8-be68-88e4" name="General" hidden="false" collective="false" import="true" targetId="cf14-fc0f-57a7-b80c" type="selectionEntry"/>
+        <entryLink id="d989-ccc8-be68-88e4" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>

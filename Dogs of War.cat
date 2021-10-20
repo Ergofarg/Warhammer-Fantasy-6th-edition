@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4887-12ed-22a2-f461" name="Dogs of War" revision="1" battleScribeVersion="2.03" authorName="Tullsokk" authorContact="stian.arntsen@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4887-12ed-22a2-f461" name="Dogs of War" revision="1" battleScribeVersion="2.03" authorName="Tullsokk" authorContact="stian.arntsen@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="24dc-55f2-f387-3bc6" name="Warhammer Annual 2002" shortName="" publisher=""/>
     <publication id="ae80-36c3-329f-3c38" name="Ogre Kingdoms 6th army list" shortName="Ogre Kingdoms 6th army list" publisher="Ogre Kingdoms 6th army list" publicationDate="2004"/>
@@ -405,6 +405,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="55d6-b65d-1215-fe2f" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
       </costs>
@@ -612,6 +615,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c9e4-13ef-ad6a-838b" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
       </costs>
@@ -2561,9 +2567,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2641-7ec9-2243-7715" name="Dogs of War Army" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ec-eb58-0f02-615a" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b972-ae3d-5f27-53df" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="088d-7f90-4829-9595" name="DOW" hidden="false" targetId="bb6b-cda8-b237-4dfd" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

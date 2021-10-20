@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3878-c4be-6286-15a7" name="High Elf" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
   <publications>
     <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>
@@ -2063,9 +2063,11 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d748-d47c-8922-74e3" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="7853-9f9b-18e7-6195" name="New CategoryLink" hidden="false" targetId="7fea-07fa-27c1-d2ec" primary="false"/>
-        <categoryLink id="17ff-1995-6245-ef0d" name="New CategoryLink" hidden="false" targetId="7fea-07fa-27c1-d2ec" primary="false"/>
+        <categoryLink id="69af-a9a3-e579-e7d9" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

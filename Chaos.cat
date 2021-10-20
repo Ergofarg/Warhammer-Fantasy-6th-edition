@@ -1598,6 +1598,83 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="60a7-4ed1-86e1-d5ca" name="Minotaurs Marks of Chaos" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da6-22ef-b400-3ae5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="519b-f342-eca1-8560" name="Mark Of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de7-97c3-bf93-2d07" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0787-4877-0f7a-4427" name="Minotaurs of Khorne" hidden="false" targetId="9e56-5b06-2238-dcb8" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="44b9-7c40-b9c9-0893" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="da47-5ccc-d3f1-bd90" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d527-03b5-8d23-8a62" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="77a7-736f-39fb-15fb" name="Minotaurs of Tzeentch" hidden="false" targetId="75ec-cba2-d344-1e5f" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="9174-4d50-e6ce-b0dd" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f673-96f9-228a-1c99" name="Mark of Chaos Undivided" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b71-0c2c-e3d3-e25f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="fcf2-5254-ece9-9004" name="Mark of Chaos Undivided" hidden="false" targetId="7ef7-2eee-3cab-4001" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="413f-b53a-6587-ab04" name="Chaos Undivided" hidden="false" targetId="6fdb-6843-6499-2a04" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5935-b4b8-a8fa-1933" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0113-c878-5ade-faa5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1ee5-2837-bf54-4375" name="Minotaurs of Nurgle" hidden="false" targetId="56a3-26b3-1748-d16e" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="0a62-3061-bf9a-9a69" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d78d-7c01-bfa2-727a" name="Mark of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6342-3f7d-48a8-6dba" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bcf0-2d80-ff71-3b86" name="Minotaurs of Slaanesh" hidden="false" targetId="a8f5-738c-d106-ac41" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="dcb5-ee4f-ab0e-7ef0" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7811-57f5-7eed-50a0" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
@@ -1615,7 +1692,6 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="14bd-598a-2c6f-76dc" name="Minotaurs Marks of Chaos" hidden="false" collective="false" import="true" targetId="2db2-ffac-d2b2-d0f7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -1801,6 +1877,18 @@
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="e637-be84-b4ee-d47c" name="Warriors of Chaos" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a878-7899-6700-e5fb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a37b-279c-5097-aa75" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2543,6 +2631,108 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e07f-de50-bcb1-4196" name="Spelleater Shield " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c56-4002-6003-2459" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7083-632d-ec21-18be" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6e19-0b2b-2bc2-bcce" name="Spelleater Shield " hidden="false" targetId="19b2-a6a7-5d26-cc36" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e03-2c67-2ddd-20b8" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="968e-dd42-ea59-9b2a" name="Chaos Runeshield " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c9b-9a5a-0fc4-e295" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ed6-b77e-83a7-8893" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9cc1-f350-2c78-b209" name="Chaos Runeshield " hidden="false" targetId="5c3d-e50d-b82b-ee1c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3e6-6d5a-c9e9-4b69" name="Armour of Tortured Souls " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f8-4227-7890-3ea4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5640-7ff8-77a2-1cda" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1287-335c-f69c-0968" name="Armour of Tortured Souls " hidden="false" targetId="9741-5e18-632e-bbf1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b63-9339-955a-7f12" name="Armour of Damnation " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3e-4191-d5b6-28a9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd02-c887-41b9-8e42" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5011-1642-8fc6-80b7" name="Armour of Damnation " hidden="false" targetId="f203-4a82-58e9-393b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29b6-6414-fb08-19bc" name="Bane Shield " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca00-2022-c441-ea5f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0488-01bc-c6b8-5d67" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="06f8-21da-5359-ceb8" name="Bane Shield " hidden="false" targetId="f41d-f2af-5cb6-58a7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f69-d2c7-b708-2c90" name="Crimson Armour of Dargan" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0464-2966-3763-e8a8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5468-84a4-189e-1396" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="74ad-54e1-348c-eeec" name="Crimson Armour of Dargan" hidden="false" targetId="e9c4-de1c-dae3-0e99" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e72b-4594-f8e4-1884" name="Beguiling Gem " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b6-ad47-dac4-6930" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee03-911b-4fbd-1399" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2d1b-9a94-f81f-d3b2" name="Beguiling Gem " hidden="false" targetId="d46e-f7ec-933d-ca91" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="167d-6bf4-5cf6-fbff" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9543-ea98-c9c7-1470" name="Crown of Everlasting Conquest" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ff-77b5-305f-2d6c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80f0-f84c-2071-d8cf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8c0d-d0bd-63dc-e767" name="Crown of Everlasting Conquest" hidden="false" targetId="b890-e23c-0dd0-34a7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6493-36be-1169-e364" name="Marks of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5d1-90ad-502e-4fcf">
@@ -2737,7 +2927,6 @@
     <selectionEntryGroup id="2db2-ffac-d2b2-d0f7" name="Minotaurs Marks of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="cee1-e979-39b9-70c7">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbbf-cc64-40b6-c489" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ad3-8f76-9648-6ed8" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="6e6b-5844-23b4-8e08" name="Mark Of Khorne" hidden="false" collective="false" import="true" type="upgrade">
@@ -2844,6 +3033,25 @@
         <entryLink id="b4e4-1318-cdde-5c54" name="Lord of Nurgle" hidden="false" collective="false" import="true" targetId="9d4e-2569-e41a-32ae" type="selectionEntry"/>
         <entryLink id="7a3c-c25c-21f2-8474" name="Lord of Slaanesh" hidden="false" collective="false" import="true" targetId="0aa1-edf9-6a31-417e" type="selectionEntry"/>
         <entryLink id="3955-d700-01cc-6d7e" name="Mark of Chaos Undivided" hidden="false" collective="false" import="true" targetId="c7ff-31af-939e-0fbd" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7335-7a9e-34f0-edc7" name="Horde Magic Armour" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="a25a-100f-d4a0-aa6d" name="Spelleater Shield " hidden="false" collective="false" import="true" targetId="e07f-de50-bcb1-4196" type="selectionEntry"/>
+        <entryLink id="cd3b-f3ee-4996-3a9d" name="Chaos Runeshield " hidden="false" collective="false" import="true" targetId="968e-dd42-ea59-9b2a" type="selectionEntry"/>
+        <entryLink id="b49e-7af8-6396-0acb" name="Armour of Damnation " hidden="false" collective="false" import="true" targetId="7b63-9339-955a-7f12" type="selectionEntry"/>
+        <entryLink id="63f7-1c39-225b-f73c" name="Bane Shield " hidden="false" collective="false" import="true" targetId="29b6-6414-fb08-19bc" type="selectionEntry"/>
+        <entryLink id="c8fb-c68b-9018-bb49" name="Armour of Tortured Souls " hidden="false" collective="false" import="true" targetId="b3e6-6d5a-c9e9-4b69" type="selectionEntry"/>
+        <entryLink id="37de-94d6-28f1-ebe8" name="Crimson Armour of Dargan" hidden="false" collective="false" import="true" targetId="7f69-d2c7-b708-2c90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b916-3a6a-7c6e-45d7" name="Chaos Talisman" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4480-4c1e-8f6c-5e83" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d744-4d9c-e46b-16cb" name="Beguiling Gem " hidden="false" collective="false" import="true" targetId="e72b-4594-f8e4-1884" type="selectionEntry"/>
+        <entryLink id="5688-a500-0659-6f43" name="Crown of Everlasting Conquest" hidden="false" collective="false" import="true" targetId="9543-ea98-c9c7-1470" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -3243,6 +3451,32 @@ The wielder gains + 1 Attack, but he cannot carry a shield or banner. In additio
     </rule>
     <rule id="61f7-513e-ae06-fab7" name="Axe of Khorne" publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
       <description>Confers on the bearer the Killing Blow ability</description>
+    </rule>
+    <rule id="19b2-a6a7-5d26-cc36" name="Spelleater Shield " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>Models with the Mark of Khorne only
+The Spelleater Shield is treated like a normal shield. In addition, it grants Magic Resistance (2) to the character and any unit he Is with. Roll a D6 each time a spell is cast at the bearer of the Spelleater Shield and is dispelled. On a roll of 4 or more, the spell is destroyed and the enemy Wizard may not cast it for the rest of the battle.</description>
+    </rule>
+    <rule id="5c3d-e50d-b82b-ee1c" name="Chaos Runeshield " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The Chaos Runeshield is treated like a normal shield. It also negates the power of any magic weapons carried by models in base contact - treat them as ordinary non-magical weapons of their type.</description>
+    </rule>
+    <rule id="9741-5e18-632e-bbf1" name="Armour of Tortured Souls " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The Armour of Tortured Souls is a suit of Chaos armour. The wearer counts as having .+1 Toughness against mundane attacks (not spells or magic Items. etc).</description>
+    </rule>
+    <rule id="f203-4a82-58e9-393b" name="Armour of Damnation " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The Armour of Damnation is a suit Chaos armour. In addition, any model attacking the wearer in close combat must re-roll successful hits.</description>
+    </rule>
+    <rule id="f41d-f2af-5cb6-58a7" name="Bane Shield " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The Bane Shield is treated like normal shield. In addition, for each successful armour save in close combat, the shield inflicts a Strength 4 hit on the model that struck the blow</description>
+    </rule>
+    <rule id="e9c4-de1c-dae3-0e99" name="Crimson Armour of Dargan" publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The Crimson Armour is a suit of Chaos armour. In addition, any model wishing to attack the wearer in close combat must first pass a Leadership test or they may not attack that combat round.</description>
+    </rule>
+    <rule id="d46e-f7ec-933d-ca91" name="Beguiling Gem " publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>Characters with the Mark of Slaanesh only
+All enemy models in base contact with the hearer of the Beguiling Gem must take a Leadership test at the start of every Close Combat phase. Any model which fails is transfixed and may not make any attacks that round, and any attacks made against it by the bearer will hit automatically</description>
+    </rule>
+    <rule id="b890-e23c-0dd0-34a7" name="Crown of Everlasting Conquest" publicationId="d750-ac7f-7465-d6d1" page="51" hidden="false">
+      <description>The model gains the Regenerate ability.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

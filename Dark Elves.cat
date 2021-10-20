@@ -1620,16 +1620,19 @@
         <entryLink id="f624-a724-3e59-28cc" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcaf-a918-2add-31bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8712-dffe-c5a8-d85c" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="0ae4-34b4-fc76-80b2" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9014-3f78-4b10-3dd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade9-b0ff-423b-4231" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="0aea-a583-b084-93f2" name="Lance" hidden="false" collective="false" import="true" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="916f-45ea-3637-f6e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d725-e2d5-3261-05ca" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2171,6 +2174,9 @@
       <infoLinks>
         <infoLink id="8f1c-2fbe-4da5-d89f" name="Sea Dragon Cloak" hidden="false" targetId="ac64-371e-2bbf-45bb" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2550,7 +2556,7 @@ Instead of normal attacks use web 2d6 s3 hits on single model.
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
