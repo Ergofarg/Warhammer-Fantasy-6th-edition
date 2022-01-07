@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="7" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
@@ -600,7 +600,7 @@
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf5-396d-b15f-07b6" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0f24-f227-3d42-60c3" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -1110,10 +1110,13 @@
         <selectionEntry id="6564-fbd9-4688-7e84" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="834a-0927-f289-48dc" type="max"/>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c06-1e82-cef7-c91b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f3fb-a4e9-fe58-9fa0" name="Magic banners" hidden="false" collective="false" import="true" targetId="0624-aa91-f728-45b9" type="selectionEntryGroup"/>
+            <entryLink id="f3fb-a4e9-fe58-9fa0" name="Magic banners" hidden="false" collective="false" import="true" targetId="0624-aa91-f728-45b9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e14a-4db1-1952-1827" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
@@ -2297,6 +2300,99 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7c4-eb74-5df4-bb95" name="Balthazar Gelt" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e3e-710f-0b52-624c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="062d-cac5-2bbf-fe01" name="Balthazar Gelt" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8114-60a0-f4ec-8e49" name="Alchemist Supreme" hidden="false" targetId="eda3-ff75-5090-68cc" type="rule"/>
+        <infoLink id="8c6b-3bef-c184-b72c" name="Al-kahest" hidden="false" targetId="6ddc-1fce-9ed2-33f8" type="rule"/>
+        <infoLink id="f18d-d7af-6d43-6f02" name="Panacea Universals" hidden="false" targetId="c70b-0447-72e7-df66" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9dbd-b267-13d9-9c78" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="1c3d-2a3e-67dc-6302" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="e5e5-25b9-52ef-3037" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c5ab-ffa9-d6c4-65bb" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="662d-33cf-0945-afb9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b987-eead-e179-f80f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd28-7050-18bc-aa6b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="662d-33cf-0945-afb9" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5def-73bb-3ea0-bb02" type="max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1c8f-110e-5bd5-c6af" name="Magic Items" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f0eb-03e2-c32d-becf" name="Staff of Volans" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e4b-0f80-04ee-dae1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd9-e44e-2068-98b8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="cf7e-0339-9068-d776" name="Staff of Volans" hidden="false" targetId="eb6f-8672-88ab-dcf7" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="733c-8a88-975e-dee6" name="The Gleaming Robe" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24dd-47a3-5b5b-49b2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fc-0d77-cb77-ecf5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6b2b-9a38-b512-3897" name="The Gleaming Robe" hidden="false" targetId="d3d3-95ea-2e17-c77a" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="1de9-9812-15e0-9f61" name="Amulet of Sea Gold" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="133d-5c96-f1b2-2899" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d6-df0f-c985-16fb" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0dfd-8ade-a0b0-b0ca" name="Amulet of Sea Gold" hidden="false" targetId="fc95-0a94-985c-c457" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e447-fc8c-e3ba-0923" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5958-a04c-faa6-5f49" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c103-881d-e48c-29cc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6d7b-a741-0eb0-f8bb" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+        <entryLink id="dbdf-4080-c3f5-f340" name="Pegasus" hidden="false" collective="false" import="true" targetId="a91e-b043-4fc5-bd37" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539b-1691-792d-2543" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="450.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3800,6 +3896,26 @@ Still, Luthor would never join units of warriors who are not devout to Sigmar. s
     </rule>
     <rule id="540c-9d84-fd8a-707e" name="Prayers of Sigmar Luthor" publicationId="b61c-34ec-3be0-1b38" page="50" hidden="false">
       <description>iuthor can cast the Prayers as normal, but with a Power Level of 4!</description>
+    </rule>
+    <rule id="eda3-ff75-5090-68cc" name="Alchemist Supreme" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>Balthasar is a Fourth level Wizard and always uses spells from &apos;the lore of Metal. Balthasar knows all the spells from the list, so you do not need to roll on the chart at the beginning of the battle.</description>
+    </rule>
+    <rule id="6ddc-1fce-9ed2-33f8" name="Al-kahest" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>In the Shooting phase. Balthasar can throw a vial of highly acidic alchemical substances taken from the box in the saddle bags of his Pegasus. The vials have a range of 6&apos; and follow the rules for throwing knives. If Balthasar hits. the vial will shatter, wounding any target on a 4+ (including ethereal creatures. war machines. etc). No armour saving throws are allowed against these wounds.</description>
+    </rule>
+    <rule id="c70b-0447-72e7-df66" name="Panacea Universals" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>Instead of throwing a vial of Allialiest, in the Shooting phase Balthasar can use a vial of Panacea Unbmsalis taken from the box. The vial can heal one Wound suffered by either Balthasar or his Pegasus.</description>
+    </rule>
+    <rule id="eb6f-8672-88ab-dcf7" name="Staff of Volans" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>Immediately after rolling the dice to cast a spell or to dispel an enemy spell, the Wizard wielding the Staff of Volans can pick up one of the dice rolled and turn it so that its result is one higher than the number rolled.
+Only then is the total score and its effects worked out. Including Miscasts and Irresistible Force. This is especially useful because the Staff will make Miscasts and failed Dispels rarer (you need to roll at least three Is) and will make spells cast with Irresistible Force more common (if you roll a 5 and a 6. you can transform the 5 into a 6).
+</description>
+    </rule>
+    <rule id="d3d3-95ea-2e17-c77a" name="The Gleaming Robe" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>The robe gives a 3+ Ward save against any missile attack (including template weapons and missile spells) directed towards Balthasar and or his mount. The robe has no effect against close combat attacks and spells that are not magic missiles</description>
+    </rule>
+    <rule id="fc95-0a94-985c-c457" name="Amulet of Sea Gold" publicationId="b61c-34ec-3be0-1b38" page="52" hidden="false">
+      <description>The amulet adds one dice to any attempt to dispel an enemy spell targeted at the wearer and/or his mount or otherwise affecting them.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
