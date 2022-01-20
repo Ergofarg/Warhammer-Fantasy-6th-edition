@@ -1599,7 +1599,7 @@
         <categoryLink id="ead0-b288-8171-908e" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1731-044a-e220-7b53" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1731-044a-e220-7b53" name="Tiranoc Chariot" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76d-8dbe-365e-b03e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211b-1201-48a3-f34b" type="min"/>
@@ -1680,13 +1680,10 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="71.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="71.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="e8ff-777b-a0e1-bfbd" name="Phoenix Guard" hidden="false" collective="false" import="true" type="unit">
       <constraints>
