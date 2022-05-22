@@ -568,6 +568,7 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5f8c-ee59-3060-16c4" name="Javelin" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="3d6b-9611-a257-ad03" name="Infantry" hidden="false"/>
@@ -644,6 +645,15 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     </rule>
     <rule id="eecc-4ed0-db8a-f6dc" name="Thrown Weapons" hidden="false">
       <description>Thrown weapons do not suffer penalties for long range, nor for moving</description>
+    </rule>
+    <rule id="df8d-7c05-c47b-9cd6" name="Magical Resistance (2)" hidden="false">
+      <description>Generates two dispel dice when spells cast at the unit</description>
+    </rule>
+    <rule id="da12-a0e8-30ec-6c32" name="Magical Resistance (1)" hidden="false">
+      <description>Generates 1 dispel dice for spells cast at the unit.</description>
+    </rule>
+    <rule id="ac96-22af-fac6-56f9" name="Scaly Skin 4+" hidden="false">
+      <description>Armour save 4+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -817,6 +827,13 @@ Always Strikes Last</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0281-a3e5-5759-d725" name="Javelin" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As User</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Thrown Weapon</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
