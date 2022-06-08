@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="7" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="8" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -28,6 +28,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75c7-2672-8bad-b32e" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -46,6 +48,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e59-f64e-4315-1d48" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -58,6 +62,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="565b-37e6-290b-e040" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -70,6 +76,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dee9-ebd2-f788-db2e" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
@@ -85,6 +93,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -97,6 +107,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0834-44e4-b658-f167" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -105,6 +117,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="31e1-bd91-2c0b-b604" name="Skeleton Captain" hidden="false" collective="false" import="true" type="upgrade">
@@ -128,6 +142,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </profiles>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -135,6 +151,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="749f-cf91-6317-7ac0" name="Zombies" hidden="false" collective="false" import="true" type="unit">
@@ -153,6 +171,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3ffe-062c-d448-a76a" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -165,6 +185,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -177,6 +199,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1dd-b404-1df3-9616" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -185,6 +209,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -192,6 +218,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b45-b2ad-dcdf-d3f4" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
@@ -213,6 +241,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38ed-0cf0-ac63-31f5" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -225,6 +255,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -252,6 +284,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </profiles>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -259,6 +293,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3161-6d02-8903-b0c4" name="Bat Swarm" hidden="false" collective="false" import="true" type="unit">
@@ -282,11 +318,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c0f-28ce-0807-81fa" name="Dire Wolves" hidden="false" collective="false" import="true" type="unit">
@@ -306,6 +346,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2f62-07d1-34ab-0856" name="Doom Wolf" hidden="false" collective="false" import="true" type="upgrade">
@@ -314,11 +356,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92ee-2ebf-c6c0-71ff" name="Grave Guard" hidden="false" collective="false" import="true" type="unit">
@@ -337,6 +383,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3d69-3741-1b94-8e3e" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -348,6 +396,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d390-1f09-7a64-5f32" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -366,6 +416,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6cb6-4b58-d77c-4781" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -378,6 +430,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="43bc-9f49-33f4-085d" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
@@ -393,6 +447,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -405,6 +461,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="19e9-06f7-c336-35c3" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -420,6 +478,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5359-c191-7346-c8f1" name="Crypt Keeper" hidden="false" collective="false" import="true" type="upgrade">
@@ -443,6 +503,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </profiles>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -450,6 +512,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="115c-d87a-35e6-26c9" name="Black Knights" hidden="false" collective="false" import="true" type="unit">
@@ -469,6 +533,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="23.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d1d2-2653-7ab0-fbb0" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -481,6 +547,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3667-f990-51ea-d0e4" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -493,6 +561,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a69-c735-7c76-f588" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -505,6 +575,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c32-a1a7-bef8-d6fc" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
@@ -520,6 +592,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f50b-09b7-e669-69ad" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -532,6 +606,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -544,6 +620,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4249-136b-4089-bf98" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -559,6 +637,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e126-8895-ce65-d514" name="Hell knight" hidden="false" collective="false" import="true" type="upgrade">
@@ -582,6 +662,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </profiles>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -589,6 +671,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a431-097d-4712-eb01" name="Fell Bats" hidden="false" collective="false" import="true" type="unit">
@@ -607,11 +691,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="41a3-61ff-bfd0-b4b1" name="Spirit Host" hidden="false" collective="false" import="true" type="unit">
@@ -634,11 +722,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f4f-70e6-acdb-bdea" name="Banshee" hidden="false" collective="false" import="true" type="unit">
@@ -659,11 +751,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd09-e6e8-38ea-c6f4" name="Black Coach" hidden="false" collective="false" import="true" type="unit">
@@ -686,6 +782,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b54d-14f5-fea0-777f" name="Nightmares" hidden="false" collective="false" import="true" type="upgrade">
@@ -695,6 +793,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f40-b847-1d27-c746" name="Wraith" hidden="false" collective="false" import="true" type="upgrade">
@@ -713,16 +813,22 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="200.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d30a-e6ac-3b72-0c99" name="Dogs of War" hidden="false" collective="false" import="true" type="unit">
@@ -731,6 +837,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ee2-ac3a-3cc6-11af" name="Master Necromancer" hidden="false" collective="false" import="true" type="unit">
@@ -752,6 +860,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -770,6 +880,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -837,6 +949,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="3.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d52d-423a-79f1-379c" name="Wizard level 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -845,6 +959,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -855,6 +971,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="185.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9c6-93fb-ce3c-965a" name="Wight Lord" hidden="false" collective="false" import="true" type="unit">
@@ -877,6 +995,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -892,6 +1012,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4052-3b14-428c-bd87" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -903,6 +1025,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -965,6 +1089,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -993,6 +1119,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="038e-dd7b-f346-178d" name="Wraith" hidden="false" collective="false" import="true" type="unit">
@@ -1030,6 +1158,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1050,6 +1180,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b5d8-db21-a4b7-9e94" name="Necromancer" hidden="false" collective="false" import="true" type="unit">
@@ -1071,6 +1203,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1103,6 +1237,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="921c-434c-d95b-841f" name="Wizard level 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -1111,6 +1247,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1130,6 +1268,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="149e-7ab5-ba92-6c34" name="Nightmare with Barding" hidden="false" collective="false" import="true" type="upgrade">
@@ -1142,6 +1282,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1152,6 +1294,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b77b-88d5-5e80-e178" name="Vampire Lord " hidden="false" collective="false" import="true" type="unit">
@@ -1204,6 +1348,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="42c5-9ebc-7493-89ef" name="Lord hero choice extra cost" hidden="false" collective="false" import="true" type="upgrade">
@@ -1217,6 +1363,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1279,6 +1427,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -1313,6 +1463,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="69d6-bc53-08eb-0575" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1324,6 +1476,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="aa25-de8e-a28d-6430" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1335,6 +1489,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a8c1-8998-1a95-8358" name="Shield (Blood dragons only)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1346,6 +1502,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1353,6 +1511,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5a11-4f11-3806-c00c" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
@@ -1407,6 +1567,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -1433,6 +1595,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0158-ed16-cbbf-6a78" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1455,6 +1619,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </profiles>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1506,6 +1672,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -1540,6 +1708,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1456-7120-0576-e7e2" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1551,6 +1721,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b4da-b79f-d4af-e01f" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1562,6 +1734,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ee70-04e8-364d-8587" name="Shield (Blood dragons only)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1573,6 +1747,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1580,6 +1756,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef7a-5896-8856-076b" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
@@ -1598,6 +1776,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="20cf-d4a7-041d-43f4" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -1652,6 +1832,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -1678,6 +1860,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1694,6 +1878,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="3.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="649a-8bc1-fb66-ed73" name="Wizard level 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -1702,6 +1888,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1712,6 +1900,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="285.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6822-0110-a7c9-cbb0" name="Vampire Count" hidden="false" collective="false" import="true" type="unit">
@@ -1761,6 +1951,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1812,6 +2004,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a8be-2466-4c0c-d453" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
@@ -1855,6 +2049,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="60a4-751a-19aa-35dc" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1877,6 +2073,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </profiles>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1917,6 +2115,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="30ba-e15f-9acd-7663" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
@@ -1935,6 +2135,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c3b-07da-b7f9-4b22" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -1978,6 +2180,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1996,6 +2200,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2021,6 +2227,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8ba3-9f3e-b527-04ef" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2032,6 +2240,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a33-bb41-8444-aa37" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2043,6 +2253,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7081-eb7b-5ea8-9b26" name="Shield (Blood dragons only)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2054,6 +2266,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2070,6 +2284,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c2b8-e61d-9a73-0b21" name="Wizard level 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -2078,6 +2294,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2088,9 +2306,23 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="205.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e37b-c827-99ac-b706" name="Vampire Thrall" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="fcec-2340-6368-a2ba" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="32d0-a151-94a3-aa54" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="6001-b2bf-4529-c07d" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="32d0-a151-94a3-aa54" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="b574-208f-3c26-0f54" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="d076-0c8e-a4eb-a208" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
@@ -2106,6 +2338,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2180,6 +2414,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2195,6 +2431,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </constraints>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="4c85-b132-fd6f-c4dd" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -2203,6 +2441,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </constraints>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2223,6 +2463,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="879f-68f8-895f-fcfc" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2234,6 +2476,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7e1d-387e-8686-9469" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2245,6 +2489,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2265,6 +2511,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2279,6 +2527,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bb37-616b-6963-09b8" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
@@ -2350,6 +2600,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2363,10 +2615,20 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="b029-6b8a-cfd8-bdef" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+                <entryLink id="b029-6b8a-cfd8-bdef" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="5b30-f604-aa3b-1c34" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32d0-a151-94a3-aa54" type="lessThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3ce4-651b-a585-6886" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2428,6 +2690,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2443,6 +2707,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </constraints>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="a24f-ec2d-95cb-5e9a" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -2451,6 +2717,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                           </constraints>
                           <costs>
                             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2471,6 +2739,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="daef-09fa-6f3d-b74a" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2482,6 +2752,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ee4c-e8ff-af3a-e186" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2493,6 +2765,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2513,6 +2787,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2527,6 +2803,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c14f-1bd4-3d59-fc4e" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
@@ -2560,6 +2838,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bd0a-5f03-cd37-a01c" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -2627,6 +2907,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2641,6 +2923,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2659,6 +2943,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="799c-a297-fa1b-a78e" name="Manfred von Carstein" hidden="false" collective="false" import="true" type="unit">
@@ -2698,6 +2984,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="03fe-eb32-1e45-309e" name="Extra hero choice" hidden="false" collective="false" import="true" type="unit">
@@ -2710,6 +2998,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ef43-d1ba-6f24-56cd" name="Magic Level 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -2719,6 +3009,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="397d-21ed-c86b-0645" name="Nightmare with Barding" hidden="false" collective="false" import="true" type="upgrade">
@@ -2732,6 +3024,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2748,6 +3042,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dcc0-0eb0-4a20-3462" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2760,6 +3056,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="287f-066c-1b1e-1267" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
@@ -2772,6 +3070,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2808,6 +3108,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="690.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2818,6 +3120,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="70f3-c286-d1ac-5942" name="Winged Nightmare" hidden="false" collective="false" import="true" type="upgrade">
@@ -2830,6 +3134,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a86-7ed1-3c74-8d15" name="Zombie Dragon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2844,6 +3150,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da7a-2986-b2fb-f27f" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
@@ -2855,6 +3163,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e78-1810-377f-1283" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -2863,6 +3173,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c64-4ca4-d637-15b9" name="Ebony Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -2871,6 +3183,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94a6-28ad-be89-ba97" name="Cloak of Darkness" hidden="false" collective="false" import="true" type="upgrade">
@@ -2879,6 +3193,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3013-1494-ee91-1cf8" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
@@ -2891,6 +3207,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5eb3-43a3-e38f-2402" name="Spell Familiar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2903,6 +3221,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94dc-9b20-f845-34ba" name="Power Familiar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2915,6 +3235,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d0-7e6e-5ef5-e09f" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -2927,6 +3249,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc3c-7fcc-1a1e-53be" name="Book of Arkhan" hidden="false" collective="false" import="true" type="upgrade">
@@ -2939,6 +3263,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d4d-797f-9a5c-5ad1" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
@@ -2951,6 +3277,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="218b-5620-2777-2986" name="Warrior Familiar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2963,6 +3291,21 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32d0-a151-94a3-aa54" name="Nehekhara’s Noble Blood" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e0-d7f1-f9a4-a8c0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="27ab-c9b0-777b-8b8c" name="Nehekhara’s Noble Blood" hidden="false" targetId="e1f7-501d-710d-9476" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2975,6 +3318,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="adf2-36d3-1636-89ad" name="Blood Drinker" hidden="false" collective="false" import="true" type="upgrade">
@@ -2984,6 +3329,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="84e3-a0a9-8e9b-fb2c" name="Black Axe of Krell" hidden="false" collective="false" import="true" type="upgrade">
@@ -2992,6 +3339,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3a0f-9b34-ef80-82f7" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -3000,6 +3349,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6c12-f04c-2070-5f06" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
@@ -3008,6 +3359,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3026,26 +3379,36 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aceb-8d67-d17e-b596" name="Banner of Doom" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0eb3-d26c-b1d0-cafe" name="Banner of the Barrows " hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de00-7f16-33b8-6c1e" name="Screaming Banner" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d20-2ef5-cf56-83ab" name="Banner of the Dead Legion " hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3065,6 +3428,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1d8e-97ec-a86d-b5a4" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
@@ -3076,6 +3441,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e4d5-325e-1d49-f9fc" name="The Flayed Hauberk" hidden="false" collective="false" import="true" type="upgrade">
@@ -3087,6 +3454,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da9c-a03d-dbcf-4bac" name="The CursedShield of Mousillon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3098,6 +3467,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3120,6 +3491,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0722-32ab-cd8c-2b72" name="Crown of the Damned" hidden="false" collective="false" import="true" type="upgrade">
@@ -3128,6 +3501,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="506c-e3a5-3ba6-191a" name="Wristbands of Black Gold " hidden="false" collective="false" import="true" type="upgrade">
@@ -3136,6 +3511,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="797b-2638-136a-0081" name="Ring of the Night" hidden="false" collective="false" import="true" type="upgrade">
@@ -3144,6 +3521,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6708-0064-73df-37b6" name="The Gem of Blood" hidden="false" collective="false" import="true" type="upgrade">
@@ -3152,6 +3531,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3170,6 +3551,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f26b-8b1c-b3cc-57b7" name="Cursed Book" hidden="false" collective="false" import="true" type="upgrade">
@@ -3178,6 +3561,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="72ba-8771-2926-3354" name="Cloak of Mist and Shadows " hidden="false" collective="false" import="true" type="upgrade">
@@ -3186,6 +3571,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dbc8-8204-b238-c315" name="Talon of Death" hidden="false" collective="false" import="true" type="upgrade">
@@ -3194,6 +3581,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a46f-b46b-2efc-0283" name="Casket of Ages" hidden="false" collective="false" import="true" type="upgrade">
@@ -3202,6 +3591,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3243,6 +3634,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="39bc-4b20-5e7c-202f" name="Call Winds" hidden="false" collective="false" import="true" type="upgrade">
@@ -3254,6 +3647,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8709-78ca-28fc-da66" name="Walking Death" hidden="false" collective="false" import="true" type="upgrade">
@@ -3265,6 +3660,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="066a-7964-6f74-a981" name="Summon Wolves" hidden="false" collective="false" import="true" type="upgrade">
@@ -3276,6 +3673,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="47a5-c70d-a43b-5fe4" name="Aura of Dark Majesty " hidden="false" collective="false" import="true" type="upgrade">
@@ -3287,6 +3686,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b26e-223c-6153-0790" name="Wolf Form" hidden="false" collective="false" import="true" type="upgrade">
@@ -3298,6 +3699,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3310,31 +3713,43 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e222-e08e-b12a-9f50" name="Obsidian Amulet" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1343-cd6e-1557-c32f" name="Crown of the Damned" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="725e-360a-d271-8fcb" name="Wristbands of Black Gold " hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d21c-11a4-3680-632c" name="Ring of the Night" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2074-2508-5ab0-bfa2" name="The Gem of Blood" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3353,6 +3768,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="97d6-55e1-38bf-f4a4" name="Blademaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -3364,6 +3781,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7714-3497-a995-0f84" name="Heart Piercing" hidden="false" collective="false" import="true" type="upgrade">
@@ -3375,6 +3794,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="efa0-a0d8-1d65-c9af" name="Master Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -3386,6 +3807,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a2c-c18c-e2d7-47ac" name="Strength of Steel" hidden="false" collective="false" import="true" type="upgrade">
@@ -3397,6 +3820,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8901-2b6e-ba7e-65cd" name="Honour or Death" hidden="false" collective="false" import="true" type="upgrade">
@@ -3408,23 +3833,14 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="8627-7a0f-231c-7572" name="Necrach traits" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="a130-5d9e-22ad-4dc7" name="Nehekhara’s Noble Blood" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdfc-4512-b50a-0569" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a2f2-81cf-0da8-5cbe" name="Nehekhara’s Noble Blood" hidden="false" targetId="e1f7-501d-710d-9476" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="142c-efa0-6a8c-8a6b" name="The Awakening" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e17-fd33-bd25-4550" type="max"/>
@@ -3434,6 +3850,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="540d-d4d7-fe7e-4953" name="Unholy Cynosure" hidden="false" collective="false" import="true" type="upgrade">
@@ -3445,6 +3863,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="70e9-852e-fec4-58e4" name="Dark Acolyte" hidden="false" collective="false" import="true" type="upgrade">
@@ -3456,6 +3876,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2082-e912-3631-c46d" name="Master of the Black Arts" hidden="false" collective="false" import="true" type="upgrade">
@@ -3467,6 +3889,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fc45-f008-11a9-41b6" name="Forbidden Lore" hidden="false" collective="false" import="true" type="upgrade">
@@ -3478,9 +3902,14 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="b68c-cf3f-13ae-7cf9" name="Nehekhara’s Noble Blood" hidden="false" collective="false" import="true" targetId="32d0-a151-94a3-aa54" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0304-9b9c-c3cc-7cbf" name="Stirgoi traits" hidden="false" collective="false" import="true">
       <selectionEntries>
@@ -3493,6 +3922,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5a0d-b54d-eac1-7af5" name="Massive Monstrosity " hidden="false" collective="false" import="true" type="upgrade">
@@ -3504,6 +3935,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="600d-95a7-d378-25ed" name="Bat Form" hidden="false" collective="false" import="true" type="upgrade">
@@ -3515,6 +3948,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c8d-9478-1777-0097" name="Infinite Hatred" hidden="false" collective="false" import="true" type="upgrade">
@@ -3526,6 +3961,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c4ea-4a04-19c6-403f" name="Summon Ghouls" hidden="false" collective="false" import="true" type="upgrade">
@@ -3537,6 +3974,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0d8d-7645-6afd-69d1" name="Iron Sinews" hidden="false" collective="false" import="true" type="upgrade">
@@ -3548,6 +3987,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3564,6 +4005,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac33-269c-bab2-c7a6" name="Domination" hidden="false" collective="false" import="true" type="upgrade">
@@ -3576,6 +4019,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ec8b-622c-cf8f-41cf" name="Quickblood" hidden="false" collective="false" import="true" type="upgrade">
@@ -3587,6 +4032,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5824-66a1-d88e-a9c8" name="Innocence Lost" hidden="false" collective="false" import="true" type="upgrade">
@@ -3598,6 +4045,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="91d3-9729-5ef5-bad0" name="Transfix" hidden="false" collective="false" import="true" type="upgrade">
@@ -3610,6 +4059,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="266b-3059-eb18-300d" name="Beguile" hidden="false" collective="false" import="true" type="upgrade">
@@ -3622,6 +4073,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3634,6 +4087,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b889-4d2f-950b-5853" name="Blood Drinker" hidden="false" collective="false" import="true" type="upgrade">
@@ -3643,6 +4098,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8569-0a6f-3d66-7daf" name="Black Axe of Krell" hidden="false" collective="false" import="true" type="upgrade">
@@ -3651,6 +4108,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b29c-59c4-fce3-1062" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -3659,6 +4118,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="779a-df2a-b81c-1dd4" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
@@ -3667,11 +4128,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b07f-1bc4-6156-ec4b" name="Asp Bow " hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="408c-9cf1-0288-5d87" name="Sword of the Kings " hidden="false" collective="false" import="true" type="upgrade">
@@ -3681,6 +4146,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3702,6 +4169,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab72-7ce0-8eea-7ea6" name="Blood Drinker" hidden="false" collective="false" import="true" type="upgrade">
@@ -3711,6 +4180,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f34-251f-b27f-01e6" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -3719,6 +4190,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="711b-fc4e-c932-d47a" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
@@ -3727,6 +4200,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3752,6 +4227,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1aa3-d2e0-5da9-390c" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
@@ -3763,6 +4240,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3816,6 +4295,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b861-cf88-2759-380d" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -3827,6 +4308,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f30e-c847-098c-8cf4" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
@@ -3838,6 +4321,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3856,6 +4341,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="91fa-238d-89c4-6c6b" name="Blood Drinker" hidden="false" collective="false" import="true" type="upgrade">
@@ -3865,6 +4352,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="724a-6133-3b50-4369" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
@@ -3873,6 +4362,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab51-523d-0228-d732" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
@@ -3881,6 +4372,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b60a-1687-9e54-9291" name="Asp Bow " hidden="false" collective="false" import="true" type="upgrade">
@@ -3889,6 +4382,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4040,8 +4535,7 @@ Fought that turn and the Vampire will be free to fight against ay models he is i
 </description>
     </rule>
     <rule id="e1f7-501d-710d-9476" name="Nehekhara’s Noble Blood" hidden="false">
-      <description>The only thing the Necrarchs could take from their land was their necromantic lore. These secrets are found in the cursed scrolls hidden in the lairs of the oldest Lords of the Necrarch family.
-The Vampire has one extra Magic level. A Thrall with this power is
+      <description>The Vampire has one extra Magic level. A Thrall with this power is
 a Level I Wizard in all respects and can he the army&apos;s General.
 </description>
     </rule>
