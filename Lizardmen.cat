@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="5" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="6" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -56,6 +56,7 @@
             <selectionEntry id="428e-de39-b693-0ba6" name="Fourth Generation" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="65ed-0ad7-463b-d601" name="Fourth Generation" hidden="false" targetId="8a36-6b24-aada-3987" type="rule"/>
+                <infoLink id="7560-b338-2b30-4cab" name="Fifth Generation" hidden="false" targetId="83ad-a932-c23a-7bc9" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -66,6 +67,8 @@
             <selectionEntry id="8a9c-93be-97a0-a553" name="Third Generation" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="b679-7ec6-6304-e7d4" name="Third Generation" hidden="false" targetId="a819-9883-21a7-1448" type="rule"/>
+                <infoLink id="2049-e3c7-2f55-052b" name="Fifth Generation" hidden="false" targetId="83ad-a932-c23a-7bc9" type="rule"/>
+                <infoLink id="e4f6-81bf-716f-ceb1" name="Fourth Generation" hidden="false" targetId="8a36-6b24-aada-3987" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="14cc-55e8-6dbc-da55" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
@@ -79,6 +82,9 @@
             <selectionEntry id="ef98-a1b8-8c22-f031" name="Second Generation" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="7b82-af01-699c-163b" name="Second Generation" hidden="false" targetId="4df7-f4d8-ca3e-d30c" type="rule"/>
+                <infoLink id="d4b1-313c-b07e-d55c" name="Third Generation" hidden="false" targetId="a819-9883-21a7-1448" type="rule"/>
+                <infoLink id="5061-1030-0783-e078" name="Fourth Generation" hidden="false" targetId="8a36-6b24-aada-3987" type="rule"/>
+                <infoLink id="9a92-9130-9fa7-4941" name="Fifth Generation" hidden="false" targetId="83ad-a932-c23a-7bc9" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="5fa1-f404-85f6-8c10" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
@@ -92,7 +98,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fd85-2603-9f24-94c2" name="Magic Items" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fd85-2603-9f24-94c2" name="Magic Items" page="" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74e2-6941-ea2e-405d" type="max"/>
           </constraints>
@@ -102,6 +108,11 @@
             <entryLink id="ee6c-ad79-f907-8a07" name="Talisman" hidden="false" collective="false" import="true" targetId="bf9b-10c2-4821-9fee" type="selectionEntryGroup"/>
             <entryLink id="994d-8a68-1123-dd6d" name="Plaques" hidden="false" collective="false" import="true" targetId="6150-3dae-687d-6461" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3883-77ed-06c3-74a0" name="Spells" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="02f3-6661-3e9f-6be0" name="Drain Magic" hidden="false" targetId="1d5e-afeb-df27-29dd" type="rule"/>
+          </infoLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -1457,6 +1468,254 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dcb-749a-4870-ff2f" name="Venerable Lord Kroak" publicationId="3a49-dd2e-fcaa-cdb1" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89e0-c562-dc59-00b4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e46e-ad44-00c6-c458" name="Venerable Lord Kroak" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">1</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">8</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">0</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="2421-fc26-9048-a073" name="Magic Items" hidden="false">
+          <profiles>
+            <profile id="65c8-de91-a523-6104" name="Amulet of Itza" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Magic Resistance (2). In addition, the Amulet of Itza adds one dice to both the Power dice and the Dispel dice pool of Loard Kroak&apos;s side.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b339-dcc0-a14d-f160" name="Ceremonial Mace of Malachite" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Magical weapons count only as hand weapons against him.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="befe-cb55-5d30-b590" name="Golden Death Mask" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Any shooting at Kroak suffers -1 to hit, and in close combat any attacks directed at him suffer -1 to hit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="282e-3d7e-68e9-0d40" name="Standard of the Sacred Serpent &amp; the Glyph of Potec" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Each enemy model that is touching Lord Kroak takes an automatic Strength 3 hit at the start of each player&apos;s Shooting phase. This may cause panic. Against Daemonic creatures and Ethereal creatures, this is increased to Strength 5.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="a2a6-2e81-819b-71ba" name="Spells" hidden="false">
+          <rules>
+            <rule id="3809-ae3d-bc24-61ba" name="The Ruination of Cities" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false">
+              <description>Cast on a 14+
+
+Nominate a point on the table where you wish the spell to be focused. Roll a Scatter dice and an Artillery dice, and place a marker there - that is where the spell is centred. On the roll of a Misfire, the spell does not work.
+
+Roll 2D6 to see how far the tremors spread in inches. Any unit within this radius suffers 2D6 Strength 5 hits. In addition, any unit that suffers any wounds may only move at half rate in its next Movement phase. Models that fly are completely unaffected by this spell, neither taking wounds nor being affected by restricted movement.
+
+If there is a building or wall section directly underneath the place where this spell is centred then it automatically collapses and is destroyed. Models may take furthe damage from this destruction, as described in the Sieg rules, or on page 130 of the Warhammer rulebook.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="aa10-bced-6f01-2885" name="Drain Magic" hidden="false" targetId="1d5e-afeb-df27-29dd" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="9419-c216-550a-1ca8" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="39e1-129b-649c-7496" name="Shield of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false">
+              <description>Lord Kroak&apos;s Shield of the Old Ones gives him a 2+ Ward save, which is reduced to a 3+ Ward save in close combat.</description>
+            </rule>
+            <rule id="17d7-aa9b-eab0-f590" name="The Spirit of Venerable Lord Kroak" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false">
+              <description>- Venerable Lord Kroak has a more powerful version of telepathy than other Slann Mage-Priests. His powerful spirit is capable of entering the bodies of those who open themselves up to him and can use them as mediums through which he can cast spells.
+
+  Kroak can use Slann Mage-Priest telepathy as normal. If he wishes, however, he may instead choose to cast the spell through a friendly wizard, resolving all the effects as if Lord Kroak himself was in the position of the medium. Choose any friendly Skink Priest or Slann Mage-Priest on the table to project his spirit into. Lord Kroak cannot use the host&apos;s spells, only his own. He may project himself into any number of models in the one Magic phase.
+
+  If he suffers a Miscast when casting through a medium, Lord Kroak&apos;s spirit is blasted from its host, and he cannot cast any more spells through that model that Magic phase. The spell automatically fails, though no roll on the Miscast table is taken.
+
+- If the spirit of Loard Kroak used a Skink Priest to cast spells in the Magic phase, then at the end of that Magic phase the player must take a Leadership test for each Skink that Kroak cast spells through. If this is failed, then the Skink Priest swoons under the power and cannot move in his next Movement phase. If it is engaged in combat it cannot fight and will be hit automatically. This lasts until the start of the next Lizardmen Magic phase.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a5a8-93dc-5739-8edf" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
+            <infoLink id="9cfe-ee5a-5bb5-845c" name="Palanquin" hidden="false" targetId="1be8-a4e9-32f6-2589" type="rule"/>
+            <infoLink id="44cb-d0f8-556c-cf29" name="Telepathy" hidden="false" targetId="dd42-cff3-0fac-96c6" type="rule"/>
+            <infoLink id="4cb7-b43f-4c79-a76f" name="Large Target" hidden="false" targetId="25b1-e384-bfcb-beed" type="rule"/>
+            <infoLink id="3faf-20ce-7c9c-7a21" name="Unit Strength 5" hidden="false" targetId="6b65-6cb5-58ae-dfe3" type="rule"/>
+            <infoLink id="5c81-e66f-bcc9-01ee" name="Wisdom of the Old Ones" hidden="false" targetId="6835-fbc3-f800-cce2" type="rule"/>
+            <infoLink id="c409-d045-3f5c-4b3c" name="Contemplation" hidden="false" targetId="cf3f-0615-c6d3-10a7" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="73be-a362-8501-ca30" name="Slann" hidden="false" targetId="5c12-eebd-de21-0b3d" primary="false"/>
+        <categoryLink id="4c3d-02a1-a1fb-58db" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+        <categoryLink id="a488-34b9-8cda-9e50" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="2c91-d357-ac47-4c10" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="3a96-b8a2-6496-10f9" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="03d1-5550-53be-a0e7" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b03b-9143-4bb3-b482" name="Wizard Level 4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7749-3b4f-fa8d-68f4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d489-56c6-7a27-0450" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="af7c-a3aa-7ce5-4627" name="Generation" hidden="false" collective="false" import="true" defaultSelectionEntryId="c54c-ac6d-a9df-3bcc">
+          <selectionEntries>
+            <selectionEntry id="c54c-ac6d-a9df-3bcc" name="First Generation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b1-073b-a54f-8b74" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed9-9ed6-b3d1-3330" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="fbd3-56c6-dc42-b8ff" name="First Generation" publicationId="3a49-dd2e-fcaa-cdb1" page="67" hidden="false">
+                  <description>Lord Kroak has all the abilities of a Second Generation Slann with the following additions:
+
+- Lord Kroak knows six spells. In addition to these, he also knows &apos;Drain Magic&apos; and &apos;The Ruination of Cities&apos;
+- Lord Kroak adds +2 to all attempts to cast and dispel spells rather than +1
+- If Lord Kroak is killed in battle, his opponent will gain +200 Victory Points and the best result the Lizardmen player can achieve is a draw - even if he has more Victory Points than his enemy, the game will end as a draw.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="36eb-9686-f932-1645" name="Second Generation" hidden="false" targetId="4df7-f4d8-ca3e-d30c" type="rule"/>
+                <infoLink id="b0a9-85a6-cf8f-8130" name="Third Generation" hidden="false" targetId="a819-9883-21a7-1448" type="rule"/>
+                <infoLink id="dbeb-6f9a-19fb-23a5" name="Fourth Generation" hidden="false" targetId="8a36-6b24-aada-3987" type="rule"/>
+                <infoLink id="2a8e-81a9-e6ec-d1e4" name="Fifth Generation" hidden="false" targetId="83ad-a932-c23a-7bc9" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="a864-f4fa-4e38-73f2" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+                <categoryLink id="ce9b-287f-f8a9-13f2" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="03a2-9393-8262-c42f" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06a5-d1d6-692f-de8e" name="Ancient Scar-Leader Kroq-Gar" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08de-bfec-e82e-cdd5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f363-beda-4b0b-e07c" name="Kroq-Gar" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29df-ea24-a77d-eadc" name="Grymloq" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="91c0-1f19-d850-9806" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="daef-e913-8b74-7f25" name="Blessed Spawning of Xhotl" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false">
+              <description>Kroq-Gar has a 5+ Ward save.
+
+If Kroq-Gar is wounded in close combat and does not pass his Ward save, then whoever struck the blow immediately suffers an automatic Strength 5 hit.</description>
+            </rule>
+            <rule id="e364-66e8-d214-e022" name="Army of Kroq-Gar" hidden="false">
+              <description>Kroq-Gar will always be the army General, even if there is a model with higher Leadership in the army. Any army led by Kroq-Gar may take Saurus Cavalry as Core unit chocies, and the army must include at least one unit of Saurus Cavalry. In addition, Saurus Warrior count as Special Unit chocies. If they have Blessed Spawning, then they become a rare unit. They cannot have two Blessed Spawnings.</description>
+            </rule>
+            <rule id="8fe4-ac91-ab1a-70d5" name="Attuned to the Beast" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false">
+              <description>Kroq-Gar&apos;s Carnosaur steed does not suffer from Blood-Frenzy due to Kroq-Gar&apos;s strong control (note however, that Grymloq has an higher Attack value than other Carnosaurs). If the Carnosaur is slain, Kroq-Gar becomes frenzied. If Kroq-Gar is slain then the Carnosaus is assumed to automatically pass its Monster Reaction test, and it becomes immediately frenzied. In addition, Grymloq will never lose his frenzy.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="b2cb-68c0-3389-f83a" name="Blesssed Spawning of Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="a8cf-7f23-1f46-d923" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+            <infoLink id="f1b3-4af8-cf12-3731" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
+            <infoLink id="fe7c-9c3e-1ff4-8644" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="6371-b034-2b9c-2348" name="Magic Items" hidden="false">
+          <profiles>
+            <profile id="1e4f-9316-1ee9-ed90" name="Revered Spear of Tlanxla" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Revered Spear of Tlanxla gives Kroq-Gar +1 Strength on the turn he charges.
+
+Any unit that suffers wounds from the Revered Blade of Tlanxla must take a Leadership test at the end of the combat. This Leadership test is taken before combat resolution is calculated. If the test is failed, the unit counts as automatically losing the combat and failing its Break test. Kroq-Gar may elect to pursue or restrain pursuit as normal. If Kroq-Gar caused wounds on more than one unit, each must take a separate Leadership test; units which fail this test are not counted towards outnumbering when calculating combat resolution and any other Break tests, which are otherwise resolved as normal.
+
+Against units that are Immune to Psychology, the weapon simply counts as a magical spear.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="20c1-cdfa-37c6-c3c8" name="Hand of Gods" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">In the Shooting phase, Kroq-Gar may direct the energy from the Hand of Gods at any targets he can see, following all the normal restrictions for targeting.
+
+The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line of sight and range. Any unit struck suffers D6 Strength 4 hits with no Armour saves allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="a95a-54cd-6069-0f90" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="9ede-b6b3-8690-2a23" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="ace7-a1a9-0592-c7f7" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="ba78-8c64-371e-a825" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b641-be68-a9be-072d" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="9eab-8416-d040-fb46">
+          <entryLinks>
+            <entryLink id="9eab-8416-d040-fb46" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0bb-05c4-f70d-d523" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2452-2561-bf22-70bc" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="859a-ac18-878a-600b" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b6-9abc-f055-3cbc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfa-a899-9d52-32d2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="573.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3019,16 +3278,16 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
     <rule id="49d9-40fc-b608-87a2" name="Blesssed Spawning of Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Aquatic, +1 Initiative</description>
     </rule>
-    <rule id="1c8b-3c91-c79e-853e" name="Blesssed Spawning Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="1c8b-3c91-c79e-853e" name="Blesssed Spawning of Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Scaly Skin save increased +1.</description>
     </rule>
-    <rule id="d93f-c967-c856-d295" name="Blesssed Spawning Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="d93f-c967-c856-d295" name="Blesssed Spawning of Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>When the unit/character charges, they get +1 Attack for that round of combat.</description>
     </rule>
-    <rule id="4fda-2623-4a50-2dee" name="Blesssed Spawning Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="4fda-2623-4a50-2dee" name="Blesssed Spawning of Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>The presence of the unit or the character on the battlefield adds one dice to the player&apos;s dispel dice pool</description>
     </rule>
-    <rule id="4995-80be-43e2-c907" name="Blesssed Spawning Tlazcotl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="4995-80be-43e2-c907" name="Blesssed Spawning of Tlazcotl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Immune to Psychology (Carnosaur will still be subject to Blood-Frenzy, Cold One will still be subject to Stupidity).</description>
     </rule>
     <rule id="2d3d-6ad5-90d3-3b84" name="Blood-frenzy" publicationId="3a49-dd2e-fcaa-cdb1" page="32" hidden="false">
@@ -3212,9 +3471,20 @@ You cannot have the same spell from the same list more than once per Wizard as n
     <rule id="6b65-6cb5-58ae-dfe3" name="Unit Strength 5" hidden="false">
       <description>The model has a unit strength of 5</description>
     </rule>
+    <rule id="1d5e-afeb-df27-29dd" name="Drain Magic" publicationId="3a49-dd2e-fcaa-cdb1" page="49" hidden="false">
+      <description>This spell can be cast at three different levels. Choose a level before you attempt to cast the spell = the casting value varies accordingly.
+
+Level 1. Casting Value: 5+. Dice Rolls Discarded: 6&apos;s.
+Level 2. Casting Value: 7+. Dice Rolls Discarded: 5&apos;s &amp; 6&apos;s.
+Level 3. Casting Value: 9+. Dice Rolls Discarded: 4&apos;s &amp; 5&apos;s &amp; 6&apos;s.
+
+Whichever level you choose, the spell may be cast on a single enemy Wizard within 24&quot; of the caster and may be cast into close combat. If successful, the victim&apos;s spells will be weaker. Whenever the victim rolls to cast a spell, discard any rolls of a 4 or more, 5 or more or 6 (depending on the level of the spell) before calculating then total result of the roll. Note that as the dice are discarded, any Irresistible Force results are ignored.
+
+The spell lasts until the start of the caster&apos;s next Magic phase.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5943-700c-955c-d22d" name="Slan Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="5943-700c-955c-d22d" name="Slann Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
