@@ -125,6 +125,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="325.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c243-9509-ac23-a5a0" name="Saurus Oldblood" hidden="false" collective="false" import="true" type="unit">
@@ -1559,10 +1561,10 @@ If there is a building or wall section directly underneath the place where this 
       <categoryLinks>
         <categoryLink id="73be-a362-8501-ca30" name="Slann" hidden="false" targetId="5c12-eebd-de21-0b3d" primary="false"/>
         <categoryLink id="4c3d-02a1-a1fb-58db" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
-        <categoryLink id="a488-34b9-8cda-9e50" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="a488-34b9-8cda-9e50" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
         <categoryLink id="2c91-d357-ac47-4c10" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
         <categoryLink id="3a96-b8a2-6496-10f9" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="03d1-5550-53be-a0e7" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+        <categoryLink id="03d1-5550-53be-a0e7" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b03b-9143-4bb3-b482" name="Wizard Level 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -1572,6 +1574,8 @@ If there is a building or wall section directly underneath the place where this 
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1602,6 +1606,11 @@ If there is a building or wall section directly underneath the place where this 
                 <categoryLink id="a864-f4fa-4e38-73f2" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
                 <categoryLink id="ce9b-287f-f8a9-13f2" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1611,6 +1620,8 @@ If there is a building or wall section directly underneath the place where this 
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1225.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06a5-d1d6-692f-de8e" name="Ancient Scar-Leader Kroq-Gar" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false" collective="false" import="true" type="unit">
@@ -1690,9 +1701,9 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
       </infoGroups>
       <categoryLinks>
         <categoryLink id="a95a-54cd-6069-0f90" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="9ede-b6b3-8690-2a23" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="9ede-b6b3-8690-2a23" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
         <categoryLink id="ace7-a1a9-0592-c7f7" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-        <categoryLink id="ba78-8c64-371e-a825" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+        <categoryLink id="ba78-8c64-371e-a825" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b641-be68-a9be-072d" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="9eab-8416-d040-fb46">
@@ -1716,6 +1727,8 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="573.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
