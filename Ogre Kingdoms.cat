@@ -510,6 +510,8 @@
         <selectionEntry id="4144-61b6-c09c-7cc8" name="Brace of Hanguns" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -570,6 +572,8 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="200.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -799,6 +803,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54ba-f80e-6e83-19ea" name="Wallcrusher" hidden="false" collective="false" import="true" type="upgrade">
@@ -810,6 +816,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1697-55ab-4cf3-062e" name="Mawseeker" hidden="false" collective="false" import="true" type="upgrade">
@@ -818,6 +826,8 @@
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53e4-9008-0364-d4f7" name="Thundermace" hidden="false" collective="false" import="true" type="upgrade">
@@ -830,6 +840,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b174-0c70-6a08-43e8" name="Cathayan Longsword" hidden="false" collective="false" import="true" type="upgrade">
@@ -839,6 +851,11 @@
       <infoLinks>
         <infoLink id="4819-2c41-1a72-d6e4" name="Cathyan longsword" hidden="false" targetId="3dd8-2245-c51a-b557" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="02c0-d227-1ebd-f328" name="Brace of Hanguns" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -849,6 +866,124 @@
         <infoLink id="242c-6ef6-7bb3-d70b" name="Brace Of Pistols" hidden="false" targetId="e5ce-0262-e817-adc2" type="rule"/>
         <infoLink id="2bfb-d2c0-b0b7-7591" name="Brace of Hanguns" hidden="false" targetId="dabb-f57d-d4eb-a892" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="285e-d264-6dc1-cb91" name="Tenderiser" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617b-a7ff-2c64-688d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e3df-11b5-5f7d-60a2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4c44-94e1-de5f-0ca8" name="Tenderiser" hidden="false" targetId="ddb5-786a-48c6-43bc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="904a-d1ae-4f88-1df9" name="Siegebreaker" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f96-d441-0d71-f549" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6f0-c823-3ce8-fd16" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="de2a-8eda-a2e8-8583" name="Siegebreaker" hidden="false" targetId="200e-15e6-a46a-92f6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca32-385c-0123-b55f" name="Skullplucker" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b0-0677-2fae-3553" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6e02-70df-6825-13ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5a1a-9f91-d953-3c46" name="Skullplucker" hidden="false" targetId="8468-11d2-59c8-380e" type="rule"/>
+        <infoLink id="443c-ab17-fd93-e54c" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2910-c16c-b347-c1aa" name="Bloodcleaver" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a35-299b-8ba6-0ff1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69d2-bddf-bf1c-3e39" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7039-6a3a-4f07-0056" name="Bloodcleaver" hidden="false" targetId="e081-eeb6-3773-604b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b377-3e2a-a7d1-3c74" name="Mastodon Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5658-e56f-02ab-c902" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2bf3-9f78-442a-1871" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2477-912b-62b6-f6c3" name="Mastadon Armour" hidden="false" targetId="608a-310b-f48a-cb92" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fb2-cfc9-ab70-880b" name="Greatskull" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c1e-b3e4-61dd-457c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87d1-b840-7849-52fd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fad8-2ddd-8354-9a95" name="Greatskull" hidden="false" targetId="64ab-e70c-e892-4243" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9ae-98ee-35aa-b7a6" name="Bull gut" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a215-bf43-77d2-1e06" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9480-4f95-0ee0-7b79" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4b9c-9dd9-52fc-90b6" name="Bullgut" hidden="false" targetId="68b0-8a0a-ea46-47a1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd0c-62cc-a4ae-8a1b" name="Gut Maw" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66cb-a44f-ee91-f530" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eace-ff88-de3c-a8a2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a178-dc26-d09a-d22c" name="Gut Maw" hidden="false" targetId="18bf-cfe9-5af1-69e3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -894,6 +1029,31 @@
       </constraints>
       <entryLinks>
         <entryLink id="88e9-b2ca-8c45-72a6" name="Thundermace" hidden="false" collective="false" import="true" targetId="53e4-9008-0364-d4f7" type="selectionEntry"/>
+        <entryLink id="63e5-0125-593e-0cac" name="Tenderiser" hidden="false" collective="false" import="true" targetId="285e-d264-6dc1-cb91" type="selectionEntry"/>
+        <entryLink id="a488-21c4-3c1b-d329" name="Skullplucker" hidden="false" collective="false" import="true" targetId="ca32-385c-0123-b55f" type="selectionEntry"/>
+        <entryLink id="5ade-fbf2-29ce-1f02" name="Siegebreaker" hidden="false" collective="false" import="true" targetId="904a-d1ae-4f88-1df9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ccd0-c3c7-6cae-b491" name="Magic Weapons Butcher" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9b-3261-d6de-c4d2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8709-090a-e04a-f448" name="Thundermace" hidden="false" collective="false" import="true" targetId="53e4-9008-0364-d4f7" type="selectionEntry"/>
+        <entryLink id="31b6-0d60-1a9f-e9d9" name="Tenderiser" hidden="false" collective="false" import="true" targetId="285e-d264-6dc1-cb91" type="selectionEntry"/>
+        <entryLink id="f2af-9db0-03ad-1bfe" name="Skullplucker" hidden="false" collective="false" import="true" targetId="ca32-385c-0123-b55f" type="selectionEntry"/>
+        <entryLink id="d5a7-e9a3-cbbb-31b6" name="Siegebreaker" hidden="false" collective="false" import="true" targetId="904a-d1ae-4f88-1df9" type="selectionEntry"/>
+        <entryLink id="e0b9-9df5-7fcc-1811" name="Bloodcleaver" hidden="false" collective="false" import="true" targetId="2910-c16c-b347-c1aa" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d4da-5457-3aef-10e1" name="Magic Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcef-fc24-9a8f-266d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e105-85a5-04d5-0f66" name="Mastodon Armour" hidden="false" collective="false" import="true" targetId="b377-3e2a-a7d1-3c74" type="selectionEntry"/>
+        <entryLink id="836f-82d4-fe10-dd58" name="Greatskull" hidden="false" collective="false" import="true" targetId="9fb2-cfc9-ab70-880b" type="selectionEntry"/>
+        <entryLink id="1de6-e1ae-ede5-a6a4" name="Bull gut" hidden="false" collective="false" import="true" targetId="e9ae-98ee-35aa-b7a6" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -985,6 +1145,31 @@ Immune to psycology. When wounding a Large target each wound counts as double un
     </rule>
     <rule id="9286-d0e3-4289-8900" name="Brace of Hanguns" publicationId="49a5-e8f7-aa09-ad96" page="39" hidden="false">
       <description>On the first turn they are fired add D6&quot; to the range. In all other respects other than the profile these are treated as a brace of pistols</description>
+    </rule>
+    <rule id="ddb5-786a-48c6-43bc" name="Tenderiser" hidden="false">
+      <description>The Tenderiser is a two handed weapon that follows the rules for great weapons. Any model wounded by the tenderiser takes not 1 but D3 wounds.</description>
+    </rule>
+    <rule id="200e-15e6-a46a-92f6" name="Siegebreaker" hidden="false">
+      <description>The Tenderiser is a two handed weapon that follows the rules for great weapons, but adds +3 Str instead of +2. When rolling to hit compare the Ogres WS to the opponents Iniative. Targets without Iniative are automatically hit and take D6 wounds instead of 1.</description>
+    </rule>
+    <rule id="8468-11d2-59c8-380e" name="Skullplucker" hidden="false">
+      <description>Ogre has killing blow with this weapon.</description>
+    </rule>
+    <rule id="e081-eeb6-3773-604b" name="Bloodcleaver" hidden="false">
+      <description>Butchers Only
+Everytime the butcher causes one unsaved wound he gains 1 wound if he lost any earlier.</description>
+    </rule>
+    <rule id="608a-310b-f48a-cb92" name="Mastadon Armour" hidden="false">
+      <description>Counts as Heavy Armour 5+ sv. If the model is killed by any action other than close combat roll a D6, on a 2+ the ogre is returned to life with 1 wound at teh end of the phase.</description>
+    </rule>
+    <rule id="64ab-e70c-e892-4243" name="Greatskull" publicationId="49a5-e8f7-aa09-ad96" page="63" hidden="false">
+      <description>Gives a 6+ Armour save that can be combined with any armour. Additionally any spellcaster that targets the bearer or the unit he is with miscasts on a double &apos;3&apos;, double &apos;2&apos; as well as double &apos;1&apos;</description>
+    </rule>
+    <rule id="68b0-8a0a-ea46-47a1" name="Bullgut" hidden="false">
+      <description>The Bullgut confers a 6+ Save that can be combined with any armour. On the turn the bearer charges his strength is 6 and any impact hits are considered to be armour piercing.</description>
+    </rule>
+    <rule id="18bf-cfe9-5af1-69e3" name="Gut Maw" hidden="false">
+      <description>The Bullgut confers a 6+ Save that can be combined with any armour.If the bearer kills an opponent in a challenge he may restore a number of wounds equal to the slain victioms original starting wounds. If the bearer is already at full wounds he may add 1 wound to his original starting wound tally.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

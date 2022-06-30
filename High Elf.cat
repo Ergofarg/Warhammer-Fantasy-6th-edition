@@ -2314,7 +2314,8 @@
     </selectionEntry>
     <selectionEntry id="ccdc-f2fe-7d5e-fde7" name="First Among Equals" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a798-c0ea-e289-ab77" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a798-c0ea-e289-ab77" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c4-324b-dca6-a3d7" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2512,6 +2513,34 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34f1-8edb-fe06-c0eb" name="Ring of Corin" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb14-cf74-4a4c-0060" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951e-9c4e-f956-9505" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e1db-594d-56f6-a90e" name="Ring of Corin" hidden="false" targetId="17d5-4034-9b58-71ab" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="730a-cb54-2425-535b" name="Ring of Fury" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e0-7611-3375-2930" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e31-93b2-e354-a0c1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8556-2f3b-2dcc-9c9e" name="Ring of Fury" hidden="false" targetId="40fd-1756-00eb-04a0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2957,34 +2986,6 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="428c-6813-48da-fb72" name="Ring of Corin" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e5-c6af-6923-3d94" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b965-e4b6-72a4-0741" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c14a-9e42-efc6-006e" name="Ring of Corin" hidden="false" targetId="17d5-4034-9b58-71ab" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ba65-762e-a7c6-c498" name="Ring of Fury" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d0-8d12-7ee3-9ac5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-2a3c-2e82-ca7a" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0b62-9aa1-28c5-1f04" name="Ring of Fury" hidden="false" targetId="40fd-1756-00eb-04a0" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b6a2-8de0-db86-9575" name="Blessed Tome" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc57-ae2e-d67a-54bb" type="max"/>
@@ -3016,6 +3017,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="4325-e918-e473-fe31" name="Radiant Gem of Hoeth" hidden="false" collective="false" import="true" targetId="11a3-971a-d756-8581" type="selectionEntry"/>
+        <entryLink id="bee6-a78c-a507-9526" name="Ring of Corin" hidden="false" collective="false" import="true" targetId="34f1-8edb-fe06-c0eb" type="selectionEntry"/>
+        <entryLink id="3438-a3ed-d7cf-27eb" name="Ring of Fury" hidden="false" collective="false" import="true" targetId="730a-cb54-2425-535b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c1c3-239d-926d-d504" name="Magic Banners" hidden="false" collective="false" import="true">
