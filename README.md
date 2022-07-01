@@ -11,7 +11,7 @@ Warhammer Fantasy Battle 6th edition Battlescribe files, just like it says
 
 ## Facebook Group
 
-We have a Facebook group for WHFB 6th edition, where we chat about our recent games, ask rules questions, and share our latest painted models. We even have members of the group who worked on writing the edition's rules! If you are interested in joining, click [here|https://www.facebook.com/groups/wfb6th/].
+We have a Facebook group for WHFB 6th edition, where we chat about our recent games, ask rules questions, and share our latest painted models. We even have members of the group who worked on writing the edition's rules! If you are interested in joining, click [here](https://www.facebook.com/groups/wfb6th/).
 
 If you are interested in collaborating, join the Facebook group and ask to be added to our Messenger group chat. We coordinate what we're working on through the chat.
 
