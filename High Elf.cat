@@ -1648,6 +1648,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e197-1b21-c754-8329" name="Shadow Walker" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7719-e6c4-269d-258d" type="max"/>
+          </constraints>
           <profiles>
             <profile id="b804-3ab5-c7c1-e7ce" name="Shadow Walker" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
