@@ -11,150 +11,6 @@
     <categoryEntry id="5e83-d646-097c-dbee" name="Savage Boyz" hidden="false"/>
     <categoryEntry id="39c9-363a-dd54-8a84" name="Savage boar Boyz" hidden="false"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="91d5-8f4b-22fa-9def" name="Night Goblin Horde wip" hidden="false">
-      <categoryLinks>
-        <categoryLink id="d165-75af-18f2-ec9d" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="increment" field="46de-2dc4-8c90-75f2" value="1.0">
-                  <repeats>
-                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="46de-2dc4-8c90-75f2" value="0.0">
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46de-2dc4-8c90-75f2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a75c-65ab-ae66-321a" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-        <categoryLink id="9f9f-1ead-6548-9ee2" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false">
-          <modifiers>
-            <modifier type="increment" field="9a06-ecd7-c743-1421" value="1.0">
-              <repeats>
-                <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="parent" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a06-ecd7-c743-1421" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3c53-7b76-9d24-cf09" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false">
-          <modifiers>
-            <modifier type="set" field="e25b-9930-0220-fec2" value="3.0">
-              <conditions>
-                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="increment" field="e25b-9930-0220-fec2" value="1.0">
-                  <repeats>
-                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="e25b-9930-0220-fec2" value="4.0">
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-9930-0220-fec2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="102e-c11c-b7b1-ceab" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false">
-          <modifiers>
-            <modifier type="set" field="be8d-b475-fb36-6b4e" value="1.0">
-              <conditions>
-                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="increment" field="be8d-b475-fb36-6b4e" value="1.0">
-                  <repeats>
-                    <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="be8d-b475-fb36-6b4e" value="2.0">
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8d-b475-fb36-6b4e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f0a3-8e46-1986-ac55" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false">
-          <modifiers>
-            <modifier type="set" field="65b4-8660-9299-5891" value="3.0">
-              <conditions>
-                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="65b4-8660-9299-5891" value="4.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
-                    <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="65b4-8660-9299-5891" value="0.0">
-              <conditions>
-                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="65b4-8660-9299-5891" value="2.0">
-              <repeats>
-                <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65b4-8660-9299-5891" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ad39-ceb4-ef14-a69f" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <selectionEntries>
     <selectionEntry id="ed65-df1a-50a2-c3ac" name="Night Goblin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -4275,6 +4131,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="1c07-77ef-9d02-6d02" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
