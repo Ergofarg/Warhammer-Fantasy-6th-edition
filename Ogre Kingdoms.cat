@@ -516,7 +516,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <entryLink id="4a52-bad1-903c-cd59" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="e826-8d77-2f41-9ee4" type="selectionEntryGroup"/>
             <entryLink id="8c6d-281c-cfac-5a44" name="Magic Armour" hidden="false" collective="false" import="true" targetId="d4da-5457-3aef-10e1" type="selectionEntryGroup"/>
             <entryLink id="d9ee-269f-099c-9ba5" name="Talismans" hidden="false" collective="false" import="true" targetId="66af-5014-80e6-063d" type="selectionEntryGroup"/>
-            <entryLink id="82e6-7cb2-8998-4c5d" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="9702-7a5b-b1a8-fc37" type="selectionEntryGroup"/>
+            <entryLink id="82e6-7cb2-8998-4c5d" name="Tyrant Enchanted Items" hidden="false" collective="false" import="true" targetId="3e69-6aa6-2534-ae93" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3668-9d1a-d2b4-acf2" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d1e-c4b7-03cf-fbd1">
@@ -692,7 +692,11 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="0f31-6a6b-8d43-9e9f" name="Tooth Gnoblar" hidden="false" collective="false" import="true" targetId="76ae-6ff0-fa70-3d21" type="selectionEntry"/>
+        <entryLink id="0f31-6a6b-8d43-9e9f" name="Tooth Gnoblar" hidden="false" collective="false" import="true" targetId="76ae-6ff0-fa70-3d21" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f820-0cfe-c7db-27ea" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="200.0"/>
@@ -868,7 +872,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <entryLink id="f552-7435-2f84-b59e" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="e826-8d77-2f41-9ee4" type="selectionEntryGroup"/>
             <entryLink id="555a-8821-ed80-af72" name="Magic Armour" hidden="false" collective="false" import="true" targetId="d4da-5457-3aef-10e1" type="selectionEntryGroup"/>
             <entryLink id="2c13-f630-0a75-75e5" name="Talismans" hidden="false" collective="false" import="true" targetId="66af-5014-80e6-063d" type="selectionEntryGroup"/>
-            <entryLink id="ef84-f736-9694-8685" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="9702-7a5b-b1a8-fc37" type="selectionEntryGroup"/>
+            <entryLink id="ef84-f736-9694-8685" name="Hunter Enchanted Items" hidden="false" collective="false" import="true" targetId="2b20-aee9-60cc-70c8" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -911,6 +915,11 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <modifier type="set" field="hidden" value="false">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1bc-3ae3-2a5e-fdb3" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="52e8-0a55-da2a-b3f4" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a1bc-3ae3-2a5e-fdb3" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -959,6 +968,9 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c934-7c5d-d8eb-a57b" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -984,6 +996,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <infoLink id="687a-8168-5c94-cab9" name="Ogre Bull" hidden="false" targetId="0827-0dad-f5b2-fea5" type="profile"/>
         <infoLink id="28a8-97b4-3f57-10c8" name="Bull Charge" hidden="false" targetId="8953-90f3-edab-81fe" type="rule"/>
         <infoLink id="faec-9428-49e9-556c" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="cf29-70b0-d1e6-e127" name="Leadbelcher" hidden="false" targetId="9aa0-6c50-cbee-b6c9" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="384e-83d9-4e60-9874" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -1159,7 +1172,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cb4e-2a8f-5734-138e" name="Armour" hidden="true" collective="false" import="true" defaultSelectionEntryId="767d-78b8-1414-5e9e">
+        <selectionEntryGroup id="cb4e-2a8f-5734-138e" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="767d-78b8-1414-5e9e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74bf-ad8f-c413-1c0f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507f-f17f-34ae-8a3c" type="max"/>
@@ -1174,6 +1187,14 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="34b6-e085-4acd-eabe" name="Ogre Club" hidden="false" collective="false" import="true" targetId="8768-377c-88da-c3e8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2395-af1c-9691-b8d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c0-91a3-6044-4d8b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -1194,6 +1215,8 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e33-e510-ba45-933e" name="Rhinox Riders" hidden="false" collective="false" import="true" type="unit">
@@ -1211,6 +1234,8 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
       <infoLinks>
         <infoLink id="da43-c3c3-7f2b-40d4" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="c97f-b0bf-be45-285e" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="2806-ff4c-81a4-cc84" name="Rhinox Rider" hidden="false" targetId="e868-1f08-db42-915f" type="profile"/>
+        <infoLink id="1af2-2d9d-e66f-4d7b" name="Bull Rhinox" hidden="false" targetId="8197-786d-1090-3484" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7a46-8a4a-a23c-cc91" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -1222,18 +1247,33 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b38-fce2-6218-99da" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415e-73ce-512b-c125" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="145.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b063-7524-1f0b-2d77" name="Armour Save 4+" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f623-bd6a-d221-c12b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102e-1eca-b27e-9e68" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1144-a148-9169-de83" name="Unit Strength 6" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="291f-fb8d-7cc2-71f5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e88-f0be-9dee-a76a" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f488-4979-e6f8-0af6" name="Thunderlord" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
@@ -1241,6 +1281,8 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e31-9aad-7f37-5adb" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -1249,6 +1291,8 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d4f1-fa43-27ab-5cfd" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1264,6 +1308,8 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="13f5-7c2a-95e7-2bde" name="Special Slot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1281,6 +1327,11 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           <categoryLinks>
             <categoryLink id="74de-c768-cabe-b417" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1324,6 +1375,11 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -1793,12 +1849,15 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb70-de9a-1138-7efc" name="Hellheart" hidden="false" collective="false" import="true" type="upgrade">
@@ -2127,11 +2186,34 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
       </constraints>
       <entryLinks>
         <entryLink id="374d-c935-a9fc-ec33" name="Brahmir statue" hidden="false" collective="false" import="true" targetId="7d92-ed72-5011-284f" type="selectionEntry"/>
-        <entryLink id="84d5-42f0-9676-ccb0" name="Daemon-killer scars" hidden="false" collective="false" import="true" targetId="70c3-9b84-503b-9bef" type="selectionEntry"/>
-        <entryLink id="ba4f-0063-f7b3-861a" name="Greyback pelt" hidden="false" collective="false" import="true" targetId="a8e1-e73a-6938-c91b" type="selectionEntry"/>
         <entryLink id="8ae3-8b36-4d4c-c377" name="Jade lion" hidden="false" collective="false" import="true" targetId="3bf6-fde9-7b6c-6f16" type="selectionEntry"/>
         <entryLink id="17b2-5dbf-2b41-dca9" name="Rock eye" hidden="false" collective="false" import="true" targetId="1356-8bf8-3474-9ebe" type="selectionEntry"/>
         <entryLink id="b21a-5f11-e37b-b64b" name="Fistful of laurels" hidden="false" collective="false" import="true" targetId="41e3-f7f0-434f-87b9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3e69-6aa6-2534-ae93" name="Tyrant Enchanted Items" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46c2-6cc4-9036-28e1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2270-e6dd-05c6-6532" name="Brahmir statue" hidden="false" collective="false" import="true" targetId="7d92-ed72-5011-284f" type="selectionEntry"/>
+        <entryLink id="9f54-8e46-e752-d3a6" name="Daemon-killer scars" hidden="false" collective="false" import="true" targetId="70c3-9b84-503b-9bef" type="selectionEntry"/>
+        <entryLink id="85e5-dd95-33e6-72d6" name="Greyback pelt" hidden="false" collective="false" import="true" targetId="a8e1-e73a-6938-c91b" type="selectionEntry"/>
+        <entryLink id="d8ed-2aad-f0dc-5654" name="Jade lion" hidden="false" collective="false" import="true" targetId="3bf6-fde9-7b6c-6f16" type="selectionEntry"/>
+        <entryLink id="990e-e32c-3692-f1a2" name="Rock eye" hidden="false" collective="false" import="true" targetId="1356-8bf8-3474-9ebe" type="selectionEntry"/>
+        <entryLink id="07e3-0e16-9206-e75e" name="Fistful of laurels" hidden="false" collective="false" import="true" targetId="41e3-f7f0-434f-87b9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2b20-aee9-60cc-70c8" name="Hunter Enchanted Items" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0327-e4f4-57a1-a6a4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="32e5-c557-079b-ff54" name="Brahmir statue" hidden="false" collective="false" import="true" targetId="7d92-ed72-5011-284f" type="selectionEntry"/>
+        <entryLink id="a427-0d6d-5848-3fd1" name="Greyback pelt" hidden="false" collective="false" import="true" targetId="a8e1-e73a-6938-c91b" type="selectionEntry"/>
+        <entryLink id="74a1-31f0-18b4-4362" name="Jade lion" hidden="false" collective="false" import="true" targetId="3bf6-fde9-7b6c-6f16" type="selectionEntry"/>
+        <entryLink id="60b6-bc4f-ec60-519e" name="Rock eye" hidden="false" collective="false" import="true" targetId="1356-8bf8-3474-9ebe" type="selectionEntry"/>
+        <entryLink id="29bf-ce60-85ac-00ff" name="Fistful of laurels" hidden="false" collective="false" import="true" targetId="41e3-f7f0-434f-87b9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -2698,6 +2780,19 @@ Thrown weapon</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9aa0-6c50-cbee-b6c9" name="Leadbelcher" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
       </characteristics>
     </profile>
