@@ -17,7 +17,7 @@ If you are interested in collaborating, join the Facebook group and ask to be ad
 
 ## Adding the Data to BattleScribe
 
-In all cases you will need the URL to latest `*.bsi` file generated on the [releases page](https://github.com/Ergofarg/Warhammer-Fantasy-6th-edition/releases)
+In all cases you will need the URL to the latest `*.bsi` file generated on the [releases page](https://github.com/Ergofarg/Warhammer-Fantasy-6th-edition/releases)
 
 ### Android
 
@@ -36,7 +36,7 @@ In all cases you will need the URL to latest `*.bsi` file generated on the [rele
 
 ### iOS
 
-Pictures from an iPad but should work the same on iPhone.
+These pictures are from an iPad but the process should work the same as on an iPhone.
 
 1. Open the BattleScribe app and press on the hamburger menu on the top right.
 <img src="https://user-images.githubusercontent.com/3664960/173357763-4bc1b140-7254-4175-b69e-ded4e50f4035.png" width="50%" height="50%"/>
