@@ -1,12 +1,152 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="7f75-34ad-60ac-f1fd" name="Great Eagles" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="169b-5191-8fc6-e8f8" name="Great Eagle" hidden="false" targetId="d63c-1ad8-79c3-9d2f" type="profile"/>
+        <infoLink id="2947-d2ad-4611-d294" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6921-29a6-f15b-66bb" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2a50-8628-baab-61c3" name="Powerful talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d543-94b7-4011-d409" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510d-b3bf-cfe7-99ac" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="182f-06c5-7ff9-546f" name="Treeman" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2724-af49-d627-c905" name="Treeman" hidden="false" targetId="16c4-6a72-cb36-b87a" type="profile"/>
+        <infoLink id="49b5-96f7-34ab-258c" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="5538-2672-9cf7-18ff" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="521f-2f65-351d-7a33" name="Scaly Skin 3+" hidden="false" targetId="494d-d57a-c1fa-b48e" type="rule"/>
+        <infoLink id="46d5-0f94-a327-fbd9" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+        <infoLink id="6ddd-891f-df88-871f" name="Stubborn" hidden="false" targetId="410a-0d06-9044-665e" type="rule"/>
+        <infoLink id="95db-6f4e-04f3-080c" name="Strangle-root Attack" hidden="false" targetId="42e7-34c6-310b-7c4f" type="rule"/>
+        <infoLink id="7719-b11b-1075-4bc2" name="Tree Singing" hidden="false" targetId="f62c-9df0-8eee-09a7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="142d-0502-ad7a-219f" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="4bef-a28f-d72e-fe2a" name="The Spirit Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e72-c332-8bb0-d679" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="89d0-6eec-9e53-4bf4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2415-4272-a171-d30c" name="The Spirit Sword" hidden="false" targetId="192b-fa50-9fc6-5226" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b215-4430-a420-cbdd" name="Daith’s Reaper" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdc-e332-661e-4769" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4545-25f4-b519-8052" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e769-626f-d08f-e628" name="Daith’s Reaper" hidden="false" targetId="0d73-a3e9-1a3a-d1a0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43be-d1e0-d554-0353" name="The Bow of Loren" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac90-9369-aabd-dcbd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="909a-cd42-3da7-c6fe" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2184-e5b4-c16e-69bf" name="Blades of Loec" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5973-b9d5-ff7b-c028" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1c-abc6-0085-4758" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0b50-9ae4-162a-4e8b" name="Blades of Loec" hidden="false" targetId="fc09-e87b-f11f-b02d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bbd-6d2a-fc32-7663" name="The Dawnspear" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e663-b110-c4dc-cd36" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c0c-18af-6000-f6c8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5e98-8445-2f37-bd47" name="The Dawnspear" hidden="false" targetId="0a32-d000-bdb9-4d5e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f602-82b5-2a2e-500b" name="The Spear of Twilight" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c432-3eb3-8f29-86c8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec4-48d5-3cc5-15de" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c4e9-ef46-2550-501f" name="The Spear of Twilight" hidden="false" targetId="3313-6964-0430-53b2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="902c-a1b0-69cb-e675" name="The Callach’s Claw" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c54b-632c-b506-21e1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b3-6425-1a37-44d4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e34b-b312-6064-69bc" name="The Callach’s Claw" hidden="false" targetId="7e15-513c-92a5-9915" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="052f-5a92-5e7c-307a" name="Arcane Items" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="f547-f4c3-b675-e2f1" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="92f3-82d8-558e-55e1" name="Magic Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e4f-2bd5-654c-c7ae" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5972-ce79-05ac-a3db" name="The Spirit Sword" hidden="false" collective="false" import="true" targetId="4bef-a28f-d72e-fe2a" type="selectionEntry"/>
+        <entryLink id="033e-23e4-c0b6-2550" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry"/>
+        <entryLink id="6859-75e8-30fc-7c31" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry"/>
+        <entryLink id="484d-8e59-1c03-57dc" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry"/>
+        <entryLink id="45fe-80d9-445f-fee5" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry"/>
+        <entryLink id="ea95-0827-c129-a97e" name="Daith’s Reaper" hidden="false" collective="false" import="true" targetId="b215-4430-a420-cbdd" type="selectionEntry"/>
+        <entryLink id="83b9-d8c9-8c1d-9a46" name="The Bow of Loren" hidden="false" collective="false" import="true" targetId="43be-d1e0-d554-0353" type="selectionEntry"/>
+        <entryLink id="2150-7ce1-4cea-e157" name="Blades of Loec" hidden="false" collective="false" import="true" targetId="2184-e5b4-c16e-69bf" type="selectionEntry"/>
+        <entryLink id="68ff-f2fd-756f-d77b" name="The Dawnspear" hidden="false" collective="false" import="true" targetId="5bbd-6d2a-fc32-7663" type="selectionEntry"/>
+        <entryLink id="d244-343b-7402-54d6" name="The Spear of Twilight" hidden="false" collective="false" import="true" targetId="f602-82b5-2a2e-500b" type="selectionEntry"/>
+        <entryLink id="aa87-7fcb-a6e8-f41d" name="The Callach’s Claw" hidden="false" collective="false" import="true" targetId="902c-a1b0-69cb-e675" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -87,6 +227,28 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
     <rule id="92e2-be44-6da3-dc20" name="Wardancer Weapons" hidden="false">
       <description>Wardancers use a mix of weapons in their units, including pairs of swords, glaives and double-handed swords. To represent this, all Wardancers gain + I Attack. In addition, they add +1 Strength to all attacks they make in the first round of combat when charging.</description>
     </rule>
+    <rule id="192b-fa50-9fc6-5226" name="The Spirit Sword" hidden="false">
+      <description>Hits by the Spirit Sword wound automatically.Any enemy thatsuffers one or more unsaved wounds from the Spirit Swordmust roll a D6 and add their Leadership-the wielder does thesame.For each point the wielder wins by, his opponent loses anadditional wound, with no Armour Saves or Ward Savesallowed.For each point his opponent wins by, the wielder loses a wound, with no Armour Saves or Ward Saves allowed.</description>
+    </rule>
+    <rule id="0d73-a3e9-1a3a-d1a0" name="Daith’s Reaper" hidden="false">
+      <description>The wielder of this weapon may re-roll any failed hits inclose combat. In addition, any foe wounded by this blademust re-rolls any successful Armour Saves.</description>
+    </rule>
+    <rule id="719c-3c0a-ea6f-d08a" name="The Bow of Loren" hidden="false">
+      <description>This longbow allows the bearer to shoot as many times asthey have Attacks on their profile. The bearer does notsuffer-1 for multiple shots.</description>
+    </rule>
+    <rule id="fc09-e87b-f11f-b02d" name="Blades of Loec" hidden="false">
+      <description>Wardancer Characters only
+Wardancer Weapons. The wielder can re-roll any failedrolls to wound.May be used in conjunction with the ShadowDances of Loec.</description>
+    </rule>
+    <rule id="0a32-d000-bdb9-4d5e" name="The Dawnspear" hidden="false">
+      <description>Counts as a spear.If the wielder causes an unsaved woundon an enemy, then that model and any other models in theunit that have not yet attacked suffer-1 to hit for thatCombat phase.</description>
+    </rule>
+    <rule id="3313-6964-0430-53b2" name="The Spear of Twilight" hidden="false">
+      <description>This spear confers the Killing Blow ability on the wielder.</description>
+    </rule>
+    <rule id="7e15-513c-92a5-9915" name="The Callach’s Claw" hidden="false">
+      <description>Any unit suffering one or more unsaved wounds from thisblade suffer an additional-1 penalty to theirLeadership forthe remainder of the Combat phase.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="da94-2d91-8e3b-f505" name="Highborn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -113,6 +275,188 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7237-4fcf-4f45-7b47" name="Spellweaver" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="76f4-0761-bbf5-6c2d" name="Spellslinger" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10d4-8ad6-fda1-c693" name="Glade Guard" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e4b7-723a-04d7-2095" name="Lords Bowman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="097c-985d-4e47-9f66" name="Glade Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d64-d685-b893-da2a" name="Horsemaster" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d163-e9ff-4fdd-c361" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bb17-bb59-18b1-f05a" name="Eternal Guard" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e609-a9d0-c590-1268" name="Guardian" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9262-cccb-3c6e-31c1" name="Dryad" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56a4-521a-4414-109b" name="Branch Nymph" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8263-9854-dd96-7f47" name="Branchwraith" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d63c-1ad8-79c3-9d2f" name="Great Eagle" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">2</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16c4-6a72-cb36-b87a" name="Treeman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
