@@ -735,6 +735,9 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     <rule id="ac96-22af-fac6-56f9" name="Scaly Skin 4+" hidden="false">
       <description>Armour save 4+</description>
     </rule>
+    <rule id="fbdc-6e5e-eba8-357c" name="Flammable" hidden="false">
+      <description>A flammable creature hit by a flaming weapon or fiery spell will take double wounds, so every wound suffered by a flammable creature will be doubled to 2 wounds. Take any saves before multiplying the wounds.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5556-38ea-b278-4a8f" name="Hand Weapon" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
