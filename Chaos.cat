@@ -3707,7 +3707,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0484-b760-16f3-59ff" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ff4e-f6e0-ef37-03fb" name="Chaos Armour" hidden="false" collective="false" import="true" targetId="d589-1928-8a7c-0cdb" type="selectionEntry">
+        <entryLink id="ff4e-f6e0-ef37-03fb" name="Chaos Armour*" hidden="false" collective="false" import="true" targetId="9b37-1817-ce12-f693" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7941-4ada-4a48-0322" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2868-ab35-76c4-1dca" type="max"/>
@@ -4109,7 +4109,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c4-63a4-fb63-062d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3747-d230-7dbe-180b" name="Chaos Armour" hidden="false" collective="false" import="true" targetId="d589-1928-8a7c-0cdb" type="selectionEntry">
+        <entryLink id="3747-d230-7dbe-180b" name="Chaos Armour*" hidden="false" collective="false" import="true" targetId="9b37-1817-ce12-f693" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53c-4822-5c72-296f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18a0-5ed3-cb98-c9ff" type="max"/>
