@@ -381,15 +381,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9bb-1a01-1d6f-c689" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f890-1c46-6d14-1589" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="8deb-ade9-02c8-f009" name="Sword of Striking" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3107-4d1e-9a51-6564">cc</characteristic>
-            <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">+1 WS</characteristic>
-            <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +1 WS</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="ee72-3b3a-b08d-77df" name="Sword of Striking" hidden="false" targetId="bc68-6c48-02d1-3ce4" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -737,6 +731,9 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     </rule>
     <rule id="fbdc-6e5e-eba8-357c" name="Flammable" hidden="false">
       <description>A flammable creature hit by a flaming weapon or fiery spell will take double wounds, so every wound suffered by a flammable creature will be doubled to 2 wounds. Take any saves before multiplying the wounds.</description>
+    </rule>
+    <rule id="bc68-6c48-02d1-3ce4" name="Sword of Striking" hidden="false">
+      <description>+1 to hit</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

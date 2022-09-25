@@ -1250,7 +1250,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           <costs>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="145.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b063-7524-1f0b-2d77" name="Armour Save 4+" hidden="false" collective="false" import="true" type="upgrade">
@@ -1313,13 +1313,6 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </costs>
         </selectionEntry>
         <selectionEntry id="13f5-7c2a-95e7-2bde" name="Special Slot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a1bc-3ae3-2a5e-fdb3" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e84-413f-a608-093e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7b8-cd89-a4b1-646e" type="max"/>
@@ -1331,6 +1324,14 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4283-9e24-30f3-2008" name="Bull Rhinox" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9726-240a-6bcf-9ee2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

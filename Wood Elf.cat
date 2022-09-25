@@ -121,6 +121,264 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4b55-33ee-0b8e-25a1" name="Treekin" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bcf7-92dd-a89a-3a87" name="Treekin" hidden="false" targetId="1884-c16c-2ed9-c158" type="profile"/>
+        <infoLink id="b2c9-a41b-893d-1dcf" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+        <infoLink id="bdd4-be43-3a99-9940" name="Scaly Skin 4+" hidden="false" targetId="ac96-22af-fac6-56f9" type="rule"/>
+        <infoLink id="9dc6-091c-a7ae-1dea" name="Flammable" hidden="false" targetId="fbdc-6e5e-eba8-357c" type="rule"/>
+        <infoLink id="ea9b-ab09-8a73-b1c7" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c637-eafb-4117-54f7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d95-4986-a7c0-2a50" name="Treekin" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="908a-13a8-3022-259a" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e821-9f64-11c3-a0df" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fbbf-eede-9d56-4f29" name="TreeKin Eldar" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="d561-1b3f-c3f3-c849" name="Treekin Eldar" hidden="false" targetId="8ce1-7eaa-9584-154d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3d9-d792-bd19-528e" name="Wild Riders of Khurnous" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="12b7-1b0e-1b5b-17ea" name="Elven Steed" hidden="false" targetId="d163-e9ff-4fdd-c361" type="profile"/>
+        <infoLink id="de6e-696f-ff3c-a709" name="Wild Rider" hidden="false" targetId="24a0-6f82-aa21-5093" type="profile"/>
+        <infoLink id="715a-c3ea-a2bf-6d70" name="The Wild Hunt" hidden="false" targetId="1440-04c7-18ce-3c71" type="rule"/>
+        <infoLink id="bae0-929c-0822-e260" name="The Fury of Kurnous" hidden="false" targetId="a85e-2e47-702f-fbe5" type="rule"/>
+        <infoLink id="d087-f093-fb7b-5896" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
+        <infoLink id="cced-d13d-af12-684f" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+        <infoLink id="bf5d-0a35-6553-2784" name="Talismanic Tattoos" hidden="false" targetId="22b0-0b35-9c5d-d737" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8c96-68cd-a018-2857" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ec87-e9fe-f32c-76d8" name="Wild Rider" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0e9-5664-524d-5960" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6146-1f13-fe06-c805" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="092d-f2e4-05d2-1a16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47e4-dea4-2ca2-5943" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e33-62b1-1375-26d7" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f4-93c8-1a10-799f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9cfe-9a2a-71e2-9328" name="Magic Banners" hidden="false" collective="false" import="true" targetId="0cdd-7730-57c2-09cf" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="652f-991f-6f56-e099" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b3a7-1cd9-e5b5-80ed" name="Wild Hunter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc9-d301-ecfc-da71" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8ec9-b765-7db3-b58d" name="Wild Hunter" hidden="false" targetId="66ae-0cc3-1473-2f28" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9702-cb37-0cf7-4c24" name="Spear (Mounted)" hidden="false" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="380a-88e7-07f1-7ba8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ade-4c22-38c4-8176" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0e30-555e-5467-97c7" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64fb-5ba3-d897-e4dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa0-3f6a-5705-8e9f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5777-1535-e68e-7f46" name="Warhawk Riders" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cc17-04b2-c7eb-3951" name="Warhawk Rider" hidden="false" targetId="b50b-0a20-a09e-a415" type="profile"/>
+        <infoLink id="8a3e-6fc4-abe2-da04" name="Warhawk" hidden="false" targetId="61cc-e939-4cf3-207c" type="profile"/>
+        <infoLink id="c0fa-cd39-483b-a7a7" name="Flying Cavalry" hidden="false" targetId="6f32-02d8-ff85-6ddb" type="rule"/>
+        <infoLink id="5e1b-ad6f-f26b-71c9" name="Hit-and-Run" hidden="false" targetId="770f-d153-7cb6-4e1f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="096b-6755-7dbd-976a" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b250-034e-3b44-76ee" name="Warhawk Riders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd0b-ec00-9f71-7510" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd08-0335-59c1-6239" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b2d7-13e2-1470-6bed" name="Wind Rider" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9536-a884-6db6-2a66" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cdc8-c94f-303e-f33a" name="Wind Rider" hidden="false" targetId="8952-2eec-bd39-ee73" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d075-c128-a1ed-56a1" name="Spear (Mounted)" hidden="false" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1aa-357e-fb5e-f85a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de91-4284-c00d-ea6f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="53bc-eb01-77b6-0552" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1707-9a30-9021-a142" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a67-72dd-eda0-e634" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05ad-78c8-c8b0-2a60" name="Wardancer Troope" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9ce3-f975-fb66-7fa0" name="Wardancer" hidden="false" targetId="ea92-0f47-63a3-fe3e" type="profile"/>
+        <infoLink id="f21e-9501-e9ed-ba0d" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
+        <infoLink id="38c5-a0c5-b008-d161" name="Shadow Dances of Loec" hidden="false" targetId="f5ff-a94e-1810-5656" type="rule"/>
+        <infoLink id="14d1-f3d0-0aa7-2e7b" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="29c8-e853-ea89-ada6" name="Talismanic Tattoos" hidden="false" targetId="22b0-0b35-9c5d-d737" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cd36-28dd-dbfb-73bd" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a34e-5301-5375-4cbe" name="Wardancer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f296-8f29-adc5-ac4d" type="min"/>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973d-c3cb-2410-960e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="588e-0ad1-792e-da44" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6db4-61c0-fd34-3d59" name="Bladeslinger" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d65-04a0-33fc-3915" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3054-5b51-7f25-b422" name="Bladesinger" hidden="false" targetId="6397-3738-53f3-d64b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bae7-416a-f0ce-d8dc" name="Wardancer Weapons" hidden="false" collective="false" import="true" targetId="9d1a-1291-34b3-50ea" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="8317-66d2-f433-362a" name="Dryads" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="25d7-acb6-456f-2402" name="Dryad" hidden="false" targetId="9262-cccb-3c6e-31c1" type="profile"/>
+        <infoLink id="a570-289f-4eff-3584" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
+        <infoLink id="afd9-cbe8-7725-ae7a" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+        <infoLink id="cc9d-42d1-9ed3-3e95" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f8fe-9ba2-ce1e-98ff" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
+        <categoryLink id="cfcf-09ce-3e6c-720b" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5a14-e77b-80a4-a703" name="Dryads" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="402e-554c-d20d-0558" type="min"/>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0a-6521-4748-3d1e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b8df-2383-6510-044b" name="Branch Nymph" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c944-30fc-58bd-9ba3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ece9-1279-cc8f-47fc" name="Branch Nymph" hidden="false" targetId="56a4-521a-4414-109b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="4bef-a28f-d72e-fe2a" name="The Spirit Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -299,6 +557,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8b3-5d76-2392-2179" name="Armour of the Fey" hidden="false" collective="false" import="true" type="upgrade">
@@ -311,6 +571,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a313-2819-af74-219b" name="The Helm of the Hunt" hidden="false" collective="false" import="true" type="upgrade">
@@ -323,6 +585,8 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9be-7de5-5642-37a3" name="Briarsheath" hidden="false" collective="false" import="true" type="upgrade">
@@ -335,7 +599,152 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="85fa-60a9-ed7e-c5ad" name="The Rhymer’s Harp" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f8d-12e8-460f-55b7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0730-7bc2-f58b-61ee" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6f51-a765-4476-59b1" name="The Rhymer’s Harp" hidden="false" targetId="8c6f-2291-71b6-a7d4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23fc-a56d-c7a0-7709" name="Amaranthine Brooch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88eb-22e0-1fcc-76a1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccc5-b7bc-1bd5-0d73" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="447e-7f09-80de-2c97" name="Amaranthine Brooch" hidden="false" targetId="e5b2-434e-5e7e-0bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bdc-9141-cbb2-27f9" name="Amber Pendant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea1-fc8b-3036-fe0e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7431-0ccc-7a08-cdd5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cae8-86ab-6114-cfd6" name="Amber Pendant" hidden="false" targetId="c4d9-f619-7774-fa86" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="123d-450b-0fc9-b4f2" name="Stone of the Crystal Mere" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b18-2a4c-9ad3-feb5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9387-8a51-bfc2-c718" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d8c-5e0f-4023-5a97" name="Stone of the Crystal Mere" hidden="false" targetId="bd26-1ff2-b4b9-4d74" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf97-d26b-9e00-e05c" name="Glamourweave" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe99-8cd0-93e0-45e7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e86d-3de3-6e17-6f8a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2e44-4270-83fc-d5fc" name="Glamourweave" hidden="false" targetId="495a-61b6-4edc-8a29" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b53-c47f-9302-cab0" name="The Stone of Rebirth" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d19b-3cd3-ddaf-60a5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8b8-2541-ad6f-9036" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="59e5-a874-3559-8555" name="The Stone of Rebirth" hidden="false" targetId="c471-cd4d-8798-8858" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bcc-69a8-74da-eed6" name="The Fimbulwinter Shard" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265e-f891-75b6-176b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be0-fa05-bde0-4eb7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6773-8c84-6319-02c3" name="The Fimbulwinter Shard" hidden="false" targetId="e733-50be-b427-d1aa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdf1-2e4f-9e25-a3de" name="Merciw’s Locus" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afdf-fa2b-6c2e-71d4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71fb-9f81-c204-2c65" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1aa7-0b0e-ff82-5d5a" name="Merciw’s Locus" hidden="false" targetId="dd86-b333-5b5f-ae49" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcf5-c679-bed1-8ab2" name="Wraithstone" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8d-c99e-ebaa-a3b8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6752-73cc-4983-0856" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a130-0372-0239-6681" name="Wraithstone" hidden="false" targetId="ac86-0efb-13b8-801f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="018b-0b69-5e4b-66e1" name="Hagbane Arrows" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e2-898d-e029-ad65" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d773-a12a-d90d-0137" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="acf2-e7eb-6784-84c7" name="Hagbane Arrows" hidden="false" targetId="e5b5-53e6-8a6a-3718" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d1a-1291-34b3-50ea" name="Wardancer Weapons" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6c-8b02-6c41-1cde" type="max"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -388,6 +797,39 @@
         <entryLink id="10d2-a6d1-6869-1922" name="Armour of the Fey" hidden="false" collective="false" import="true" targetId="c8b3-5d76-2392-2179" type="selectionEntry"/>
         <entryLink id="2b40-f013-de03-a429" name="The Helm of the Hunt" hidden="false" collective="false" import="true" targetId="a313-2819-af74-219b" type="selectionEntry"/>
         <entryLink id="4491-e86d-3475-df8d" name="Briarsheath" hidden="false" collective="false" import="true" targetId="d9be-7de5-5642-37a3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a664-c8f8-1595-c50a" name="Talismans" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d84-a132-9347-c5e2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e711-6434-f89c-2a4f" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
+        <entryLink id="a0e5-ff9b-39d1-5c59" name="The Rhymer’s Harp" hidden="false" collective="false" import="true" targetId="85fa-60a9-ed7e-c5ad" type="selectionEntry"/>
+        <entryLink id="165e-c286-6316-a688" name="Amaranthine Brooch" hidden="false" collective="false" import="true" targetId="23fc-a56d-c7a0-7709" type="selectionEntry"/>
+        <entryLink id="20bb-8701-aca9-efe9" name="Amber Pendant" hidden="true" collective="false" import="true" targetId="0bdc-9141-cbb2-27f9" type="selectionEntry"/>
+        <entryLink id="d7e5-890d-afca-2da9" name="Stone of the Crystal Mere" hidden="false" collective="false" import="true" targetId="123d-450b-0fc9-b4f2" type="selectionEntry"/>
+        <entryLink id="e73d-4b9c-0751-22a3" name="Glamourweave" hidden="false" collective="false" import="true" targetId="cf97-d26b-9e00-e05c" type="selectionEntry"/>
+        <entryLink id="87b3-2d3e-d6d2-3093" name="The Stone of Rebirth" hidden="false" collective="false" import="true" targetId="2b53-c47f-9302-cab0" type="selectionEntry"/>
+        <entryLink id="0fe9-4ca7-94cb-03d6" name="The Fimbulwinter Shard" hidden="false" collective="false" import="true" targetId="5bcc-69a8-74da-eed6" type="selectionEntry"/>
+        <entryLink id="8c33-87d5-0a64-1872" name="Merciw’s Locus" hidden="false" collective="false" import="true" targetId="cdf1-2e4f-9e25-a3de" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0cdd-7730-57c2-09cf" name="Magic Banners" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f9-7429-08eb-2560" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4b13-5f63-94d7-461c" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="580f-1d21-16a7-c3f4" name="Enchanted Items" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4111-5ee0-f1a9-0979" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4ff5-e5e6-4b14-284a" name="Wraithstone" hidden="false" collective="false" import="true" targetId="dcf5-c679-bed1-8ab2" type="selectionEntry"/>
+        <entryLink id="be29-f421-6150-6c1d" name="Hagbane Arrows" hidden="false" collective="false" import="true" targetId="018b-0b69-5e4b-66e1" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -515,7 +957,38 @@ Wardancer Weapons. The wielder can re-roll any failedrolls to wound.May be used 
       <description>This helm confers a 6+Armour Save that can be combinedwith other equipment as normal (including normal armour and a shield).When the character charges he receives+1Attack and +1 Weapon Skill for that round of combat.</description>
     </rule>
     <rule id="9c43-9c56-9520-c162" name="Briarsheath" hidden="false">
-      <description>Counts as light armour (6+Armour Save) that can becombined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This increased to -2 if the wearer is within a wood.</description>
+      <description>Characters on Foot only
+Counts as light armour (6+Armour Save) that can becombined with other equipment as normal. Enemies wishing to target the model wearing the Briarsheath with a shooting attack suffer an additional -1 to hit penalty. This increased to -2 if the wearer is within a wood.</description>
+    </rule>
+    <rule id="8c6f-2291-71b6-a7d4" name="The Rhymer’s Harp" hidden="false">
+      <description>This item bestows a 5+Ward Save on the bearer, their mount, and any unit they join. In addition,the bearer,their mount, and any unit they join may move through all kinds of difficult terrain without penalty.</description>
+    </rule>
+    <rule id="e5b2-434e-5e7e-0bd8" name="Amaranthine Brooch" hidden="false">
+      <description>Grants the bearer a 3+Ward Save that cannot be used against magical attacks.</description>
+    </rule>
+    <rule id="c4d9-f619-7774-fa86" name="Amber Pendant" hidden="false">
+      <description>Any enemy models in base contact with the bearer of theAmber Pendant automatically strike last-even if theycharged or have an ability that would allow them to normally strike first.</description>
+    </rule>
+    <rule id="bd26-1ff2-b4b9-4d74" name="Stone of the Crystal Mere" hidden="false">
+      <description>The bearer of the stone gains a 3+Ward Save,as does anycreature ridden by the bearer.However, if this Ward Saveis ever failed,then the stone shatters and the Ward Save islost for the rest of the game.</description>
+    </rule>
+    <rule id="495a-61b6-4edc-8a29" name="Glamourweave" hidden="false">
+      <description>The Glamourweave conveys a 4+ Ward Save against shooting attacks and magic missiles. In addition, any model attempting to strike the bearer in close combat must first pass a Leadership test. If they fail, they require 6s to hit thebearer during that Combat phase.</description>
+    </rule>
+    <rule id="c471-cd4d-8798-8858" name="The Stone of Rebirth" hidden="false">
+      <description>When the wearer is reduced to one Wound this item bestows a 2+Ward Save.</description>
+    </rule>
+    <rule id="e733-50be-b427-d1aa" name="The Fimbulwinter Shard" hidden="false">
+      <description>Opponents suffer a -1 to hit the bearer and his mount in close combat.  Any creatures with the Forest Spirit special rule suffer from Stupidity while the bearer is within 6&quot;.</description>
+    </rule>
+    <rule id="dd86-b333-5b5f-ae49" name="Merciw’s Locus" hidden="false">
+      <description>The bearer of this magic item receives no Strength bonuses from magical or non-magical weapons. However, any model wishing to strike the model that bears Merciw&apos;sLocus also receives no Strength bonuses from magical or non-magical weapons.</description>
+    </rule>
+    <rule id="ac86-0efb-13b8-801f" name="Wraithstone" hidden="false">
+      <description>All enemy units  within 6&quot; of the bearer of this stone suffer a-1 penalty to their Leadership.</description>
+    </rule>
+    <rule id="e5b5-53e6-8a6a-3718" name="Hagbane Arrows" hidden="false">
+      <description>Magic  arrows. A model that loses one or more wounds from Hagbane Arrows in any Shooting phase must take aToughness test at the end of the phase. If the test is failed, the target is slain regardless of how many wounds it has left, ignoring Armour Saves and Ward Saves.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -750,6 +1223,123 @@ Wardancer Weapons. The wielder can re-roll any failedrolls to wound.May be used 
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1884-c16c-2ed9-c158" name="Treekin" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8ce1-7eaa-9584-154d" name="Treekin Eldar" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24a0-6f82-aa21-5093" name="Wild Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="66ae-0cc3-1473-2f28" name="Wild Hunter" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b50b-0a20-a09e-a415" name="Warhawk Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8952-2eec-bd39-ee73" name="Wind Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="61cc-e939-4cf3-207c" name="Warhawk" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">1</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea92-0f47-63a3-fe3e" name="Wardancer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6397-3738-53f3-d64b" name="Bladesinger" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
       </characteristics>
     </profile>
