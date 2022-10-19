@@ -3350,7 +3350,7 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
         <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
         <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>

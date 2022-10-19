@@ -2015,7 +2015,7 @@
           <infoLinks>
             <infoLink id="7de8-5ded-8bfb-80b0" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
             <infoLink id="07a2-270c-fad0-e1ab" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
-            <infoLink id="9b6a-3663-99a4-2805" name="Scaly Skin 3+" hidden="false" targetId="494d-d57a-c1fa-b48e" type="rule"/>
+            <infoLink id="9b6a-3663-99a4-2805" name="Scaly Skin 4+" hidden="false" targetId="ac96-22af-fac6-56f9" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2371,6 +2371,7 @@
       <infoLinks>
         <infoLink id="959d-b05b-5c54-bad0" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
         <infoLink id="ec69-e99e-019f-ff95" name="Impale" hidden="false" targetId="df5a-2c5e-ce3f-b998" type="rule"/>
+        <infoLink id="07a0-03de-0212-c3b8" name="Dark Pegasus" hidden="false" targetId="4fae-ecab-5fc6-9297" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
@@ -2726,6 +2727,7 @@
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="685c-0e0b-4970-6550" name="Darkstar Cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -2739,6 +2741,7 @@
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
