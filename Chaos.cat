@@ -2567,7 +2567,7 @@
             </entryLink>
             <entryLink id="9c19-ba60-f2ee-e08f" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
