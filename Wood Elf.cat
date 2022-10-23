@@ -3,6 +3,14 @@
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
+  <categoryEntries>
+    <categoryEntry id="56b3-da88-ddd4-ebb5" name="Highborn general" hidden="false"/>
+    <categoryEntry id="6cb8-4087-f552-28ec" name="Glade banner" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d7ed-6920-ccd8-6115" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="7f75-34ad-60ac-f1fd" name="Great Eagles" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -163,7 +171,7 @@
     </selectionEntry>
     <selectionEntry id="c3d9-d792-bd19-528e" name="Wild Riders of Khurnous" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="12b7-1b0e-1b5b-17ea" name="Elven Steed" hidden="false" targetId="d163-e9ff-4fdd-c361" type="profile"/>
+        <infoLink id="12b7-1b0e-1b5b-17ea" name="Elven Steed" hidden="false" targetId="6547-d129-9f78-062b" type="profile"/>
         <infoLink id="de6e-696f-ff3c-a709" name="Wild Rider" hidden="false" targetId="24a0-6f82-aa21-5093" type="profile"/>
         <infoLink id="715a-c3ea-a2bf-6d70" name="The Wild Hunt" hidden="false" targetId="1440-04c7-18ce-3c71" type="rule"/>
         <infoLink id="bae0-929c-0822-e260" name="The Fury of Kurnous" hidden="false" targetId="a85e-2e47-702f-fbe5" type="rule"/>
@@ -322,11 +330,15 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="588e-0ad1-792e-da44" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6db4-61c0-fd34-3d59" name="Bladeslinger" hidden="false" collective="false" import="true" type="upgrade">
@@ -338,12 +350,19 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="bae7-416a-f0ce-d8dc" name="Wardancer Weapons" hidden="false" collective="false" import="true" targetId="9d1a-1291-34b3-50ea" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8317-66d2-f433-362a" name="Dryads" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -364,6 +383,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b8df-2383-6510-044b" name="Branch Nymph" hidden="false" collective="false" import="true" type="upgrade">
@@ -375,9 +396,758 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8b6-f437-c603-3068" name="Eternal Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="56b3-da88-ddd4-ebb5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="56b3-da88-ddd4-ebb5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="30d6-b20c-ae4a-1166" name="Eternal Guard" hidden="false" targetId="bb17-bb59-18b1-f05a" type="profile"/>
+        <infoLink id="3064-6e18-7d6e-f7f0" name="Eternal Guard Fighting Style" hidden="false" targetId="9bff-2f3e-0a12-82fa" type="rule"/>
+        <infoLink id="787b-23c4-b007-35d6" name="Bodyguard" hidden="false" targetId="dd5f-f74d-a4a8-ba5b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="adf9-a082-e9a0-3979" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5609-7af8-3eb9-49b3" name="Eternal Guard" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8580-f5fa-64d6-2a55" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be8e-48df-82e8-2224" name="Eternal guard weapons and Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b7-3a27-6c0d-1c40" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a955-a7b2-8f79-9cc3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="61f5-b18a-ed03-e416" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b51-503f-a6a0-b73a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="83ce-576f-185f-6c7f" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793d-1c90-bf1a-599d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="55eb-8132-19dd-1877" name="Magic Banners" hidden="false" collective="false" import="true" targetId="0cdd-7730-57c2-09cf" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b77f-e30b-9635-ffdd" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6910-3347-87b5-724d" name="Eternal" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3410-472b-49f5-811c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="604d-3c67-1d63-e745" name="Eternal" hidden="false" targetId="b71b-2327-313b-b7b2" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67a0-f61d-4143-4350" name="Wood Elf Highborn" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="945b-b688-f017-2560" name="Highborn" hidden="false" targetId="da94-2d91-8e3b-f505" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="69b8-f579-c0c3-63a5" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="3c14-556e-d52e-7527" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e39b-bd82-f920-5aa7" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc4f-e356-78b3-ff94" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9d29-2bb0-1334-f755" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b67c-bca9-852e-1985" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9d40-26ec-c8fd-a3a1" name="Spear Infantry" hidden="false" collective="false" import="true" targetId="104f-5817-4bda-9382" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3cb3-d0dd-79e2-2fe9" name="Armour" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b9ec-e081-8b1f-ef62" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2136-25c2-01b3-4325" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="dcbd-70f5-c7f1-10d0" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ee-8efb-e6a8-5b1b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f7c7-cf8f-579b-c085" name="Mounts" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="568b-86ab-215a-70f1" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d1-2def-e270-a8cb" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd39-fe5f-8349-9b71" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568b-86ab-215a-70f1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f39c-d198-5209-c8d2" name="Giant Stag" hidden="false" collective="false" import="true" targetId="d774-ad1f-c375-09dd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d1-2def-e270-a8cb" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="90f9-1ac1-e56e-88f9" name="Elven Steed" hidden="false" collective="false" import="true" targetId="71d9-2c66-1b06-8b62" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d04b-a106-a49b-aaab" name="Great Eagle" hidden="false" collective="false" import="true" targetId="0521-24e0-2a22-4531" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d1-2def-e270-a8cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f6cf-4e34-7b1b-a305" name="Forest Dragon" hidden="false" collective="false" import="true" targetId="8b96-ec3a-cd31-7f8e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d1-2def-e270-a8cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="246d-7a9f-f558-e89f" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+                <categoryLink id="6bb3-4fa8-bfaa-7cc2" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="320.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="16dd-6c32-c712-4560" name="Magic and Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1988-a515-e949-6e43" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0642-3d05-38c8-4f36" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+            <entryLink id="c5a3-832e-ac8d-454a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="92f3-82d8-558e-55e1" type="selectionEntryGroup"/>
+            <entryLink id="56a4-7b0a-9512-25a5" name="Magic Armour" hidden="false" collective="false" import="true" targetId="2f4c-c766-7fd2-e7e6" type="selectionEntryGroup"/>
+            <entryLink id="021c-5d57-9518-333d" name="Talismans" hidden="false" collective="false" import="true" targetId="a664-c8f8-1595-c50a" type="selectionEntryGroup"/>
+            <entryLink id="219c-d60b-b52a-f305" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="580f-1d21-16a7-c3f4" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0d94-f34f-e8f0-c78a" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="c2bf-fef7-6ab2-bbff" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3469-85aa-b1a5-0406" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a2-ffa0-f7cd-f468" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1cc-908f-a6fc-a70f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5279-2a58-df86-8a01" name="Kindreds Lords" hidden="false" collective="false" import="true" targetId="9823-b15c-490f-56fc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="145.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c809-ce6e-ebb5-d63b" name="Spellweaver" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e6e1-5f07-3eb3-2934" name="Spellweaver" hidden="false" targetId="7237-4fcf-4f45-7b47" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ee08-b1de-862d-908c" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="39ea-dd7c-af04-9411" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="38e6-99b9-334e-97cd" name="Mounts" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="977e-3648-1adc-e96a" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a20-8b3f-793f-3d08" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="977e-3648-1adc-e96a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="20e6-ad2f-5710-a9f4" name="Unicorn" hidden="false" collective="false" import="true" targetId="9c67-b84a-c907-213d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3802-5128-78c4-671b" name="Elven Steed" hidden="false" collective="false" import="true" targetId="71d9-2c66-1b06-8b62" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4de1-9688-54dd-c025" name="Great Eagle" hidden="false" collective="false" import="true" targetId="0521-24e0-2a22-4531" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c61-3778-4a98-8119" name="Magic and Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe13-a3dd-d742-9119" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="456a-5bf9-3002-fd32" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+            <entryLink id="fef9-87cf-750f-c4f2" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="92f3-82d8-558e-55e1" type="selectionEntryGroup"/>
+            <entryLink id="311e-f1f0-5b8c-89d1" name="Arcane Items" hidden="false" collective="false" import="true" targetId="052f-5a92-5e7c-307a" type="selectionEntryGroup"/>
+            <entryLink id="22d0-e308-4a22-1335" name="Talismans" hidden="false" collective="false" import="true" targetId="a664-c8f8-1595-c50a" type="selectionEntryGroup"/>
+            <entryLink id="0412-dfc9-5b50-3056" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="580f-1d21-16a7-c3f4" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c717-d1e9-9bb6-a960" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="54d8-3f8f-ea3b-f636">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d74-c6ea-cbdb-5ca9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8b8-fb07-16f8-3289" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="54d8-3f8f-ea3b-f636" name="Magic Level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7147-c9da-e2e1-9de9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="3.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d231-d8c0-f9d4-5adb" name="Magic Level 4" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2c-9720-6e92-9b9d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1b70-3fce-7c8f-b196" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="b9cb-29b6-1078-0827" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="c084-cad5-63c6-b3a8" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" targetId="3578-4bcf-3142-ae08" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="215.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04e2-47ea-ab36-65ac" name="Treeman Ancient" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6a4b-5022-4847-3f98" name="Treeman Ancient" hidden="false" targetId="e99f-01b3-92c6-e9a7" type="profile"/>
+        <infoLink id="81ed-58b3-c157-438b" name="Stubborn" hidden="false" targetId="410a-0d06-9044-665e" type="rule"/>
+        <infoLink id="310a-7857-d5b3-48e0" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="5699-9b29-8b56-5bdc" name="Scaly Skin 3+" hidden="false" targetId="494d-d57a-c1fa-b48e" type="rule"/>
+        <infoLink id="9854-116c-53b8-aa6d" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="2e68-0233-0ba2-bbbd" name="Strangle-root Attack" hidden="false" targetId="42e7-34c6-310b-7c4f" type="rule"/>
+        <infoLink id="f000-852a-7bbb-c355" name="Tree Singing" hidden="false" targetId="f62c-9df0-8eee-09a7" type="rule"/>
+        <infoLink id="df46-3ab4-e31f-4ed8" name="Flammable" hidden="false" targetId="fbdc-6e5e-eba8-357c" type="rule"/>
+        <infoLink id="fae9-6265-3f7a-5267" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a2c4-fade-cbf9-37af" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="7ac9-b7a8-b880-dc8e" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+        <categoryLink id="9155-6d43-6ee7-b530" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6149-f126-6c14-e233" name="Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d163-a241-06d0-0e18" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="430c-5693-a74b-6d81" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5b5a-ed0e-e6f7-43ef" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="600b-635a-0165-5532" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="325.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b3a-aaf9-2685-492b" name="Wood Elf Noble" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e490-082e-527a-795e" name="Noble" hidden="false" targetId="d86e-93b9-f140-7015" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c41-98cd-f96b-4eec" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="694d-44a9-deff-ef54" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e426-71ca-0828-8ab2" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f7-8e68-77fa-523d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8199-c97c-a0d4-1103" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8f9d-9e8a-7cc7-fc00" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d694-7668-2ec7-bcec" name="Spear Infantry" hidden="false" collective="false" import="true" targetId="104f-5817-4bda-9382" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e2d0-bc6d-36cb-4b74" name="Armour" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="024d-54e8-4ed4-7bbc" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bde-46c5-d560-2d1e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0722-5140-5847-2371" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe37-ecd7-100f-95df" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6744-fdb6-9041-83b8" name="Mounts" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="4c64-f4e3-4053-f374" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="713c-3a88-8869-013b" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c64-f4e3-4053-f374" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7bfb-0677-9cce-36b9" name="Giant Stag" hidden="false" collective="false" import="true" targetId="d774-ad1f-c375-09dd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d1-2def-e270-a8cb" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a940-955c-505e-7bab" name="Elven Steed" hidden="false" collective="false" import="true" targetId="71d9-2c66-1b06-8b62" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="36c5-a653-8059-4787" name="Great Eagle" hidden="false" collective="false" import="true" targetId="0521-24e0-2a22-4531" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8568-dccf-05e9-62d5" name="Magic and Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9baf-53f2-d00f-3c48" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6c33-d8dd-c071-1c9d" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+            <entryLink id="6224-39d9-6535-d050" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="92f3-82d8-558e-55e1" type="selectionEntryGroup"/>
+            <entryLink id="77da-9178-2c77-5b65" name="Magic Armour" hidden="false" collective="false" import="true" targetId="2f4c-c766-7fd2-e7e6" type="selectionEntryGroup"/>
+            <entryLink id="a776-deb9-b78a-aa40" name="Talismans" hidden="false" collective="false" import="true" targetId="a664-c8f8-1595-c50a" type="selectionEntryGroup"/>
+            <entryLink id="fcd2-92e8-97ba-5b8a" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="580f-1d21-16a7-c3f4" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e043-f314-a7f1-fd2b" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="82b3-e3c5-d43c-5975" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9ad-f1ce-aebf-6d23" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b3-e3c5-d43c-5975" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="3814-5d30-6f5b-92fc" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="218f-067f-2488-2fc4" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f9a-0340-ef21-33d1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a6-8b72-13e5-bf25" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6a7a-c7ba-7bf5-9aff" name="Kindreds" hidden="false" collective="false" import="true" targetId="3b63-972e-880d-6606" type="selectionEntryGroup"/>
+        <entryLink id="4778-f0a1-d266-8c90" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="2b5a-906e-e113-4ce3" name="Magic Banners" hidden="false" collective="false" import="true" targetId="0cdd-7730-57c2-09cf" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee34-7ed2-6baa-c955" name="Spellslinger" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="290f-3616-942b-3d46" name="Spellslinger" hidden="false" targetId="76f4-0761-bbf5-6c2d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b8aa-be3a-daf5-898a" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="ad7e-6f40-4105-efd8" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="565c-5e69-c1b5-4987" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6e3b-3470-c59a-2578" name="Mounts" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="df08-c203-c188-625e" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c6-823e-da6d-1c17" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df08-c203-c188-625e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b2c2-6d3e-2224-4f57" name="Unicorn" hidden="false" collective="false" import="true" targetId="9c67-b84a-c907-213d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f044-b95f-62ea-02ab" name="Elven Steed" hidden="false" collective="false" import="true" targetId="71d9-2c66-1b06-8b62" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="64c0-4483-f256-92f0" name="Great Eagle" hidden="false" collective="false" import="true" targetId="0521-24e0-2a22-4531" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3578-4bcf-3142-ae08" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8244-3146-e328-9670" name="Magic and Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce62-dcd7-7c0b-4791" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="46a7-d141-88e2-f78a" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+            <entryLink id="fb7e-c1fa-b35a-356a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="92f3-82d8-558e-55e1" type="selectionEntryGroup"/>
+            <entryLink id="e14c-87f7-e40f-eb88" name="Arcane Items" hidden="false" collective="false" import="true" targetId="052f-5a92-5e7c-307a" type="selectionEntryGroup"/>
+            <entryLink id="3e81-8daa-2d91-d611" name="Talismans" hidden="false" collective="false" import="true" targetId="a664-c8f8-1595-c50a" type="selectionEntryGroup"/>
+            <entryLink id="4698-97c2-4b55-a912" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="580f-1d21-16a7-c3f4" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="db8b-969c-98b2-471f" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="4553-20e6-48f0-136c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b66-4342-1ad8-c21c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c7-e2c1-dd94-f17a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4553-20e6-48f0-136c" name="Magic Level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ebc-997c-1634-c469" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cc3d-419b-4176-213f" name="Magic Level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59a0-6b98-621d-deee" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a815-e42c-9c9f-b81a" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="4aeb-8815-4ade-a4fe" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="d873-6403-328a-c007" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" targetId="3578-4bcf-3142-ae08" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9abc-a17f-5e82-6c57" name="Branchwraith" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="384d-589b-d33a-cee4" name="Branchwraith" hidden="false" targetId="8263-9854-dd96-7f47" type="profile"/>
+        <infoLink id="2f05-47a5-9af3-dfc1" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="a03e-4658-7dad-bb2b" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6b37-f750-97e2-0328" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+        <categoryLink id="7d56-62b7-bfc6-2403" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="035a-83c0-5e92-5b32" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="b6f0-8b3b-5052-9818" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6851-794a-beea-33bf" name="Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d53-0bb6-e457-65b7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d86e-6ca3-37c3-a069" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e068-b232-9526-156c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="fbd9-fe17-9e28-b84a" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acf4-0d54-550f-4fdd" name="Glade Guard" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0af2-3604-21f1-e6fe" name="Glade Guard" hidden="false" targetId="10d4-8ad6-fda1-c693" type="profile"/>
+        <infoLink id="a825-885c-3b16-38c3" name="Glade Guard Longbows" hidden="false" targetId="1507-26eb-e50c-5c71" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7ee8-7cff-13d8-491e" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="e233-c876-d77c-7e9d" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="795d-571c-0c12-d677" name="Glade Guard" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a1-3505-e6d9-76f6" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8a72-2453-15d0-fec5" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d064-530c-034e-122d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ab00-e28e-828c-8569" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91c4-0478-be77-af41" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d190-07df-7323-cc68" name="Units Magic Banners" hidden="false" collective="false" import="true" targetId="f7e3-8cd9-8cff-361a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6f-7c70-2944-f6fa" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="380d-69d7-78df-8013" name="Glade banner" hidden="false" targetId="6cb8-4087-f552-28ec" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="874a-88a6-25a7-83e2" name="Lords Bowman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb9a-7eca-f88b-98af" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fffc-2dc9-b6fa-34d8" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df6b-d6c8-942d-5761" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138b-4a1c-7c87-b1da" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -739,18 +1509,596 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d1a-1291-34b3-50ea" name="Wardancer Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6c-8b02-6c41-1cde" type="max"/>
       </constraints>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0995-6ccf-e2e6-58ea" name="Moonstone of the Hidden Ways" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1f-25c4-d9f2-49da" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d41b-957c-016d-7331" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0460-6cd0-4fbc-0b48" name="Moonstone of the Hidden Ways" hidden="false" targetId="b1df-9a9f-348b-754d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d13-6600-4cf9-a54b" name="Hail of Doom Arrow" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e45-f7c6-7112-ccf0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="10dc-c2d7-c64f-9774" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9bc5-7108-ea78-5fb2" name="Hail of Doom Arrow" hidden="false" targetId="a4c8-9dff-c939-d08a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0fa-98e3-803e-fdfd" name="Starfire Arrows" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4b-00d1-b0e4-6984" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f6b8-caa6-d688-89e9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b20b-a952-2102-6198" name="Starfire Arrows" hidden="false" targetId="ecc4-6a76-0ed5-ca64" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dede-0048-c22a-9284" name="The Horn of the Asrai" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b159-68b3-93d6-688f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8177-ce6f-82d9-8ef0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d177-bd67-071c-5d92" name="Arcane Bodkins" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3230-88fd-0452-d1ec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b3b-370a-962e-8647" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d0fc-fc74-ea86-5f1d" name="Arcane Bodkins" hidden="false" targetId="ad8e-ef33-7941-38c5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7868-9593-0e3b-1561" name="Elynett’s Brooch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1a8-a7df-f356-e2a3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2573-9fef-3683-9dd7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d189-708f-15e1-ec86" name="Elynett’s Brooch" hidden="false" targetId="0a65-0f70-1275-bced" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="665d-4f7f-3f6e-0772" name="Dragontooth Arrows" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="794d-279c-dcba-f873" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32fe-4262-afa4-db20" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2b76-4f7d-a885-ff90" name="Dragontooth Arrows" hidden="false" targetId="495b-20e1-c70d-c44f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0215-2ac1-7cdd-b790" name="Gwytherc’s Horn" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9861-f145-f83f-9682" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc1c-4bd1-b670-1ca3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="083d-0d52-0fef-96e4" name="Gwytherc’s Horn" hidden="false" targetId="8d75-a09a-452c-f009" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f84-c8c1-eac2-4408" name="Wand of Wych Elm" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8321-d312-274b-a4a4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="704a-62e2-2920-a427" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f973-9ecf-79ba-e260" name="Calaingor’s Stave" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecb-8095-08c3-ff4a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dbd-1f47-183e-a1de" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ed6-f05b-8020-da47" name="Divination Orb" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3481-96f8-8680-fa16" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="88ad-edbf-1593-092b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e171-9403-7c78-42b0" name="Divination Orb" hidden="false" targetId="6676-507b-e048-08ca" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fef0-1dda-e46e-12ac" name="The Deepwood Sphere" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ad-f477-3473-bf95" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e682-ac23-60c3-70a7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2821-0ed4-45c8-e146" name="The Deepwood Sphere" hidden="false" targetId="a9bb-a256-beff-832e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65e8-77c2-4011-4898" name="Ranu’s Heartstone" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce4e-e5c9-7958-7977" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8658-a3a6-d340-db36" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e798-b928-5887-6342" name="Ranu’s Heartstone" hidden="false" targetId="2fcb-156e-db63-ee32" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="247f-d82a-2dbf-aa37" name="The Royal Standard of Ariel" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad0-f726-3b2f-c97e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b610-1555-14cb-ef69" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="53d2-e2d1-4de2-1d4c" name="The Royal Standard of Ariel" hidden="false" targetId="2c9d-8187-419f-fbb6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28ae-2768-d06b-a624" name="Gaemrath – the Banner of Midwinter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f2-c13c-b8ad-4fe6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7371-5f89-6cea-eb6c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="83d8-847b-6041-87bf" name="Gaemrath – the Banner of Midwinter" hidden="false" targetId="6ba8-44f5-3176-63c1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c50-2625-65aa-3581" name="Faoghir – the Banner of Dwindling" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ec-5bbb-96f3-a2a8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="130e-bad9-31b2-d0bb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4f3c-d664-63e8-52b8" name="Faoghir – the Banner of Dwindling" hidden="false" targetId="d703-4032-72d4-c3d4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3abc-2563-63d2-6a84" name="Saemrath – the Banner of the Zenith" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff90-0506-cd1a-d0b6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e27b-03fa-ef6f-bca8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dcf3-55a9-9000-b5c4" name="Saemrath – the Banner of the Zenith" hidden="false" targetId="ab59-92c1-457a-49e5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0945-c88d-16cc-ee5e" name="Aeth – the Banner of Springtide" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b428-fdd3-548f-f507" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0a1-8def-7367-4c1e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db29-061a-ccf4-622e" name="A Blight of Terrors" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="235f-4a16-eb27-6716" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b7a-f174-2dc5-4ecc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2624-7c24-2810-fd77" name="A Blight of Terrors" hidden="false" targetId="69ba-ade6-9cb9-f56f" type="rule"/>
+        <infoLink id="a1e5-56ec-6145-0b50" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a32f-9e58-87c1-4d98" name="A Befuddlement of Mischiefs" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d6-2e0a-6449-53be" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df39-c5d5-f25a-0202" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4969-d765-f83e-35eb" name="A Befuddlement of Mischiefs" hidden="false" targetId="abcb-e654-6c94-311c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e241-015c-9ec4-7320" name="A Murder of Spites" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff4-51ef-40fc-f41a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b485-8a27-d369-ce10" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a099-c167-2242-ee20" name="A Murder of Spites" hidden="false" targetId="1e01-c2eb-b799-bdb5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93d5-697d-d91c-0a72" name="A Muster of Malevolents" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb0a-35a0-8546-302c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed72-6c8f-f1c3-6134" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5119-a178-3aae-57ed" name="A Muster of Malevolents" hidden="false" targetId="0a2c-9486-9331-5849" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20c5-4ca0-939e-eb84" name="An Annoyance of Netlings" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21a-f239-ab00-fafa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8fc7-1aff-d908-4731" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="09f9-5186-7950-ae26" name="An Annoyance of Netlings" hidden="false" targetId="a5d3-2f54-a931-a835" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97a0-6421-5b31-9617" name="A Resplendence of Luminescents" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c022-eadb-f05a-bdee" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8067-64ae-953c-1d72" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9328-d8fc-13ee-8607" name="A Resplendence of Luminescents" hidden="false" targetId="1c72-e093-7ca7-15e2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb1e-aa1a-9d8f-9813" name="A Lamentation of Despairs" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6f-06da-ff4c-e8b7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a61-3e37-0459-0200" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6473-137b-9770-b8c3" name="A Lamentation of Despairs" hidden="false" targetId="fcda-ea0c-6ecd-e209" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c118-f733-7077-c61c" name="A Cluster of Radiants" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad55-f890-dfa5-e3f7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="452a-2106-f9bd-5ea9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cbe9-45a4-cc7e-fa6d" name="A Cluster of Radiants" hidden="false" targetId="a025-68b5-47af-7891" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e25-dc13-310f-9bf9" name="A Pageant of Shrikes" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6216-b581-fcdf-34c3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="41db-aab8-bcc5-d598" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8db7-0e51-6639-bb6f" name="A Pageant of Shrikes" hidden="false" targetId="2ed1-2409-5a14-a604" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad0a-e1ca-682f-42fa" name="Wardancer Kindred" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c51-4a44-3801-baf5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ebaf-4d87-4051-9486" name="Wardancer Kindred" hidden="false" targetId="6233-b08e-0fbe-a6e6" type="rule"/>
+        <infoLink id="350a-abe5-c4a2-1931" name="Wardancer Weapons" hidden="false" targetId="92e2-be44-6da3-dc20" type="rule"/>
+        <infoLink id="cf57-c82e-f3e1-6a8b" name="Shadow Dances of Loec" hidden="false" targetId="f5ff-a94e-1810-5656" type="rule"/>
+        <infoLink id="009b-7d8a-e0cb-29be" name="Talismanic Tattoos" hidden="false" targetId="22b0-0b35-9c5d-d737" type="rule"/>
+        <infoLink id="b534-1bac-d839-b031" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="beba-db31-32b8-f1ba" name="Eternal Kindred" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="217c-964a-d344-8f93" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="af34-9d8a-544c-fcfd" name="Eternal Kindred" hidden="false">
+          <description>Characters benefit from the Eternal Guard Fighting Style but loose this if they take any magical weapons or armour</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7428-005b-325e-cc19" name="Eternal Guard Fighting Style" hidden="false" targetId="9bff-2f3e-0a12-82fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b11c-c0b9-fe2d-2e5d" name="Alter Kindred" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9845-a447-5267-bdbd" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="6d20-c85a-940e-4ca1" name="Alter Kindred" hidden="false">
+          <description>Alter Kindred characters Movement and Initiative or raised to 9 and his attacks are increased by 1. However he must fight on foot. Alter kindreds cannot be the General nor join a unit</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bae4-141e-5a76-1a9b" name="Scout Kindred" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b43-f454-c37d-aa91" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a3b1-e627-cbdb-9bb1" name="Scout Kindred" hidden="false">
+          <description>The character has the scout ability but must be on foot and cannot take a great weapon</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16d1-2def-e270-a8cb" name="Wild Rider Kindreds" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e527-aafe-6ec9-c89e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a821-37e1-5c69-c208" name="Wild Rider Kindreds" hidden="false">
+          <description>Wild Rider Kindreds are equiped with a spear and wear Light armour. They may not take any other armour or weapon except for magical spear or magical light armour.
+They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special Rule. They must be mounted either withan elven steed or stag at the cost in the book.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c9b-9f31-acd1-1be7" name="Waywatcher Kindreds" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857-eeb4-205b-71dd" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="da74-60ee-4acd-f5bf" name="Waywatcher Kindreds" hidden="false">
+          <description>The Character gets the skills Lethal Shot and Forest Walker. Note Lethal Shot only works for non magical weapons or ammo. The character cannot wear armour nor carry a shield. The character cannot take any close combat weapons that require two hands. Waywatchers must fight on foot.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa10-572d-6315-ed0b" name="Lethal Shot" hidden="false" targetId="5f1d-e3af-0ba1-8179" type="rule"/>
+        <infoLink id="6c40-f6ba-fda3-d235" name="Forest Stalkers" hidden="false" targetId="ee3c-cd24-db81-c58a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3578-4bcf-3142-ae08" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3cf-6654-fd8e-3586" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f884-d175-9c8a-7212" name="Glamoureave Kindreds" hidden="false">
+          <description>The character gains the forest Spirit trait hence may join forest spirit units. However the mage must be mounted on a Unicorn or Elven Steed at he additional cost shown.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="18e6-dc73-480e-8100" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d774-ad1f-c375-09dd" name="Giant Stag" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e52e-c9a3-90e9-6cb1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2f80-6d61-04d6-83bc" name="Giant Stag" hidden="false" targetId="3a7a-eece-dbba-ab00" type="profile"/>
+        <infoLink id="33c0-2e97-5f8d-f2ab" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71d9-2c66-1b06-8b62" name="Elven Steed" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc84-961a-2201-551e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8666-7d49-d2c0-b13e" name="Elven Steed" hidden="false" targetId="6547-d129-9f78-062b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0521-24e0-2a22-4531" name="Great Eagle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="364d-c036-e448-309b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="670f-7fff-c47d-db03" name="Great Eagle" hidden="false" targetId="d63c-1ad8-79c3-9d2f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c67-b84a-c907-213d" name="Unicorn" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7473-c7a7-5099-400d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="27a7-32a5-18e0-6396" name="Unicorn" hidden="false" targetId="c39d-46d7-5b1d-aa38" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b96-ec3a-cd31-7f8e" name="Forest Dragon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa93-720c-b98c-aa1a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="26b5-741d-2155-fe39" name="Firest Dragon" hidden="false" targetId="7d73-1c10-0ebd-3b0b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="052f-5a92-5e7c-307a" name="Arcane Items" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="b170-138c-6e84-0950" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ab0-c87d-ebb8-a8d2" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8ab0-c87d-ebb8-a8d2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b170-138c-6e84-0950" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="f547-f4c3-b675-e2f1" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry"/>
+        <entryLink id="3f3d-b54d-b7aa-c5bf" name="Wand of Wych Elm" hidden="false" collective="false" import="true" targetId="3f84-c8c1-eac2-4408" type="selectionEntry"/>
+        <entryLink id="8ab0-c87d-ebb8-a8d2" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry"/>
+        <entryLink id="3276-816c-b62d-8bde" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry"/>
+        <entryLink id="8bfb-050f-1d7c-1a74" name="Calaingor’s Stave" hidden="false" collective="false" import="true" targetId="f973-9ecf-79ba-e260" type="selectionEntry"/>
+        <entryLink id="bea9-dfce-4055-bfa7" name="Divination Orb" hidden="false" collective="false" import="true" targetId="8ed6-f05b-8020-da47" type="selectionEntry"/>
+        <entryLink id="c3f6-92ee-d458-7678" name="The Deepwood Sphere" hidden="false" collective="false" import="true" targetId="fef0-1dda-e46e-12ac" type="selectionEntry"/>
+        <entryLink id="bf41-5b8e-7e59-781c" name="Ranu’s Heartstone" hidden="false" collective="false" import="true" targetId="65e8-77c2-4011-4898" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="92f3-82d8-558e-55e1" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -821,6 +2169,11 @@
       </constraints>
       <entryLinks>
         <entryLink id="4b13-5f63-94d7-461c" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="0e4e-8489-1de4-b043" name="The Royal Standard of Ariel" hidden="false" collective="false" import="true" targetId="247f-d82a-2dbf-aa37" type="selectionEntry"/>
+        <entryLink id="b6b6-bbef-31e8-b43f" name="Gaemrath – the Banner of Midwinter" hidden="false" collective="false" import="true" targetId="28ae-2768-d06b-a624" type="selectionEntry"/>
+        <entryLink id="3ce4-884e-1e0c-b69c" name="Faoghir – the Banner of Dwindling" hidden="false" collective="false" import="true" targetId="8c50-2625-65aa-3581" type="selectionEntry"/>
+        <entryLink id="3303-37c0-a490-309d" name="Saemrath – the Banner of the Zenith" hidden="false" collective="false" import="true" targetId="3abc-2563-63d2-6a84" type="selectionEntry"/>
+        <entryLink id="381c-ff97-c9bf-b77d" name="Aeth – the Banner of Springtide" hidden="false" collective="false" import="true" targetId="0945-c88d-16cc-ee5e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="580f-1d21-16a7-c3f4" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -830,6 +2183,106 @@
       <entryLinks>
         <entryLink id="4ff5-e5e6-4b14-284a" name="Wraithstone" hidden="false" collective="false" import="true" targetId="dcf5-c679-bed1-8ab2" type="selectionEntry"/>
         <entryLink id="be29-f421-6150-6c1d" name="Hagbane Arrows" hidden="false" collective="false" import="true" targetId="018b-0b69-5e4b-66e1" type="selectionEntry"/>
+        <entryLink id="3ba3-615c-bc58-8c0b" name="Moonstone of the Hidden Ways" hidden="false" collective="false" import="true" targetId="0995-6ccf-e2e6-58ea" type="selectionEntry"/>
+        <entryLink id="266f-1499-8477-a56e" name="Hail of Doom Arrow" hidden="false" collective="false" import="true" targetId="3d13-6600-4cf9-a54b" type="selectionEntry"/>
+        <entryLink id="5e94-e2d5-fb4d-2860" name="Starfire Arrows" hidden="false" collective="false" import="true" targetId="b0fa-98e3-803e-fdfd" type="selectionEntry"/>
+        <entryLink id="3892-bfe3-7c0e-303a" name="The Horn of the Asrai" hidden="false" collective="false" import="true" targetId="dede-0048-c22a-9284" type="selectionEntry"/>
+        <entryLink id="dad3-b83d-5f57-659b" name="Arcane Bodkins" hidden="false" collective="false" import="true" targetId="d177-bd67-071c-5d92" type="selectionEntry"/>
+        <entryLink id="0f3f-196d-f3a1-ec2b" name="Elynett’s Brooch" hidden="false" collective="false" import="true" targetId="7868-9593-0e3b-1561" type="selectionEntry"/>
+        <entryLink id="a58f-c88c-739b-fe54" name="Dragontooth Arrows" hidden="false" collective="false" import="true" targetId="665d-4f7f-3f6e-0772" type="selectionEntry"/>
+        <entryLink id="668a-77bb-abd1-6f46" name="Gwytherc’s Horn" hidden="false" collective="false" import="true" targetId="0215-2ac1-7cdd-b790" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9141-e557-c558-91a9" name="Spites" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74fe-ec66-205d-11fd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9ee9-2b96-2193-afeb" name="A Blight of Terrors" hidden="false" collective="false" import="true" targetId="db29-061a-ccf4-622e" type="selectionEntry"/>
+        <entryLink id="3e34-525c-435d-c593" name="A Befuddlement of Mischiefs" hidden="false" collective="false" import="true" targetId="a32f-9e58-87c1-4d98" type="selectionEntry"/>
+        <entryLink id="25a4-57c4-431a-1581" name="A Murder of Spites" hidden="false" collective="false" import="true" targetId="e241-015c-9ec4-7320" type="selectionEntry"/>
+        <entryLink id="4407-06df-fc5e-a1d1" name="A Muster of Malevolents" hidden="false" collective="false" import="true" targetId="93d5-697d-d91c-0a72" type="selectionEntry"/>
+        <entryLink id="5ad7-7448-351c-0116" name="An Annoyance of Netlings" hidden="false" collective="false" import="true" targetId="20c5-4ca0-939e-eb84" type="selectionEntry"/>
+        <entryLink id="89ca-b7db-e90b-bbaf" name="A Resplendence of Luminescents" hidden="false" collective="false" import="true" targetId="97a0-6421-5b31-9617" type="selectionEntry"/>
+        <entryLink id="afe4-5432-3058-eff4" name="A Lamentation of Despairs" hidden="false" collective="false" import="true" targetId="cb1e-aa1a-9d8f-9813" type="selectionEntry"/>
+        <entryLink id="5002-b21e-7721-fafa" name="A Pageant of Shrikes" hidden="false" collective="false" import="true" targetId="0e25-dc13-310f-9bf9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c6d9-d6e1-96ac-0f4d" name="Tree Spites" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e7-1f4c-1ebf-43de" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b6e5-92f2-9ce6-7256" name="A Blight of Terrors" hidden="false" collective="false" import="true" targetId="db29-061a-ccf4-622e" type="selectionEntry"/>
+        <entryLink id="b453-bc7d-941d-a171" name="A Befuddlement of Mischiefs" hidden="false" collective="false" import="true" targetId="a32f-9e58-87c1-4d98" type="selectionEntry"/>
+        <entryLink id="5055-481f-6521-af48" name="A Murder of Spites" hidden="false" collective="false" import="true" targetId="e241-015c-9ec4-7320" type="selectionEntry"/>
+        <entryLink id="8b49-3f48-94e4-63bc" name="A Muster of Malevolents" hidden="false" collective="false" import="true" targetId="93d5-697d-d91c-0a72" type="selectionEntry"/>
+        <entryLink id="4fbf-389a-2ba0-a9ed" name="An Annoyance of Netlings" hidden="false" collective="false" import="true" targetId="20c5-4ca0-939e-eb84" type="selectionEntry"/>
+        <entryLink id="fe14-1e7a-6e72-1a6a" name="A Resplendence of Luminescents" hidden="false" collective="false" import="true" targetId="97a0-6421-5b31-9617" type="selectionEntry"/>
+        <entryLink id="d9d0-c0f8-8119-c74b" name="A Lamentation of Despairs" hidden="false" collective="false" import="true" targetId="cb1e-aa1a-9d8f-9813" type="selectionEntry"/>
+        <entryLink id="134e-8f2a-08a8-3da7" name="A Cluster of Radiants" hidden="false" collective="false" import="true" targetId="c118-f733-7077-c61c" type="selectionEntry"/>
+        <entryLink id="ef54-3021-001e-bd45" name="A Pageant of Shrikes" hidden="false" collective="false" import="true" targetId="0e25-dc13-310f-9bf9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3b63-972e-880d-6606" name="Kindreds" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc96-dfe8-fab8-ea88" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="531e-18aa-e02d-289a" name="Wardancer Kindred" hidden="false" collective="false" import="true" targetId="ad0a-e1ca-682f-42fa" type="selectionEntry"/>
+        <entryLink id="f5b0-7f5f-38e1-320e" name="Eternal Kindred" hidden="false" collective="false" import="true" targetId="beba-db31-32b8-f1ba" type="selectionEntry"/>
+        <entryLink id="fea2-7c55-45ac-e6fb" name="Alter Kindred" hidden="false" collective="false" import="true" targetId="b11c-c0b9-fe2d-2e5d" type="selectionEntry"/>
+        <entryLink id="137c-b28e-36b5-0ef8" name="Scout Kindred" hidden="false" collective="false" import="true" targetId="bae4-141e-5a76-1a9b" type="selectionEntry"/>
+        <entryLink id="0ec1-2229-e459-475a" name="Wild Rider Kindreds" hidden="false" collective="false" import="true" targetId="16d1-2def-e270-a8cb" type="selectionEntry"/>
+        <entryLink id="0e52-6cc8-2a62-88c1" name="Waywatcher Kindreds" hidden="false" collective="false" import="true" targetId="3c9b-9f31-acd1-1be7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9823-b15c-490f-56fc" name="Kindreds Lords" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7de-160e-94ef-2592" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f1f1-4134-a347-96f9" name="Wardancer Kindred" hidden="false" collective="false" import="true" targetId="ad0a-e1ca-682f-42fa" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2cb8-8a13-50e0-0455" name="Eternal Kindred" hidden="false" collective="false" import="true" targetId="beba-db31-32b8-f1ba" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5a09-7101-6035-9ab5" name="Alter Kindred" hidden="false" collective="false" import="true" targetId="b11c-c0b9-fe2d-2e5d" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8444-7ef4-2dd9-dbe2" name="Scout Kindred" hidden="false" collective="false" import="true" targetId="bae4-141e-5a76-1a9b" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6203-412e-bf76-870c" name="Wild Rider Kindreds" hidden="false" collective="false" import="true" targetId="16d1-2def-e270-a8cb" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="69f8-b4c1-1481-7c6d" name="Waywatcher Kindreds" hidden="false" collective="false" import="true" targetId="3c9b-9f31-acd1-1be7" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f7e3-8cd9-8cff-361a" name="Units Magic Banners" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c745-28fa-84cc-1a33" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7e62-9827-6dd1-c453" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="d0cc-5c1f-81b4-e578" name="Gaemrath – the Banner of Midwinter" hidden="false" collective="false" import="true" targetId="28ae-2768-d06b-a624" type="selectionEntry"/>
+        <entryLink id="973a-b6d1-73c9-500d" name="Saemrath – the Banner of the Zenith" hidden="false" collective="false" import="true" targetId="3abc-2563-63d2-6a84" type="selectionEntry"/>
+        <entryLink id="a8db-4c43-48e2-1508" name="Aeth – the Banner of Springtide" hidden="false" collective="false" import="true" targetId="0945-c88d-16cc-ee5e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -990,6 +2443,104 @@ Counts as light armour (6+Armour Save) that can becombined with other equipment 
     <rule id="e5b5-53e6-8a6a-3718" name="Hagbane Arrows" hidden="false">
       <description>Magic  arrows. A model that loses one or more wounds from Hagbane Arrows in any Shooting phase must take aToughness test at the end of the phase. If the test is failed, the target is slain regardless of how many wounds it has left, ignoring Armour Saves and Ward Saves.</description>
     </rule>
+    <rule id="b1df-9a9f-348b-754d" name="Moonstone of the Hidden Ways" hidden="false">
+      <description>One Use only
+If the character and any unit they have joined is wholly within a wood at the end of the Move phase, the characterand unit may be removed from the table and replaced anywhere that is also wholly within a wood,facing in anydirection and in any formation.</description>
+    </rule>
+    <rule id="a4c8-9dff-c939-d08a" name="Hail of Doom Arrow" hidden="false">
+      <description>One use only
+Magic arrow.When fired, the arrow splits into 3D6 magical Strength 4 arrows. Roll to hit for each arrow. If this is usedwith a magic bow, then any effects of the magic bow are ignored for this shot.</description>
+    </rule>
+    <rule id="ecc4-6a76-0ed5-ca64" name="Starfire Arrows" hidden="false">
+      <description>Magic arrows. Any unit that suffers one or more casualtiesfrom Starfire Arrows must take a Panic test, regardless ofthe number of casualties caused.</description>
+    </rule>
+    <rule id="583f-3946-969e-f934" name="The Horn of the Asrai" hidden="false">
+      <description>one use only
+Can be used at the beginning of any enemy turn.When used,all enemies able to charge the bearer of this item must take aLeadership test. If they fail,they must charge the bearer(charge reactions,Psychology tests etc. are taken as normal).</description>
+    </rule>
+    <rule id="ad8e-ef33-7941-38c5" name="Arcane Bodkins" hidden="false">
+      <description>Magic arrows.No Armour Saves are allowed against ArcaneBodkins.</description>
+    </rule>
+    <rule id="0a65-0f70-1275-bced" name="Elynett’s Brooch" hidden="false">
+      <description>The wearer, and any unit they join, may re-roll failedPsychology tests.</description>
+    </rule>
+    <rule id="495b-20e1-c70d-c44f" name="Dragontooth Arrows" hidden="false">
+      <description>Any model wounded by Dragontooth Arrows suffers from the rules for Stupidity for the rest of the game-even if theyare normally Immune to Psychology.</description>
+    </rule>
+    <rule id="8d75-a09a-452c-f009" name="Gwytherc’s Horn" hidden="false">
+      <description>one use only
+At the start of any of the bearer&apos;s turns the horn may beblown.The bearer and any unit joined are Immune toPsychology until the beginning of the bearer&apos;s next turn.
+</description>
+    </rule>
+    <rule id="d0f8-9279-1ce0-d5e8" name="Wand of Wych Elm" hidden="false">
+      <description>This staff allows any Dispel attempt to be re-rolled.</description>
+    </rule>
+    <rule id="3ce8-afab-c513-5851" name="Calaingor’s Stave" hidden="false">
+      <description>If the bearer has the spell Tree Singing,then they may add 1&quot; to the distance they may move a forest if they successfully cast the spell (so, if successfully cast, theymay move a forest D3+2&quot;). In addition, they may cast(and attempt to cast) the spell more than once per Magic phase.</description>
+    </rule>
+    <rule id="6676-507b-e048-08ca" name="Divination Orb" hidden="false">
+      <description>If an opponent uses more than three dice when casting anyspell,the bearer of the Divination Orb may add an extrafree Dispel dice into the attempt to dispel that spell.</description>
+    </rule>
+    <rule id="a9bb-a256-beff-832e" name="The Deepwood Sphere" hidden="false">
+      <description>This item allows the mage to re-roll the dice whendetermining the effects of the Tree Singing spell (whetherhe isusing it to move a wood or to inflict damage on an enemywithin a wood).In additionall enemy models wholly or partlywithin the same wood as the bearer take a single Strength 5hit at the start of each Wood Elf Magic phase.</description>
+    </rule>
+    <rule id="2fcb-156e-db63-ee32" name="Ranu’s Heartstone" hidden="false">
+      <description>one use only
+Once per game,the bearer of this item may re-roll one ofthe dice when casting a spell or making a Dispel attempt.This can be used to prevent a miscast or cause a spell to becast with Irresistible Force.
+</description>
+    </rule>
+    <rule id="2c9d-8187-419f-fbb6" name="The Royal Standard of Ariel" hidden="false">
+      <description>The enchantment that Ariel has woven into this banner causes the bearer, and any unit he joins, to cause fear. In addition any friendly unit within 12&quot; of this banner receives Magic Resistance (1).</description>
+    </rule>
+    <rule id="6ba8-44f5-3176-63c1" name="Gaemrath – the Banner of Midwinter" hidden="false">
+      <description>Declare the banner&apos;s use at the beginning of theMovement phase,before declaring charges. The unit maynot move or march but becomes Unbreakable until the startof the next player turn.This ability may be used if the unitis already engaged in close combat, but cannot be used ifthe unit is fleeing or skirmishing.</description>
+    </rule>
+    <rule id="d703-4032-72d4-c3d4" name="Faoghir – the Banner of Dwindling" hidden="false">
+      <description>Enemies that flee from the unit having been beaten in closecombat roll one dice less than normal to determine thedistance they flee.</description>
+    </rule>
+    <rule id="ab59-92c1-457a-49e5" name="Saemrath – the Banner of the Zenith" hidden="false">
+      <description>The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
+    </rule>
+    <rule id="c04b-8e9d-823e-cdf6" name="Aeth – the Banner of Springtide" hidden="false">
+      <description>The unit may make a stand and shoot charge reaction even if theenemy charging them do so from within half their charge range.</description>
+    </rule>
+    <rule id="69ba-ade6-9cb9-f56f" name="A Blight of Terrors" hidden="false">
+      <description>A model with a Blight of Terrors causes terror.</description>
+    </rule>
+    <rule id="abcb-e654-6c94-311c" name="A Befuddlement of Mischiefs" hidden="false">
+      <description>Bound Spell: Power l;evel 3
+The Mischiefs are treated like a Magic Missile spell that hasa range of 18&quot; It causes the targeted unit to become subject to Stupidity in its next turn. Those units that are Immuneto Psychology are immune to the effects of this spell.</description>
+    </rule>
+    <rule id="1e01-c2eb-b799-bdb5" name="A Murder of Spites" hidden="false">
+      <description>The model gains +D6 attacks in close combat.These areworked out at the bearer&apos;s WS, and have an Initiative of4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
+    </rule>
+    <rule id="0a2c-9486-9331-5849" name="A Muster of Malevolents" hidden="false">
+      <description>A Muster counts as a ranged weapon that may be used inaddition to any ranged weapon that the model carries. It has a range of 6&quot;, and unleashes D6 Strength 2 shots.The model counts as being a single unit strength 1model on foot for line of sight for this attack, and it maytarget a different unit than any other ranged attack madeby the character. These shots always hit on a 4+ andcount as magical and Poisoned Attacks. A model with Malevolents may stand and shoot with them (in additionto any other ranged weapon the model may have), evenif the charging unit is outside the model&apos;s line of sight,orit would not normally be allowed to stand and shootbecause the enemy is within half its charge range.So long as the model has a chance to be contacted by the enemy unit, the character may still stand and shoot.</description>
+    </rule>
+    <rule id="a5d3-2f54-a931-a835" name="An Annoyance of Netlings" hidden="false">
+      <description>In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
+    </rule>
+    <rule id="1c72-e093-7ca7-15e2" name="A Resplendence of Luminescents" hidden="false">
+      <description>All attacks made by a character with a Replendence of Luminescents are magical, as are those of any unit that they join.</description>
+    </rule>
+    <rule id="fcda-ea0c-6ecd-e209" name="A Lamentation of Despairs" hidden="false">
+      <description>Bound Spell Power Level 3
+one use only
+Any model on the board may be targeted. The targeted model must pass a Leadership test, or else suffer D3 automatic wounds that cannot be saved by armour or Ward Saves and cannot be regenerated.</description>
+    </rule>
+    <rule id="a025-68b5-47af-7891" name="A Cluster of Radiants" hidden="false">
+      <description>Treeman Ancients and Branchwraiths only
+A character with Radiants may add one extra dice to their Dispel pool in opponent’s Magic phase.
+</description>
+    </rule>
+    <rule id="2ed1-2409-5a14-a604" name="A Pageant of Shrikes" hidden="false">
+      <description>In addition to shooting attacks the model has, Shrikes confer an additional shooting attack. A Pageant of Shrikes may target a different unit than any other ranged attack made by the character, though it may only be used against a target that the character can see. A Pageant of Shrikes is a Strength 4 ranged attack that has a range of 18” and always hits on 3+. This shooting attack is not subject to the usual targeting restrictions apart from line of sight – it can be used to pick out an individual character within a unit. A model may not stand and shoot with Pageant of Shrikes.</description>
+    </rule>
+    <rule id="6233-b08e-0fbe-a6e6" name="Wardancer Kindred" hidden="false">
+      <description>The character loses their Longbow, but gains the special rule Wardancer weapons, Shadow Dancers of Loec,  Immune to Pyscology and Talismanic Tattoos.
+
+Wardancers cannot take armour or be given magical weapons that are not classed as Wardancer Weapons. The character must fight on foot and may not join any unit execept Wardancers. Botht he cvharacter and the unit must use the same Shadow Dance.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="da94-2d91-8e3b-f505" name="Highborn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -1094,19 +2645,6 @@ Counts as light armour (6+Armour Save) that can becombined with other equipment 
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d163-e9ff-4fdd-c361" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-      <characteristics>
-        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
-        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
-        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
-        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
-        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
     <profile id="bb17-bb59-18b1-f05a" name="Eternal Guard" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -1341,6 +2879,84 @@ Counts as light armour (6+Armour Save) that can becombined with other equipment 
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b71b-2327-313b-b7b2" name="Eternal" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3a7a-eece-dbba-ab00" name="Giant Stag" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6547-d129-9f78-062b" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c39d-46d7-5b1d-aa38" name="Unicorn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">10</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d73-1c10-0ebd-3b0b" name="Forest Dragon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e99f-01b3-92c6-e9a7" name="Treeman Ancient" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
