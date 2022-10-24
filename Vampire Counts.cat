@@ -1878,8 +1878,8 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="3.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="649a-8bc1-fb66-ed73" name="Wizard level 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -1888,7 +1888,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="3.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
               </costs>
             </selectionEntry>

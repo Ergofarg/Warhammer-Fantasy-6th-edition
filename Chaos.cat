@@ -6090,7 +6090,6 @@
         <infoLink id="663e-47ec-6fd0-8228" name="Axe of Khorne" hidden="false" targetId="61f7-513e-ae06-fab7" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6752,7 +6751,6 @@
         <infoLink id="1ffe-ae77-e3e7-4f6f" name="Daemon Axe of Khorne" hidden="false" targetId="22c8-3996-439e-9dcf" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6766,7 +6764,6 @@
         <infoLink id="e821-72d2-8621-69d0" name="Armour of Khorne" hidden="false" targetId="f898-9f78-5022-92c0" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6780,7 +6777,6 @@
         <infoLink id="145d-7726-c068-debe" name="Might of Khorne" hidden="false" targetId="b258-d8fb-24e9-4e22" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6794,7 +6790,6 @@
         <infoLink id="b27a-022e-6332-27b9" name="Tzeentch&apos;s Will" hidden="false" targetId="0e22-ca1d-bc74-9c81" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6808,7 +6803,6 @@
         <infoLink id="ed16-d424-089a-706f" name="Spell Destroyer" hidden="false" targetId="d299-1c77-05d0-64d3" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6850,7 +6844,6 @@
         <infoLink id="317f-dcf8-c656-506e" name="Cloud of Flies" hidden="false" targetId="f51e-1c83-d46b-e233" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6864,7 +6857,6 @@
         <infoLink id="36d6-b000-f6e8-c350" name="Stream of Corruption" hidden="false" targetId="1b94-376e-059e-cfaf" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6892,7 +6884,6 @@
         <infoLink id="95d2-17f2-bff0-a599" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -6906,7 +6897,6 @@
         <infoLink id="f51d-9a8b-92d0-ea78" name="Sporofic Musk" hidden="false" targetId="a9d7-19e4-a4e1-6a28" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -7601,7 +7591,11 @@
         <entryLink id="ad2d-7002-f17a-2153" name="Filth Mace " hidden="false" collective="false" import="true" targetId="9687-59e3-3a45-5ebe" type="selectionEntry"/>
         <entryLink id="e533-b1e4-def0-d4a2" name="Blade of Blood" hidden="false" collective="false" import="true" targetId="3c1b-acbe-0312-7031" type="selectionEntry"/>
         <entryLink id="42de-0233-ad96-7d28" name="Soul Cleaver " hidden="false" collective="false" import="true" targetId="dc79-360e-9914-67ca" type="selectionEntry"/>
-        <entryLink id="2980-e456-9029-50b5" name="Axe of Khorne" hidden="false" collective="false" import="true" targetId="264c-e98e-4b75-0ade" type="selectionEntry"/>
+        <entryLink id="2980-e456-9029-50b5" name="Axe of Khorne" hidden="false" collective="false" import="true" targetId="264c-e98e-4b75-0ade" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d61d-4d6e-4a5f-37a6" name="Lord Of Chaos Mark" hidden="false" collective="false" import="true" defaultSelectionEntryId="3955-d700-01cc-6d7e">
@@ -7765,35 +7759,72 @@
         <entryLink id="2e8c-f53c-f281-cb0c" name="Blasted Standard" hidden="false" collective="false" import="true" targetId="f86a-9d50-6096-d0ad" type="selectionEntry"/>
         <entryLink id="2eab-1d9b-ce66-4f11" name="Banner of Wrath" hidden="false" collective="false" import="true" targetId="46ac-6efb-5aa3-a6ad" type="selectionEntry"/>
         <entryLink id="47de-278f-7572-a32d" name="Rapturous Standard" hidden="false" collective="false" import="true" targetId="e73b-fe82-61fd-ad59" type="selectionEntry"/>
+        <entryLink id="ad3f-95fd-0a0e-1473" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="98bb-18fb-609d-0d4a" name="Daemonic Gift Khorne" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="e83f-f043-c024-f9c4" name="Armour of Khorne" hidden="false" collective="false" import="true" targetId="39f2-e5b3-565d-e30d" type="selectionEntry"/>
-        <entryLink id="3cfa-ef03-c82a-3217" name="Daemon Axe of Khorne" hidden="false" collective="false" import="true" targetId="baab-fb8d-2ad3-ec3d" type="selectionEntry"/>
+        <entryLink id="e83f-f043-c024-f9c4" name="Armour of Khorne" hidden="false" collective="false" import="true" targetId="39f2-e5b3-565d-e30d" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3cfa-ef03-c82a-3217" name="Daemon Axe of Khorne" hidden="false" collective="false" import="true" targetId="baab-fb8d-2ad3-ec3d" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="f070-4fc5-856e-a65c" name="Daemon Collar of Khorne" hidden="false" collective="false" import="true" targetId="ca8f-42e2-cd17-0a2c" type="selectionEntry"/>
-        <entryLink id="b23a-051f-da06-c82e" name="Might of Khorne" hidden="false" collective="false" import="true" targetId="f87d-e3e3-5332-cd08" type="selectionEntry"/>
+        <entryLink id="b23a-051f-da06-c82e" name="Might of Khorne" hidden="false" collective="false" import="true" targetId="f87d-e3e3-5332-cd08" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="42e3-912a-4941-df48" name="Daemonic Gift Tzeentch" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="ad33-1396-8180-77fc" name="Tzeentch&apos;s Will" hidden="true" collective="false" import="true" targetId="3fce-f975-0d09-6e14" type="selectionEntry"/>
-        <entryLink id="4cac-45df-da97-93c6" name="Spell Destroyer" hidden="false" collective="false" import="true" targetId="df40-9cb2-ef99-51c2" type="selectionEntry"/>
+        <entryLink id="ad33-1396-8180-77fc" name="Tzeentch&apos;s Will" hidden="true" collective="false" import="true" targetId="3fce-f975-0d09-6e14" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4cac-45df-da97-93c6" name="Spell Destroyer" hidden="false" collective="false" import="true" targetId="df40-9cb2-ef99-51c2" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="84fe-14c2-6776-aa54" name="Master of Sorcery" hidden="false" collective="false" import="true" targetId="80a7-fe28-6041-19dd" type="selectionEntry"/>
         <entryLink id="0ea4-41f0-05bc-f9da" name="Power Vortex" hidden="false" collective="false" import="true" targetId="aaf7-2731-4251-fa59" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4277-6ed1-f0da-0b3f" name="Daemonic Gift Nurgle" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="fe3b-6a28-a808-6400" name="Cloud of Flies" hidden="false" collective="false" import="true" targetId="9026-c50d-fc32-0684" type="selectionEntry"/>
-        <entryLink id="e7b0-8b04-b5dd-b2fa" name="Stream of Corruption" hidden="false" collective="false" import="true" targetId="3fff-a8c7-6b9b-9bd6" type="selectionEntry"/>
+        <entryLink id="fe3b-6a28-a808-6400" name="Cloud of Flies" hidden="false" collective="false" import="true" targetId="9026-c50d-fc32-0684" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e7b0-8b04-b5dd-b2fa" name="Stream of Corruption" hidden="false" collective="false" import="true" targetId="3fff-a8c7-6b9b-9bd6" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="ee5a-2d5a-c12f-ab32" name="Plague Flail" hidden="false" collective="false" import="true" targetId="3f73-9ea3-7060-0171" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="eb41-be44-9d01-3597" name="Daemonic Gift Slaanesh" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="27c9-f97c-ef86-b20c" name="Aura of Slaanesh" hidden="false" collective="false" import="true" targetId="eda9-64df-f3c5-8ebf" type="selectionEntry"/>
-        <entryLink id="58df-5d9d-87d8-053d" name="Sporofic Musk" hidden="false" collective="false" import="true" targetId="1e60-addc-7e67-3244" type="selectionEntry"/>
+        <entryLink id="27c9-f97c-ef86-b20c" name="Aura of Slaanesh" hidden="false" collective="false" import="true" targetId="eda9-64df-f3c5-8ebf" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="58df-5d9d-87d8-053d" name="Sporofic Musk" hidden="false" collective="false" import="true" targetId="1e60-addc-7e67-3244" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="f4ac-e190-cce1-4ab3" name="Gaze of Acquiescence" hidden="false" collective="false" import="true" targetId="5145-13c9-8c00-d7cc" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
