@@ -10,6 +10,12 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d7ed-6920-ccd8-6115" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="fa5a-8ef3-ac8d-2859" name="Gladey Gladey" hidden="false"/>
+    <categoryEntry id="8f93-9e7d-7622-a628" name="3am Eternal" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="838a-b722-3082-384d" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="7f75-34ad-60ac-f1fd" name="Great Eagles" hidden="false" collective="false" import="true" type="unit">
@@ -469,6 +475,9 @@
               <constraints>
                 <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b77f-e30b-9635-ffdd" type="max"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink id="6c95-1762-c5f6-cb93" name="3am Eternal" hidden="false" targetId="8f93-9e7d-7622-a628" primary="false"/>
+              </categoryLinks>
             </entryLink>
           </entryLinks>
           <costs>
@@ -1095,6 +1104,7 @@
       <categoryLinks>
         <categoryLink id="7ee8-7cff-13d8-491e" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="e233-c876-d77c-7e9d" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
+        <categoryLink id="1f28-a23f-b988-2032" name="Gladey Gladey" hidden="false" targetId="fa5a-8ef3-ac8d-2859" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="795d-571c-0c12-d677" name="Glade Guard" hidden="false" collective="false" import="true" type="model">
@@ -1103,6 +1113,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a72-2453-15d0-fec5" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -1111,6 +1123,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab00-e28e-828c-8569" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1129,14 +1143,21 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="874a-88a6-25a7-83e2" name="Lords Bowman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb9a-7eca-f88b-98af" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3fe9-9557-f9d0-e524" name="Lords Bowman" hidden="false" targetId="e4b7-723a-04d7-2095" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1148,6 +1169,178 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5305-aa2b-4249-4af4" name="Glade Guard Scouts" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="c88b-1b2d-4fb7-51a8" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fa5a-8ef3-ac8d-2859" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88b-1b2d-4fb7-51a8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e3cb-264a-fe25-b08a" name="Glade Guard" hidden="false" targetId="10d4-8ad6-fda1-c693" type="profile"/>
+        <infoLink id="f14b-fcc6-7735-4ac4" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule"/>
+        <infoLink id="8e06-02e2-2fca-2281" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="56ad-87d2-a082-cb18" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="9685-5958-97f7-e97b" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="394d-a2d2-3f0c-f090" name="Glade Guard" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dc2-cecc-0733-11f8" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c1c-cd5a-41ee-efeb" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="17.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7efd-f03e-a7bb-b526" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08f-ebee-2c71-84ab" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="478f-eae4-8a77-8f08" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e4-dab1-2ee4-2933" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="91d8-cf4c-9aa2-e0c5" name="Units Magic Banners" hidden="false" collective="false" import="true" targetId="f7e3-8cd9-8cff-361a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f53-6491-7a75-4122" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="e0a3-4ee2-09e6-4634" name="Glade banner" hidden="false" targetId="6cb8-4087-f552-28ec" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4273-04e6-e4b8-8f59" name="Lords Bowman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3339-cd23-0996-1df5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1c01-1f3b-e634-5164" name="Lords Bowman" hidden="false" targetId="e4b7-723a-04d7-2095" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b481-1295-1182-b76b" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9643-18a5-1ebf-e9a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7222-721d-e39a-6ed0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8382-4605-d7f8-f7ed" name="Glade Riders" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f1d3-c6cf-03fd-89f3" name="Glade Rider" hidden="false" targetId="097c-985d-4e47-9f66" type="profile"/>
+        <infoLink id="520a-8653-ae8a-db35" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
+        <infoLink id="2330-bf76-5cb3-aca3" name="Elven Steed" hidden="false" targetId="6547-d129-9f78-062b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="91ef-2827-3423-5fb3" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="8bb6-7256-fe39-b888" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
+        <categoryLink id="2fec-4690-44a2-8ea6" name="Gladey Gladey" hidden="false" targetId="fa5a-8ef3-ac8d-2859" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aee1-b663-2002-5cd2" name="Glade Riders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe6-ecec-1db0-8967" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f4e-b5c6-2167-1d9e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f652-9e32-94ff-35fb" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="557b-bc56-bae4-44d2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="9.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f30b-2e7e-7437-95bd" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd14-d1bc-0c1a-aca1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="421e-5a6b-714d-1419" name="Horse Master" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7827-5aa4-9994-27aa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4971-fd53-1b46-1be6" name="Horsemaster" hidden="false" targetId="3d64-d685-b893-da2a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="9.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="945d-ac24-5cbf-7332" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7db-9d83-fe7b-4462" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54c-7767-9074-8345" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d87e-ed6c-57af-5e0b" name="Spear (Mounted)" hidden="false" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f3-8bdf-e457-4480" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf91-1e17-0085-8894" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
