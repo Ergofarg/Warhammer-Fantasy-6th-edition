@@ -1899,7 +1899,7 @@
         <infoLink id="14ef-e27a-b946-127e" name="Cautious Shield" hidden="false" targetId="1a2c-95ec-9c74-612e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
