@@ -5,7 +5,69 @@
     <publication id="d22a-b2ad-8731-c6f7" name="Orc &amp; Goblins Army Book" shortName="O+G" publicationDate="2000"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="9e4b-9820-49b3-f820" name="Chaos Dwarf Warrior" hidden="false"/>
+    <categoryEntry id="9e4b-9820-49b3-f820" name="Chaos Dwarf Warrior" hidden="false">
+      <modifiers>
+        <modifier type="set" field="55e5-24b0-7b00-8922" value="3.0">
+          <conditions>
+            <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="55e5-24b0-7b00-8922" value="1.0">
+          <conditions>
+            <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="55e5-24b0-7b00-8922" value="4.0">
+          <conditions>
+            <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="4000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="55e5-24b0-7b00-8922" value="6.0">
+          <repeats>
+            <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="4999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="55e5-24b0-7b00-8922" value="5.0">
+          <conditions>
+            <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="5000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55e5-24b0-7b00-8922" type="min"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="c41d-b526-e705-6b6e" name="Chaos Dwarf Hero" publicationId="756d-4758-8a13-1d8a" hidden="false" collective="false" import="true" type="unit">
@@ -543,6 +605,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7b5-c913-0608-e04a" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="d1ae-e582-2ba8-5082" name="Chaos Dwarf Warrior" hidden="false" targetId="9e4b-9820-49b3-f820" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="abf1-9e3c-5717-0362" name="Chaos Dwarf Warriors" hidden="false" collective="false" import="true" type="model">
