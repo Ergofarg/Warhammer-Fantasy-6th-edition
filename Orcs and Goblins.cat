@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="10" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="10" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -1487,29 +1487,6 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ab5d-6987-b162-baeb" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a227-4161-3ab9-2dcf" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ff34-6dff-52bf-ee96" name="Magic Items" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02bb-f951-5f0c-75e3" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ecf1-6039-7b6f-e27c" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
-                <entryLink id="2bad-b493-db52-bb53" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
-                <entryLink id="2f5d-7014-5b55-b997" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
-                <entryLink id="89b1-0811-072b-2792" name="Arcane Items Goblin" hidden="false" collective="false" import="true" targetId="f5dc-bffb-5305-5ddc" type="selectionEntryGroup"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="ec0e-16e9-5121-eb96" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6115-0fd7-2020-311f" type="max"/>
@@ -1583,6 +1560,17 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8263-c608-3109-b7af" name="Magic Items" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b7b-c0d0-16b4-e741" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="75bc-48b8-8d79-3c97" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="6d5f-aed3-1c41-d305" type="selectionEntryGroup"/>
+            <entryLink id="7203-4d3f-9eed-ec88" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="608e-dd64-023b-25f7" type="selectionEntryGroup"/>
+            <entryLink id="6a4b-3f2d-ebb3-d58d" name="Enchanted Items goblins" hidden="false" collective="false" import="true" targetId="93fa-7c86-0bcd-2b38" type="selectionEntryGroup"/>
+            <entryLink id="7170-95a8-11ad-9ab8" name="Arcane Items Goblin" hidden="false" collective="false" import="true" targetId="f5dc-bffb-5305-5ddc" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4084,6 +4072,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="59d5-6990-4390-35be" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
+        <infoLink id="6c95-779e-548f-806c" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad1f-d760-7e9b-7f18" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -4211,6 +4200,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="6f3d-9c4d-ed73-1147" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
+        <infoLink id="7d25-db86-a408-b8a1" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="731e-53cc-c5d4-f36e" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -4345,6 +4335,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1d-9717-702a-2f3c" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="1fa4-0cf5-0b7d-44a1" name="Night Goblin" hidden="false" targetId="e79b-e639-50ae-9337" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -4352,6 +4345,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="9cdd-4203-c4e0-9c31" name="Squig" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b740-0d5f-49c0-a83f" name="Squig" hidden="false" targetId="b290-0baa-c81c-a154" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -4390,6 +4386,9 @@
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d06-5b8c-0443-5979" type="min"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="741d-3032-bd61-4e10" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4a4a-b77c-e895-0f6c" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
@@ -5543,6 +5542,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="4ff7-9a27-4ad9-dd31" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
+        <infoLink id="d0f5-c227-9bef-96f8" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="79a3-4806-9505-eb62" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -7573,6 +7573,9 @@ You may cut this on one Orc or Goblin unit (of any type) within 24&quot;, provid
 The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfully cast, it hits its target and causes D6 Strength 4 hits.
 </description>
     </rule>
+    <rule id="2761-5d2d-c41a-c536" name="Tuskar Charge" hidden="false">
+      <description>+2 St on charge</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="578c-5190-79c8-ea5c" name="Choppa" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -7981,6 +7984,45 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
     <profile id="f10c-94bb-b1ae-f608" name="&apos;Edbuttin&apos; &apos;At" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">+1 impact hit on challenges with killing blow.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b290-0baa-c81c-a154" name="Squig" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">2D6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e79b-e639-50ae-9337" name="Night Goblin" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="602a-c911-5e74-6df3" name="Night Goblin Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
