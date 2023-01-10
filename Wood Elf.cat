@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -196,7 +196,7 @@
           <costs>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6146-1f13-fe06-c805" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -752,7 +752,7 @@
         </entryLink>
         <entryLink id="c084-cad5-63c6-b3a8" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" targetId="3578-4bcf-3142-ae08" type="selectionEntry">
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -922,9 +922,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b3-e3c5-d43c-5975" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="3814-5d30-6f5b-92fc" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
-          </categoryLinks>
         </entryLink>
         <entryLink id="218f-067f-2488-2fc4" name="Long Bow" hidden="false" collective="false" import="true" targetId="f920-04d5-06c0-c2c9" type="selectionEntry">
           <constraints>
@@ -1051,7 +1048,7 @@
         </entryLink>
         <entryLink id="d873-6403-328a-c007" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" targetId="3578-4bcf-3142-ae08" type="selectionEntry">
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -1659,7 +1656,7 @@
         <infoLink id="6773-8c84-6319-02c3" name="The Fimbulwinter Shard" hidden="false" targetId="e733-50be-b427-d1aa" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -2185,7 +2182,7 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
     </selectionEntry>
     <selectionEntry id="3578-4bcf-3142-ae08" name="Glamoureave Kindreds" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3cf-6654-fd8e-3586" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3cf-6654-fd8e-3586" type="max"/>
       </constraints>
       <rules>
         <rule id="f884-d175-9c8a-7212" name="Glamoureave Kindreds" hidden="false">
@@ -2196,7 +2193,6 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
         <infoLink id="18e6-dc73-480e-8100" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -2348,7 +2344,7 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
         <entryLink id="e711-6434-f89c-2a4f" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
         <entryLink id="a0e5-ff9b-39d1-5c59" name="The Rhymer’s Harp" hidden="false" collective="false" import="true" targetId="85fa-60a9-ed7e-c5ad" type="selectionEntry"/>
         <entryLink id="165e-c286-6316-a688" name="Amaranthine Brooch" hidden="false" collective="false" import="true" targetId="23fc-a56d-c7a0-7709" type="selectionEntry"/>
-        <entryLink id="20bb-8701-aca9-efe9" name="Amber Pendant" hidden="true" collective="false" import="true" targetId="0bdc-9141-cbb2-27f9" type="selectionEntry"/>
+        <entryLink id="20bb-8701-aca9-efe9" name="Amber Pendant" hidden="false" collective="false" import="true" targetId="0bdc-9141-cbb2-27f9" type="selectionEntry"/>
         <entryLink id="d7e5-890d-afca-2da9" name="Stone of the Crystal Mere" hidden="false" collective="false" import="true" targetId="123d-450b-0fc9-b4f2" type="selectionEntry"/>
         <entryLink id="e73d-4b9c-0751-22a3" name="Glamourweave" hidden="false" collective="false" import="true" targetId="cf97-d26b-9e00-e05c" type="selectionEntry"/>
         <entryLink id="87b3-2d3e-d6d2-3093" name="The Stone of Rebirth" hidden="false" collective="false" import="true" targetId="2b53-c47f-9302-cab0" type="selectionEntry"/>
