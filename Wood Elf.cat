@@ -1736,7 +1736,7 @@
         <infoLink id="9bc5-7108-ea78-5fb2" name="Hail of Doom Arrow" hidden="false" targetId="a4c8-9dff-c939-d08a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
@@ -2195,6 +2195,7 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d774-ad1f-c375-09dd" name="Giant Stag" hidden="false" collective="false" import="true" type="upgrade">
