@@ -862,9 +862,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="8e54-c4f8-8256-99d8" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6292-e661-5b58-9b2d" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
