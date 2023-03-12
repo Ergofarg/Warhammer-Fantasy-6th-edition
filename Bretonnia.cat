@@ -1295,7 +1295,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb8-b62b-a5aa-235d" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
@@ -1312,7 +1312,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
