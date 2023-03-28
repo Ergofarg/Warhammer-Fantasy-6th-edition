@@ -2333,7 +2333,7 @@
                 <infoLink id="778c-3f93-0092-68df" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
@@ -2455,7 +2455,7 @@
             <infoLink id="7b46-3988-3811-dac8" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
