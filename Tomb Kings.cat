@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>
@@ -2249,14 +2249,14 @@ The Crown of Kings enables the Tomb King to roll two D6 for his &quot;My Will Be
     <profile id="356e-6e90-9d1f-fd3e" name="Chariot Skeleton Crew" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41"/>
-        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
         <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
         <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
         <characteristic name="T" typeId="8712-f56f-5b22-a720"/>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2"/>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
       </characteristics>
     </profile>
     <profile id="f33c-aa8d-7dee-182d" name="Skeleton Warriors Champion" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">

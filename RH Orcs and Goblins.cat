@@ -3199,6 +3199,9 @@
         <infoLink id="68e2-191c-b4c0-c07b" name="Bouncing Squig" hidden="false" targetId="9600-a8a0-115a-7b06" type="profile"/>
         <infoLink id="1c70-d354-5f1c-e3a1" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e62d-e968-d765-eac4" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5e5f-9f32-77b3-ec30" name="Squig Hopper" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -3609,83 +3612,167 @@
       <infoLinks>
         <infoLink id="9f7c-4b47-e929-64cc" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0f17-c5dc-dca0-63c5" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a256-a0f8-4c2b-75c2" name="Goblin Spider Riders" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="aae0-5a29-1963-0236" name="Trolls" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="56bb-abcb-2052-f791" name="Goblin Spider Riders" hidden="false">
-          <description>Ignore diffcult terrain and can climb vertical surface. Cannot ignore water features</description>
+        <rule id="173a-eed3-72b3-cf28" name="Vomit Attack" hidden="false">
+          <description>Instead of normal attacks  1 S5 vomit auto hits no armour save</description>
+        </rule>
+        <rule id="43f7-60eb-44cb-5e7c" name="Troll types" hidden="false">
+          <description>Stone trplls have MR2 and River trolls are -1 to hit</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="33f4-0fa5-2e55-524a" name="Goblin" hidden="false" targetId="e812-19f3-da8a-d434" type="profile"/>
-        <infoLink id="7336-9f6b-77bb-56f7" name="Giant Spider" hidden="false" targetId="7176-6919-8954-f66d" type="profile"/>
+        <infoLink id="d63c-f214-c224-f8db" name="Troll" hidden="false" targetId="7792-7daf-ac73-159f" type="profile"/>
+        <infoLink id="1a89-99cc-b2ea-72a9" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+        <infoLink id="ab95-af2a-e795-1cb1" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="0934-0520-df4d-06a6" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1160-8fc4-9481-615c" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="9f0a-3341-3d1f-2052" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="660c-5359-53d3-c574" name="Spider Riders" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0c46-435b-f71c-cf24" name="Troll" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e04-1277-0ecb-bf69" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bc9-8fdf-5ef4-5b43" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b59-f62c-7b77-6460" name="Troll types" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1813-834b-d762-f3a6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e519-9e42-a91a-8990" name="Stone Troll" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="5.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb9a-6f4f-7111-86e3" name="River Troll" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="10.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f5b9-2b0c-a8bd-5058" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+        <entryLink id="a203-c52a-3af6-9a31" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a74-03ab-61ff-12c1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e428-84ae-411e-1e73" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="478e-90f4-f2c3-8b6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45fa-0bdd-9b59-ac04" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ca69-a57a-d70f-6a80" name="Short Bow" hidden="false" collective="false" import="true" targetId="3428-8f18-865a-44cd" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dd2-fae7-0450-3a18" name="Night Goblin Squig Hunters" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f31-45ee-c2d0-a030" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8b55-3da8-cd15-f383" name="Night Goblin Squig Hunters" hidden="false">
+          <description>All Gobbos carry a prodder which counts as spears.</description>
+        </rule>
+        <rule id="6bb2-e2c5-3766-11be" name="Squig Herds" hidden="false">
+          <description>For each goblin, there can be three squigs in the herd. If there are more than three squigs per gobbo the excess Squigs become loose and bounce out of the unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1052-8139-da74-13b0" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c40e-de65-9b35-59d0" name="Herd" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4e7-a0d5-e57b-37ef" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c57b-0fdc-57c3-8593" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d3f8-040e-af39-0f7d" name="Night Goblin team (2 Gobbos)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="dced-c3c6-4d95-72ef" name="Night Goblin" hidden="false" targetId="7acb-05ca-0f73-a258" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2285-8bb2-c93b-3dea" name="Squig" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="increment" field="521c-1a85-0ed6-f1f9" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3f8-040e-af39-0f7d" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="521c-1a85-0ed6-f1f9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="75d7-5db0-18c9-02a8" name="Bouncing Squig" hidden="false" targetId="9600-a8a0-115a-7b06" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Cave Squig"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="79de-04e5-fe8d-d130" name="Squig Hoppers" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="18.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="513f-e8e5-4cfb-f1d6" name="Spear Infantry" hidden="false" collective="false" import="true" targetId="104f-5817-4bda-9382" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d829-f13d-fc6d-c5b8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c359-62d2-e094-0c1a" name="Spear (Mounted)" hidden="false" collective="false" import="true" targetId="027b-31d2-b3e2-23a4" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb7-3b7b-2618-5132" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3c82-ed87-d15c-a851" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08cb-e55b-1dec-51d6" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4d55-b074-6eee-79fe" name="Champion" hidden="false" collective="false" import="true" targetId="4728-d35d-2b41-b892" type="selectionEntry"/>
-        <entryLink id="aaa2-6788-2c1b-8fe9" name="Musician" hidden="false" collective="false" import="true" targetId="1b2a-329a-246c-9fba" type="selectionEntry"/>
-        <entryLink id="689c-ec23-f8c7-fb5a" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="4b90-e1c9-c55f-6c61" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -4515,6 +4602,19 @@
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7792-7daf-ac73-159f" name="Troll" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">1</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">4</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
