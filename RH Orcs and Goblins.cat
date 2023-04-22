@@ -3780,6 +3780,128 @@
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fd30-8ae4-b59c-2015" name="Goblin Netters" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6cad-f442-b9a0-7ff6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="0e18-0e99-4a9c-5762" name="Goblin Netters" hidden="false">
+          <description>Unit contains a mixture of netters and clubbers. Randomise shooting hits between netters and clubbers
+Nets attack before clubs. As long as there are clubbers fighting, each hit from a netter adds +1 to the number of hits caused by the clubbers. In addition if the opponent hasn&apos;t fought yet, each hit by the net reduce the opponents attacks by one. Hots are at S4 as long as there are clubber fighting. If no clubbers then the netters fight with hand weapons.
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c048-f6e4-e625-9294" name="Night Goblin" hidden="false" targetId="7acb-05ca-0f73-a258" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c194-baa7-9c2f-f7ef" name="Night Goblin" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3599-b09d-8e3d-2c0b" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a6f-e12d-b8bd-ce64" name="Giant" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3839-f814-68b7-318b" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="48de-e58a-f262-3426" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="31c2-5c5c-da92-f809" name="Fall Over(Giants)" hidden="false" targetId="904a-89bc-4312-e130" type="rule"/>
+        <infoLink id="fc4d-08c0-e475-2a8a" name="Giant Special Attacks" hidden="false" targetId="a08a-b080-c9fc-d485" type="rule"/>
+        <infoLink id="f1ed-8ed8-545b-87ab" name="Giant" hidden="false" targetId="dc6c-8fdd-9380-4585" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="540c-d100-1152-176a" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="205.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7ec-c725-2a70-a9a8" name="Unit of Ogres" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af48-d105-3a48-0a3e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ed91-b299-b122-4596" name="Ogre" hidden="true" targetId="aade-c761-1b22-1d7d" type="profile"/>
+        <infoLink id="cac0-6aff-75ec-d817" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a8a7-a884-3255-41e5" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="22bd-c2b1-c292-3999" name="Ogre" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="691f-8c21-16d0-f39c" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cab8-96bc-8e24-7acd" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3e1-8405-6d33-c4f1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="17cd-9e32-f075-325d" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="84e6-35d2-943f-0946" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="b471-adb1-2507-f383" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0384-51a0-76a8-7435" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b85-06b7-2d38-e2e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c55d-cba6-6cb5-327d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="1b2a-329a-246c-9fba" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
@@ -4172,6 +4294,62 @@
     </rule>
     <rule id="4a6f-b49f-d3fa-2269" name="Gork&apos;s War Banner" hidden="false">
       <description>+1S when charging</description>
+    </rule>
+    <rule id="904a-89bc-4312-e130" name="Fall Over(Giants)" hidden="false">
+      <description>Giants are ungainly and frequently befuddled, as a consequence of which they often trip, stumble or fall down. &apos;They are especially prone to this if they&apos;ve been raiding the local brewery. When a Giant falls over, this is bad news for everyone nearby as a falling Giant can easily squash anything it falls on.
+A Giant must test to see whether it falls over if any of the following apply:
+1)	When it is beaten in close combat. Test once results are established but before taking Break or Panic tests.
+2)	At the start of the Movement phase if it is fleeing.
+3)	When it crosses an obstacle. Test when the obstacle is reached.
+4)	If the Giant decides to Jump Up and flown on an enemy. Test immediately beforehand.
+
+To see if the Giant falls over roll a D6. If you score between 2 and 6 then the Giant sways slightly, but regains his balance and no harm is done. If the roll results in a 1 the Giant falls over. Obviously, if a Giant is slain then it falls over automatically.
+To determine which direction the Giant falls, roll a Scatter dice - the arrow indicates the direction in which the Giant falls. Place the Falling Giant template (see page 80) with its feet at the model&apos;s base and its head in the direction of the fall. Any models lying completely under the template are automatically hit. Any models partly covered are hit on a 4+.
+Any model hit by a falling Giant automatically takes one Strength 6 hit which causes D3 wounds. These hits are resolved in the usual way. If the unit is in combat and the Giant has fallen over whilst attempting to Jump Up and Down, wounds inflicted by a falling Giant count towards the combat result.
+A Giant that falls over automatically suffers 1 wound itself. No armour saves apply to this wound. if the Giant is in combat then this wound counts towards the final combat result.
+Once on the ground, a Giant may get up in his following Movement phase, but may not otherwise move that turn. Whilst on the ground a Giant may not attack, but he can still defend himself after a fashion so the enemy must still roll to score hits on him. If forced to flee whilst on the ground the Giant is slain - the enemy swarm over him and cut him to pieces. If the Giant gets the opportunity to pursue his foes whilst he&apos;s on the ground he stands up instead. A Giant may attack on the turn it stands up.
+
+</description>
+    </rule>
+    <rule id="a08a-b080-c9fc-d485" name="Giant Special Attacks" hidden="false">
+      <description>Giants attack against large targets can be Yell and Bawl (target loses combat by 2) or &apos;Eadbutt (1d6 str6 hits)
+1 Yell and Bawl
+2-4 Thump With Club 
+5-6 &apos;Eadhutt
+
+Giant fighting anyone smaller than above can
+Yell and Bawl
+Jump Up and Down (2d6 Str6 hits buit test to fall over first)
+Swing With Club (1d6 Str6 hits)
+
+Yell and Bawl: The Giant yells and bawls at the y. This is not a pleasant experience as Giants are deafenningly loud and tend towards poor oral hygienne. Neither the Giant nor models in contact him actually fight if they have not already donethis round, but the combat round is automatically won by the Giant&apos;s side. The enemy are automatically beaten and must take resultant Break tests with a -2 modifier.
+
+Up and Down: The Giant jumps up and down 
+usly on top of one enemy unit in base contact. 
+ore he starts, the Giant must test to determine if 
+falls over. If he falls over, work out where he falls
+I calculate damage as already described. Any nds caused by the fall (on either side) count aids the combat result. Assuming that he remains his none too nimble feet, the Giant bounds up
+I down on the enemy unit, cackling madly.
+unit sustains 2D6 Strength 6 hits allocated as
+ing hits. Work out damage and saves as usual. rats enjoy jumping up and down on their enemies much that a Giant that does so in one combat nd will automatically do so in the following nd if he is able to. assuming that he did not fall r in the previous round. A separate test is aired at the start of each succeeding combat nd to determine if the Giant falls over. A Giant t starts to Jump Up and Down will therefore tinue to do so until he falls over or until the nhat comes to an end.
+Suing with Club: The Giant swings his club across the enemy&apos;s ranks, knocking many targets to the floor. The Giant inflicts D6 Strength 6 hits on the target unit, allocated as shooting hits.
+Thump with Club: Most Giants carry a big club, often a tree trunk or a big bone. If they have no weapon they will use their enormous fists. The Giant picks one model as his target and brings down his club with a single mighty stroke.
+The target may attempt to avoid the blow by taking 
+and passing an Initiative test (use the lowest if the 
+model has several different values). If avoided there
+is no effect. If failed the target is struck and takes 2D6 wounds with no armour save allowed. If a double is rolled the Giant&apos;s club embeds itself in the ground and the Giant cannot attack at all in the following round whiLst he recovers his weapon (this ceases to apply if the combat ends before the next round).
+Eadbutt: The Giant head-butts his enemy. automatically inflicting 1 wound with no armour saves allowed. If the victim is wounded but not slain then he is dazed and loses all of his following attacks - if the target has not yet attacked that combat round he loses those Attacks, if he has already attacked he loses the following round&apos;s attacks.
+Pick up and... : The Giant stoops down and selects a model (Giant player&apos;s choice) that is either in base contact or touching a model in base contact (Giants have a long reach). The target may make a single attack to try to fend off the Giant&apos;s clumsy hand. If this attack hits and wounds the Giant, the Giant&apos;s attack fails, otherwise the Giant grabs the model and the player rolls a 06 to see what happens nest:
+D6 Result
+1 Stuff into Bag. The Giant stuffs the victim into his lug along with sheep, cows and other plunder. The model is effectively a casualty and can do nothing whilst in the bag, but if the Giant should he slain any enemy trapped in his hag are freed unharmed at the end of the battle. Victory points are not awarded to the enemy for freed models.
+2 Throw Back into Combat. The victim is hurled hack into his own unit like a living missile. This causes a wound on the victim with no saves of any kind allowed, and D6 Strength 3 hits (saves as normal) on the unit.
+3 Hurl. The victim is hurled Into any enemy unit within 12&quot; of the Giant - randomly determine which. This causes a wound on the victim with no saves of any kind allowed, and DO Strength 3 hits (saves as normal) on the unit. If no enemy units are in range, treat this as a Throw Back into Combat result instead.
+4 Squash. This doesn&apos;t really bear thinking about. Suffice to say the model becomes a casualty and is removed from the game.
+5 Eat. The Giant gobbles his victim up, swallowing him whole. The model is removed from the game.
+6 Pick Another. The Giant stuffs the victim hurriedly into his bag or under his shirt (or down his trousers if they&apos;re really unlucky) and attempts to pick up another victim. The second victim makes a single attack (as above) to avoid being picked up. If the Giant rolls a succession of 6s it is possible for him to amass a collection of trapped foes in his pockets and bags (not to mention down his trousers). Trapped models arc effectively casualties, exactly as explained in the Stuff into Bag result described above.
+
+
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4615,6 +4793,32 @@
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc6c-8fdd-9380-4585" name="Giant" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">Special</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aade-c761-1b22-1d7d" name="Ogre" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
