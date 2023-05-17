@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="6" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="6" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -236,9 +236,179 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c318-ca42-5ad1-3e13" name="Oldblood Blessed Spawnings" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b21-002a-aae7-e249" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="149e-045e-a599-da3a" name="Blessed Mark of the Old Ones" hidden="true" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b9-7deb-d92f-c0ad" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0ae3-b6d3-fdea-5e98" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="350.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e1aa-cac1-d1f9-faf1" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e84-ee85-6ea5-2ee9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5215-52a5-634a-93d6" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c95-87e0-b3ba-f01b" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e314-4ed9-baa5-82b7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4d9b-d6c0-72ff-5672" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="92fb-7fa7-ee60-c5b5" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587b-bed3-b6f7-7bbb" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="290f-2bbf-93be-b6aa" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0c48-8e36-f984-8cfd" name="Oldblood mount" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1055-eedc-556a-b764" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="4f1b-be11-11c4-5b56" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="dc31-97cb-9731-8a08" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
+                        <infoLink id="4b63-976f-c58b-6000" name="Stupidity" hidden="false" targetId="6541-7811-4171-a837" type="rule"/>
+                        <infoLink id="2ce9-9406-3509-b29d" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
+                        <infoLink id="b84c-9c9d-9434-0fa9" name="Thick Skinned" hidden="false" targetId="d430-8369-52da-6fb1" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="37.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a152-2d67-54d3-0f2c" name="Carnosaur" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="a531-81c8-8dd1-ed8a" name="Carnosaur" hidden="false" targetId="2acc-06f2-7d4d-7db3" type="profile"/>
+                        <infoLink id="2233-2cbd-135c-6be7" name="Terror" hidden="false" targetId="756a-1071-031a-2158" type="rule"/>
+                        <infoLink id="1342-71a5-aedd-ab00" name="Blood-frenzy" hidden="false" targetId="2d3d-6ad5-90d3-3b84" type="rule"/>
+                        <infoLink id="1b23-4a3c-8e86-3944" name="Ultimate Predator" hidden="false" targetId="bde7-57df-dd14-3ae8" type="rule"/>
+                        <infoLink id="23c4-5556-45fd-c489" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
+                      </infoLinks>
+                      <categoryLinks>
+                        <categoryLink id="23f4-330c-6faf-b20e" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+                        <categoryLink id="4494-d8ef-5e84-795f" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+                      </categoryLinks>
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="34f0-d182-a2ac-afc5" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fdd-f024-07af-af20" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bf6f-f3b2-56f9-23dc" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="872b-b12f-95db-4f36" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9b-6274-c1f3-aca7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6d38-75d9-a82a-eff5" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb5d-f907-5a36-0510" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c532-553c-d252-2796" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="89cc-53e8-6d79-1e60" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e94f-32be-4791-bb8e" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9a-3b8a-038b-8ba8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3dec-d12d-c8fd-faea" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c53-060a-fa37-86ad" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4192-9330-66b3-f6a6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7b7a-c909-2743-3e5b" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="a3bc-5b3f-16cc-4f13" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" targetId="9425-66a8-ef0e-bc7a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c11c-ef59-7755-8f48" name="Oldblood Blessed Spawning" hidden="false" collective="false" import="true" targetId="a9b0-85eb-cc4b-5f8d" type="selectionEntry"/>
         <entryLink id="a3df-841c-2478-a463" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -530,14 +700,159 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ecd2-195f-9b9b-b2a7" name="Scar-Veteran Blessed Spawning" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709e-e40a-bed6-c8a4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="175f-3140-ec93-73e0" name="Blessed Mark of the Old Ones" hidden="true" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9040-e1d6-b3a4-7b8f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="20ae-94eb-3c68-d066" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="350.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="33e2-d7aa-c1d2-e706" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427c-f105-e86d-faa6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d08e-8473-2fd7-6963" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f542-a8d6-af9b-c876" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7af-ce82-a17c-b9d6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6fa9-7ee5-62a2-1663" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1308-5c40-5f9a-8c3a" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c8-edf2-2e6a-4843" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5324-78b2-22de-d0cd" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c16e-07d4-3575-8d47" name="Scar Veteran mount" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d43-af7f-c18c-092d" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="f010-1dff-9daf-463b" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="98d6-9e51-6574-2862" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="23.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0219-6da8-918b-6ca9" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="980b-93b8-9c99-b7cd" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="00b0-87d8-f481-220a" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="19fa-b5ea-ac42-8745" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce31-33ec-b451-9e46" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9070-9608-0b71-02c0" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68f1-1938-b19a-8d1b" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b680-46cf-cef8-6452" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7712-92e2-33a9-8a43" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8037-47c6-1ea0-5d58" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8069-af28-bc94-d45b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8f2a-d860-802e-7e15" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12ca-819e-dbf6-7ef4" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c7-909e-e22a-9733" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8c48-9e16-4ffa-6444" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f9e0-d37b-ada5-3d6a" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" targetId="9425-66a8-ef0e-bc7a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c4de-681a-931d-51c8" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry"/>
-        <entryLink id="61a8-de4f-44fa-4bbc" name="Scar Vet Blessed spawnings" hidden="false" collective="false" import="true" targetId="b5f1-cbfb-ba4b-490e" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecab-0a5c-13aa-ec06" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="5ebb-4a14-5c6e-fafa" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -667,25 +982,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2258-e16e-24dd-6e85" name="Saurus Warriors" publicationId="3a49-dd2e-fcaa-cdb1" page="60" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b0a-45a5-e3be-d837" type="greaterThan"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="43cc-fc3f-35a7-8d03">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa1a-7509-c515-1b8b" type="equalTo"/>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="119c-9f49-e74a-7804" type="equalTo"/>
               </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set-primary" field="category" value="e94b-6a54-8779-cd60">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aa1a-7509-c515-1b8b" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+            </modifier>
+            <modifier type="set-primary" field="category" value="e94b-6a54-8779-cd60">
+              <conditions>
+                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="119c-9f49-e74a-7804" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <infoLinks>
         <infoLink id="c593-92fc-2222-f3eb" name="Saurus Warrior" hidden="false" targetId="f7b5-50ad-834b-f896" type="profile"/>
         <infoLink id="3be8-1aea-3e63-2115" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
@@ -740,32 +1052,6 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1b0a-45a5-e3be-d837" name="Blessed Spawning 1" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a48-266d-121f-8428" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="08cf-e97b-2217-24d0" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="aa1a-7509-c515-1b8b" name="Blessed Spawning 2" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca0-6cfc-d4f3-c6a5" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="5622-dabf-d159-8de8" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true" targetId="bd30-a138-fa7a-ecbe" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe71-e62e-b861-f925" name="Command" hidden="false" collective="false" import="true">
@@ -804,6 +1090,69 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="119c-9f49-e74a-7804" name="Blessed Spawning Warriors" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8872-29f4-4eb8-ec0c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="76f1-d615-43e3-8fad" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebaf-0b0c-490a-dfd7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4b7a-fdc4-c28b-74ab" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" targetId="6391-ef05-a9e0-9c09" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b3-72ef-77ce-c3ca" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6cae-eae8-6e3e-5966" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" targetId="bb7e-eda5-d8ba-09bc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb5-4401-0f91-7b74" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a432-8fdb-826d-a182" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" targetId="31c1-f8e7-c99d-90cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ec-f107-f856-f64b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a699-3da3-7e96-a60e" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" targetId="4ad5-2248-6d34-f01b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98c5-642c-f71e-4279" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eff6-17ec-32ee-3ac2" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" targetId="2431-73ea-e415-7496" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3adf-abcd-7f5b-c898" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7d04-b41a-2b11-c117" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" targetId="047c-64df-42fc-9ed5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a42-a33f-c4bb-3855" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1999,7 +2348,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
                     <infoLink id="68a6-bef7-e189-4ea9" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="37.0"/>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="23.0"/>
                     <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                     <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
@@ -2104,221 +2453,10 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1548-e943-125b-9a48" name="Saurus Warrior Blessed Spawning First Selection" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3c3-3c7d-06da-ef22" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="7511-75a2-4a1e-f951" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7b34-257b-48b7-7193" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f075-b5c8-2c14-cc64" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="c51d-7b2f-a891-12bd" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1bc9-bfe1-b56d-d3ce" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ee-bceb-3b18-d110" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="e03d-6dd2-98e3-a333" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9f11-49fe-4866-d7f4" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bac-784d-70c7-991e" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="edc4-9f9d-4b58-49ea" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="99d5-ef1e-ea4d-598b" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad7-5675-a6c4-01e6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9bda-aebf-f830-d8fe" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="13e5-54ce-01d2-964f" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c50-8611-c9e3-8c66" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="eaaf-34f6-0a73-5f30" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9311-e5e1-a700-5204" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ae-877f-c2fd-ac3e" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4795-b049-2781-d1ae" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f4be-8c04-793a-d484" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3454-66e2-c5f9-29f9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b910-c520-32b4-60a6" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f4ea-f093-4950-ef0b" name="Saurus Warrior Blessed Spawning Second Selection Selection" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b18-8073-2d5c-d46f" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="dd97-8afd-21ca-7a65" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cbde-89d9-e65b-45c8" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a7-2912-6a62-0164" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ff88-8139-fb9b-83da" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6a61-6a9b-c439-5883" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e47-478b-d895-267b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5d65-9382-2f40-c54c" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fc95-8192-a409-4584" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ba-1ed7-282f-9a7f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1fad-9eed-c167-9588" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d98b-778a-2d4a-f2e6" name="Blessed Spawning of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e4-558b-3a74-4967" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="deb9-9d36-7313-92d8" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ffb3-7156-09a0-b9f2" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1002-4d96-068b-7ead" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6389-402e-20b3-16f0" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="567d-29f7-0963-1da5" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37cc-127f-12b0-af34" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f85f-43f5-3389-6f02" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6595-4105-7b31-af9f" name="Blessed Spawning of Tlazcotl" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f4a-b95d-ecfa-0d5b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f80e-e893-9887-9331" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9425-66a8-ef0e-bc7a" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927e-e947-d698-d953" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6613-1070-5073-8294" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5407-c905-52e4-2294" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
@@ -3158,9 +3296,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <entryLink id="f64a-67ba-1705-fe2f" name="The Divine Plaque of Protection" hidden="false" collective="false" import="true" targetId="de9a-1fb7-3431-713d" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bd30-a138-fa7a-ecbe" name="Blessed Spawning Warrios" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bd30-a138-fa7a-ecbe" name="Blessed Spawning Warriors" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1239-2402-7195-3d05" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1239-2402-7195-3d05" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="a347-553a-afa1-d025" name="Blessed Spawning of Tzunki" hidden="false" collective="false" import="true" targetId="5dcd-c767-b2a6-5ff4" type="selectionEntry">
