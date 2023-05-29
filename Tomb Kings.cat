@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9945-8537-0944-c67b" name="Tomb Kings" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>
@@ -881,6 +881,11 @@
     <selectionEntry id="a513-6ee9-7fca-3d3b" name="Chariots" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a066-363e-a1c1-aa6b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a066-363e-a1c1-aa6b" type="greaterThan"/>
           </conditions>
