@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b252-9ed2-2e94-382d" name="Bretonnia" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b252-9ed2-2e94-382d" name="Bretonnia" revision="7" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="143d-ca87-8001-00a0" name="Bretonnia Army Book 2005"/>
   </publications>
@@ -1295,7 +1295,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb8-b62b-a5aa-235d" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
@@ -1312,7 +1312,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
@@ -1917,6 +1917,10 @@
           </constraints>
           <entryLinks>
             <entryLink id="f7b3-3016-5fe2-006d" name="Virtues" hidden="false" collective="false" import="true" targetId="1935-adfb-63e1-b051" type="selectionEntryGroup"/>
+            <entryLink id="40a2-3771-3535-8cbe" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="0b8f-c716-0330-48b4" type="selectionEntryGroup"/>
+            <entryLink id="01d7-a927-3b06-ff5d" name="Magic Armour" hidden="false" collective="false" import="true" targetId="9248-e2fa-0591-a09d" type="selectionEntryGroup"/>
+            <entryLink id="1c84-1593-deac-9b5a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="f6ea-09d5-9cfb-d988" type="selectionEntryGroup"/>
+            <entryLink id="0d7a-2740-4a8d-21f5" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="4d0b-5656-3082-c8e9" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9e31-9ef0-c80e-9f13" name="Mounts" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c57-1f3b-1548-9c09">
