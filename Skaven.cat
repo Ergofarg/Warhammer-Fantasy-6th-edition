@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cac6-5f02-f95d-a403" name="Skaven" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f804-741f-2593-2dec" name="Skaven army Book 2002"/>
+    <publication id="c8a8-4ccc-5f4b-8fcb" name="Skaven Doomwheel Vermin Lord" shortName="skaven dwvl rules" publisher="Skaven DoomWheel Vermin Lord" publisherUrl="https://i.4pcdn.org/tg/1547251816797.pdf">
+      <comment>additional rules</comment>
+    </publication>
+    <publication id="3305-568f-80f2-eb25" name="Skaven Special Characters" shortName="specialcharacters" publisher="skavencharacters.pdf" publisherUrl="http://rhonono.chez.com/skavencharacters.pdf"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="736a-30de-d314-9262" name="Mainstay" hidden="false"/>
@@ -1192,166 +1196,6 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0227-d694-02fc-3c0a" name="Gutter Runners" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="902b-7286-3adf-99e5" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="736a-30de-d314-9262" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902b-7286-3adf-99e5" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="36c5-742e-f13b-3472" name="Gutter Runner" hidden="false" targetId="b196-1368-cf63-4950" type="profile"/>
-        <infoLink id="da04-1946-8863-4816" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
-        <infoLink id="ba7a-f9ac-5b77-5e97" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9de6-7eee-eefa-13f5" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2e0e-c64e-de69-5a5a" name="Gutter Runners" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="5c94-16c7-b6e8-99b0" value="3.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3184-1925-dda1-5a99" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="45ce-8cb1-07a6-5ace" value="10.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3184-1925-dda1-5a99" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c94-16c7-b6e8-99b0" type="min"/>
-            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ce-8cb1-07a6-5ace" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c09d-3090-7067-ba46" name="Black Skaven" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5e-80bc-8d78-e2a7" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5a4d-059a-9bd5-0d3f" name="Black Skaven" hidden="false" targetId="137d-8afe-f321-e149" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3184-1925-dda1-5a99" name="Tunnel Team" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f6-e50a-7442-6dda" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="91ec-d80c-e159-04ac" name="Poison on Weapons" hidden="false" collective="false" import="true">
-          <infoLinks>
-            <infoLink id="8b12-3749-2f20-b297" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="0dc2-1b99-af1f-7993" name="Throwing Star Poison" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="set" field="7691-86eb-38a9-df3d" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c61-37b0-5fa6-c20c" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7691-86eb-38a9-df3d" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3c24-e468-2ea5-3111" name="Two Hand Weapons Poison" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2c-ac67-93a4-f558" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2a9e-5b14-20c1-2375" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f8-28ba-89ba-6998" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ad-d8c0-c9d2-59e4" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f016-a81b-80fd-af16" name="Sling" hidden="false" collective="false" import="true" targetId="ca1c-a42a-c387-2cb2" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="5.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfe-7ba1-a4ab-e22c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e673-4811-f739-4f39" name="Throwing Star/ Knife" hidden="false" collective="false" import="true" targetId="6c61-37b0-5fa6-c20c" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1202-2d6c-697a-7210" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6a17-ac26-91b5-2dbb" name="Warplock Jezzails" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="c969-f182-0e1d-84b4" value="1.0">
@@ -1650,6 +1494,512 @@
       <categoryLinks>
         <categoryLink id="1ea3-74c8-c31a-bf0f" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b216-b283-3b40-0d60" name="Doomwheel" publicationId="c8a8-4ccc-5f4b-8fcb" page="1-2" hidden="false" collective="false" import="true" type="model">
+      <infoGroups>
+        <infoGroup id="ac51-195e-0d6d-8a90" name="Skaven Driver" publicationId="f804-741f-2593-2dec" page="2" hidden="false">
+          <infoLinks>
+            <infoLink id="0446-0bda-559e-e487" name="Skaven Driver" hidden="false" targetId="34f5-fea9-2b5c-9e3e" type="profile"/>
+            <infoLink id="86b5-7959-c452-cf16" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+            <infoLink id="ea3a-8739-e6a3-b316" name="Warplock Pistol" hidden="false" targetId="5e7d-88c0-01e3-7b56" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="fe2e-2e51-9d48-3f10" name="Doomwheel" hidden="false" targetId="b033-f7d3-42a9-0316" type="profile"/>
+        <infoLink id="abbb-d3d8-0068-cb34" name="Giant Rats (doomwheel)" hidden="false" targetId="1c33-4cea-803a-3bb7" type="profile"/>
+        <infoLink id="12a4-1b55-7b79-a5bc" name="Chariot" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false" targetId="817d-5215-f302-e439" type="rule"/>
+        <infoLink id="ccba-e8fc-e4a7-2615" name="Warp-Lightning" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false" targetId="46f3-9f3f-34e6-5a7b" type="rule"/>
+        <infoLink id="557e-53a3-88aa-a228" name="Impact Hits" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false" targetId="1c26-203d-9d7f-dbbd" type="rule"/>
+        <infoLink id="6f48-e7e0-2dcd-e31b" name="Movement (Doomwheel)" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false" targetId="41fb-4798-d76e-4887" type="rule"/>
+        <infoLink id="7640-ed18-8146-c380" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="d345-ce97-325e-3084" name="Magical Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a0dd-fb61-2a98-4a5c" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="150.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3db9-57e2-e7e1-6405" name="Vermin Lord" publicationId="c8a8-4ccc-5f4b-8fcb" page="3-4" hidden="false" collective="false" import="true" type="model">
+      <comment>The Vermin Lords are thought to be the daemonic forms of ancient Lords of Decay, warped by the influence of the Horned Rat into his immortal servants. They are great, powerful creatures surrounded by an aura of creeping decay and inscrutable knowledge. Their heads are bedecked with the spiralling horns and sloughing flesh of the Horned Rat himself. Warpstone amulets and torcs decorate the Vermin Lord’s leprous form, along with chunks of raw warpstone hammered into their flesh. Vermin Lords are often seen armed with huge, wicked-looking glaives that are fully twice the height of a man but their chisel-teeth and sharp claws are easily capable of tearing a creature to pieces.
+Only the Grey Seers hold the keys to summon the Vermin Lords into the material world, and they are loath to do so without great need, fearing to summon up what they cannot dismiss. A Vermin Lord is wiser and more wicked than any living Skaven and yet retains its mortal lust for power and love of betrayal. A bargain struck with one of the Vermin Lords will bring great power to the supplicant but will cost him dearly – the unwary can find
+themselves paying with their soul as well as their life.
+Taking a Vermin Lord counts as taking a Lord, a Hero choice and a Rare slot. It must be fielded exactly as presented here and no extra equipment or magic items can be bought for it. Vermin Lords will always be the army General. Only a single Vermin Lord may ever be included in an army.</comment>
+      <profiles>
+        <profile id="b9b4-ce47-999f-1afa" name="Vermin Lord" publicationId="c8a8-4ccc-5f4b-8fcb" page="3-4" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">8</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">10</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">6</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="62d9-7e8b-bb70-a8cf" name="Daemonic Aura" publicationId="c8a8-4ccc-5f4b-8fcb" page="4" hidden="false">
+          <description>Daemons are not of mortal flesh and have some immunity to mundane weapons. The Vermin Lord get a 5+ Ward save. However, this Ward save cannot be used against magical attacks (ie, spells and magic items).</description>
+        </rule>
+        <rule id="42da-38f2-9df5-95b6" name="Horned Rat Incarnate" publicationId="c8a8-4ccc-5f4b-8fcb" page="4" hidden="false">
+          <description>All friendly Skaven units with at least one model within 6&quot; of the Vermin Lord are Immune to Psychology.</description>
+        </rule>
+        <rule id="0677-4ee1-1a78-ff0c" name="Daemonic Instability" publicationId="c8a8-4ccc-5f4b-8fcb" page="3-4" hidden="false">
+          <description>When a Vermin Lord loses a round of combat it must take a special Daemonic Instability test instead of a Break test. Use the following procedure to take a Daemonic Instability test:
+1. Calculate combat resolution as normal.
+2. Roll 2D6 and compare this to the Vermin Lord’s Leadership value, with no combat resolution modifers. If the roll is higher, the Vermin Lord loses its grip on the mortal world and disappears from the battlefield. It counts as destroyed.
+3. If the Vermin Lord does not instantly disappear, compare the dice roll to their Leadership value, taking into account any modifiers for combat resolution. For each point the Vermin Lord fails its Instability test by, it suffers one additional wound. No saves of any kind are allowed against these wounds, including Ward saves, regeneration, etc. If characters are present in the unit, the controlling player can decide how to allocate wounds between the character/s and the unit.
+4. If the Vermin Lord is wiped out by instability in the first round of combat, the enemy may overrun as normal.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="535d-73d3-a425-dd0a" name="Weapons" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <profiles>
+            <profile id="9f4b-544a-6507-5cdc" name="Doom Glaive" publicationId="c8a8-4ccc-5f4b-8fcb" page="4" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3107-4d1e-9a51-6564">-</characteristic>
+                <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">-</characteristic>
+                <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">The glaives wielded by the Vermin Lords are heavily ensorcelled with death magic. A hit from a Doom Glaive allows no armour saves.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="f027-6cfc-6862-064e" name="Terror" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="1c34-5e2b-97b4-846e" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="df65-4e84-b944-9d19" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+        <categoryLink id="43bc-fac4-04d1-4ebc" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="4437-ec59-ae84-f7f9" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="70ab-62d9-cada-e777" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="4c46-b658-e664-9fee" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="650.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dced-72e6-e138-65c5" name="Lord Skrolk" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4272-eb2a-5c98-8354" name="Lord Skrolk" publicationId="3305-568f-80f2-eb25" page="1-2" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">6</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2d4d-a94a-14af-694c" name="Cloud of Flies" publicationId="3305-568f-80f2-eb25" page="2" hidden="false">
+          <description>The air around Lord Skrolk buzzes with numerous flies and beetles  that hamper enemies trying to attack them. Any model in base contact with Skrolk suffers a -1 modifier to their rolls to hit in close combat.</description>
+        </rule>
+        <rule id="fdc2-8253-ea1b-0fbe" name="Putrid Affinity" publicationId="3305-568f-80f2-eb25" page="2" hidden="false">
+          <description>Lord Skrolk is completely immune to the effects of the Lore of Nurgle.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="30cc-6f9b-8d10-e554" name="Magic Items" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <rules>
+            <rule id="03cd-cf57-0caa-e5be" name="Bell of Thousand Poxes" hidden="false">
+              <description>Hung around Lord Skrolk&apos;s neck is the unholy artefact known to the Plague Monks as the Bell of Thousand Poxes.
+The Bell has no special power until Skrolk is wounded. Then at the end of each player&apos;s turn, starting with the turn in which Skrolk is wounded, any model in base contact with Skrolk (friend or foe!) must pass a Toughness test or suffer a wound, with no armour save allowed. Each unsaved wound is passed on to Skrolk, healing one of the wounds he suffered previously in the game.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="143d-1309-2c18-4cde" name="Warpstone Token" hidden="false" targetId="20e5-9fdd-a83b-01ad" type="rule">
+              <comment>Skrolk carries three Warpstone Tokens (see page 38 of the Skaven Army book).</comment>
+            </infoLink>
+            <infoLink id="497b-f152-6567-84bb" name="Liber Bubonicus" hidden="false" targetId="c352-8ebb-d5a7-0d58" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="7076-700f-34b2-58ab" name="Weapons" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <infoGroups>
+            <infoGroup id="9b3a-5aaa-a486-6dfc" name="The Rod of Corruption" publicationId="3305-568f-80f2-eb25" page="2" hidden="false">
+              <comment>The Rod of Corruption combines the effects of a plague censer (see page 32 of the Skaven army book) and a Blade of Corruption (see page 37 of the Skaven Army book).</comment>
+              <infoLinks>
+                <infoLink id="977f-3653-b0f1-e6e1" name="Plague Censer" hidden="false" targetId="1a49-def0-9def-0a44" type="rule"/>
+                <infoLink id="6501-5c2d-a3a7-e35d" name="Blade of Corruption" hidden="false" targetId="d3cd-f4a1-6259-d348" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="07de-ce43-3f9e-3169" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+        <infoLink id="1b03-fe1a-9312-7790" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8d76-d023-fc17-7f76" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="fa68-1811-7b31-2a1f" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="false"/>
+        <categoryLink id="d8ba-d074-5271-5a8b" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+        <categoryLink id="a2b9-9937-8a13-ff56" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="f0eb-3690-cac2-ed87" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="400.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b8d-1021-fc97-beb9" name="Deathmaster Snikch" publicationId="3305-568f-80f2-eb25" page="6" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Chief Assassin of Clan Eshin</comment>
+      <profiles>
+        <profile id="19c4-8422-e30a-2907" name="Deathmaster Snikch" publicationId="3305-568f-80f2-eb25" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <comment>Deathmaster Snikch can be taken as a Lord choice, but will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him.</comment>
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">9</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">6</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">10</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d22e-55bb-81a3-fd72" name="Dodge" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <description>Deathmaster Snikch is preternaturally quick and agile to the point where he can pluck speeding arrows out of the air. Whether this is due to his extraordinary training or some controlled mutation is unknown. Because of his exceptional speed and agility the Deathmaster can dodge hand-to-hand combat blows, spells and missiles. This is represented by a 4+ Ward save.</description>
+        </rule>
+        <rule id="8178-dbd9-ab5f-244d" name="Assassin Supreme" publicationId="3305-568f-80f2-eb25" page="6" hidden="false">
+          <description>The following rules for Master Assassins (see page 76 of the Skaven army book) apply to Deathmaster Snikch: Scout, Hidden, Leadership. In addition he
+has the Killing Blow special rule.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="cd20-a818-169b-9d79" name="Weapons" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <infoLinks>
+            <infoLink id="fa42-73a8-a69b-447a" name="Weeping Blade" hidden="false" targetId="0146-3424-2607-ace7" type="rule">
+              <comment>Deathmaster Snikch carries three Weeping Blades (see page 36 of the Skaven Army book), wielding one with each hand and one with his tail! In close combat this adds two extra attacks to the ones shown on his profile, for a total of 6!</comment>
+            </infoLink>
+            <infoLink id="83d5-30e9-7a2b-15ba" name="Warpstone Stars" hidden="false" targetId="be27-391f-760a-7485" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="8283-13f2-7997-5087" name="Magic Items" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <infoLinks>
+            <infoLink id="7093-bd2a-4619-3f50" name="Cloak of Shadows" hidden="false" targetId="eaf9-050c-f205-0db6" type="rule"/>
+            <infoLink id="bdde-beb3-6bf6-74be" name="Bands of Power" hidden="false" targetId="fd4e-1e1c-cf58-56b2" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="b6c5-de4f-eb4a-2ee1" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="00d3-fde4-728c-4071" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+        <categoryLink id="7b39-9226-18b5-3905" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="4db7-aba0-62b1-e1ec" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="ba70-8ce8-f3d6-8aeb" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8413-595f-3c4c-c6f7" name="Ikit Claw" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Your army may include Ikit Claw, the emissary of Lord Morskittar, one of the infamous Lords of Decay. If Ikit Claw is your army General you must spend 25% of your points on Clan Skryre’s troops.</comment>
+      <profiles>
+        <profile id="de42-e60e-2c81-f987" name="Ikit Claw" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <comment>Ikit Claw can be taken as a Lord choice, but will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him.</comment>
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="59e8-802d-fa9d-a4d8" name="Magic" publicationId="3305-568f-80f2-eb25" page="3" hidden="false">
+          <description>Ikit Claw is a level 4 Wizard. He can choose his spells from one of the following lists: Lores of Fire, Shadow, Death, Beasts, Metal, Heavens, Dark Magic and Dark Emissaries magic. This is in addition to his default Warp-Lightning spell, that he can also cast on 11+ for 3D6 Strength 5 hits (see rules for the Warlock Master on page 77 of the Skaven Army book).</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="2764-f96d-b9bb-a0d4" name="Weapons" publicationId="3305-568f-80f2-eb25" page="3" hidden="false">
+          <profiles>
+            <profile id="b030-3098-1698-7549" name="Ikit&apos;s Claw" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3107-4d1e-9a51-6564">flame template</characteristic>
+                <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+                <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Units suffering any casualties must take a Panic test. Roll a D6 after each shot with the warpfire projector: on a roll of 1 or 2 the projector has run out of fuel and cannot be used again during the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c05-b89a-bcbe-6c2b" name="Warplock Pistol" hidden="false" targetId="5e7d-88c0-01e3-7b56" type="profile"/>
+            <infoLink id="8d9f-6142-df25-6355" name="Warp-Blades" hidden="false" targetId="b9f2-8289-258a-50b5" type="rule"/>
+            <infoLink id="15f8-a6e4-6c04-26b7" name="Upgraded Warp-Energy Condenser" hidden="false" targetId="b257-59d5-938a-6916" type="rule"/>
+            <infoLink id="0895-b61e-b4d6-d2be" name="Super-Charged Warp-power Accumulator" hidden="false" targetId="102b-583d-924e-cb0e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="3d47-1558-0a8f-488f" name="Magic Items" publicationId="3305-568f-80f2-eb25" page="3" hidden="false">
+          <infoLinks>
+            <infoLink id="7b41-f9bf-6c7c-40de" name="Storm Daemon" hidden="false" targetId="62e0-113c-e75b-049d" type="rule"/>
+            <infoLink id="e379-98ab-44af-3f24" name="The Foul Pendant" hidden="false" targetId="17ca-75e9-f4ba-86a4" type="rule"/>
+            <infoLink id="949c-6378-c155-1b3e" name="Death Globes" hidden="false" targetId="1f1e-04f1-53d8-20ad" type="profile"/>
+            <infoLink id="f625-7ada-855e-2c98" name="Warpstone Armour " hidden="false" targetId="4e5b-290f-9a3b-2587" type="rule"/>
+            <infoLink id="024d-e9ec-ae4f-4ca3" name="Warpstone Token" publicationId="f804-741f-2593-2dec" page="38" hidden="false" targetId="20e5-9fdd-a83b-01ad" type="rule">
+              <comment>Ikit Claw carries a total of five Warpstone Tokens (see page 38 of the Skaven Army book), which he can use to power up either his Warp-L’ightning spells or any other spell from the list he is using.</comment>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="541c-78c9-efab-f057" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1fce-6d04-4fec-de85" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="8f5d-356a-c2bc-122f" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+        <categoryLink id="ae52-3537-f3cb-4b0e" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="82d1-f152-314b-f42f" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="267e-7c9e-b429-5011" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="410.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e18e-22f9-4c86-c1fc" name="Warlord Queek Head-Taker" publicationId="3305-568f-80f2-eb25" page="4" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7e0f-cccf-4756-18fb" name="Warlord Queek Head-Taker" publicationId="3305-568f-80f2-eb25" page="4" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <comment>Warlord Queek can be taken as a Lord choice, but will use up one of your Hero choices as well. He must be fielded exactly as presented here and no extra equipment or magic items can be bought for him.</comment>
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7893-e6cd-007c-b070" name="Challenge-challenge!" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <description>Queek is supremely confident in his own capabilities. Whenever Warlord Queek is in hand-to-hand combat he will always issue a Challenge to single combat against any enemy characters, whether you want him to or not (see page 66 of the Warhammer rulebook for more details on Challenges) and accept it if the enemy declares the challenge first. When Queek is fighting in a challenge he fights with the fury of the deeply conceited, so can re-roll any failed rolls to hit and to wound.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="bb22-a8c8-f298-d325" name="Weapons" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <rules>
+            <rule id="a487-d0d9-f926-a826" name="Two Weapons" hidden="false">
+              <description>Warlord Queek is extremely adept at fighting with his two magic weapons, in a blinding-fast flurry of blades. He uses both the Gouger and Dwarf Slayer at the same time, obtaining a total of 5 Attacks in close combat. All these attacks allow no armour save, as well as wounding Dwarfs on a 2+.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d592-695b-5127-be4e" name="Dwarf-Slayer" hidden="false" targetId="9e66-9c22-07e8-1aab" type="rule"/>
+            <infoLink id="8e4d-0c2c-34ea-f4cb" name="Gouger" hidden="false" targetId="a00b-b791-9f8e-7508" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="ffea-432a-b164-399f" name="Magic Items" publicationId="3305-568f-80f2-eb25" page="4" hidden="false">
+          <infoLinks>
+            <infoLink id="e6e0-a05a-1c3b-caa0" name="The Foul Pendant" hidden="false" targetId="17ca-75e9-f4ba-86a4" type="rule"/>
+            <infoLink id="022f-7842-f4e3-6dba" name="Warpstone Armour " hidden="false" targetId="4e5b-290f-9a3b-2587" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="7916-319f-baf6-a744" name="Hatred" hidden="false" targetId="1e6c-d634-a65c-78eb" type="rule">
+          <comment>Warlord Queek is quick to anger and develops a deeply psychotic hatred of anyone and anything that stands in his way. Dwarfs, Orcs and Goblins stand in his way a lot – so he hates them all! See the Psychology rules for the effects of hatred, but remember that Warlord Queek only hates Dwarfs, Orcs and Goblins.</comment>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2476-363c-06b5-9a39" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="effa-3139-de91-79e2" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
+        <categoryLink id="615d-b9b8-4b18-3008" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="7a7c-4681-9b8c-cd25" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="54af-ba9e-de79-ed9a" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a711-0f9a-24d9-acd4" name="Gutter Runners" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="26c2-19c5-be9b-699c" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="736a-30de-d314-9262" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c2-19c5-be9b-699c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="274f-1c87-3954-8590" name="Gutter Runner" hidden="false" targetId="b196-1368-cf63-4950" type="profile"/>
+        <infoLink id="c0fc-a42c-72e1-aa89" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
+        <infoLink id="55d1-fe10-022e-83f6" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c669-74da-23f6-9424" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eb92-9d31-f21d-92ab" name="Gutter Runners" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="0544-a5e4-da29-600f" value="10.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="489d-4909-c220-1054" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3c56-ab68-e0ab-29be" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="489d-4909-c220-1054" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c56-ab68-e0ab-29be" type="min"/>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0544-a5e4-da29-600f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="339a-92da-320f-8232" name="Black Skaven" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a0-caea-3d45-f234" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="80f8-6736-989f-bbd0" name="Black Skaven" hidden="false" targetId="137d-8afe-f321-e149" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="489d-4909-c220-1054" name="Tunnel Team" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea7-a574-95c0-1c65" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="35fe-f05b-c7d7-d461" name="Poison on Weapons" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="5e73-caf4-9050-ffa6" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="bde6-8163-389c-b085" name="Throwing Star Poison" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" field="3460-24d9-1d8f-8375" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c61-37b0-5fa6-c20c" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3460-24d9-1d8f-8375" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f667-5af8-538d-15b8" name="Two Hand Weapons Poison" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d3-32fd-79a8-96b0" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9d3c-4d60-4d39-b1b1" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="799c-2d68-4585-2c99" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8526-e609-54a2-ebe5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4d69-6e68-f1d3-dbf5" name="Sling" hidden="false" collective="false" import="true" targetId="ca1c-a42a-c387-2cb2" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d291-aec3-c0aa-e256" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5583-decb-995a-1e7d" name="Throwing Star/ Knife" hidden="false" collective="false" import="true" targetId="6c61-37b0-5fa6-c20c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb82-aa75-e847-a85e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2961,6 +3311,27 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
     <rule id="b7a8-4fc3-6ae0-b42d" name="Warp Lightning Cannon" publicationId="f804-741f-2593-2dec" page="28" hidden="false">
       <description>page 28-29</description>
     </rule>
+    <rule id="817d-5215-f302-e439" name="Chariot" publicationId="c8a8-4ccc-5f4b-8fcb" page="1" hidden="false">
+      <description>The Doomwheel is treated as a chariot with the exceptions noted opposite. </description>
+    </rule>
+    <rule id="41fb-4798-d76e-4887" name="Movement (Doomwheel)" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false">
+      <description>The Doomwheel does not have a fixed Movement rate. It automatically moves 3D6&quot; and is moved along with compulsory movement before any other troops can move. The player can control the direction the Doomwheel moves in, representing the Warlock Engineer using the trailing stern wheels to brake one side of the machine or another, but he has no say at all about the distance travelled. The player must decide which direction to move the Doomwheel before the dice are rolled for  distance.
+
+If the Doomwheel’s movement is sufficient to move into contact with a unit it is considered to have charged. No formal declaration of a charge is necessary. The target unit can make the usual response just as if it had been  harged in the normal manner. These rules apply even if the Doomwheel hits a friendly unit by accident! </description>
+    </rule>
+    <rule id="1c26-203d-9d7f-dbbd" name="Impact Hits" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false">
+      <description>When the Doomwheel charges into combat it inflicts D6+2 impact hits at Strength 5. This is worked out exactly like other chariot impact hits and only differs in so far as the number of hits is greater.</description>
+    </rule>
+    <rule id="46f3-9f3f-34e6-5a7b" name="Warp-Lightning" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false">
+      <description>In each Skaven shooting phase the Doomwheel can unleash D3 bolts of warp- lightning (roll in each Shooting phase). The power of the warp-lightning can be very unpredictable – it can shatter mountains one minute and only cause slight burns the next. The Skaven player can decide not to release the warp- lightning – this helps to keep the Skaven alive until the Doomwheel gets closer to the enemy.
+
+To work out how powerful the lightning is, each turn roll an Artillery dice. If you roll a number (2, 4, 6, 8 or 10) then that is the Strength of all the lightning bolts this turn. Each of the three bolts has a range of 3D6&quot; and will strike the nearest model within range in any direction – friend or foe! The bolts of warp-lightning arc wildly so they ignore any terrain between them and the nearest target. If the Doomwheel is in contact with a unit or model don’t bother rolling for range, the bolts will automatically hit the targets in contact. If several targets are the same distance away (or in contact with the Doomwheel) the bolt will be attracted to the target with the best saving throw (since they have more metal armour on them). Each bolt will only damage a single model, but the model struck suffers not one but D6 wounds if the bolt damages them. Against war engines, ridden monsters and the like the hit scored by a bolt of warp-lightning is randomised between the machine/creature and its crew.
+
+If you roll a ‘misfire’ result something has gone awry with the warpstone generator. The Doomwheel will fire three shots at full range and full power (so 18&quot; at Strength 10). After this, the Doomwheel is itself destroyed and removed from play.</description>
+    </rule>
+    <rule id="d0f0-6e84-f5ee-d77c" name="Crew Attack" publicationId="c8a8-4ccc-5f4b-8fcb" page="2" hidden="false">
+      <description>In the close combat phase the rats and the Skaven Driver will fight enemy models in contact with the Doomwheel whether to its front, sides or rear.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="76a0-6aa7-9c16-c99f" name="Warlord" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3353,6 +3724,62 @@ Move or Fire</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b033-f7d3-42a9-0316" name="Doomwheel" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <comment>The Doomwheel has a unit strength of 4.
+
+The Doomwheel flees and pursues exactly like ordinary troops, although it flees and pursues 3D6&quot;.
+
+Doomwheel counts as having Magic Resistance (2).
+
+The Skaven Driver in command of the Doomwheel draws great reassurance from the monstrous, infernal engine he’s riding on and so counts as having a Leadership value of 8.
+
+Armour Save: 5+
+</comment>
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3D6	</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">-</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1c33-4cea-803a-3bb7" name="Giant Rats (doomwheel)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34f5-fea9-2b5c-9e3e" name="Skaven Driver" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1f1e-04f1-53d8-20ad" name="Death Globes" publicationId="f804-741f-2593-2dec" page="37" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">-</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Throw one globe per shooting face. Place the small template with the centre anywhere withing 8&quot; of the character. Scatter the template and resolve hits as you would with a stone thrower template. All models hit suffer a wound of 4+, with no armour save allowed. If you roll a missfire, centre the template of the model throwing the globe.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
