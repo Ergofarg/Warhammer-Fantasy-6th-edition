@@ -1105,7 +1105,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3eb-92be-913f-1c6f" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="a2b1-93bf-87a1-77fe" name="Manblane" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="a2b1-93bf-87a1-77fe" name="Manbane" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c17-1c96-d164-dce5" type="max"/>
                       </constraints>
@@ -3015,7 +3015,7 @@ Spell still fails</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5150-1b9d-1eb0-50b1" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ae35-bc27-bd9b-7866" name="Manblane" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ae35-bc27-bd9b-7866" name="Manbane" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ba-d693-c44b-fa9e" type="max"/>
           </constraints>
