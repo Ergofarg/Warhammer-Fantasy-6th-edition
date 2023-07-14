@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="9" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c3d-7f54-5a40-6940" name="Empire" revision="10" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="b61c-34ec-3be0-1b38" name="Empire Army Book 2000"/>
   </publications>
+  <categoryEntries>
+    <categoryEntry id="03f5-490b-d79d-08a2" name="Knight  of Inner Circle" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e86-2566-cc80-a59f" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1544-6a1c-2ecd-f634" name="Wolf of Inner Circle" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c08-de90-69ce-f4da" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="569f-7be3-1aa2-004f" name="Halberdiers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1051,6 +1063,9 @@
           <infoLinks>
             <infoLink id="7dd2-08d1-2d5d-01e7" name="Knight of the Inner Circle" hidden="false" targetId="45f4-3adf-bde5-7f5f" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="81c5-b778-1959-719f" name="Knight  of Inner Circle" hidden="false" targetId="03f5-490b-d79d-08a2" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1163,6 +1178,9 @@
           <infoLinks>
             <infoLink id="b38c-6f5a-138f-efc9" name="Knight of the Inner Circle" hidden="false" targetId="45f4-3adf-bde5-7f5f" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="17c5-0998-a9b2-dea9" name="Wolf of Inner Circle" hidden="false" targetId="1544-6a1c-2ecd-f634" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2631,22 +2649,39 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9057-c206-39b2-7c42" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a917-d14a-7d96-4135" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8359-4fb7-d558-270c" name="Cannon in the hull" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b39e-c259-a70c-2ccb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a32-62c7-586d-63fc" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4961-a250-64a0-816d" name="Steam gun in turret" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c6-f6e6-ccb3-97b2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f94c-c692-e0a9-ad57" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
