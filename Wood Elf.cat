@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="2" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="26df-b21d-fea9-9520" name="Wood Elf" revision="3" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -73,6 +73,16 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="72d7-7b54-d09f-41a2" name="Spites" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a8e-1327-958c-921e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9c5c-09d6-7803-c246" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
@@ -1070,6 +1080,18 @@
         <categoryLink id="035a-83c0-5e92-5b32" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
         <categoryLink id="b6f0-8b3b-5052-9818" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="671d-30ae-0ab5-1d34" name="Level 1 Wizard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f0-f913-cbd3-47cd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6851-794a-beea-33bf" name="Spites" hidden="false" collective="false" import="true">
           <constraints>
@@ -2021,7 +2043,7 @@
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97a0-6421-5b31-9617" name="A Resplendence of Luminescents" hidden="false" collective="false" import="true" type="upgrade">
