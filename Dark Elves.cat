@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7305-7dca-59e2-5b6a" name="Dark Elves" revision="4" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
+    <publication id="2c52-52ec-0e8b-2843" name="Storm of Chaos"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="79af-7092-a9a9-393d" name="Dark Elf Highborn" publicationId="20b9-0ee7-8f6f-8d28" hidden="false" collective="false" import="true" type="unit">
@@ -2744,6 +2745,78 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="789f-a146-c4ef-70ed" name="Draich of Dark Power" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f7a-ee54-4eda-4e52" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de73-73be-b44d-80a0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a122-95d1-13c3-86d5" name="Draich of Dark Power" hidden="false" targetId="81ec-0a62-57ab-6d0e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7ec-a390-a8c3-5d77" name="Blade of Spite" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc6f-a607-d575-374b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="08c7-8fc5-d9dd-d442" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="452a-233b-5c74-4d2e" name="Blade of Spite" hidden="false" targetId="d841-a415-50b4-1525" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64da-0dbe-5d92-1bea" name="Heart-Stone of Darkness" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a8-d607-c557-92f1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa14-4672-24ea-0d5b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="78fb-8cc6-63b8-2be6" name="Heart-Stone of Darkness" hidden="false" targetId="b7c6-a42b-f1a4-9206" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2659-0878-2576-e480" name="Wand of Kharaidon" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a58f-cee3-01f8-d737" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="042d-9c62-6495-67e0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7c97-7d06-99a8-8255" name="Wand of Kharaidon" hidden="false" targetId="0eab-4a27-5403-1405" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e0c-0121-37bb-2c0b" name="The Cloak of  Dark Souls" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="424b-b6a7-a907-f35b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75ed-6fb3-ecc6-c2c5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="58f0-c432-a965-3560" name="The Cloak of  Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2e8-fefa-e753-689e" name="Soul Shadows Standard" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63bb-3010-da2b-0123" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09ec-9d11-6256-c409" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bad9-3fd7-7b89-24f6" name="Soul Shadows Standard" hidden="false" targetId="8ed9-02e8-428a-c1f6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="a294-4c2f-402f-fb78" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -2765,6 +2838,8 @@
         <entryLink id="baf6-e575-4546-1375" name="Heartseeker" hidden="false" collective="false" import="true" targetId="2b85-cde8-bc18-5c70" type="selectionEntry"/>
         <entryLink id="586f-1afb-a386-4245" name="Chill Blade" hidden="false" collective="false" import="true" targetId="ff07-ea98-0b0d-5f15" type="selectionEntry"/>
         <entryLink id="2c70-f99b-8eb8-ed4a" name="Dark Sword" hidden="false" collective="false" import="true" targetId="287c-e7e6-00e3-c654" type="selectionEntry"/>
+        <entryLink id="0bb1-55c6-918e-2214" name="Draich of Dark Power" hidden="false" collective="false" import="true" targetId="789f-a146-c4ef-70ed" type="selectionEntry"/>
+        <entryLink id="d091-3f5a-2ac1-201a" name="Blade of Spite" hidden="false" collective="false" import="true" targetId="f7ec-a390-a8c3-5d77" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="529d-b024-a6f0-fa3c" name="Magic Armour" hidden="false" collective="false" import="true">
@@ -2833,12 +2908,16 @@
       <entryLinks>
         <entryLink id="6c99-3efb-9349-dc49" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry"/>
         <entryLink id="8aca-84f6-5311-04dc" name="Seal of Ghrond" hidden="false" collective="false" import="true" targetId="be5f-073a-71a6-e1f9" type="selectionEntry"/>
+        <entryLink id="18c9-e47b-753c-cef0" name="Heart-Stone of Darkness" hidden="false" collective="false" import="true" targetId="64da-0dbe-5d92-1bea" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8b31-cab4-4143-b140" name="Enchanted Items" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e230-b15d-ef4f-d1ec" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="62a7-ebea-7306-17a8" name="The Cloak of  Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
+      </infoLinks>
       <selectionEntries>
         <selectionEntry id="aa06-cfc7-adbd-02c2" name="Rubicon of Dark dimensions" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2865,6 +2944,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="deec-4f92-c09b-a8a9" name="Ring of Darkness" hidden="false" collective="false" import="true" targetId="69a3-3530-addf-2c3e" type="selectionEntry"/>
+        <entryLink id="9e25-b752-81b7-93f1" name="Wand of Kharaidon" hidden="false" collective="false" import="true" targetId="2659-0878-2576-e480" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b150-2a07-20b9-49df" name="Arcane Items" hidden="false" collective="false" import="true">
@@ -3008,6 +3088,7 @@ Spell still fails</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink id="5783-dcfa-e56a-7912" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
+        <entryLink id="2bbe-1da0-d09c-9465" name="Soul Shadows Standard" hidden="false" collective="false" import="true" targetId="b2e8-fefa-e753-689e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="03a9-fbd3-0653-c8de" name="Poisons" hidden="false" collective="false" import="true">
@@ -3200,6 +3281,25 @@ Attacks in CC require a 6 to hit the bearer regardless of WS or modifiers. Remai
     <rule id="f72a-2b6d-c08b-f05b" name="Darkstar Cloak" hidden="false">
       <description>Gives +1 Power dice, only usuable by that sorcerer.</description>
     </rule>
+    <rule id="81ec-0a62-57ab-6d0e" name="Draich of Dark Power" hidden="false">
+      <description>+2 Str, Killing Blow, Uses two hands</description>
+    </rule>
+    <rule id="d841-a415-50b4-1525" name="Blade of Spite" hidden="false">
+      <description>Any hit rolls of 5 or 6 automatically wound, with no need to roll to wound.</description>
+    </rule>
+    <rule id="b7c6-a42b-f1a4-9206" name="Heart-Stone of Darkness" hidden="false">
+      <description>The bearer has a 4+ ward save</description>
+    </rule>
+    <rule id="0eab-4a27-5403-1405" name="Wand of Kharaidon" hidden="false">
+      <description>Bound Spell Power Level 4
+Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand is used roll a d6, on a 1 the wand is exhaunsted and can no longer be used.</description>
+    </rule>
+    <rule id="0bcb-274a-0ea2-1aff" name="The Cloak of  Dark Souls" hidden="false">
+      <description>Character may &quot;Scout&quot; if on foot.</description>
+    </rule>
+    <rule id="8ed9-02e8-428a-c1f6" name="Soul Shadows Standard" hidden="false">
+      <description>The unit may make a flee response (Even if immune to pyschology) and will always wutomatical rally at the end of its flee movement providing it is not causght by pursuers.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b916-4f8c-1160-5e41" name="Repeater crossbow" publicationId="20b9-0ee7-8f6f-8d28" page="22" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3218,7 +3318,7 @@ Attacks in CC require a 6 to hit the bearer regardless of WS or modifiers. Remai
         <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
       </characteristics>
     </profile>
