@@ -73,16 +73,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="72d7-7b54-d09f-41a2" name="Spites" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a8e-1327-958c-921e" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9c5c-09d6-7803-c246" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
@@ -789,21 +779,16 @@
         <categoryLink id="7ac9-b7a8-b880-dc8e" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
         <categoryLink id="9155-6d43-6ee7-b530" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6149-f126-6c14-e233" name="Spites" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d163-a241-06d0-0e18" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="430c-5693-a74b-6d81" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5b5a-ed0e-e6f7-43ef" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="600b-635a-0165-5532" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
           </categoryLinks>
+        </entryLink>
+        <entryLink id="703c-e617-936b-b4cd" name="Tree Spites" hidden="false" collective="false" import="true" targetId="c6d9-d6e1-96ac-0f4d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5f-2a38-9345-d8e4" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1092,21 +1077,16 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6851-794a-beea-33bf" name="Spites" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d53-0bb6-e457-65b7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="d86e-6ca3-37c3-a069" name="Spites" hidden="false" collective="false" import="true" targetId="9141-e557-c558-91a9" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e068-b232-9526-156c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="fbd9-fe17-9e28-b84a" name="Highborn general" hidden="false" targetId="56b3-da88-ddd4-ebb5" primary="false"/>
           </categoryLinks>
+        </entryLink>
+        <entryLink id="fb2a-95a4-0da7-28f3" name="Tree Spites" hidden="false" collective="false" import="true" targetId="c6d9-d6e1-96ac-0f4d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ee-fc5a-6b2e-9e48" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2421,9 +2401,6 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c6d9-d6e1-96ac-0f4d" name="Tree Spites" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e7-1f4c-1ebf-43de" type="max"/>
-      </constraints>
       <entryLinks>
         <entryLink id="b6e5-92f2-9ce6-7256" name="A Blight of Terrors" hidden="false" collective="false" import="true" targetId="db29-061a-ccf4-622e" type="selectionEntry"/>
         <entryLink id="b453-bc7d-941d-a171" name="A Befuddlement of Mischiefs" hidden="false" collective="false" import="true" targetId="a32f-9e58-87c1-4d98" type="selectionEntry"/>
