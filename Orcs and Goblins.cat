@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="11" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b126-4acf-f567-bea6" name="Orcs and Goblins" revision="12" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -4243,7 +4243,6 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e30-8e26-2bab-249d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41da-28f4-9d39-0e8a" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="b544-7af4-402b-1844" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile"/>
@@ -4308,7 +4307,7 @@
       <entryLinks>
         <entryLink id="294d-16aa-5c31-f1b3" name="Warpaint" hidden="false" collective="false" import="true" targetId="1617-8289-f833-dfc6" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -5890,7 +5889,6 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a25-a06c-d42d-dccc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a48d-ef41-9a02-74f1" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="605e-2f9a-f4fd-b147" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile"/>
@@ -5955,7 +5953,7 @@
       <entryLinks>
         <entryLink id="afeb-40d4-a67a-c4d3" name="Warpaint" hidden="false" collective="false" import="true" targetId="1617-8289-f833-dfc6" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3.0">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
