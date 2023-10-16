@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="6" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f3d-d4db-ca2f-f63d" name="Lizardmen" revision="7" battleScribeVersion="2.03" authorName="Thomas Saxon and Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
   </publications>
@@ -2514,6 +2514,34 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f015-9333-38a4-2e25" name="Blessed Spawning of Itzl (hero)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b28-4845-ebf0-cbcf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3512-92a1-a8a4-1624" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4214-8d0d-fc1e-5cd3" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ab-9c1f-d4af-5873" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="88b9-7336-7a84-42a6" name="Cold One" hidden="false" targetId="7d3c-1d69-5f1c-711f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="23.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4cfd-b3c7-a3ea-68f1" name="Arcane Items" hidden="false" collective="false" import="true">
@@ -3238,7 +3266,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
           </costs>
         </entryLink>
-        <entryLink id="8346-b991-82d4-29c4" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" targetId="5f76-eb66-794c-f994" type="selectionEntry">
+        <entryLink id="8346-b991-82d4-29c4" name="Blessed Spawning of Itzl (hero)" hidden="false" collective="false" import="true" targetId="f015-9333-38a4-2e25" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
           </costs>
