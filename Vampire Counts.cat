@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="8" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea4b-9294-3427-1fc1" name="Vampire Counts" revision="9" battleScribeVersion="2.03" authorName="Ergo fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -1873,6 +1873,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <selectionEntries>
             <selectionEntry id="42d9-cebe-18d5-cdbd" name="Wizard level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="fcec-2340-6368-a2ba" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3a-0288-a6ed-6884" type="max"/>
               </constraints>
@@ -1883,6 +1890,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="649a-8bc1-fb66-ed73" name="Wizard level 3" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="fcec-2340-6368-a2ba" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4da-3dc6-c395-14be" type="max"/>
               </constraints>
@@ -2187,9 +2201,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2a76-f569-1eb6-6f54" name="Mounts (Stirgoi cannot chose this)" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="84df-79f8-b1a2-a6a0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf30-4ff0-a4d8-3909" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84df-79f8-b1a2-a6a0" type="max"/>
-            <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c993-e6c0-54e2-603e" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="0a32-fd25-6b50-b8fe" name="Nightmare" hidden="false" collective="false" import="true" targetId="1c56-48e6-7c01-5ae9" type="selectionEntry">
@@ -2258,8 +2278,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="7081-eb7b-5ea8-9b26" name="Shield (Blood dragons only)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="c367-6366-9f7c-dc28" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c367-6366-9f7c-dc28" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c367-6366-9f7c-dc28" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="aafc-81a8-1e73-1622" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
@@ -2279,6 +2306,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <selectionEntries>
             <selectionEntry id="3c1a-3350-04ae-7a3f" name="Wizard level 1" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="fcec-2340-6368-a2ba" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8d-73ef-defc-a6c7" type="max"/>
               </constraints>
@@ -2289,6 +2323,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="c2b8-e61d-9a73-0b21" name="Wizard level 2" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="decrement" field="fcec-2340-6368-a2ba" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef4-3a17-e8cb-2bf0" type="max"/>
               </constraints>

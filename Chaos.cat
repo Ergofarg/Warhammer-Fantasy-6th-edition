@@ -333,6 +333,8 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -356,6 +358,7 @@
               <costs>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0557-cb8b-e967-8ca1" name="Bloodbeast of Khorne" hidden="false" collective="false" import="true" type="upgrade">
@@ -372,6 +375,7 @@
               <costs>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b638-803a-f9cc-daac" name="Fiend of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -388,6 +392,7 @@
               <costs>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="24c8-9305-b13b-28da" name="Fyrwrym Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
@@ -404,6 +409,7 @@
               <costs>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -412,6 +418,7 @@
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c24-577a-af2c-e173" name="Chaos Giant" hidden="false" collective="false" import="true" type="unit">
@@ -1947,12 +1954,22 @@
       <modifiers>
         <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
           <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a878-7899-6700-e5fb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a878-7899-6700-e5fb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
+          <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4759,6 +4776,9 @@
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e689-c7c2-685a-b09d" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
