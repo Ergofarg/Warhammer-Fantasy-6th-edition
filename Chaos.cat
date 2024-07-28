@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c768-2f35-01cf-9ac8" name="Chaos" revision="10" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c768-2f35-01cf-9ac8" name="Chaos" revision="11" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-febf" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -1961,24 +1961,24 @@
     <selectionEntry id="e941-8cf0-bd4b-4624" name="Warhounds of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a878-7899-6700-e5fb" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a878-7899-6700-e5fb" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a878-7899-6700-e5fb" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a878-7899-6700-e5fb" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -2399,7 +2399,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b23b-f2bc-13e4-6008" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
-        <categoryLink id="3b6b-4f3e-2ac6-3cde" name="Mortal General" hidden="false" targetId="a878-7899-6700-e5fb" primary="false"/>
         <categoryLink id="f028-2970-32f1-061b" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="0e83-d649-ff24-43f3" name="Makemegeneral" hidden="false" targetId="086d-94c6-a2ad-a973" primary="false"/>
       </categoryLinks>
@@ -5670,7 +5669,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4221-42ac-3bd4-1e72" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="024a-9797-f4cd-1ba3" name="Lord of Khorne" hidden="false" targetId="adc8-8faf-e81a-61f7" type="rule"/>
+        <infoLink id="024a-9797-f4cd-1ba3" name="Lord of Khorne" hidden="false" targetId="b29a-9385-dd0a-e371" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -5722,7 +5721,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56d-0f33-f1b3-932a" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="996f-0532-8fcf-e2b1" name="Hero of Khorne" hidden="false" targetId="f225-44aa-1e0d-4366" type="rule"/>
+        <infoLink id="996f-0532-8fcf-e2b1" name="Hero of Khorne" hidden="false" targetId="43e4-f96f-96f9-6d1c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
